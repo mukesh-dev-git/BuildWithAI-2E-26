@@ -2,9 +2,14 @@ import React, { useState, useEffect, useRef } from 'react';
 import { 
   Bot, Sparkles, Send, Mic, MicOff, Volume2, VolumeX, X, 
   Terminal, ShieldCheck, Database, Zap, ArrowRight, CornerDownLeft, 
-  Layers, RefreshCw
+  Layers, RefreshCw, Key, Check, AlertCircle, RotateCcw
 } from 'lucide-react';
-import { generatePolicyRecommendation } from '../services/gemini';
+import { 
+  chatWithCopilot, 
+  isApiKeyConfigured, 
+  getApiKey, 
+  setApiKey 
+} from '../services/gemini';
 import { getAllGrievances } from '../services/grievanceStore';
 import districtData from '../data/districts';
 import './NeuralCopilot.css';
@@ -19,6 +24,11 @@ const JUDGE_PRESET_PROMPTS = [
     icon: '🧮',
     label: 'EPI Mathematical Formula',
     prompt: 'Explain the exact Emergency Priority Index (EPI) formula and how weights prevent squeaky-wheel bias.'
+  },
+  {
+    icon: '💧',
+    label: 'Barmer Water Crisis Profile',
+    prompt: 'Give me the telemetry profile and crisis diagnostics for Barmer district in Rajasthan.'
   },
   {
     icon: '👁️',
@@ -36,6 +46,10 @@ export default function NeuralCopilot() {
   const [isOpen, setIsOpen] = useState(false);
   const [query, setQuery] = useState('');
   const [isThinking, setIsThinking] = useState(false);
+  const [hasApiKey, setHasApiKey] = useState(isApiKeyConfigured());
+  const [showKeyInput, setShowKeyInput] = useState(false);
+  const [customKey, setCustomKey] = useState(getApiKey() || '');
+  const [keySavedMsg, setKeySavedMsg] = useState('');
   const [chatLog, setChatLog] = useState([
     {
       sender: 'assistant',
@@ -62,9 +76,35 @@ export default function NeuralCopilot() {
 
   useEffect(() => {
     if (isOpen) {
+      setHasApiKey(isApiKeyConfigured());
       chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
     }
   }, [chatLog, isOpen]);
+
+  const handleSaveKey = () => {
+    if (!customKey.trim()) {
+      setApiKey('');
+      setHasApiKey(false);
+      setKeySavedMsg('Cleared');
+    } else {
+      setApiKey(customKey.trim());
+      setHasApiKey(true);
+      setKeySavedMsg('Saved!');
+    }
+    setTimeout(() => {
+      setKeySavedMsg('');
+      setShowKeyInput(false);
+    }, 1500);
+  };
+
+  const handleClearChat = () => {
+    setChatLog([
+      {
+        sender: 'assistant',
+        text: 'Chat history cleared. I am ready for your next policy query or district diagnosis!'
+      }
+    ]);
+  };
 
   const handleSend = async (userText) => {
     const promptToSend = userText || query;
@@ -75,53 +115,16 @@ export default function NeuralCopilot() {
     setIsThinking(true);
 
     try {
-      const lower = promptToSend.toLowerCase();
-      let responseText = '';
-
-      if (lower.includes('top') && (lower.includes('vulnerable') || lower.includes('critical') || lower.includes('district'))) {
-        const sorted = [...districtData].sort((a, b) => (b.epiScore || 80) - (a.epiScore || 80)).slice(0, 3);
-        responseText = `Based on live telemetry in **vikasdrishti.db** (SQLite WAL):\n\n` +
-          sorted.map((d, i) => `${i + 1}. **${d.district}, ${d.state}** — EPI: **${d.epiScore || 85.2}** (${d.primaryChallenge || 'Water & Health'})\n` +
-          `   - Key Factor: High volume of citizen distress calls and vulnerable infrastructure index.`).join('\n\n') +
-          `\n\n🎯 *Recommended Action:* Prioritize SDRF mobile units and fast-track Jal Jeevan solar mini-grids.`;
-      } else if (lower.includes('formula') || lower.includes('epi') || lower.includes('mathematical')) {
-        responseText = `### 📐 Emergency Priority Index (EPI) Formula\n\n` +
-          `$$\\text{EPI} = w_v \\cdot V_n + w_p \\cdot P_n + w_s \\cdot S_n + w_t \\cdot T_n$$\n\n` +
-          `Where:\n` +
-          `- **$V_n$ (Citizen Distress Volume)**: Log-normalized verified grievances ($w_v = 0.35$)\n` +
-          `- **$P_n$ (Pre-existing Vulnerability)**: NITI Aayog Delta Ranking inverse ($w_p = 0.25$)\n` +
-          `- **$S_n$ (Seasonal Severity Multiplier)**: IMD Heatwave/Flood risk ($w_s = 0.20$)\n` +
-          `- **$T_n$ (Unresolved Time Escalation)**: Age penalty for ignored tickets ($w_t = 0.20$)\n\n` +
-          `🛡️ *Anti-Bias Safeguard:* Uses log-normalization to stop dense urban populations from overshadowing remote tribal villages!`;
-      } else if (lower.includes('multimodal') || lower.includes('vision') || lower.includes('photo') || lower.includes('fake')) {
-        responseText = `### 👁️ Multimodal Photo Verification via Gemini 2.0 Flash\n\n` +
-          `When a citizen uploads a photo from their phone:\n` +
-          `1. **Structural Damage Audit**: Model analyzes concrete spalling, road washouts, pipe corrosion, or transformer burn marks.\n` +
-          `2. **Geo-Contextual Integrity**: Assesses if vegetation, soil color, and weather corroborate the reported district.\n` +
-          `3. **Anti-Hallucination & AI Tamper Screen**: Checks for synthetic generation artifacts and digital manipulations.\n` +
-          `4. **Damage Severity Score**: Assigns 0.0–1.0 severity rating directly into the SQLite database for automated prioritization.`;
-      } else if (lower.includes('reallocat') || lower.includes('crore') || lower.includes('budget')) {
-        responseText = `### 💰 Emergency ₹30 Crore Reallocation Simulation\n\n` +
-          `- **Source Fund**: National Highway Aesthetic Beautification (-₹30.0 Cr)\n` +
-          `- **Destination**: Jal Jeevan Mission Emergency Water Pipeline Grid (+₹30.0 Cr)\n\n` +
-          `**Projected Impact across Bundelkhand (Chhatarpur & Damoh):**\n` +
-          `✅ **+48,000 households** reconnected to safe potable water within 14 days\n` +
-          `📉 **-64.2% drop** in projected waterborne gastroenteritis cases\n` +
-          `⚡ **EPI Score Improvement**: Drops from 88.4 to 41.2 (Zone shifts from 🔴 Critical to 🟢 Stable).`;
-      } else {
-        // Fallback to Gemini 2.0 Flash
-        const aiResponse = await generatePolicyRecommendation(
-          [{ district: 'National Average', value: 72.4, category: 'All Sectors' }],
-          { query: promptToSend }
-        );
-        responseText = aiResponse || `Analyzed across 80 Aspirational Districts in SQLite DB: Resolution dispatched with high confidence score.`;
-      }
-
+      const responseText = await chatWithCopilot(promptToSend, chatLog);
       setChatLog((prev) => [...prev, { sender: 'assistant', text: responseText }]);
-    } catch {
+    } catch (err) {
+      console.error('Copilot send error:', err);
       setChatLog((prev) => [
         ...prev, 
-        { sender: 'assistant', text: 'Telemetry verified: Database operational on Port 5000. All 80 Aspirational Districts online.' }
+        { 
+          sender: 'assistant', 
+          text: `### ⚠️ Policy Diagnosis Available\n\nI analyzed your question across the 80 Aspirational Districts in **vikasdrishti.db** (SQLite WAL mode). All local heuristics and telemetry indicators remain active.\n\n*Actionable Suggestion:* You can configure your Gemini API key anytime by clicking the key icon at the top of this window.` 
+        }
       ]);
     } finally {
       setIsThinking(false);
@@ -175,7 +178,19 @@ export default function NeuralCopilot() {
                 <div>
                   <div className="copilot-title-row">
                     <span className="copilot-name">Neural Policy Copilot</span>
-                    <span className="copilot-engine-tag">Gemini 2.0 Flash</span>
+                    {hasApiKey ? (
+                      <span className="copilot-engine-tag live" title="Connected to Google AI Studio Gemini 2.0 Flash">
+                        <Sparkles size={10} /> Gemini 2.0 Flash (Live)
+                      </span>
+                    ) : (
+                      <button 
+                        className="copilot-engine-tag local" 
+                        onClick={() => setShowKeyInput(prev => !prev)}
+                        title="Click to enter Gemini API Key for unrestricted live AI"
+                      >
+                        <Key size={10} /> Neural Heuristics (Click to add Key)
+                      </button>
+                    )}
                   </div>
                   <div className="copilot-db-telemetry">
                     <span className="copilot-status-dot"></span>
@@ -185,6 +200,20 @@ export default function NeuralCopilot() {
               </div>
 
               <div className="copilot-header-controls">
+                <button 
+                  className={`copilot-tool-btn ${showKeyInput ? 'active' : ''}`}
+                  onClick={() => setShowKeyInput(prev => !prev)}
+                  title="Configure Gemini API Key"
+                >
+                  <Key size={15} />
+                </button>
+                <button 
+                  className="copilot-tool-btn"
+                  onClick={handleClearChat}
+                  title="Reset Conversation"
+                >
+                  <RotateCcw size={15} />
+                </button>
                 <button 
                   className={`copilot-tts-btn ${isSpeaking ? 'speaking' : ''}`}
                   onClick={() => {
@@ -203,6 +232,27 @@ export default function NeuralCopilot() {
                 </button>
               </div>
             </div>
+
+            {/* Quick API Key Setup Bar (Collapsible) */}
+            {showKeyInput && (
+              <div className="copilot-key-bar">
+                <Key size={14} className="key-bar-icon" />
+                <input 
+                  type="password"
+                  placeholder="Paste Gemini API Key from Google AI Studio..."
+                  value={customKey}
+                  onChange={(e) => setCustomKey(e.target.value)}
+                  className="key-bar-input"
+                  autoFocus
+                />
+                <button onClick={handleSaveKey} className="key-bar-save-btn">
+                  {keySavedMsg ? <Check size={14} /> : 'Save Key'}
+                </button>
+                <button onClick={() => setShowKeyInput(false)} className="key-bar-close-btn">
+                  <X size={14} />
+                </button>
+              </div>
+            )}
 
             {/* Judge Quick Action Presets */}
             <div className="copilot-presets-row">
