@@ -1,5 +1,6 @@
 import { Routes, Route, useLocation } from 'react-router-dom'
 import Header from './components/Header'
+import NeuralCopilot from './components/NeuralCopilot'
 import LandingPage from './pages/LandingPage'
 import CitizenPortal from './pages/CitizenPortal'
 import PolicymakerStudio from './pages/PolicymakerStudio'
@@ -19,8 +20,10 @@ function App() {
           <Route path="/policymaker" element={<PolicymakerStudio />} />
         </Routes>
       </main>
+      <NeuralCopilot />
     </div>
   );
 }
 
 export default App
+

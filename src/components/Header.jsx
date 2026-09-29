@@ -1,7 +1,8 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Globe, Menu, X, Sparkles } from 'lucide-react';
+import { Globe, Menu, X, Sparkles, Flame } from 'lucide-react';
 import { useState } from 'react';
 import GoogleTechModal from './GoogleTechModal';
+import CrisisWarRoomModal from './CrisisWarRoomModal';
 import './Header.css';
 
 const languages = [
@@ -22,6 +23,7 @@ export default function Header() {
   const [lang, setLang] = useState('en');
   const [menuOpen, setMenuOpen] = useState(false);
   const [showGoogleModal, setShowGoogleModal] = useState(false);
+  const [showWarRoom, setShowWarRoom] = useState(false);
   const isPolicymaker = location.pathname.startsWith('/policymaker');
 
   return (
@@ -76,6 +78,15 @@ export default function Header() {
           </div>
 
           <button 
+            className="crisis-badge-btn" 
+            onClick={() => setShowWarRoom(true)}
+            title="Launch Emergency Decision Matrix & Stress Simulator"
+          >
+            <Flame size={14} color="#ef4444" />
+            <span>⚡ Crisis War Room</span>
+          </button>
+
+          <button 
             className="google-badge-btn" 
             onClick={() => setShowGoogleModal(true)}
             title="Google AI Studio & Cloud Architecture"
@@ -98,6 +109,12 @@ export default function Header() {
         isOpen={showGoogleModal} 
         onClose={() => setShowGoogleModal(false)} 
       />
+
+      <CrisisWarRoomModal 
+        isOpen={showWarRoom} 
+        onClose={() => setShowWarRoom(false)} 
+      />
     </header>
   );
 }
+

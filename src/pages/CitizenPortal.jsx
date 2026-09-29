@@ -3,6 +3,7 @@ import { Mic, MicOff, Send, Camera, MapPin, CheckCircle2, AlertCircle, Loader2, 
 import { extractGrievanceIntent, verifyPhoto, isApiKeyConfigured } from '../services/gemini';
 import { getAllGrievances, addGrievance, subscribeToGrievances, upvoteGrievance } from '../services/grievanceStore';
 import districtData from '../data/districts';
+import AudioWaveVisualizer from '../components/AudioWaveVisualizer';
 import './CitizenPortal.css';
 
 const categories = [
@@ -221,6 +222,9 @@ export default function CitizenPortal() {
                     {isRecording ? '🔴 Recording... Tap to stop' : 'Tap to speak in any language'}
                   </p>
                 </div>
+
+                {/* Real-time Audio Waveform Visualizer */}
+                <AudioWaveVisualizer isRecording={isRecording} text={text} />
 
                 {/* Demo Quick Prompts */}
                 <div className="quick-prompts">
