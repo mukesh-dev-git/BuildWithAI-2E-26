@@ -1,5 +1,6 @@
 import { Printer, Download, Copy, Check, X, Shield, Sparkles, Building, MapPin, IndianRupee } from 'lucide-react';
 import { useState } from 'react';
+import { createPortal } from 'react-dom';
 import './PolicyBriefModal.css';
 
 export default function PolicyBriefModal({ isOpen, onClose, district, epiData, aiRecommendation, grievances }) {
@@ -51,7 +52,7 @@ ${aiRecommendation?.sdg_alignment?.join(', ') || 'SDG 6 (Clean Water), SDG 9 (Re
     setTimeout(() => setCopied(false), 2000);
   };
 
-  return (
+  return createPortal(
     <div className="pb-overlay" onClick={onClose}>
       <div className="pb-modal" onClick={e => e.stopPropagation()}>
         {/* Modal Toolbar (hidden during print) */}
@@ -213,6 +214,7 @@ ${aiRecommendation?.sdg_alignment?.join(', ') || 'SDG 6 (Clean Water), SDG 9 (Re
           </div>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }

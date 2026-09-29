@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { 
   AlertTriangle, ShieldAlert, Radio, Activity, Send, CheckCircle2, 
   RotateCcw, Sparkles, Volume2, VolumeX, Eye, Flame, Droplets, Zap,
@@ -235,7 +236,7 @@ export default function CrisisWarRoomModal({ isOpen, onClose }) {
 
   if (!isOpen) return null;
 
-  return (
+  return createPortal(
     <div className="war-room-overlay" onClick={onClose}>
       <div className="war-room-modal" onClick={e => e.stopPropagation()}>
         
@@ -435,6 +436,7 @@ export default function CrisisWarRoomModal({ isOpen, onClose }) {
         </div>
 
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { Sparkles, Database, Cloud, Key, CheckCircle, Shield, X, ExternalLink, Cpu, RefreshCw, HardDrive } from 'lucide-react';
 import { getApiKey, setApiKey } from '../services/gemini';
 import { isFirebaseConfigured } from '../services/firebase';
@@ -59,7 +60,7 @@ export default function GoogleTechModal({ isOpen, onClose }) {
     }
   };
 
-  return (
+  return createPortal(
     <div className="gt-overlay" onClick={onClose}>
       <div className="gt-modal" onClick={e => e.stopPropagation()}>
         <div className="gt-header">
@@ -182,6 +183,7 @@ export default function GoogleTechModal({ isOpen, onClose }) {
           <button className="btn-primary" onClick={onClose}>Close</button>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
