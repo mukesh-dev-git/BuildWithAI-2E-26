@@ -110,6 +110,11 @@ export function calculateEPI(district, grievances) {
  * Calculate EPI for all districts and return sorted rankings
  */
 export function calculateAllEPI(districts = districtData, grievances = seedGrievances) {
+  // If first argument is grievances array instead of districts
+  if (Array.isArray(districts) && districts.length > 0 && districts[0].category && !districts[0].population) {
+    grievances = districts;
+    districts = districtData;
+  }
   const results = districts.map(d => calculateEPI(d, grievances));
   return results.sort((a, b) => b.score - a.score);
 }

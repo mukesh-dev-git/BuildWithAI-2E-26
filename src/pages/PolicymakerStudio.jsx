@@ -68,7 +68,7 @@ export default function PolicymakerStudio() {
   }, []);
 
   // Calculate EPI for all districts dynamically with live grievances
-  const epiResults = useMemo(() => calculateAllEPI(allGrievances), [allGrievances]);
+  const epiResults = useMemo(() => calculateAllEPI(districtData, allGrievances), [allGrievances]);
   const epiSummary = useMemo(() => getEPISummary(epiResults), [epiResults]);
 
   // Default to highest priority district if none selected
@@ -440,7 +440,7 @@ export default function PolicymakerStudio() {
               <div className="rankings-list">
                 {epiResults.map((result, i) => (
                   <div 
-                    key={result.district} 
+                    key={`${result.district}-${result.state}-${i}`} 
                     className="ranking-item glass-card animate-fade-in"
                     style={{ animationDelay: `${0.03 * i}s`, opacity: 0 }}
                   >
