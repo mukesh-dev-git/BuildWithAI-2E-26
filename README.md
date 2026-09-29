@@ -1,28 +1,34 @@
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--                  VIKASDRISHTI AI — DIGITAL PUBLIC GOOD                 -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
 <div align="center">
 
-# 🇮🇳 विकास दृष्टि • VikasDrishti AI
-### *Voice-to-Policy Digital Public Good for Infrastructure Governance*
-**Official Submission for Google Build With AI Hackathon 2026**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:FF6B35,30:FF9933,70:FFFFFF,100:047857&height=220&section=header&text=VikasDrishti%20AI&fontSize=50&fontColor=ffffff&fontAlignY=36&desc=Voice-to-Policy%20Digital%20Public%20Good%20for%20Infrastructure%20Governance&descAlignY=58&descSize=18" width="100%" alt="VikasDrishti Banner" />
 
 <br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=24&duration=3000&pause=1000&color=FF6B35&center=true&vCenter=true&multiline=false&width=750&height=50&lines=Voice-to-Policy+Digital+Public+Good+for+700M%2B+Citizens;Multimodal+Intent+%26+Vision+Audit+via+Gemini+2.0+Flash;Explainable+Priority+Index+(EPI)+Transparent+Governance;12-Month+Infrastructure+Failure+Forecasting+with+Vertex+AI" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=800&size=26&duration=2500&pause=800&color=FF6B35&center=true&vCenter=true&multiline=false&width=800&height=55&lines=%F0%9F%87%AE%F0%9F%87%B3+%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%B8+%E0%A4%A6%E0%A5%83%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A4%BF+%E2%80%A2+Voice-to-Policy+Digital+Public+Good;%E2%9A%A1+Powered+by+Google+AI+Studio+%26+Gemini+2.0+Flash;%F0%9F%94%AE+Predictive+Infrastructure+Failure+Forecasting+via+Vertex+AI;%F0%9F%8F%86+Explainable+Priority+Index+(EPI)+Transparent+Governance;%F0%9F%92%BE+Native+Node+24+SQLite+Relational+WAL+Database" alt="Dynamic Typing Banner" />
 </a>
 
-<br/>
-
 <p align="center">
-  <a href="#-system-architecture">Architecture</a> •
-  <a href="#-the-explainable-priority-index-epi">EPI Formula</a> •
-  <a href="#-persistent-sqlite-database">Database</a> •
-  <a href="#-google-technologies">Google Tech Stack</a> •
-  <a href="#-quick-start">Quick Start</a> •
-  <a href="#-api-endpoints">REST API</a> •
-  <a href="#-demo-script">Live Pitch Demo</a>
+  <b>Bridging 700M+ rural citizens in 22+ languages to ₹3+ Lakh Crore annual infrastructure allocation</b>
 </p>
 
-<!-- Shields Row 1: Google Stack -->
+<p align="center">
+  <a href="#-system-architecture"><kbd>📐 Architecture</kbd></a> •
+  <a href="#-the-signature-ai-formula-explainable-priority-index-epi"><kbd>🧮 EPI Formula</kbd></a> •
+  <a href="#-persistent-sqlite-database-architecture"><kbd>🗄️ SQLite DB</kbd></a> •
+  <a href="#-google-technologies-utilized"><kbd>✨ Google Tech</kbd></a> •
+  <a href="#-quick-start-guide"><kbd>🚀 Quick Start</kbd></a> •
+  <a href="#-complete-rest-api-reference"><kbd>📡 REST API</kbd></a> •
+  <a href="#-3-minute-live-demo-pitch-script"><kbd>🎬 Live Demo Script</kbd></a>
+</p>
+
+---
+
+<!-- Badges Grid: Google Ecosystem -->
 <p align="center">
   <img src="https://img.shields.io/badge/Google%20AI%20Studio-Gemini%202.0%20Flash-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini" />
   <img src="https://img.shields.io/badge/Vertex%20AI-AutoML%20Forecasting-34A853?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Vertex AI" />
@@ -30,100 +36,102 @@
   <img src="https://img.shields.io/badge/BigQuery-Public%20Datasets-009688?style=for-the-badge&logo=google-cloud&logoColor=white" alt="BigQuery" />
 </p>
 
-<!-- Shields Row 2: Tech Stack -->
+<!-- Badges Grid: Tech Stack -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Database-SQLite%20(WAL%20Mode)-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
-  <img src="https://img.shields.io/badge/Runtime-Node%20v24.14-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node" />
+  <img src="https://img.shields.io/badge/Database-SQLite%20(WAL%20Engine)-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+  <img src="https://img.shields.io/badge/Runtime-Node.js%20v24.14-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node" />
   <img src="https://img.shields.io/badge/Frontend-React%2019%20%2B%20Vite-646CFF?style=for-the-badge&logo=react&logoColor=white" alt="React" />
-  <img src="https://img.shields.io/badge/Digital%20Public%20Good-Vikasit%20Bharat%202047-FF9933?style=for-the-badge" alt="DPG" />
+  <img src="https://img.shields.io/badge/GovTech-Digital%20Public%20Good-FF6B35?style=for-the-badge" alt="DPG" />
 </p>
 
 </div>
 
 ---
 
-## 🌟 The Problem & Vision
+## 🌟 The Critical Problem & The VikasDrishti Breakthrough
 
-```
-                       700M+ Rural Citizens (22+ Languages)
-                                        │
-                         [❌ The High-Friction Chasm]
-         Literacy Barriers • Complex Portals • Discretionary Funding
-                                        │
-                                        ▼
-                  ₹3+ Lakh Crore Annual Infrastructure Budget
-           (Delayed surveys, lobbying, reactive catastrophe repairs)
-```
+<table>
+<tr>
+<td width="50%" valign="top">
 
-```
-                                      ▼
-                        ✨ THE VIKASDRISHTI SOLUTION ✨
-          Citizen Voice / Photo ──► Gemini 2.0 Flash ──► Persistent SQLite
-                                                              │
-                                                              ▼
-           Cabinet Policy Memo  ◄── Vertex AI Forecast  ◄── Auditable EPI
-```
+### 🔴 The Traditional Governance Failure
+* 🗣️ **The Language Divide**: 700M+ rural citizens in aspirational districts speak regional dialects; traditional English/Hindi portals exclude them.
+* 📦 **Black-Box Allocations**: ₹3+ Lakh Crore in PMGSY & Jal Jeevan Mission funds allocated via discretionary political lobbying and outdated surveys.
+* 💥 **Reactive Catastrophe Loop**: Infrastructure is repaired only *after* collapsed river bridges, contamination epidemics, or transformer fires.
+
+</td>
+<td width="50%" valign="top">
+
+### 🟢 The VikasDrishti AI Innovation
+* 🎙️ **Voice-First Inclusivity**: Citizens speak, tap, or upload photo evidence in any Indian dialect — Gemini 2.0 Flash extracts intent instantly.
+* 🧮 **Auditable Priority Scoring**: The **Explainable Priority Index (EPI)** guarantees mathematically transparent budget prioritization.
+* 🔮 **Predictive Early Warnings**: Vertex AI AutoML forecasts infrastructure stress 6–12 months in advance to stop disasters before they happen.
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🏗️ Interactive System Architecture
+## 🏗️ System Architecture
 
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1E293B', 'edgeLabelBackground':'#0F172A', 'tertiaryColor': '#0F172A'}}}%%
-flowchart LR
-    subgraph S1["🗣️ Citizen Edge"]
-        direction TB
-        C1["🎙️ Voice Note (10+ Languages)"]
-        C2["📷 Camera Evidence"]
-        C3["📍 GPS Auto-Capture"]
+flowchart TD
+    subgraph Citizens["🗣️ CITIZEN TIER (Jan-Samvaad Portal)"]
+        direction LR
+        A1["🎙️ Multilingual Voice Note<br/>(Web Speech API)"]
+        A2["📷 Camera Damage Photo<br/>(Potholes, Burst Pipes)"]
+        A3["📍 GPS Geo-Tagging<br/>(Automatic Centroid)"]
     end
 
-    subgraph S2["⚡ Multimodal Google AI"]
+    subgraph GoogleAI["✨ MULTIMODAL GOOGLE AI ENGINE"]
         direction TB
-        G1["🧠 Gemini 2.0 Flash NER"]
-        G2["👁️ Gemini Vision Audit"]
-        G3["⚖️ Urgency Reasoning"]
+        B1["🧠 Gemini 2.0 Flash<br/>Intent & Named Entity Recognition"]
+        B2["👁️ Gemini Vision<br/>Damage Verification & Anti-Fraud"]
+        B3["⚖️ Automated Urgency Reasoning<br/>& Department Routing"]
     end
 
-    subgraph S3["🗄️ Relational Data Core"]
+    subgraph DataCore["🗄️ DATA CORE & RELATIONAL BACKEND"]
         direction TB
-        D1["🚀 Express Server :5000"]
-        D2[("💽 SQLite WAL Database")]
-        D3["🔥 Cloud Firestore Sync"]
+        C1["🚀 Express Server (:5000)<br/>REST API & Aggregation Engine"]
+        C2[("💽 SQLite Database: vikasdrishti.db<br/>Node 24 Native WAL Mode")]
+        C3["🔥 Firebase Cloud Firestore<br/>Real-Time Global Multi-Device Sync"]
+        C4["📊 BigQuery Open Data Models<br/>(data.gov.in, ISRO Bhuvan, PMGSY)"]
     end
 
-    subgraph S4["📈 Predictive Intelligence"]
-        direction TB
-        E1["🏆 Explainable Priority Index"]
-        E2["🔮 Vertex AI 12-Mo Forecaster"]
+    subgraph Predictive["⚡ PREDICTIVE & SCORING INTELLIGENCE"]
+        direction LR
+        D1["🏆 Explainable Priority Index (EPI)<br/>Auditable Mathematical Scoring"]
+        D2["🔮 Vertex AI AutoML Forecaster<br/>12-Month Structural Stress Prediction"]
     end
 
-    subgraph S5["🏛️ Governance Studio"]
-        direction TB
-        P1["🗺️ GIS Heatmap"]
-        P2["💰 What-If Budget Simulator"]
-        P3["📑 Cabinet Policy Memo"]
+    subgraph Governance["🏛️ POLICYMAKER DECISION STUDIO"]
+        direction LR
+        E1["🗺️ GIS Spatial Heatmap<br/>(Leaflet Interactive Clusters)"]
+        E2["💰 What-If Capital Reallocation<br/>(Gemini Budget Simulator)"]
+        E3["📑 1-Click Formal Memorandum<br/>(Printable Cabinet Policy Brief)"]
     end
 
-    S1 ==> S2
-    S2 ==> S3
-    S3 ==> S4
-    S4 ==> S5
+    Citizens ==> GoogleAI
+    GoogleAI ==> DataCore
+    DataCore ==> Predictive
+    Predictive ==> Governance
 
-    style S1 fill:#0F172A,stroke:#FF6B35,stroke-width:2px
-    style S2 fill:#0F172A,stroke:#4285F4,stroke-width:2px
-    style S3 fill:#0F172A,stroke:#F59E0B,stroke-width:2px
-    style S4 fill:#0F172A,stroke:#10B981,stroke-width:2px
-    style S5 fill:#0F172A,stroke:#8B5CF6,stroke-width:2px
+    style Citizens fill:#0F172A,stroke:#FF6B35,stroke-width:2px
+    style GoogleAI fill:#0F172A,stroke:#4285F4,stroke-width:2px
+    style DataCore fill:#0F172A,stroke:#F59E0B,stroke-width:2px
+    style Predictive fill:#0F172A,stroke:#10B981,stroke-width:2px
+    style Governance fill:#0F172A,stroke:#8B5CF6,stroke-width:2px
 ```
 
 ---
 
-## 🧠 The Signature AI Formula: Explainable Priority Index (EPI)
+## 🧮 The Signature AI Formula: Explainable Priority Index (EPI)
 
-Bureaucrats and legislators reject "black-box" machine learning. VikasDrishti AI invents the **Explainable Priority Index (EPI)** — a fully auditable mathematical formula that guarantees fairness and transparent governance:
+Bureaucrats and legislators reject opaque "black-box" machine learning. VikasDrishti AI invents the **Explainable Priority Index (EPI)** — a transparent, auditable mathematical formula that guarantees fairness and accountability:
 
-$$\huge\text{EPI} = 0.30(D) + 0.25(V) + 0.25(G) + 0.20(B) + U$$
+$$\huge\color{#FF6B35}{\text{EPI} = 0.30(D) + 0.25(V) + 0.25(G) + 0.20(B) + U}$$
 
 <br/>
 
@@ -136,10 +144,10 @@ $$\huge\text{EPI} = 0.30(D) + 0.25(V) + 0.25(G) + 0.20(B) + U$$
 | **$U$** | **Urgency Bonus** | $+2 \text{ pts per critical report (max 15)}$ | Gemini 2.0 Flash Life-Threatening Severity Tag | **Bonus** |
 
 <details>
-<summary><b>🔍 Click to expand an Audit Trail Calculation Example</b></summary>
+<summary><b>🔍 Click to expand an Audit Trail Calculation Example (Barmer, Rajasthan)</b></summary>
 
 ```yaml
-District: Barmer (Rajasthan)
+Target District: Barmer (Rajasthan)
 Population: 2,603,751 | BPL Ratio: 45.0% | Literacy: 56.0%
 Current Infra Index: 28/100 | Budget: ₹1,400 Cr allocated, ₹380 Cr spent
 
@@ -157,9 +165,9 @@ Factor Calculations:
 
 ---
 
-## 🗄️ Relational Database Architecture (`server/vikasdrishti.db`)
+## 🗄️ Persistent SQLite Database Architecture
 
-Unlike mock web apps, VikasDrishti AI is backed by an active **persistent SQLite database** operating in native Node 24 WAL mode:
+Unlike mock demo web apps, VikasDrishti AI is backed by an active, **real relational SQLite database** operating in native Node 24 WAL mode:
 
 <div align="center">
 
@@ -198,7 +206,7 @@ Unlike mock web apps, VikasDrishti AI is backed by an active **persistent SQLite
 
 ---
 
-## ⚡ 5 Capabilities Powered by Google AI
+## ✨ 5 Capabilities Powered by Google AI
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────┐
@@ -254,16 +262,16 @@ npm run dev
 ## 📡 Complete REST API Reference
 
 ```http
-### Check Database Health & Row Counts
+### 1. Check Database Health & Row Counts
 GET http://localhost:5000/api/health
 
-### Fetch All 80 Districts with Aggregated Grievance Counts
+### 2. Fetch All 80 Districts with Aggregated Grievance Counts
 GET http://localhost:5000/api/districts?state=Rajasthan
 
-### Fetch Grievances with Filters
+### 3. Fetch Grievances with Filters
 GET http://localhost:5000/api/grievances?category=Water%20Supply&severity=critical
 
-### Register a Citizen Grievance (Writes directly to SQLite)
+### 4. Register a Citizen Grievance (Writes directly to SQLite)
 POST http://localhost:5000/api/grievances
 Content-Type: application/json
 
@@ -275,22 +283,22 @@ Content-Type: application/json
   "district": "Barmer"
 }
 
-### Community Endorsement Upvote
+### 5. Community Endorsement Upvote
 POST http://localhost:5000/api/grievances/GRV-001/upvote
 
-### Live Calculated EPI Rankings
+### 6. Live Calculated EPI Rankings
 GET http://localhost:5000/api/epi
 
-### On-Demand Database Re-seed
+### 7. On-Demand Database Re-seed
 POST http://localhost:5000/api/seed
 ```
 
 ---
 
-## 🎯 3-Minute Live Demo Pitch Script
+## 🎬 3-Minute Live Demo Pitch Script
 
 <details open>
-<summary><b>🎬 Step-by-Step Hackathon Presentation Walkthrough</b></summary>
+<summary><b>⏱️ Step-by-Step Hackathon Presentation Walkthrough</b></summary>
 
 ### 1. Citizen Voice Reporting (`00:00 - 01:00`)
 1. Open [`/citizen`](http://localhost:5174/citizen).
@@ -328,7 +336,11 @@ POST http://localhost:5000/api/seed
 
 <div align="center">
 
-### Built with ❤️ for Digital Public Good & Vikasit Bharat 2047 🇮🇳
-**Repository:** [mukesh-dev-git/BuildWithAI-2E-26](https://github.com/mukesh-dev-git/BuildWithAI-2E-26) • **Branch:** `vikasdrishti-ai`
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:FF6B35,30:0F172A,70:0F172A,100:047857&height=120&section=footer" width="100%" alt="Footer Banner" />
+
+<p align="center">
+  <b>Built with ❤️ for Digital Public Good & Vikasit Bharat 2047 🇮🇳</b><br/>
+  <b>Repository:</b> <a href="https://github.com/mukesh-dev-git/BuildWithAI-2E-26">mukesh-dev-git/BuildWithAI-2E-26</a> • <b>Branch:</b> <code>vikasdrishti-ai</code>
+</p>
 
 </div>
