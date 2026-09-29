@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Globe, Menu, X, Sparkles, Flame } from 'lucide-react';
+import { Globe, Menu, X, Sparkles, Flame, Users, BarChart3, Home } from 'lucide-react';
 import { useState } from 'react';
 import GoogleTechModal from './GoogleTechModal';
 import CrisisWarRoomModal from './CrisisWarRoomModal';
@@ -45,21 +45,24 @@ export default function Header() {
             className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}
             onClick={() => setMenuOpen(false)}
           >
-            Home
+            <Home size={15} />
+            <span>Home</span>
           </Link>
           <Link 
             to="/citizen" 
             className={`nav-link ${location.pathname === '/citizen' ? 'active' : ''}`}
             onClick={() => setMenuOpen(false)}
           >
-            🗣️ Citizen Portal
+            <Users size={15} />
+            <span>Citizen Portal</span>
           </Link>
           <Link 
             to="/policymaker" 
             className={`nav-link ${location.pathname === '/policymaker' ? 'active' : ''}`}
             onClick={() => setMenuOpen(false)}
           >
-            📊 Decision Studio
+            <BarChart3 size={15} />
+            <span>Decision Studio</span>
           </Link>
         </nav>
 
@@ -83,7 +86,7 @@ export default function Header() {
             title="Launch Emergency Decision Matrix & Stress Simulator"
           >
             <Flame size={14} color="#ef4444" />
-            <span>⚡ Crisis War Room</span>
+            <span>Crisis War Room</span>
           </button>
 
           <button 

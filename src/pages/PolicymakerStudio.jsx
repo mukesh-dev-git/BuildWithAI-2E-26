@@ -1,7 +1,12 @@
 import { useState, useMemo, useEffect } from 'react';
 import { MapContainer, TileLayer, CircleMarker, Popup } from 'react-leaflet';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line, Legend, AreaChart, Area } from 'recharts';
-import { TrendingUp, AlertTriangle, MapPin, Users, IndianRupee, Droplets, ArrowUpRight, ArrowDownRight, Sparkles, Loader2, ChevronDown, ChevronUp, Shield, Zap, BookOpen, Heart, Home as HomeIcon, Truck, FileText, Cpu, Clock, Activity } from 'lucide-react';
+import { 
+  TrendingUp, AlertTriangle, MapPin, Users, IndianRupee, Droplets, 
+  ArrowUpRight, ArrowDownRight, Sparkles, Loader2, ChevronDown, ChevronUp, 
+  Shield, Zap, BookOpen, Heart, Home as HomeIcon, Truck, FileText, Cpu, 
+  Clock, Activity, LayoutDashboard, BarChart3, Trophy, Calculator, Map
+} from 'lucide-react';
 import { calculateAllEPI, getEPISummary } from '../services/epi';
 import { generatePolicyRecommendation, simulateBudgetImpact } from '../services/gemini';
 import { getAllGrievances, subscribeToGrievances } from '../services/grievanceStore';
@@ -149,11 +154,11 @@ export default function PolicymakerStudio() {
   };
 
   const tabs = [
-    { id: 'overview', label: '📊 Overview' },
-    { id: 'map', label: '🗺️ Heatmap' },
-    { id: 'rankings', label: '🏆 EPI Rankings' },
-    { id: 'simulator', label: '💰 Budget Simulator' },
-    { id: 'vertex', label: '⚡ Vertex AI Forecasting' },
+    { id: 'overview', label: 'Overview', icon: LayoutDashboard },
+    { id: 'map', label: 'Heatmap', icon: Map },
+    { id: 'rankings', label: 'EPI Rankings', icon: Trophy },
+    { id: 'simulator', label: 'Budget Simulator', icon: Calculator },
+    { id: 'vertex', label: 'Vertex AI Forecasting', icon: Zap },
   ];
 
   const activeDistrictFull = districtData.find(d => d.district === selectedDistrict?.district) || districtData[0];
@@ -165,7 +170,7 @@ export default function PolicymakerStudio() {
         {/* ── Header ─────────────────────── */}
         <div className="pm-header animate-fade-in">
           <div>
-            <h2>📊 Policymaker Decision Studio</h2>
+            <h2><BarChart3 size={24} style={{ verticalAlign: 'middle', marginRight: '8px' }} /> Policymaker Decision Studio</h2>
             <p className="pm-subtitle">AI-powered infrastructure intelligence for district planners</p>
           </div>
           <div className="pm-header-actions">
@@ -214,15 +219,19 @@ export default function PolicymakerStudio() {
 
         {/* ── Tab Navigation ─────────────── */}
         <div className="tab-nav pm-tabs animate-fade-in-up stagger-2">
-          {tabs.map(tab => (
-            <button
-              key={tab.id}
-              className={`tab-item ${activeTab === tab.id ? 'active' : ''}`}
-              onClick={() => setActiveTab(tab.id)}
-            >
-              {tab.label}
-            </button>
-          ))}
+          {tabs.map(tab => {
+            const TabIcon = tab.icon;
+            return (
+              <button
+                key={tab.id}
+                className={`tab-item ${activeTab === tab.id ? 'active' : ''}`}
+                onClick={() => setActiveTab(tab.id)}
+              >
+                <TabIcon size={15} />
+                <span>{tab.label}</span>
+              </button>
+            );
+          })}
         </div>
 
         {/* ── Tab Content ────────────────── */}

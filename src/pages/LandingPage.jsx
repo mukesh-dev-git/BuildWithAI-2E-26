@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom';
-import { Mic, BarChart3, Shield, Globe2, Users, ArrowRight, Sparkles, MapPin, Volume2, Camera } from 'lucide-react';
+import { 
+  Mic, BarChart3, Shield, Globe2, Users, ArrowRight, Sparkles, 
+  MapPin, Volume2, Camera, Eye, Brain, Coins, ShieldCheck 
+} from 'lucide-react';
 import './LandingPage.css';
 
 export default function LandingPage() {
@@ -118,7 +121,7 @@ export default function LandingPage() {
           <div className="portals-grid">
             <div className="portal-card citizen-portal animate-slide-left stagger-1">
               <div className="portal-header">
-                <span className="portal-emoji">🗣️</span>
+                <span className="portal-icon-wrapper saffron"><Users size={24} /></span>
                 <h3>Citizen Portal</h3>
                 <span className="badge badge-saffron">Mobile-First</span>
               </div>
@@ -139,7 +142,7 @@ export default function LandingPage() {
 
             <div className="portal-card policy-portal animate-slide-right stagger-2">
               <div className="portal-header">
-                <span className="portal-emoji">📊</span>
+                <span className="portal-icon-wrapper blue"><BarChart3 size={24} /></span>
                 <h3>Policymaker Studio</h3>
                 <span className="badge badge-info">AI Dashboard</span>
               </div>
@@ -173,24 +176,29 @@ export default function LandingPage() {
 
           <div className="ai-grid grid grid-3 gap-6">
             {[
-              { icon: '🎙️', title: 'Multilingual Transcription', desc: 'Gemini transcribes voice in Hindi, Tamil, Marathi, Telugu, Bengali, and 5+ more languages', tag: 'Speech-to-Text' },
-              { icon: '👁️', title: 'Visual Damage Verification', desc: 'Gemini Vision inspects citizen photos to confirm actual civic damage and prevent spam', tag: 'Computer Vision' },
-              { icon: '🧠', title: 'Intent Extraction', desc: 'Semantic understanding of grievance category, severity, urgency, and department routing', tag: 'NLP' },
-              { icon: '📊', title: 'Priority Reasoning', desc: 'EPI formula scoring with Gemini generating explainable audit rationales for each district', tag: 'GenAI Reasoning' },
-              { icon: '💰', title: 'Budget Simulation', desc: 'What-If policy agent computes projected impact of budget allocation changes', tag: 'Predictive' },
-              { icon: '🌐', title: 'Cross-Border Scaling', desc: 'Modular architecture designed for BRICS nations — India, Brazil, South Africa', tag: 'DPG' },
-            ].map((item, i) => (
-              <div key={i} className="ai-card card animate-fade-in-up" style={{ animationDelay: `${0.1 * i}s`, opacity: 0 }}>
-                <span className="ai-card-icon">{item.icon}</span>
-                <div>
-                  <div className="flex items-center gap-2" style={{ marginBottom: '4px' }}>
-                    <h5>{item.title}</h5>
+              { icon: Mic, iconColor: '#f97316', title: 'Multilingual Transcription', desc: 'Gemini transcribes voice in Hindi, Tamil, Marathi, Telugu, Bengali, and 5+ more languages', tag: 'Speech-to-Text' },
+              { icon: Eye, iconColor: '#0ea5e9', title: 'Visual Damage Verification', desc: 'Gemini Vision inspects citizen photos to confirm actual civic damage and prevent spam', tag: 'Computer Vision' },
+              { icon: Brain, iconColor: '#8b5cf6', title: 'Intent Extraction', desc: 'Semantic understanding of grievance category, severity, urgency, and department routing', tag: 'NLP' },
+              { icon: BarChart3, iconColor: '#10b981', title: 'Priority Reasoning', desc: 'EPI formula scoring with Gemini generating explainable audit rationales for each district', tag: 'GenAI Reasoning' },
+              { icon: Coins, iconColor: '#f59e0b', title: 'Budget Simulation', desc: 'What-If policy agent computes projected impact of budget allocation changes', tag: 'Predictive' },
+              { icon: Globe2, iconColor: '#06b6d4', title: 'Cross-Border Scaling', desc: 'Modular architecture designed for BRICS nations — India, Brazil, South Africa', tag: 'DPG' },
+            ].map((item, i) => {
+              const ItemIcon = item.icon;
+              return (
+                <div key={i} className="ai-card card animate-fade-in-up" style={{ animationDelay: `${0.1 * i}s`, opacity: 0 }}>
+                  <div className="ai-card-icon" style={{ color: item.iconColor }}>
+                    <ItemIcon size={26} />
                   </div>
-                  <span className="badge badge-info">{item.tag}</span>
-                  <p style={{ marginTop: '8px', fontSize: '0.9rem', color: 'var(--text-secondary)' }}>{item.desc}</p>
+                  <div>
+                    <div className="flex items-center gap-2" style={{ marginBottom: '4px' }}>
+                      <h5>{item.title}</h5>
+                    </div>
+                    <span className="badge badge-info">{item.tag}</span>
+                    <p style={{ marginTop: '8px', fontSize: '0.9rem', color: 'var(--text-secondary)' }}>{item.desc}</p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
@@ -206,7 +214,7 @@ export default function LandingPage() {
               <span className="brand-name" style={{ fontSize: '1rem' }}>VikasDrishti AI</span>
             </div>
             <p className="footer-text">
-              Digital Public Good · Built for India 🇮🇳 · Powered by Google Gemini AI
+              Digital Public Good · Built for India · Powered by Google Gemini AI
             </p>
             <div className="footer-badges">
               <span className="badge badge-success">Open Source</span>

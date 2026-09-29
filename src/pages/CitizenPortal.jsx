@@ -1,5 +1,10 @@
 import { useState, useRef, useCallback, useEffect } from 'react';
-import { Mic, MicOff, Send, Camera, MapPin, CheckCircle2, AlertCircle, Loader2, X, ChevronDown, Volume2, ThumbsUp, Sparkles } from 'lucide-react';
+import { 
+  Mic, MicOff, Send, Camera, MapPin, CheckCircle2, AlertCircle, 
+  Loader2, X, ChevronDown, Volume2, ThumbsUp, Sparkles,
+  Truck, Droplets, Trash2, BookOpen, HeartPulse, Zap, Home, Wheat, 
+  Shield, ClipboardList, MessageSquare, Radio
+} from 'lucide-react';
 import { extractGrievanceIntent, verifyPhoto, isApiKeyConfigured } from '../services/gemini';
 import { getAllGrievances, addGrievance, subscribeToGrievances, upvoteGrievance } from '../services/grievanceStore';
 import districtData from '../data/districts';
@@ -11,17 +16,24 @@ const categories = [
   'Healthcare', 'Electricity', 'Housing', 'Agriculture', 'Public Safety', 'Other'
 ];
 
-const categoryEmojis = {
-  'Roads & Transport': '🛣️', 'Water Supply': '💧', 'Sanitation': '🧹',
-  'Education': '📚', 'Healthcare': '🏥', 'Electricity': '⚡',
-  'Housing': '🏠', 'Agriculture': '🌾', 'Public Safety': '🛡️', 'Other': '📋'
+const categoryIcons = {
+  'Roads & Transport': Truck,
+  'Water Supply': Droplets,
+  'Sanitation': Trash2,
+  'Education': BookOpen,
+  'Healthcare': HeartPulse,
+  'Electricity': Zap,
+  'Housing': Home,
+  'Agriculture': Wheat,
+  'Public Safety': Shield,
+  'Other': ClipboardList
 };
 
 const SAMPLE_PROMPTS = [
-  { label: '💧 Water Crisis (Hindi)', text: 'गाँव में 5 दिनों से पीने का पानी नहीं आ रहा है, हैंडपंप भी खराब है', district: 'Barmer', state: 'Rajasthan' },
-  { label: '🛣️ Broken Road/Bridge (Hindi)', text: 'मुख्य मार्ग का पुल टूट गया है, बारिश में गाँव कट गया है, गाड़ियाँ नहीं निकल पा रही हैं', district: 'Purnia', state: 'Bihar' },
-  { label: '⚡ Burnt Transformer (Hindi)', text: 'बिजली का ट्रांसफॉर्मर जल गया है, पूरा मोहल्ला 3 दिनों से अंधेरे में है', district: 'Damoh', state: 'Madhya Pradesh' },
-  { label: '🏥 No Doctor at PHC (Hindi)', text: 'प्राथमिक स्वास्थ्य केंद्र पर डॉक्टर नहीं है, प्रसूति और दवाइयों की भारी समस्या है', district: 'Kupwara', state: 'Jammu & Kashmir' },
+  { icon: Droplets, label: 'Water Crisis (Hindi)', text: 'गाँव में 5 दिनों से पीने का पानी नहीं आ रहा है, हैंडपंप भी खराब है', district: 'Barmer', state: 'Rajasthan' },
+  { icon: Truck, label: 'Broken Road/Bridge (Hindi)', text: 'मुख्य मार्ग का पुल टूट गया है, बारिश में गाँव कट गया है, गाड़ियाँ नहीं निकल पा रही हैं', district: 'Purnia', state: 'Bihar' },
+  { icon: Zap, label: 'Burnt Transformer (Hindi)', text: 'बिजली का ट्रांसफॉर्मर जल गया है, पूरा मोहल्ला 3 दिनों से अंधेरे में है', district: 'Damoh', state: 'Madhya Pradesh' },
+  { icon: HeartPulse, label: 'No Doctor at PHC (Hindi)', text: 'प्राथमिक स्वास्थ्य केंद्र पर डॉक्टर नहीं है, प्रसूति और दवाइयों की भारी समस्या है', district: 'Kupwara', state: 'Jammu & Kashmir' },
 ];
 
 export default function CitizenPortal() {
@@ -192,7 +204,7 @@ export default function CitizenPortal() {
       <div className="container">
         {/* ── Header ─────────────────────── */}
         <div className="cp-header animate-fade-in">
-          <h2>🗣️ Report a Civic Issue</h2>
+          <h2><MessageSquare size={24} className="cp-title-icon" /> Report a Civic Issue</h2>
           <p className="cp-subtitle">
             Speak, type, or upload a photo in any Indian language — our AI will understand.
           </p>
@@ -219,7 +231,11 @@ export default function CitizenPortal() {
                     {isRecording ? <MicOff size={40} /> : <Mic size={40} />}
                   </button>
                   <p className="mic-label">
-                    {isRecording ? '🔴 Recording... Tap to stop' : 'Tap to speak in any language'}
+                    {isRecording ? (
+                      <span className="rec-active-label"><Radio size={14} className="pulse-icon" /> Recording in progress... Tap to stop</span>
+                    ) : (
+                      'Tap to speak in any language'
+                    )}
                   </p>
                 </div>
 
@@ -230,19 +246,23 @@ export default function CitizenPortal() {
                 <div className="quick-prompts">
                   <span className="qp-label"><Sparkles size={13} /> Quick Test Prompts (1-Click):</span>
                   <div className="qp-chips">
-                    {SAMPLE_PROMPTS.map((p, idx) => (
-                      <button
-                        key={idx}
-                        type="button"
-                        className="qp-chip"
-                        onClick={() => {
-                          setText(p.text);
-                          setSelectedDistrictName(p.district);
-                        }}
-                      >
-                        {p.label}
-                      </button>
-                    ))}
+                    {SAMPLE_PROMPTS.map((p, idx) => {
+                      const PromptIcon = p.icon;
+                      return (
+                        <button
+                          key={idx}
+                          type="button"
+                          className="qp-chip"
+                          onClick={() => {
+                            setText(p.text);
+                            setSelectedDistrictName(p.district);
+                          }}
+                        >
+                          <PromptIcon size={13} />
+                          <span>{p.label}</span>
+                        </button>
+                      );
+                    })}
                   </div>
                 </div>
 
@@ -314,7 +334,7 @@ export default function CitizenPortal() {
                 {/* Location */}
                 <button className="location-btn" onClick={getLocation}>
                   <MapPin size={16} />
-                  {location ? `📍 ${location.lat.toFixed(4)}, ${location.lng.toFixed(4)}` : 'Capture GPS Location'}
+                  <span>{location ? `${location.lat.toFixed(4)}, ${location.lng.toFixed(4)}` : 'Capture GPS Location'}</span>
                 </button>
 
                 {/* Submit */}
@@ -350,7 +370,15 @@ export default function CitizenPortal() {
                     <div className="result-row">
                       <span className="result-label">Category</span>
                       <span className="result-value">
-                        {categoryEmojis[result.category]} {result.category}
+                        {(() => {
+                          const IconComp = categoryIcons[result.category] || ClipboardList;
+                          return (
+                            <span className="cat-badge-val">
+                              <IconComp size={15} />
+                              <span>{result.category}</span>
+                            </span>
+                          );
+                        })()}
                       </span>
                     </div>
                     <div className="result-row">
@@ -388,36 +416,40 @@ export default function CitizenPortal() {
 
           {/* ── Recent Grievances ─────────── */}
           <div className="cp-sidebar">
-            <h4 className="sidebar-title">📋 Recent Reports</h4>
+            <h4 className="sidebar-title"><ClipboardList size={18} /> <span>Recent Reports</span></h4>
             <div className="grievance-list">
-              {recentGrievances.map((g, i) => (
-                <div 
-                  key={g.id} 
-                  className={`grievance-card card priority-${g.severity === 'critical' ? 'high' : g.severity} animate-fade-in`}
-                  style={{ animationDelay: `${0.05 * i}s`, opacity: 0 }}
-                >
-                  <div className="gc-header">
-                    <span className="gc-category">
-                      {categoryEmojis[g.category]} {g.category}
-                    </span>
-                    <span className={`badge badge-${g.severity === 'critical' ? 'danger' : g.severity === 'high' ? 'warning' : 'success'}`}>
-                      {g.severity}
-                    </span>
+              {recentGrievances.map((g, i) => {
+                const CatIcon = categoryIcons[g.category] || ClipboardList;
+                return (
+                  <div 
+                    key={g.id} 
+                    className={`grievance-card card priority-${g.severity === 'critical' ? 'high' : g.severity} animate-fade-in`}
+                    style={{ animationDelay: `${0.05 * i}s`, opacity: 0 }}
+                  >
+                    <div className="gc-header">
+                      <span className="gc-category">
+                        <CatIcon size={14} />
+                        <span>{g.category}</span>
+                      </span>
+                      <span className={`badge badge-${g.severity === 'critical' ? 'danger' : g.severity === 'high' ? 'warning' : 'success'}`}>
+                        {g.severity}
+                      </span>
+                    </div>
+                    <p className="gc-text">{g.textEn}</p>
+                    <div className="gc-meta">
+                      <span className="gc-meta-location"><MapPin size={13} /> {g.district}, {g.state}</span>
+                      <button 
+                        type="button" 
+                        className="upvote-btn" 
+                        onClick={() => upvoteGrievance(g.id)}
+                        title="Endorse this civic issue"
+                      >
+                        <ThumbsUp size={12} /> {g.votes}
+                      </button>
+                    </div>
                   </div>
-                  <p className="gc-text">{g.textEn}</p>
-                  <div className="gc-meta">
-                    <span>📍 {g.district}, {g.state}</span>
-                    <button 
-                      type="button" 
-                      className="upvote-btn" 
-                      onClick={() => upvoteGrievance(g.id)}
-                      title="Endorse this civic issue"
-                    >
-                      <ThumbsUp size={12} /> {g.votes}
-                    </button>
-                  </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </div>
         </div>
