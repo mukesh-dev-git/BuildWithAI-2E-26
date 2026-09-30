@@ -208,3 +208,38 @@ sequenceDiagram
 * **License:** Apache 2.0 Open Source
 * **Digital Public Goods Alliance (DPGA):** Meets standard indicators #1 through #9 for open-source governance, privacy protection, and non-discriminatory algorithmic accountability.
 * **Architecture Credits:** Engineered with **Google Gemini 2.0 Flash** and **Antigravity 2.0**.
+
+---
+
+## BRICS Development Intelligence dashboard (real open data)
+
+The app at `/` is a sidebar dashboard built entirely on open data. There's no simulated data. The original India prototype is still available at `/legacy`.
+
+| Page | What it shows |
+|---|---|
+| Overview | Citizen demand KPIs, 3-year sector trend, top priorities |
+| Demand Map | State/province choropleth (demand per 100k, or national infrastructure need) + city hotspots |
+| Recommendations | Ranked region × sector priorities with an evidence panel (score breakdown, trend, top subjects, cities, sample records) |
+| Request Explorer | Paginated, filterable individual records (last 12 months + Citizen Intake) |
+| Country Compare | 10-member indicator cards, infrastructure-gap matrix, WDI trends |
+| Investment Alignment | Citizen-demand share vs PPI infrastructure-investment share, capital formation |
+| Citizen Intake | Voice/text submission in 16 languages, auto-classified into a sector |
+| Data Sources | Provenance, licenses, coverage gaps, method |
+
+### Data sources
+- **Fala.BR** (CGU, Brazil): 8.7M real ombudsman manifestations from 2015 to 2026, of which 6.6M are located to a state
+- **World Bank WDI**: 15 indicators for all 10 BRICS members, 2000–latest
+- **geoBoundaries ADM1**: 299 state/province boundaries
+- **IBGE** state population, and municipality coordinates
+
+Brazil is the only member that publishes open, record-level citizen-feedback data. The other members are scored on national infrastructure indicators and labelled as such.
+
+### Build the data (one time, about 5 minutes)
+```bash
+npm install
+npm run data:fetch          # World Bank, boundaries, IBGE (~25 MB into data/raw)
+curl -o falabr.zip https://dadosabertos-download.cgu.gov.br/e-Ouv/manifestacoes-ouvidoria.zip   # ~190 MB
+npm run data:build -- falabr.zip   # streams ~2 GB of CSV into data/brics.db (~110 MB)
+npm run dev
+```
+`data/raw` and `data/brics.db` are git-ignored. `data/processed/regions.geojson` is committed.

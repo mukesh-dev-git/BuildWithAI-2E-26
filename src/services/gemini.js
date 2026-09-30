@@ -528,3 +528,57 @@ function getFallbackChatResponse(query) {
     `*(💡 Pro-Tip: Add your Gemini API key in 'Google AI Stack' at the top to enable unrestricted generative reasoning!)*`;
 }
 
+
+// ── BRICS dashboard intake ──────────────────────────────────────
+const DEV_SECTORS = ['water', 'transport', 'energy', 'health', 'education', 'housing', 'digital', 'safety', 'environment', 'agriculture', 'social', 'governance'];
+
+// Keyword fallback used when no Gemini key is configured (EN / PT / ES / HI / RU / ID / AR stems).
+const SECTOR_KEYWORDS = {
+  water: ['water', 'sanitation', 'sewage', 'drain', 'água', 'agua', 'esgoto', 'pani', 'पानी', 'вода', 'air bersih', 'مياه'],
+  transport: ['road', 'bridge', 'bus', 'transport', 'pothole', 'estrada', 'ponte', 'ônibus', 'sadak', 'सड़क', 'дорог', 'jalan', 'طريق'],
+  energy: ['electric', 'power', 'outage', 'energia', 'luz', 'bijli', 'बिजली', 'электр', 'listrik', 'كهرباء'],
+  health: ['hospital', 'clinic', 'doctor', 'medicine', 'saúde', 'hospital', 'aspatal', 'अस्पताल', 'больниц', 'rumah sakit', 'مستشفى'],
+  education: ['school', 'teacher', 'college', 'escola', 'professor', 'school', 'स्कूल', 'школ', 'sekolah', 'مدرسة'],
+  housing: ['housing', 'house', 'slum', 'street light', 'moradia', 'casa', 'awas', 'मकान', 'жиль', 'rumah', 'سكن'],
+  digital: ['internet', 'mobile', 'network', 'signal', 'telefone', 'इंटरनेट', 'интернет', 'sinyal', 'انترنت'],
+  safety: ['police', 'crime', 'flood', 'fire', 'polícia', 'enchente', 'पुलिस', 'полиц', 'banjir', 'شرطة'],
+  environment: ['pollution', 'garbage', 'waste', 'tree', 'lixo', 'poluição', 'कचरा', 'мусор', 'sampah', 'نفايات'],
+  agriculture: ['farm', 'crop', 'irrigation', 'seed', 'agricultura', 'kisan', 'किसान', 'урожай', 'petani', 'زراعة'],
+  social: ['pension', 'job', 'unemploy', 'benefit', 'aposentadoria', 'emprego', 'pension', 'पेंशन', 'пенси', 'pekerjaan', 'معاش'],
+};
+
+export function classifyByKeywords(text) {
+  const t = text.toLowerCase();
+  let best = 'governance', hits = 0;
+  for (const [sector, words] of Object.entries(SECTOR_KEYWORDS)) {
+    const n = words.filter((w) => t.includes(w)).length;
+    if (n > hits) { best = sector; hits = n; }
+  }
+  return { sector: best, summary_en: text.slice(0, 160), detected_language: null, subject: null, confidence: hits ? 'keyword' : 'none' };
+}
+
+/** Classifies a free-text development request (any language) into a dashboard sector. */
+export async function classifyDevelopmentRequest(text) {
+  const m = getModel();
+  if (!m) return classifyByKeywords(text);
+  const prompt = `Classify this citizen development request, which may be in any language used in BRICS countries.
+
+Request: "${text.replace(/"/g, "'")}"
+
+Return ONLY JSON:
+{
+  "sector": one of ${JSON.stringify(DEV_SECTORS)},
+  "subject": "short English subject, max 6 words",
+  "summary_en": "one-sentence English summary",
+  "detected_language": "ISO 639-1 code"
+}`;
+  try {
+    const result = await m.generateContent(prompt);
+    const parsed = JSON.parse(result.response.text().replace(/```json\n?|```\n?/g, '').trim());
+    if (!DEV_SECTORS.includes(parsed.sector)) parsed.sector = classifyByKeywords(text).sector;
+    return { ...parsed, confidence: 'gemini' };
+  } catch (error) {
+    console.error('Gemini classification error:', error);
+    return classifyByKeywords(text);
+  }
+}

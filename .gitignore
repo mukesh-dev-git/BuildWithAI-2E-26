@@ -27,3 +27,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Raw downloaded source data (regenerate with npm run data:fetch)
+data/raw
+data/brics.db
+data/brics.db-*

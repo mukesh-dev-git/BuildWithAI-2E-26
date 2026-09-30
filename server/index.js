@@ -5,12 +5,16 @@ import express from 'express';
 import cors from 'cors';
 import { db, initializeSchema } from './db.js';
 import { seedDatabase } from './seed.js';
+import bricsApi from './brics/api.js';
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(express.json({ limit: '10mb' }));
+
+// BRICS development dashboard API (aggregates over data/brics.db)
+app.use('/api/v2', bricsApi);
 
 // Ensure schema is ready on boot
 initializeSchema();

@@ -1,0 +1,1796 @@
+[
+ {
+  "id": "BRA-roraima",
+  "name": "Roraima",
+  "iso3": "BRA",
+  "isoCode": "BR-RR"
+ },
+ {
+  "id": "BRA-amapa",
+  "name": "Amapa",
+  "iso3": "BRA",
+  "isoCode": "BR-AP"
+ },
+ {
+  "id": "BRA-amazonas",
+  "name": "Amazonas",
+  "iso3": "BRA",
+  "isoCode": "BR-AM"
+ },
+ {
+  "id": "BRA-para",
+  "name": "Para",
+  "iso3": "BRA",
+  "isoCode": "BR-PA"
+ },
+ {
+  "id": "BRA-maranhao",
+  "name": "Maranhao",
+  "iso3": "BRA",
+  "isoCode": "BR-MA"
+ },
+ {
+  "id": "BRA-ceara",
+  "name": "Ceara",
+  "iso3": "BRA",
+  "isoCode": "BR-CE"
+ },
+ {
+  "id": "BRA-rio-grande-do-norte",
+  "name": "Rio Grande do Norte",
+  "iso3": "BRA",
+  "isoCode": "BR-RN"
+ },
+ {
+  "id": "BRA-paraiba",
+  "name": "Paraiba",
+  "iso3": "BRA",
+  "isoCode": "BR-PB"
+ },
+ {
+  "id": "BRA-piaui",
+  "name": "Piaui",
+  "iso3": "BRA",
+  "isoCode": "BR-PI"
+ },
+ {
+  "id": "BRA-pernambuco",
+  "name": "Pernambuco",
+  "iso3": "BRA",
+  "isoCode": "BR-PE"
+ },
+ {
+  "id": "BRA-alagoas",
+  "name": "Alagoas",
+  "iso3": "BRA",
+  "isoCode": "BR-AL"
+ },
+ {
+  "id": "BRA-acre",
+  "name": "Acre",
+  "iso3": "BRA",
+  "isoCode": "BR-AC"
+ },
+ {
+  "id": "BRA-rondonia",
+  "name": "Rondonia",
+  "iso3": "BRA",
+  "isoCode": "BR-RO"
+ },
+ {
+  "id": "BRA-sergipe",
+  "name": "Sergipe",
+  "iso3": "BRA",
+  "isoCode": "BR-SE"
+ },
+ {
+  "id": "BRA-tocantins",
+  "name": "Tocantins",
+  "iso3": "BRA",
+  "isoCode": "BR-TO"
+ },
+ {
+  "id": "BRA-bahia",
+  "name": "Bahia",
+  "iso3": "BRA",
+  "isoCode": "BR-BA"
+ },
+ {
+  "id": "BRA-mato-grosso",
+  "name": "Mato Grosso",
+  "iso3": "BRA",
+  "isoCode": "BR-MT"
+ },
+ {
+  "id": "BRA-goias",
+  "name": "Goias",
+  "iso3": "BRA",
+  "isoCode": "BR-GO"
+ },
+ {
+  "id": "BRA-distrito-federal",
+  "name": "Distrito Federal",
+  "iso3": "BRA",
+  "isoCode": "BR-DF"
+ },
+ {
+  "id": "BRA-minas-gerais",
+  "name": "Minas Gerais",
+  "iso3": "BRA",
+  "isoCode": "BR-MG"
+ },
+ {
+  "id": "BRA-espirito-santo",
+  "name": "Espirito Santo",
+  "iso3": "BRA",
+  "isoCode": "BR-ES"
+ },
+ {
+  "id": "BRA-mato-grosso-do-sul",
+  "name": "Mato Grosso do Sul",
+  "iso3": "BRA",
+  "isoCode": "BR-MS"
+ },
+ {
+  "id": "BRA-rio-de-janeiro",
+  "name": "Rio de Janeiro",
+  "iso3": "BRA",
+  "isoCode": "BR-RJ"
+ },
+ {
+  "id": "BRA-sao-paulo",
+  "name": "Sao Paulo",
+  "iso3": "BRA",
+  "isoCode": "BR-SP"
+ },
+ {
+  "id": "BRA-parana",
+  "name": "Parana",
+  "iso3": "BRA",
+  "isoCode": "BR-PR"
+ },
+ {
+  "id": "BRA-santa-catarina",
+  "name": "Santa Catarina",
+  "iso3": "BRA",
+  "isoCode": "BR-SC"
+ },
+ {
+  "id": "BRA-rio-grande-do-sul",
+  "name": "Rio Grande do Sul",
+  "iso3": "BRA",
+  "isoCode": "BR-RS"
+ },
+ {
+  "id": "RUS-altai-krai",
+  "name": "Altai Krai",
+  "iso3": "RUS",
+  "isoCode": "RU-ALT"
+ },
+ {
+  "id": "RUS-republic-of-mordovia",
+  "name": "Republic of Mordovia",
+  "iso3": "RUS",
+  "isoCode": "RU-MO"
+ },
+ {
+  "id": "RUS-tula-oblast",
+  "name": "Tula Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-TUL"
+ },
+ {
+  "id": "RUS-kurgan-oblast",
+  "name": "Kurgan Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-KGN"
+ },
+ {
+  "id": "RUS-ingushetia",
+  "name": "Ingushetia",
+  "iso3": "RUS",
+  "isoCode": "RU-IN"
+ },
+ {
+  "id": "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+  "name": "Khanty-Mansiysk Autonomous Okrug – Ugra",
+  "iso3": "RUS",
+  "isoCode": "RU-KHM"
+ },
+ {
+  "id": "RUS-kirov-oblast",
+  "name": "Kirov Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-KIR"
+ },
+ {
+  "id": "RUS-komi-republic",
+  "name": "Komi Republic",
+  "iso3": "RUS",
+  "isoCode": "RU-KO"
+ },
+ {
+  "id": "RUS-kostroma-oblast",
+  "name": "Kostroma Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-KOS"
+ },
+ {
+  "id": "RUS-krasnoyarsk-krai",
+  "name": "Krasnoyarsk Krai",
+  "iso3": "RUS",
+  "isoCode": "RU-KYA"
+ },
+ {
+  "id": "RUS-zabaykalsky-krai",
+  "name": "Zabaykalsky Krai",
+  "iso3": "RUS",
+  "isoCode": "RU-ZAB"
+ },
+ {
+  "id": "RUS-sverdlovsk-oblast",
+  "name": "Sverdlovsk Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-SVE"
+ },
+ {
+  "id": "RUS-volgograd-oblast",
+  "name": "Volgograd Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-VGG"
+ },
+ {
+  "id": "RUS-irkutsk-oblast",
+  "name": "Irkutsk Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-IRK"
+ },
+ {
+  "id": "RUS-perm-krai",
+  "name": "Perm Krai",
+  "iso3": "RUS",
+  "isoCode": "RU-PER"
+ },
+ {
+  "id": "RUS-pskov-oblast",
+  "name": "Pskov Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-PSK"
+ },
+ {
+  "id": "RUS-rostov-oblast",
+  "name": "Rostov Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-ROS"
+ },
+ {
+  "id": "RUS-ryazan-oblast",
+  "name": "Ryazan Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-RYA"
+ },
+ {
+  "id": "RUS-adygea",
+  "name": "Adygea",
+  "iso3": "RUS",
+  "isoCode": "RU-AD"
+ },
+ {
+  "id": "RUS-samara-oblast",
+  "name": "Samara Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-SAM"
+ },
+ {
+  "id": "RUS-khakassia",
+  "name": "Khakassia",
+  "iso3": "RUS",
+  "isoCode": "RU-KK"
+ },
+ {
+  "id": "RUS-tambov-oblast",
+  "name": "Tambov Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-TAM"
+ },
+ {
+  "id": "RUS-tatarstan",
+  "name": "Tatarstan",
+  "iso3": "RUS",
+  "isoCode": "RU-TA"
+ },
+ {
+  "id": "RUS-tomsk-oblast",
+  "name": "Tomsk Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-TOM"
+ },
+ {
+  "id": "RUS-nizhny-novgorod-oblast",
+  "name": "Nizhny Novgorod Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-NIZ"
+ },
+ {
+  "id": "RUS-republic-of-karelia",
+  "name": "Republic of Karelia",
+  "iso3": "RUS",
+  "isoCode": "RU-KR"
+ },
+ {
+  "id": "RUS-arkhangelsk-oblast",
+  "name": "Arkhangelsk Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-ARK"
+ },
+ {
+  "id": "RUS-astrakhan-oblast",
+  "name": "Astrakhan Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-AST"
+ },
+ {
+  "id": "RUS-belgorod-oblast",
+  "name": "Belgorod Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-BEL"
+ },
+ {
+  "id": "RUS-bryansk-oblast",
+  "name": "Bryansk Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-BRY"
+ },
+ {
+  "id": "RUS-buryatia",
+  "name": "Buryatia",
+  "iso3": "RUS",
+  "isoCode": "RU-BU"
+ },
+ {
+  "id": "RUS-chechnya",
+  "name": "Chechnya",
+  "iso3": "RUS",
+  "isoCode": "RU-CE"
+ },
+ {
+  "id": "RUS-chelyabinsk-oblast",
+  "name": "Chelyabinsk Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-CHE"
+ },
+ {
+  "id": "RUS-chuvashia",
+  "name": "Chuvashia",
+  "iso3": "RUS",
+  "isoCode": "RU-CU"
+ },
+ {
+  "id": "RUS-tyumen-oblast",
+  "name": "Tyumen Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-TYU"
+ },
+ {
+  "id": "RUS-north-ossetia-alania",
+  "name": "North Ossetia–Alania",
+  "iso3": "RUS",
+  "isoCode": "RU-SE"
+ },
+ {
+  "id": "RUS-penza-oblast",
+  "name": "Penza Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-PNZ"
+ },
+ {
+  "id": "RUS-amur-oblast",
+  "name": "Amur Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-AMU"
+ },
+ {
+  "id": "RUS-kabardino-balkaria",
+  "name": "Kabardino-Balkaria",
+  "iso3": "RUS",
+  "isoCode": "RU-KB"
+ },
+ {
+  "id": "RUS-krasnodar-krai",
+  "name": "Krasnodar Krai",
+  "iso3": "RUS",
+  "isoCode": "RU-KDA"
+ },
+ {
+  "id": "RUS-kursk-oblast",
+  "name": "Kursk Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-KRS"
+ },
+ {
+  "id": "RUS-leningrad-oblast",
+  "name": "Leningrad oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-LEN"
+ },
+ {
+  "id": "RUS-mari-el",
+  "name": "Mari El",
+  "iso3": "RUS",
+  "isoCode": "RU-ME"
+ },
+ {
+  "id": "RUS-moscow",
+  "name": "Moscow",
+  "iso3": "RUS",
+  "isoCode": "RU-MOW"
+ },
+ {
+  "id": "RUS-moscow-oblast",
+  "name": "Moscow Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-MOS"
+ },
+ {
+  "id": "RUS-murmansk-oblast",
+  "name": "Murmansk Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-MUR"
+ },
+ {
+  "id": "RUS-nenets-autonomous-okrug",
+  "name": "Nenets Autonomous Okrug",
+  "iso3": "RUS",
+  "isoCode": "RU-NEN"
+ },
+ {
+  "id": "RUS-novgorod-oblast",
+  "name": "Novgorod Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-NGR"
+ },
+ {
+  "id": "RUS-novosibirsk-oblast",
+  "name": "Novosibirsk Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-NVS"
+ },
+ {
+  "id": "RUS-omsk-oblast",
+  "name": "Omsk Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-OMS"
+ },
+ {
+  "id": "RUS-oryol-oblast",
+  "name": "Oryol Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-ORL"
+ },
+ {
+  "id": "RUS-saint-petersburg",
+  "name": "Saint Petersburg",
+  "iso3": "RUS",
+  "isoCode": "RU-SPE"
+ },
+ {
+  "id": "RUS-sakhalin-oblast",
+  "name": "Sakhalin Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-SAK"
+ },
+ {
+  "id": "RUS-sakha-republic",
+  "name": "Sakha Republic",
+  "iso3": "RUS",
+  "isoCode": "RU-SA"
+ },
+ {
+  "id": "RUS-saratov-oblast",
+  "name": "Saratov Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-SAR"
+ },
+ {
+  "id": "RUS-smolensk-oblast",
+  "name": "Smolensk Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-SMO"
+ },
+ {
+  "id": "RUS-stavropol-krai",
+  "name": "Stavropol Krai",
+  "iso3": "RUS",
+  "isoCode": "RU-STA"
+ },
+ {
+  "id": "RUS-tuva",
+  "name": "Tuva",
+  "iso3": "RUS",
+  "isoCode": "RU-TY"
+ },
+ {
+  "id": "RUS-tver-oblast",
+  "name": "Tver Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-TVE"
+ },
+ {
+  "id": "RUS-udmurtia",
+  "name": "Udmurtia",
+  "iso3": "RUS",
+  "isoCode": "RU-UD"
+ },
+ {
+  "id": "RUS-kaluga-oblast",
+  "name": "Kaluga Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-KLU"
+ },
+ {
+  "id": "RUS-lipetsk-oblast",
+  "name": "Lipetsk Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-LIP"
+ },
+ {
+  "id": "RUS-magadan-oblast",
+  "name": "Magadan Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-MAG"
+ },
+ {
+  "id": "RUS-ulyanovsk-oblast",
+  "name": "Ulyanovsk Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-ULY"
+ },
+ {
+  "id": "RUS-vladimir-oblast",
+  "name": "Vladimir Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-VLA"
+ },
+ {
+  "id": "RUS-vologda-oblast",
+  "name": "Vologda Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-VLG"
+ },
+ {
+  "id": "RUS-yaroslavl-oblast",
+  "name": "Yaroslavl Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-YAR"
+ },
+ {
+  "id": "RUS-voronezh-oblast",
+  "name": "Voronezh Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-VOR"
+ },
+ {
+  "id": "RUS-yamalo-nenets-autonomous-okrug",
+  "name": "Yamalo-Nenets Autonomous Okrug",
+  "iso3": "RUS",
+  "isoCode": "RU-YAN"
+ },
+ {
+  "id": "RUS-altai-republic",
+  "name": "Altai Republic",
+  "iso3": "RUS",
+  "isoCode": "RU-AL"
+ },
+ {
+  "id": "RUS-ivanovo-oblast",
+  "name": "Ivanovo Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-IVA"
+ },
+ {
+  "id": "RUS-jewish-autonomous-oblast",
+  "name": "Jewish Autonomous Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-YEV"
+ },
+ {
+  "id": "RUS-kalmykia",
+  "name": "Kalmykia",
+  "iso3": "RUS",
+  "isoCode": "RU-KL"
+ },
+ {
+  "id": "RUS-kamchatka-krai",
+  "name": "Kamchatka Krai",
+  "iso3": "RUS",
+  "isoCode": "RU-KAM"
+ },
+ {
+  "id": "RUS-karachay-cherkessia",
+  "name": "Karachay-Cherkessia",
+  "iso3": "RUS",
+  "isoCode": "RU-KC"
+ },
+ {
+  "id": "RUS-kemerovo-oblast",
+  "name": "Kemerovo Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-KEM"
+ },
+ {
+  "id": "RUS-khabarovsk-krai",
+  "name": "Khabarovsk Krai",
+  "iso3": "RUS",
+  "isoCode": "RU-KHA"
+ },
+ {
+  "id": "RUS-chukotka-autonomous-okrug",
+  "name": "Chukotka Autonomous Okrug",
+  "iso3": "RUS",
+  "isoCode": "RU-CHU"
+ },
+ {
+  "id": "RUS-dagestan",
+  "name": "Dagestan",
+  "iso3": "RUS",
+  "isoCode": "RU-DA"
+ },
+ {
+  "id": "RUS-kaliningrad",
+  "name": "Kaliningrad",
+  "iso3": "RUS",
+  "isoCode": "RU-KGD"
+ },
+ {
+  "id": "RUS-orenburg-oblast",
+  "name": "Orenburg Oblast",
+  "iso3": "RUS",
+  "isoCode": "RU-ORE"
+ },
+ {
+  "id": "RUS-primorsky-krai",
+  "name": "Primorsky Krai",
+  "iso3": "RUS",
+  "isoCode": "RU-PRI"
+ },
+ {
+  "id": "RUS-bashkortostan",
+  "name": "Bashkortostan",
+  "iso3": "RUS",
+  "isoCode": "RU-BA"
+ },
+ {
+  "id": "IND-puducherry",
+  "name": "Puducherry",
+  "iso3": "IND",
+  "isoCode": "IN-PY"
+ },
+ {
+  "id": "IND-maharashtra",
+  "name": "Mahārāshtra",
+  "iso3": "IND",
+  "isoCode": "IN-MH"
+ },
+ {
+  "id": "IND-nagaland",
+  "name": "Nāgāland",
+  "iso3": "IND",
+  "isoCode": "IN-NL"
+ },
+ {
+  "id": "IND-lakshadweep",
+  "name": "Lakshadweep",
+  "iso3": "IND",
+  "isoCode": "IN-LD"
+ },
+ {
+  "id": "IND-uttar-pradesh",
+  "name": "Uttar Pradesh",
+  "iso3": "IND",
+  "isoCode": "IN-UP"
+ },
+ {
+  "id": "IND-tamil-nadu",
+  "name": "Tamil Nādu",
+  "iso3": "IND",
+  "isoCode": "IN-TN"
+ },
+ {
+  "id": "IND-chhattisgarh",
+  "name": "Chhattīsgarh",
+  "iso3": "IND",
+  "isoCode": "IN-CT"
+ },
+ {
+  "id": "IND-gujarat",
+  "name": "Gujarāt",
+  "iso3": "IND",
+  "isoCode": "IN-GJ"
+ },
+ {
+  "id": "IND-delhi",
+  "name": "Delhi",
+  "iso3": "IND",
+  "isoCode": "IN-DL"
+ },
+ {
+  "id": "IND-sikkim",
+  "name": "Sikkim",
+  "iso3": "IND",
+  "isoCode": "IN-SK"
+ },
+ {
+  "id": "IND-tripura",
+  "name": "Tripura",
+  "iso3": "IND",
+  "isoCode": "IN-TR"
+ },
+ {
+  "id": "IND-west-bengal",
+  "name": "West Bengal",
+  "iso3": "IND",
+  "isoCode": "IN-WB"
+ },
+ {
+  "id": "IND-odisha",
+  "name": "Odisha",
+  "iso3": "IND",
+  "isoCode": "IN-OR"
+ },
+ {
+  "id": "IND-bihar",
+  "name": "Bihār",
+  "iso3": "IND",
+  "isoCode": "IN-BR"
+ },
+ {
+  "id": "IND-ladakh",
+  "name": "Ladākh",
+  "iso3": "IND",
+  "isoCode": "IN-LA"
+ },
+ {
+  "id": "IND-rajasthan",
+  "name": "Rājasthān",
+  "iso3": "IND",
+  "isoCode": "IN-RJ"
+ },
+ {
+  "id": "IND-telangana",
+  "name": "Telangāna",
+  "iso3": "IND",
+  "isoCode": "IN-TG"
+ },
+ {
+  "id": "IND-andhra-pradesh",
+  "name": "Andhra Pradesh",
+  "iso3": "IND",
+  "isoCode": "IN-AP"
+ },
+ {
+  "id": "IND-mizoram",
+  "name": "Mizoram",
+  "iso3": "IND",
+  "isoCode": "IN-MZ"
+ },
+ {
+  "id": "IND-arunachal-pradesh",
+  "name": "Arunāchal Pradesh",
+  "iso3": "IND",
+  "isoCode": "IN-AR"
+ },
+ {
+  "id": "IND-meghalaya",
+  "name": "Meghālaya",
+  "iso3": "IND",
+  "isoCode": "IN-ML"
+ },
+ {
+  "id": "IND-jharkhand",
+  "name": "Jhārkhand",
+  "iso3": "IND",
+  "isoCode": "IN-JH"
+ },
+ {
+  "id": "IND-assam",
+  "name": "Assam",
+  "iso3": "IND",
+  "isoCode": "IN-AS"
+ },
+ {
+  "id": "IND-manipur",
+  "name": "Manipur",
+  "iso3": "IND",
+  "isoCode": "IN-MN"
+ },
+ {
+  "id": "IND-karnataka",
+  "name": "Karnātaka",
+  "iso3": "IND",
+  "isoCode": "IN-KA"
+ },
+ {
+  "id": "IND-uttarakhand",
+  "name": "Uttarākhand",
+  "iso3": "IND",
+  "isoCode": "IN-UT"
+ },
+ {
+  "id": "IND-dadra-and-nagar-haveli-and-daman-and-diu",
+  "name": "Dādra and Nagar Haveli and Damān and Diu",
+  "iso3": "IND",
+  "isoCode": "IN-DH"
+ },
+ {
+  "id": "IND-madhya-pradesh",
+  "name": "Madhya Pradesh",
+  "iso3": "IND",
+  "isoCode": "IN-MP"
+ },
+ {
+  "id": "IND-goa",
+  "name": "Goa",
+  "iso3": "IND",
+  "isoCode": "IN-GA"
+ },
+ {
+  "id": "IND-kerala",
+  "name": "Kerala",
+  "iso3": "IND",
+  "isoCode": "IN-KL"
+ },
+ {
+  "id": "IND-chandigarh",
+  "name": "Chandīgarh",
+  "iso3": "IND",
+  "isoCode": "IN-CH"
+ },
+ {
+  "id": "IND-andaman-and-nicobar-islands",
+  "name": "Andaman and Nicobar Islands",
+  "iso3": "IND",
+  "isoCode": "IN-AN"
+ },
+ {
+  "id": "IND-himachal-pradesh",
+  "name": "Himāchal Pradesh",
+  "iso3": "IND",
+  "isoCode": "IN-HP"
+ },
+ {
+  "id": "IND-jammu-and-kashmir",
+  "name": "Jammu and Kashmīr",
+  "iso3": "IND",
+  "isoCode": "IN-JK"
+ },
+ {
+  "id": "IND-punjab",
+  "name": "Punjab",
+  "iso3": "IND",
+  "isoCode": "IN-PB"
+ },
+ {
+  "id": "IND-haryana",
+  "name": "Haryāna",
+  "iso3": "IND",
+  "isoCode": "IN-HR"
+ },
+ {
+  "id": "CHN-hainan-province",
+  "name": "Hainan Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-taiwan-province",
+  "name": "Taiwan Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-guangxi-zhuang-autonomous-region",
+  "name": "Guangxi Zhuang Autonomous Region",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-fujian-province",
+  "name": "Fujian Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-yunnan-province",
+  "name": "Yunnan Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-guizhou-province",
+  "name": "Guizhou Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-jiangxi-province",
+  "name": "Jiangxi Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-hunan-province",
+  "name": "Hunan Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-zhejiang-province",
+  "name": "Zhejiang Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-shanghai-municipality",
+  "name": "Shanghai Municipality",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-chongqing-municipality",
+  "name": "Chongqing Municipality",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-hubei-province",
+  "name": "Hubei Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-sichuan-province",
+  "name": "Sichuan Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-anhui-province",
+  "name": "Anhui Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-jiangsu-province",
+  "name": "Jiangsu Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-henan-province",
+  "name": "Henan Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-tibet-autonomous-region",
+  "name": "Tibet Autonomous Region",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-shandong-province",
+  "name": "Shandong Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-qinghai-province",
+  "name": "Qinghai Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-ningxia-ningxia-hui-autonomous-region",
+  "name": "Ningxia Ningxia Hui Autonomous Region",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-shaanxi-province",
+  "name": "Shaanxi Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-tianjin-municipality",
+  "name": "Tianjin Municipality",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-shanxi-province",
+  "name": "Shanxi Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-beijing-municipality",
+  "name": "Beijing Municipality",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-gansu-province",
+  "name": "Gansu Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-hebei-province",
+  "name": "Hebei Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-liaoning-province",
+  "name": "Liaoning Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-jilin-province",
+  "name": "Jilin Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-xinjiang-uyghur-autonomous-region",
+  "name": "Xinjiang Uyghur Autonomous Region",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-inner-mongolia-autonomous-region",
+  "name": "Inner Mongolia Autonomous Region",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-heilongjiang-province",
+  "name": "Heilongjiang Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-macau-special-administrative-region",
+  "name": "Macau Special Administrative Region",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-hong-kong-special-administrative-region",
+  "name": "Hong Kong Special Administrative Region",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "CHN-guangzhou-province",
+  "name": "Guangzhou Province",
+  "iso3": "CHN",
+  "isoCode": null
+ },
+ {
+  "id": "ZAF-eastern-cape",
+  "name": "Eastern Cape",
+  "iso3": "ZAF",
+  "isoCode": null
+ },
+ {
+  "id": "ZAF-free-state",
+  "name": "Free State",
+  "iso3": "ZAF",
+  "isoCode": null
+ },
+ {
+  "id": "ZAF-gauteng",
+  "name": "Gauteng",
+  "iso3": "ZAF",
+  "isoCode": null
+ },
+ {
+  "id": "ZAF-kwazulu-natal",
+  "name": "KwaZulu-Natal",
+  "iso3": "ZAF",
+  "isoCode": null
+ },
+ {
+  "id": "ZAF-limpopo",
+  "name": "Limpopo",
+  "iso3": "ZAF",
+  "isoCode": null
+ },
+ {
+  "id": "ZAF-mpumalanga",
+  "name": "Mpumalanga",
+  "iso3": "ZAF",
+  "isoCode": null
+ },
+ {
+  "id": "ZAF-north-west",
+  "name": "North West",
+  "iso3": "ZAF",
+  "isoCode": null
+ },
+ {
+  "id": "ZAF-nothern-cape",
+  "name": "Nothern Cape",
+  "iso3": "ZAF",
+  "isoCode": null
+ },
+ {
+  "id": "ZAF-western-cape",
+  "name": "Western Cape",
+  "iso3": "ZAF",
+  "isoCode": null
+ },
+ {
+  "id": "EGY-north-sinai-governorate",
+  "name": "North Sinai Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-SIN"
+ },
+ {
+  "id": "EGY-south-sinai-governorate",
+  "name": "South Sinai Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-JS"
+ },
+ {
+  "id": "EGY-aswan-governorate",
+  "name": "Aswan Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-ASN"
+ },
+ {
+  "id": "EGY-red-sea-governorate",
+  "name": "Red Sea Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-BA"
+ },
+ {
+  "id": "EGY-matrouh-governorate",
+  "name": "Matrouh Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-MT"
+ },
+ {
+  "id": "EGY-new-valley-governorate",
+  "name": "New Valley Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-WAD"
+ },
+ {
+  "id": "EGY-alexandria-governorate",
+  "name": "Alexandria Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-ALX"
+ },
+ {
+  "id": "EGY-ismailia-governorate",
+  "name": "Ismailia Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-IS"
+ },
+ {
+  "id": "EGY-suez-governorate",
+  "name": "Suez Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-SUZ"
+ },
+ {
+  "id": "EGY-gharbiyya-governorate",
+  "name": "Gharbiyya Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-GH"
+ },
+ {
+  "id": "EGY-faiyum-governorate",
+  "name": "Faiyum Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-FYM"
+ },
+ {
+  "id": "EGY-beni-suef-governorate",
+  "name": "Beni Suef Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-BNS"
+ },
+ {
+  "id": "EGY-minya-governate",
+  "name": "Minya Governate",
+  "iso3": "EGY",
+  "isoCode": "EG-MN"
+ },
+ {
+  "id": "EGY-asyut-governorate",
+  "name": "Asyut Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-AST"
+ },
+ {
+  "id": "EGY-sohag-governorate",
+  "name": "Sohag Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-SHG"
+ },
+ {
+  "id": "EGY-qena-governorate",
+  "name": "Qena Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-KN"
+ },
+ {
+  "id": "EGY-luxor-governate",
+  "name": "Luxor Governate",
+  "iso3": "EGY",
+  "isoCode": "EG-LX"
+ },
+ {
+  "id": "EGY-giza-governorate",
+  "name": "Giza Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-GZ"
+ },
+ {
+  "id": "EGY-monufia-governorate",
+  "name": "Monufia Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-MNF"
+ },
+ {
+  "id": "EGY-beheira-governorate",
+  "name": "Beheira Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-BH"
+ },
+ {
+  "id": "EGY-cairo-governorate",
+  "name": "Cairo Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-C"
+ },
+ {
+  "id": "EGY-qalyubia-governorate",
+  "name": "Qalyubia Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-KB"
+ },
+ {
+  "id": "EGY-dakahlia-governorate",
+  "name": "Dakahlia Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-DK"
+ },
+ {
+  "id": "EGY-damietta-governorate",
+  "name": "Damietta Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-DT"
+ },
+ {
+  "id": "EGY-kafr-el-sheikh-governorate",
+  "name": "Kafr el-Sheikh Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-KFS"
+ },
+ {
+  "id": "EGY-port-said-governorate",
+  "name": "Port Said Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-PTS"
+ },
+ {
+  "id": "EGY-al-sharqia-governorate",
+  "name": "Al Sharqia Governorate",
+  "iso3": "EGY",
+  "isoCode": "EG-SHR"
+ },
+ {
+  "id": "ETH-addis-ababa",
+  "name": "Addis Ababa",
+  "iso3": "ETH",
+  "isoCode": "ET-AA"
+ },
+ {
+  "id": "ETH-afar",
+  "name": "Afar",
+  "iso3": "ETH",
+  "isoCode": "ET-AF"
+ },
+ {
+  "id": "ETH-amhara",
+  "name": "Amhara",
+  "iso3": "ETH",
+  "isoCode": "ET-AM"
+ },
+ {
+  "id": "ETH-beneshangul-gumu",
+  "name": "Beneshangul Gumu",
+  "iso3": "ETH",
+  "isoCode": "ET-BE"
+ },
+ {
+  "id": "ETH-dire-dawa",
+  "name": "Dire Dawa",
+  "iso3": "ETH",
+  "isoCode": "ET-DD"
+ },
+ {
+  "id": "ETH-gambela",
+  "name": "Gambela",
+  "iso3": "ETH",
+  "isoCode": "ET-GA"
+ },
+ {
+  "id": "ETH-hareri",
+  "name": "Hareri",
+  "iso3": "ETH",
+  "isoCode": "ET-HA"
+ },
+ {
+  "id": "ETH-oromia",
+  "name": "Oromia",
+  "iso3": "ETH",
+  "isoCode": "ET-OR"
+ },
+ {
+  "id": "ETH-snnpr",
+  "name": "SNNPR",
+  "iso3": "ETH",
+  "isoCode": "ET-SN"
+ },
+ {
+  "id": "ETH-somali",
+  "name": "Somali",
+  "iso3": "ETH",
+  "isoCode": "ET-SO"
+ },
+ {
+  "id": "ETH-tigray",
+  "name": "Tigray",
+  "iso3": "ETH",
+  "isoCode": "ET-TI"
+ },
+ {
+  "id": "IRN-mazandaran",
+  "name": "Mazandaran",
+  "iso3": "IRN",
+  "isoCode": "IR-21"
+ },
+ {
+  "id": "IRN-north-khorasan",
+  "name": "North Khorasan",
+  "iso3": "IRN",
+  "isoCode": "IR-31"
+ },
+ {
+  "id": "IRN-kerman",
+  "name": "Kerman",
+  "iso3": "IRN",
+  "isoCode": "IR-15"
+ },
+ {
+  "id": "IRN-ilam",
+  "name": "Ilam",
+  "iso3": "IRN",
+  "isoCode": "IR-05"
+ },
+ {
+  "id": "IRN-lorestan",
+  "name": "Lorestan",
+  "iso3": "IRN",
+  "isoCode": "IR-20"
+ },
+ {
+  "id": "IRN-markazi",
+  "name": "Markazi",
+  "iso3": "IRN",
+  "isoCode": "IR-22"
+ },
+ {
+  "id": "IRN-chaharmahal-and-bakhtiari",
+  "name": "Chaharmahal and Bakhtiari",
+  "iso3": "IRN",
+  "isoCode": "IR-08"
+ },
+ {
+  "id": "IRN-kermanshah",
+  "name": "Kermanshah",
+  "iso3": "IRN",
+  "isoCode": "IR-17"
+ },
+ {
+  "id": "IRN-hamadan",
+  "name": "Hamadan",
+  "iso3": "IRN",
+  "isoCode": "IR-24"
+ },
+ {
+  "id": "IRN-qazvin",
+  "name": "Qazvin",
+  "iso3": "IRN",
+  "isoCode": "IR-28"
+ },
+ {
+  "id": "IRN-gilan",
+  "name": "Gilan",
+  "iso3": "IRN",
+  "isoCode": "IR-19"
+ },
+ {
+  "id": "IRN-zanjan",
+  "name": "Zanjan",
+  "iso3": "IRN",
+  "isoCode": "IR-11"
+ },
+ {
+  "id": "IRN-semnan",
+  "name": "Semnan",
+  "iso3": "IRN",
+  "isoCode": "IR-12"
+ },
+ {
+  "id": "IRN-isfahan",
+  "name": "Isfahan",
+  "iso3": "IRN",
+  "isoCode": "IR-04"
+ },
+ {
+  "id": "IRN-kohgiluyeh-and-boyer-ahmad",
+  "name": "Kohgiluyeh and Boyer-Ahmad",
+  "iso3": "IRN",
+  "isoCode": "IR-18"
+ },
+ {
+  "id": "IRN-kurdistan",
+  "name": "Kurdistan",
+  "iso3": "IRN",
+  "isoCode": "IR-16"
+ },
+ {
+  "id": "IRN-west-azerbaijan",
+  "name": "West Azerbaijan",
+  "iso3": "IRN",
+  "isoCode": "IR-02"
+ },
+ {
+  "id": "IRN-fars",
+  "name": "Fars",
+  "iso3": "IRN",
+  "isoCode": "IR-14"
+ },
+ {
+  "id": "IRN-bushehr",
+  "name": "Bushehr",
+  "iso3": "IRN",
+  "isoCode": "IR-06"
+ },
+ {
+  "id": "IRN-ardabil",
+  "name": "Ardabil",
+  "iso3": "IRN",
+  "isoCode": "IR-03"
+ },
+ {
+  "id": "IRN-golestan",
+  "name": "Golestan",
+  "iso3": "IRN",
+  "isoCode": "IR-27"
+ },
+ {
+  "id": "IRN-razavi-khorasan",
+  "name": "Razavi Khorasan",
+  "iso3": "IRN",
+  "isoCode": "IR-30"
+ },
+ {
+  "id": "IRN-south-khorasan",
+  "name": "South Khorasan",
+  "iso3": "IRN",
+  "isoCode": "IR-29"
+ },
+ {
+  "id": "IRN-sistan-and-baluchestan",
+  "name": "Sistan and Baluchestan",
+  "iso3": "IRN",
+  "isoCode": "IR-13"
+ },
+ {
+  "id": "IRN-qom",
+  "name": "Qom",
+  "iso3": "IRN",
+  "isoCode": "IR-26"
+ },
+ {
+  "id": "IRN-alborz",
+  "name": "Alborz",
+  "iso3": "IRN",
+  "isoCode": "IR-09"
+ },
+ {
+  "id": "IRN-east-azerbaijan",
+  "name": "East Azerbaijan",
+  "iso3": "IRN",
+  "isoCode": "IR-01"
+ },
+ {
+  "id": "IRN-yazd",
+  "name": "Yazd",
+  "iso3": "IRN",
+  "isoCode": "IR-25"
+ },
+ {
+  "id": "IRN-hormozgan",
+  "name": "Hormozgan",
+  "iso3": "IRN",
+  "isoCode": "IR-23"
+ },
+ {
+  "id": "IRN-khuzestan",
+  "name": "Khuzestan",
+  "iso3": "IRN",
+  "isoCode": "IR-10"
+ },
+ {
+  "id": "IRN-tehran",
+  "name": "Tehran",
+  "iso3": "IRN",
+  "isoCode": "IR-07"
+ },
+ {
+  "id": "ARE-abu-dhabi",
+  "name": "Abu Dhabi",
+  "iso3": "ARE",
+  "isoCode": "AE-AZ"
+ },
+ {
+  "id": "ARE-ajman",
+  "name": "Ajman",
+  "iso3": "ARE",
+  "isoCode": "AE-AJ"
+ },
+ {
+  "id": "ARE-dubai",
+  "name": "Dubai",
+  "iso3": "ARE",
+  "isoCode": "AE-DU"
+ },
+ {
+  "id": "ARE-fujairah",
+  "name": "Fujairah",
+  "iso3": "ARE",
+  "isoCode": "AE-FU"
+ },
+ {
+  "id": "ARE-ras-al-khaimah",
+  "name": "Ras al-Khaimah",
+  "iso3": "ARE",
+  "isoCode": "AE-RK"
+ },
+ {
+  "id": "ARE-sharjah",
+  "name": "Sharjah",
+  "iso3": "ARE",
+  "isoCode": "AE-SH"
+ },
+ {
+  "id": "ARE-umm-al-quwain",
+  "name": "Umm al-Quwain",
+  "iso3": "ARE",
+  "isoCode": "AE-UQ"
+ },
+ {
+  "id": "IDN-bali",
+  "name": "Bali",
+  "iso3": "IDN",
+  "isoCode": "ID-BA"
+ },
+ {
+  "id": "IDN-west-nusa-tenggara",
+  "name": "West Nusa Tenggara",
+  "iso3": "IDN",
+  "isoCode": "ID-NB"
+ },
+ {
+  "id": "IDN-banten",
+  "name": "Banten",
+  "iso3": "IDN",
+  "isoCode": "ID-BT"
+ },
+ {
+  "id": "IDN-central-java",
+  "name": "Central Java",
+  "iso3": "IDN",
+  "isoCode": "ID-JT"
+ },
+ {
+  "id": "IDN-west-java",
+  "name": "West Java",
+  "iso3": "IDN",
+  "isoCode": "ID-JB"
+ },
+ {
+  "id": "IDN-central-kalimantan",
+  "name": "Central Kalimantan",
+  "iso3": "IDN",
+  "isoCode": "ID-KT"
+ },
+ {
+  "id": "IDN-south-kalimantan",
+  "name": "South Kalimantan",
+  "iso3": "IDN",
+  "isoCode": "ID-KS"
+ },
+ {
+  "id": "IDN-west-kalimantan",
+  "name": "West Kalimantan",
+  "iso3": "IDN",
+  "isoCode": "ID-KB"
+ },
+ {
+  "id": "IDN-central-sulawesi",
+  "name": "Central Sulawesi",
+  "iso3": "IDN",
+  "isoCode": "ID-ST"
+ },
+ {
+  "id": "IDN-gorontalo",
+  "name": "Gorontalo",
+  "iso3": "IDN",
+  "isoCode": "ID-GO"
+ },
+ {
+  "id": "IDN-north-sulawesi",
+  "name": "North Sulawesi",
+  "iso3": "IDN",
+  "isoCode": "ID-SA"
+ },
+ {
+  "id": "IDN-south-sulawesi",
+  "name": "South Sulawesi",
+  "iso3": "IDN",
+  "isoCode": "ID-SN"
+ },
+ {
+  "id": "IDN-southeast-sulawesi",
+  "name": "Southeast Sulawesi",
+  "iso3": "IDN",
+  "isoCode": "ID-SG"
+ },
+ {
+  "id": "IDN-west-sulawesi",
+  "name": "West Sulawesi",
+  "iso3": "IDN",
+  "isoCode": "ID-SR"
+ },
+ {
+  "id": "IDN-aceh",
+  "name": "Aceh",
+  "iso3": "IDN",
+  "isoCode": "ID-AC"
+ },
+ {
+  "id": "IDN-bengkulu",
+  "name": "Bengkulu",
+  "iso3": "IDN",
+  "isoCode": "ID-BE"
+ },
+ {
+  "id": "IDN-jambi",
+  "name": "Jambi",
+  "iso3": "IDN",
+  "isoCode": "ID-JA"
+ },
+ {
+  "id": "IDN-lampung",
+  "name": "Lampung",
+  "iso3": "IDN",
+  "isoCode": "ID-LA"
+ },
+ {
+  "id": "IDN-riau",
+  "name": "Riau",
+  "iso3": "IDN",
+  "isoCode": "ID-RI"
+ },
+ {
+  "id": "IDN-west-sumatra",
+  "name": "West Sumatra",
+  "iso3": "IDN",
+  "isoCode": "ID-SB"
+ },
+ {
+  "id": "IDN-south-sumatra",
+  "name": "South Sumatra",
+  "iso3": "IDN",
+  "isoCode": "ID-SS"
+ },
+ {
+  "id": "IDN-north-sumatra",
+  "name": "North Sumatra",
+  "iso3": "IDN",
+  "isoCode": "ID-SU"
+ },
+ {
+  "id": "IDN-east-nusa-tenggara",
+  "name": "East Nusa Tenggara",
+  "iso3": "IDN",
+  "isoCode": "ID-NT"
+ },
+ {
+  "id": "IDN-maluku",
+  "name": "Maluku",
+  "iso3": "IDN",
+  "isoCode": "ID-MA"
+ },
+ {
+  "id": "IDN-north-maluku",
+  "name": "North Maluku",
+  "iso3": "IDN",
+  "isoCode": "ID-MU"
+ },
+ {
+  "id": "IDN-east-java",
+  "name": "East Java",
+  "iso3": "IDN",
+  "isoCode": "ID-JI"
+ },
+ {
+  "id": "IDN-bangka-belitung-islands",
+  "name": "Bangka-Belitung Islands",
+  "iso3": "IDN",
+  "isoCode": "ID-BB"
+ },
+ {
+  "id": "IDN-riau-islands",
+  "name": "Riau Islands",
+  "iso3": "IDN",
+  "isoCode": "ID-KR"
+ },
+ {
+  "id": "IDN-papua",
+  "name": "Papua",
+  "iso3": "IDN",
+  "isoCode": "ID-PA"
+ },
+ {
+  "id": "IDN-west-papua",
+  "name": "West Papua",
+  "iso3": "IDN",
+  "isoCode": "ID-PB"
+ },
+ {
+  "id": "IDN-east-kalimantan",
+  "name": "East Kalimantan",
+  "iso3": "IDN",
+  "isoCode": "ID-KI"
+ },
+ {
+  "id": "IDN-north-kalimantan",
+  "name": "North Kalimantan",
+  "iso3": "IDN",
+  "isoCode": "ID-KU"
+ },
+ {
+  "id": "IDN-special-region-of-yogyakarta",
+  "name": "Special Region of Yogyakarta",
+  "iso3": "IDN",
+  "isoCode": "ID-YO"
+ },
+ {
+  "id": "IDN-jakarta-special-capital-region",
+  "name": "Jakarta Special Capital Region",
+  "iso3": "IDN",
+  "isoCode": "ID-JK"
+ }
+]

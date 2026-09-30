@@ -1,0 +1,32 @@
+// The 10 BRICS member states covered by the platform.
+export const BRICS = [
+  { iso3: 'BRA', iso2: 'BR', name: 'Brazil', joined: 2009, languages: ['pt'] },
+  { iso3: 'RUS', iso2: 'RU', name: 'Russia', joined: 2009, languages: ['ru'] },
+  { iso3: 'IND', iso2: 'IN', name: 'India', joined: 2009, languages: ['hi', 'en', 'bn', 'te', 'mr', 'ta'] },
+  { iso3: 'CHN', iso2: 'CN', name: 'China', joined: 2009, languages: ['zh'] },
+  { iso3: 'ZAF', iso2: 'ZA', name: 'South Africa', joined: 2010, languages: ['zu', 'xh', 'af', 'en'] },
+  { iso3: 'EGY', iso2: 'EG', name: 'Egypt', joined: 2024, languages: ['ar'] },
+  { iso3: 'ETH', iso2: 'ET', name: 'Ethiopia', joined: 2024, languages: ['am', 'om'] },
+  { iso3: 'IRN', iso2: 'IR', name: 'Iran', joined: 2024, languages: ['fa'] },
+  { iso3: 'ARE', iso2: 'AE', name: 'United Arab Emirates', joined: 2024, languages: ['ar', 'en'] },
+  { iso3: 'IDN', iso2: 'ID', name: 'Indonesia', joined: 2025, languages: ['id'] },
+];
+
+// World Bank WDI indicators used for the infrastructure-gap and demographic layers.
+export const INDICATORS = {
+  'SP.POP.TOTL': { key: 'population', label: 'Population', unit: 'people' },
+  'SP.URB.TOTL.IN.ZS': { key: 'urban_pct', label: 'Urban population', unit: '%' },
+  'NY.GDP.PCAP.CD': { key: 'gdp_pc', label: 'GDP per capita', unit: 'US$' },
+  'SI.POV.DDAY': { key: 'poverty_pct', label: 'Extreme poverty ($2.15/day)', unit: '%' },
+  'EG.ELC.ACCS.ZS': { key: 'electricity_pct', label: 'Access to electricity', unit: '%' },
+  'SH.H2O.BASW.ZS': { key: 'water_pct', label: 'Basic drinking water', unit: '%' },
+  'SH.STA.BASS.ZS': { key: 'sanitation_pct', label: 'Basic sanitation', unit: '%' },
+  'IT.NET.USER.ZS': { key: 'internet_pct', label: 'Internet users', unit: '%' },
+  'SH.MED.BEDS.ZS': { key: 'hospital_beds', label: 'Hospital beds', unit: 'per 1,000' },
+  'SE.ADT.LITR.ZS': { key: 'literacy_pct', label: 'Adult literacy', unit: '%' },
+  'NE.GDI.FTOT.ZS': { key: 'gfcf_pct_gdp', label: 'Gross fixed capital formation', unit: '% of GDP' },
+  'IE.PPI.TRAN.CD': { key: 'ppi_transport', label: 'PPI investment in transport', unit: 'US$' },
+  'IE.PPI.ENGY.CD': { key: 'ppi_energy', label: 'PPI investment in energy', unit: 'US$' },
+  'IE.PPI.WATR.CD': { key: 'ppi_water', label: 'PPI investment in water & sanitation', unit: 'US$' },
+  'IE.PPI.ICTI.CD': { key: 'ppi_ict', label: 'PPI investment in ICT', unit: 'US$' },
+};
