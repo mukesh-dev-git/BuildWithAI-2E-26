@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { useApi } from '../api';
 import { useDashboard } from '../DashboardContext';
@@ -34,11 +34,14 @@ export default function Recommendations() {
         title="Recommended development priorities"
         subtitle={state.data ? `${fmtInt(state.data.total)} region × sector candidates` : ' '}
         actions={(
+          <>
+          <Link className="btn" to="/explorer">Browse all records</Link>
           <div className="seg">
             {[['', 'All'], ['citizen-demand', 'Citizen demand'], ['infrastructure-need', 'Indicator need']].map(([v, l]) => (
               <button key={v} className={basis === v ? 'on' : ''} onClick={() => setBasis(v)}>{l}</button>
             ))}
           </div>
+          </>
         )}
         flush
       >

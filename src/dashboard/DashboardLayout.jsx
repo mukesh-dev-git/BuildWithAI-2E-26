@@ -1,26 +1,57 @@
 import { useState } from 'react';
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
 import {
-  LayoutDashboard, Map, Target, Table2, Globe2, Landmark, MessageSquarePlus, Database, Moon, Sun, Menu, X,
+  LayoutGrid, Map, ClipboardList, ChartColumn, Handshake, Database, MessageSquarePlus, Moon, Sun, Menu, X,
+  Globe2, Layers, Calendar, ChevronDown,
 } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 import { useDashboard } from './DashboardContext';
-import { FLAGS, fmtMonth } from './format';
+import { fmtMonth } from './format';
 import './dashboard.css';
 
 export const NAV = [
-  { to: '/', label: 'Overview', icon: LayoutDashboard, end: true },
+  { to: '/', label: 'Overview', icon: LayoutGrid, end: true, title: 'BRICS Executive Overview', subtitle: 'Shared development priorities, hotspots and cooperation opportunities across BRICS members' },
   { to: '/map', label: 'Demand Map', icon: Map },
-  { to: '/recommendations', label: 'Recommendations', icon: Target },
-  { to: '/explorer', label: 'Request Explorer', icon: Table2 },
-  { to: '/countries', label: 'Country Compare', icon: Globe2 },
-  { to: '/investment', label: 'Investment Alignment', icon: Landmark },
+  { to: '/recommendations', label: 'Recommendations', icon: ClipboardList },
+  { to: '/countries', label: 'Country Insights', icon: ChartColumn },
+  { to: '/cooperation', label: 'Cooperation', icon: Handshake },
+  { to: '/investment', label: 'Investment Alignment', icon: Database },
   { to: '/intake', label: 'Citizen Intake', icon: MessageSquarePlus },
   { to: '/sources', label: 'Data Sources', icon: Database },
 ];
 
+// Pages reachable by link but not listed in the sidebar
+const EXTRA_TITLES = { '/explorer': 'Request Explorer' };
+
 // Pages where the time window filter has no effect
-const NO_WINDOW = ['/countries', '/investment', '/sources', '/intake', '/explorer'];
+const NO_WINDOW = ['/countries', '/investment', '/sources', '/intake', '/explorer', '/cooperation'];
+
+function FilterSelect({ icon: Icon, value, onChange, label, children }) {
+  return (
+    <label className="fselect">
+      <Icon size={17} strokeWidth={1.8} className="fselect-icon" />
+      <select value={value} onChange={onChange} aria-label={label}>{children}</select>
+      <ChevronDown size={16} className="fselect-caret" />
+    </label>
+  );
+}
+
+// Decorative dotted globe for the sidebar foot
+function DotGlobe() {
+  const dots = [];
+  for (let lat = -80; lat <= 80; lat += 10) {
+    const r = Math.cos((lat * Math.PI) / 180);
+    const n = Math.max(4, Math.round(36 * r));
+    for (let i = 0; i < n; i++) {
+      const lon = (i / n) * 2 * Math.PI;
+      const x = Math.sin(lon) * r;
+      const z = Math.cos(lon) * r;
+      if (z < 0) continue;
+      dots.push(<circle key={`${lat}-${i}`} cx={100 + x * 95} cy={100 - Math.sin((lat * Math.PI) / 180) * 95} r={0.9 + z * 0.9} />);
+    }
+  }
+  return <svg className="dot-globe" viewBox="0 0 200 200" aria-hidden="true">{dots}</svg>;
+}
 
 export default function DashboardLayout() {
   const { theme, toggleTheme } = useTheme();
@@ -28,6 +59,7 @@ export default function DashboardLayout() {
   const [navOpen, setNavOpen] = useState(false);
   const { pathname } = useLocation();
   const current = NAV.find((n) => (n.end ? pathname === n.to : pathname.startsWith(n.to)));
+  const title = current?.title || current?.label || EXTRA_TITLES[pathname];
 
   return (
     <div className="dash" data-theme={theme}>
@@ -44,43 +76,41 @@ export default function DashboardLayout() {
           {NAV.map(({ to, label, icon: Icon, end }) => (
             <NavLink key={to} to={to} end={end} onClick={() => setNavOpen(false)}
               className={({ isActive }) => `dash-nav-item ${isActive ? 'active' : ''}`}>
-              <Icon size={17} strokeWidth={1.8} />
+              <Icon size={20} strokeWidth={1.7} />
               <span>{label}</span>
             </NavLink>
           ))}
         </nav>
         <div className="dash-sidebar-foot">
-          {meta && (
-            <>
-              <div className="dash-foot-label">Citizen data through</div>
-              <div className="dash-foot-value">{fmtMonth(meta.latestMonth)}</div>
-            </>
-          )}
+          <p className="dash-tagline">Better insights.<br />Stronger partnerships.<br />A more prosperous BRICS.</p>
+          {meta && <p className="dash-foot-label">Citizen data through {fmtMonth(meta.latestMonth)}</p>}
+          <DotGlobe />
         </div>
       </aside>
       {navOpen && <div className="dash-scrim" onClick={() => setNavOpen(false)} />}
 
       <div className="dash-main">
-        <header className="dash-topbar">
+        <header className={`dash-topbar ${current?.subtitle ? 'tall' : ''}`}>
           <button className="dash-icon-btn dash-nav-open" onClick={() => setNavOpen(true)} aria-label="Open menu"><Menu size={18} /></button>
-          <h1 className="dash-title">{current?.label}</h1>
+          <div className="dash-heading">
+            <h1 className="dash-title">{title}</h1>
+            {current?.subtitle && <p className="dash-subtitle">{current.subtitle}</p>}
+          </div>
           <div className="dash-filters">
-            <select value={country} onChange={(e) => setCountry(e.target.value)} aria-label="Country">
+            <FilterSelect icon={Globe2} label="Country" value={country} onChange={(e) => setCountry(e.target.value)}>
               <option value="ALL">All BRICS members</option>
-              {meta?.countries.map((c) => (
-                <option key={c.iso3} value={c.iso3}>{FLAGS[c.iso3]} {c.name}</option>
-              ))}
-            </select>
-            <select value={sector} onChange={(e) => setSector(e.target.value)} aria-label="Sector">
+              {meta?.countries.map((c) => <option key={c.iso3} value={c.iso3}>{c.name}</option>)}
+            </FilterSelect>
+            <FilterSelect icon={Layers} label="Sector" value={sector} onChange={(e) => setSector(e.target.value)}>
               <option value="all">All sectors</option>
               {meta && Object.entries(meta.sectors).filter(([, s]) => s.development).map(([id, s]) => (
                 <option key={id} value={id}>{s.label}</option>
               ))}
-            </select>
+            </FilterSelect>
             {!NO_WINDOW.includes(pathname) && (
-              <select value={months} onChange={(e) => setMonths(Number(e.target.value))} aria-label="Time window">
+              <FilterSelect icon={Calendar} label="Time window" value={months} onChange={(e) => setMonths(Number(e.target.value))}>
                 {[3, 6, 12, 24, 36].map((m) => <option key={m} value={m}>Last {m} months</option>)}
-              </select>
+              </FilterSelect>
             )}
             <button className="dash-icon-btn" onClick={toggleTheme} aria-label="Toggle theme">
               {theme === 'dark' ? <Sun size={17} /> : <Moon size={17} />}
@@ -89,9 +119,7 @@ export default function DashboardLayout() {
         </header>
         <main className="dash-content">
           {metaError ? (
-            <div className="dash-empty">
-              <strong>Data not loaded.</strong> {metaError.message}
-            </div>
+            <div className="dash-empty"><strong>Data not loaded.</strong> {metaError.message}</div>
           ) : (
             <Outlet />
           )}

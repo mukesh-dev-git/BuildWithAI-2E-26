@@ -2,7 +2,8 @@ import { ExternalLink } from 'lucide-react';
 import { useApi } from '../api';
 import { useDashboard } from '../DashboardContext';
 import { Async, Note, Panel } from '../components/ui';
-import { FLAGS, fmtInt } from '../format';
+import { fmtInt } from '../format';
+import Flag from '../components/Flag';
 
 export default function Sources() {
   const state = useApi('/sources');
@@ -47,7 +48,7 @@ export default function Sources() {
           <tbody>
             {meta?.countries.map((c) => (
               <tr key={c.iso3}>
-                <td className="nowrap">{FLAGS[c.iso3]} {c.name}</td>
+                <td className="nowrap"><Flag iso3={c.iso3} /> {c.name}</td>
                 <td>{c.feedback_source ? <span className="badge badge-demand">Integrated (Fala.BR)</span> : <span className="badge badge-need">Not openly published</span>}</td>
                 <td className="muted" style={{ fontSize: 12.5 }}>{GAP_NOTES[c.iso3]}</td>
               </tr>

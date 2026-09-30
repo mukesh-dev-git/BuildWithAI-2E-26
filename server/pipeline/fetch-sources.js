@@ -61,7 +61,16 @@ async function fetchBrazilReference() {
   console.log('Municipality coordinates downloaded');
 }
 
+// Natural Earth 1:110m land, used only as the grey backdrop of the hex map
+async function fetchLand() {
+  const res = await fetch('https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_land.geojson');
+  if (!res.ok) throw new Error(`land: ${res.status}`);
+  fs.writeFileSync(path.join(RAW, 'ne_110m_land.geojson'), await res.text());
+  console.log('Natural Earth land outline downloaded');
+}
+
 const only = process.argv[2];
 if (!only || only === 'worldbank') await fetchWorldBank();
 if (!only || only === 'boundaries') await fetchBoundaries();
 if (!only || only === 'brazil') await fetchBrazilReference();
+if (!only || only === 'land') await fetchLand();

@@ -1,6 +1,6 @@
 import { Loader2, TrendingDown, TrendingUp, Info } from 'lucide-react';
 import { useDashboard } from '../DashboardContext';
-import { FLAGS } from '../format';
+import Flag from './Flag';
 
 export function Panel({ title, subtitle, actions, children, className = '', flush = false }) {
   return (
@@ -51,7 +51,7 @@ export function SectorTag({ sector }) {
 
 export function CountryName({ iso3, name }) {
   const { meta } = useDashboard();
-  return <span className="nowrap">{FLAGS[iso3]} {name || meta?.countries.find((c) => c.iso3 === iso3)?.name || iso3}</span>;
+  return <span className="nowrap"><Flag iso3={iso3} /> {name || meta?.countries.find((c) => c.iso3 === iso3)?.name || iso3}</span>;
 }
 
 export function ScoreBar({ score }) {

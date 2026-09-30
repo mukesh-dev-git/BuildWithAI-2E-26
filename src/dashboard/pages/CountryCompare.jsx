@@ -3,7 +3,8 @@ import { CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, X
 import { useApi } from '../api';
 import { useDashboard } from '../DashboardContext';
 import { Async, Panel } from '../components/ui';
-import { FLAGS, fmtCompact, fmtInt } from '../format';
+import { fmtCompact, fmtInt } from '../format';
+import Flag from '../components/Flag';
 
 const COUNTRY_COLORS = {
   BRA: '#16a34a', RUS: '#2563eb', IND: '#f97316', CHN: '#dc2626', ZAF: '#ca8a04',
@@ -50,7 +51,7 @@ export default function CountryCompare() {
                 <div key={c.iso3} className={`country-card ${country === c.iso3 ? 'on' : ''}`}
                   onClick={() => setCountry(country === c.iso3 ? 'ALL' : c.iso3)}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
-                    <h3>{FLAGS[c.iso3]} {c.name}</h3>
+                    <h3><Flag iso3={c.iso3} /> {c.name}</h3>
                     <span className="muted" style={{ fontSize: 11.5 }}>since {c.joined}</span>
                   </div>
                   <div className="mini-metrics">
@@ -80,7 +81,7 @@ export default function CountryCompare() {
                 <tbody>
                   {rows.map((c) => (
                     <tr key={c.iso3} className={country === c.iso3 ? 'selected' : ''}>
-                      <td className="nowrap"><strong>{FLAGS[c.iso3]} {c.name}</strong></td>
+                      <td className="nowrap"><strong><Flag iso3={c.iso3} /> {c.name}</strong></td>
                       {gapSectors.map(([id]) => (
                         <td key={id} className="r" style={{ background: gapColor(c.gaps[id]) }}>
                           {c.gaps[id] === undefined ? <span className="muted">n/a</span> : c.gaps[id].toFixed(1)}

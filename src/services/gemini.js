@@ -582,3 +582,19 @@ Return ONLY JSON:
     return classifyByKeywords(text);
   }
 }
+
+/** Answers a policymaker question using only the supplied dashboard data. Returns null without a key. */
+export async function answerPolicyQuestion(question, context) {
+  const m = getModel();
+  if (!m) return null;
+  const prompt = `You are the analyst behind a BRICS development dashboard. Answer the policymaker's question in 2-4 plain sentences using ONLY the data below. Name countries and numbers. If the data doesn't cover it, say so.
+
+Scores are 0-100 need scores (higher = larger gap). Only Brazil publishes open record-level citizen requests; other members are scored on World Bank indicators.
+
+DATA:
+${JSON.stringify(context)}
+
+QUESTION: ${question}`;
+  const result = await m.generateContent(prompt);
+  return result.response.text().trim();
+}

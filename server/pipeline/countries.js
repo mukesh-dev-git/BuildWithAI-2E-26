@@ -29,4 +29,13 @@ export const INDICATORS = {
   'IE.PPI.ENGY.CD': { key: 'ppi_energy', label: 'PPI investment in energy', unit: 'US$' },
   'IE.PPI.WATR.CD': { key: 'ppi_water', label: 'PPI investment in water & sanitation', unit: 'US$' },
   'IE.PPI.ICTI.CD': { key: 'ppi_ict', label: 'PPI investment in ICT', unit: 'US$' },
+  'SH.DYN.MORT': { key: 'u5_mortality', label: 'Under-5 mortality', unit: 'per 1,000 live births' },
+  'SH.MED.PHYS.ZS': { key: 'physicians', label: 'Physicians', unit: 'per 1,000' },
+  'SH.XPD.CHEX.GD.ZS': { key: 'health_exp_gdp', label: 'Current health expenditure', unit: '% of GDP' },
+  'EG.FEC.RNEW.ZS': { key: 'renewable_pct', label: 'Renewable energy consumption', unit: '% of final energy' },
+  'SL.UEM.TOTL.ZS': { key: 'unemployment_pct', label: 'Unemployment', unit: '% of labour force' },
+  'EN.ATM.PM25.MC.M3': { key: 'pm25', label: 'PM2.5 air pollution, mean exposure', unit: 'µg/m³' },
+  'LP.LPI.INFR.XQ': { key: 'lpi_infra', label: 'Logistics performance: infrastructure quality', unit: '1–5' },
+  'SE.SEC.ENRR': { key: 'secondary_enrol', label: 'Secondary school enrolment (gross)', unit: '%' },
+  'SP.RUR.TOTL.ZS': { key: 'rural_pct', label: 'Rural population', unit: '%' },
 };

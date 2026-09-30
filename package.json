@@ -12,11 +12,13 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "data:fetch": "node server/pipeline/fetch-sources.js && node server/pipeline/build-geo.js",
-    "data:build": "node server/pipeline/build-db.js"
+    "data:build": "node server/pipeline/build-db.js",
+    "data:indicators": "node server/pipeline/fetch-sources.js worldbank && node server/pipeline/load-indicators.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "cors": "^2.8.6",
+    "country-flag-icons": "^1.6.20",
     "express": "^5.2.1",
     "firebase": "^12.19.0",
     "leaflet": "^1.9.4",

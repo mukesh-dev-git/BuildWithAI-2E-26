@@ -3,7 +3,8 @@ import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAx
 import { useApi } from '../api';
 import { useDashboard } from '../DashboardContext';
 import { Async, Note, Panel, SectorTag } from '../components/ui';
-import { FLAGS, fmtInt, fmtPct, fmtUsd } from '../format';
+import { fmtInt, fmtPct, fmtUsd } from '../format';
+import Flag from '../components/Flag';
 
 const PPI = [
   ['ppi_transport', 'Transport', '#f97316'],
@@ -38,7 +39,7 @@ function InvestmentView({ d, meta, country }) {
   const name = (iso3) => meta?.countries.find((c) => c.iso3 === iso3)?.name || iso3;
   const rows = ppiByCountry.rows
     .filter((r) => country === 'ALL' || r.iso3 === country)
-    .map((r) => ({ ...r, label: `${FLAGS[r.iso3]} ${name(r.iso3)}` }))
+    .map((r) => ({ ...r, label: `$<Flag iso3={r.iso3} /> ${name(r.iso3)}` }))
     .sort((a, b) => PPI.reduce((s, [k]) => s + (b[k] || 0), 0) - PPI.reduce((s, [k]) => s + (a[k] || 0), 0));
 
   const gfcfLatest = useMemo(() => {
@@ -53,7 +54,7 @@ function InvestmentView({ d, meta, country }) {
         subtitle="Share of citizen requests (last 5 years) vs share of private-participation infrastructure investment (last 5 years) across the four PPI sectors">
         {d.alignment.length === 0 ? <Note>No country with both open citizen data and PPI data.</Note> : d.alignment.map((c) => (
           <div key={c.iso3}>
-            <div className="section-label" style={{ marginTop: 0 }}>{FLAGS[c.iso3]} {c.name}</div>
+            <div className="section-label" style={{ marginTop: 0 }}><Flag iso3={c.iso3} /> {c.name}</div>
             <div className="table-wrap">
               <table className="dtable">
                 <thead><tr><th>Sector</th><th className="r">Citizen requests</th><th className="r">Demand share</th><th className="r">PPI investment</th><th className="r">Investment share</th><th className="r">Gap</th><th>Reading</th></tr></thead>
@@ -108,7 +109,7 @@ function InvestmentView({ d, meta, country }) {
             <tbody>
               {gfcfLatest.map((r) => (
                 <tr key={r.iso3} className={country === r.iso3 ? 'selected' : ''}>
-                  <td className="nowrap">{FLAGS[r.iso3]} {name(r.iso3)}</td>
+                  <td className="nowrap"><Flag iso3={r.iso3} /> {name(r.iso3)}</td>
                   <td style={{ width: '45%' }}><div className="bar-track"><div className="bar-fill" style={{ width: `${(r.value / gfcfLatest[0].value) * 100}%`, background: 'var(--d-accent)' }} /></div></td>
                   <td className="r">{r.value.toFixed(1)}%</td>
                   <td className="muted num" style={{ fontSize: 12 }}>{r.year}</td>

@@ -12,7 +12,7 @@ export function ThemeProvider({ children }) {
       const saved = localStorage.getItem('app_theme');
       if (saved === 'light' || saved === 'dark') return saved;
     } catch (e) {}
-    return 'dark'; // Default to dark mode for executive GovTech command center
+    return 'light'; // Light by default, matching the executive overview design
   });
 
   useEffect(() => {

@@ -3,7 +3,8 @@ import { Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from './context/ThemeContext';
 import { DashboardProvider } from './dashboard/DashboardContext';
 import DashboardLayout from './dashboard/DashboardLayout';
-import Overview from './dashboard/pages/Overview';
+import ExecutiveOverview from './dashboard/pages/ExecutiveOverview';
+import Cooperation from './dashboard/pages/Cooperation';
 import DemandMap from './dashboard/pages/DemandMap';
 import Recommendations from './dashboard/pages/Recommendations';
 import Explorer from './dashboard/pages/Explorer';
@@ -20,11 +21,12 @@ function App() {
     <ThemeProvider>
       <Routes>
         <Route element={<DashboardProvider><DashboardLayout /></DashboardProvider>}>
-          <Route index element={<Overview />} />
+          <Route index element={<ExecutiveOverview />} />
           <Route path="map" element={<DemandMap />} />
           <Route path="recommendations" element={<Recommendations />} />
           <Route path="explorer" element={<Explorer />} />
           <Route path="countries" element={<CountryCompare />} />
+          <Route path="cooperation" element={<Cooperation />} />
           <Route path="investment" element={<Investment />} />
           <Route path="intake" element={<Intake />} />
           <Route path="sources" element={<Sources />} />
