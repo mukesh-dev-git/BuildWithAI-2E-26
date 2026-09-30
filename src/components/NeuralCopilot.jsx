@@ -76,8 +76,13 @@ export default function NeuralCopilot() {
         setIsOpen(false);
       }
     };
+    const handleOpenEvent = () => setIsOpen(true);
     window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
+    window.addEventListener('open-neural-copilot', handleOpenEvent);
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+      window.removeEventListener('open-neural-copilot', handleOpenEvent);
+    };
   }, [isOpen]);
 
   useEffect(() => {

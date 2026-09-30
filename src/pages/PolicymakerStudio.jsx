@@ -280,35 +280,70 @@ export default function PolicymakerStudio({ initialTab }) {
           </div>
         </div>
 
-        {/* ── Summary Stats ──────────────── */}
+        {/* ── Summary Stats (Google Cloud / AWS Monitoring Style) ── */}
         <div className="stats-grid grid grid-4 gap-4 animate-fade-in-up stagger-1">
-          <div className="stat-card">
-            <div className="stat-icon" style={{ color: '#EF4444' }}>
-              <AlertTriangle size={22} />
+          <div className="stat-card stat-critical">
+            <div className="stat-top-row">
+              <span className="stat-label">Critical Priority Regions</span>
+              <span className="stat-badge stat-badge-red">High Alert</span>
             </div>
-            <div className="stat-value" style={{ color: '#EF4444' }}>{epiSummary.criticalDistricts}</div>
-            <div className="stat-label">Critical Priority Regions</div>
+            <div className="stat-main-row">
+              <span className="stat-value">{epiSummary.criticalDistricts}</span>
+              <div className="stat-icon" style={{ color: '#EF4444' }}>
+                <AlertTriangle size={20} />
+              </div>
+            </div>
+            <div className="stat-footer-text">
+              <span className="stat-trend negative">EPI &gt; 75</span> · Severe infrastructure distress
+            </div>
           </div>
-          <div className="stat-card">
-            <div className="stat-icon" style={{ color: '#3B82F6' }}>
-              <MapPin size={22} />
+
+          <div className="stat-card stat-info">
+            <div className="stat-top-row">
+              <span className="stat-label">Monitored Jurisdictions</span>
+              <span className="stat-badge stat-badge-blue">100% Ingest</span>
             </div>
-            <div className="stat-value" style={{ color: '#3B82F6' }}>{epiSummary.totalDistricts}</div>
-            <div className="stat-label">Monitored Jurisdictions</div>
+            <div className="stat-main-row">
+              <span className="stat-value">{epiSummary.totalDistricts}</span>
+              <div className="stat-icon" style={{ color: '#3B82F6' }}>
+                <MapPin size={20} />
+              </div>
+            </div>
+            <div className="stat-footer-text">
+              <span className="stat-trend neutral">Spatial Index</span> · 80+ Aspirational Districts
+            </div>
           </div>
-          <div className="stat-card">
-            <div className="stat-icon" style={{ color: '#F59E0B' }}>
-              <Users size={22} />
+
+          <div className="stat-card stat-warning">
+            <div className="stat-top-row">
+              <span className="stat-label">Aggregated Citizen Demands</span>
+              <span className="stat-badge stat-badge-amber">4 Omnichannel Feeds</span>
             </div>
-            <div className="stat-value" style={{ color: '#F59E0B' }}>{epiSummary.totalGrievances}</div>
-            <div className="stat-label">Aggregated Citizen Demands</div>
+            <div className="stat-main-row">
+              <span className="stat-value">{epiSummary.totalGrievances}</span>
+              <div className="stat-icon" style={{ color: '#F59E0B' }}>
+                <Users size={20} />
+              </div>
+            </div>
+            <div className="stat-footer-text">
+              <span className="stat-trend positive">+14.2%</span> · IVR, WhatsApp, SMS &amp; Web
+            </div>
           </div>
-          <div className="stat-card">
-            <div className="stat-icon" style={{ color: '#10B981' }}>
-              <TrendingUp size={22} />
+
+          <div className="stat-card stat-success">
+            <div className="stat-top-row">
+              <span className="stat-label">Average Priority Index</span>
+              <span className="stat-badge stat-badge-emerald">Benchmark</span>
             </div>
-            <div className="stat-value" style={{ color: '#10B981' }}>{epiSummary.avgScore}/100</div>
-            <div className="stat-label">Average EPI Priority Index</div>
+            <div className="stat-main-row">
+              <span className="stat-value">{epiSummary.avgScore}<span className="stat-unit">/100</span></span>
+              <div className="stat-icon" style={{ color: '#10B981' }}>
+                <TrendingUp size={20} />
+              </div>
+            </div>
+            <div className="stat-footer-text">
+              <span className="stat-trend positive">Stable</span> · National target &lt; 45.0
+            </div>
           </div>
         </div>
 
