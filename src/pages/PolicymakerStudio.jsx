@@ -4,13 +4,13 @@ import { useTheme } from '../context/ThemeContext';
 import { MapContainer, TileLayer, CircleMarker, Popup, useMap } from 'react-leaflet';
 import { 
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, 
-  PieChart, Pie, Cell, LineChart, Line, Legend, AreaChart, Area 
+  PieChart, Pie, Cell, Line, Legend, AreaChart, Area 
 } from 'recharts';
 import { 
-  TrendingUp, AlertTriangle, MapPin, Users, IndianRupee, Droplets, 
+  TrendingUp, AlertTriangle, MapPin, Users, IndianRupee, 
   ArrowUpRight, ArrowDownRight, Sparkles, Loader2, ChevronDown, ChevronUp, 
-  Shield, Zap, BookOpen, Heart, Home as HomeIcon, Truck, FileText, 
-  Cpu, Clock, Activity, Globe, Database, CheckCircle2, Layers, Sliders, RefreshCw,
+  Shield, Zap, FileText, 
+  Cpu, Globe, Database, CheckCircle2, RefreshCw,
   LayoutDashboard, BarChart3, Trophy, Calculator, Map
 } from 'lucide-react';
 import { calculateAllEPI, getEPISummary } from '../services/epi';
