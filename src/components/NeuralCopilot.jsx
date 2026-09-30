@@ -2,7 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { 
   Bot, Sparkles, Send, Mic, MicOff, Volume2, VolumeX, X, 
   Terminal, ShieldCheck, Database, Zap, ArrowRight, CornerDownLeft, 
-  Layers, RefreshCw, Key, Check, AlertCircle, RotateCcw
+  Layers, RefreshCw, Key, Check, AlertCircle, RotateCcw,
+  AlertTriangle, Calculator, Droplets, Eye, Coins
 } from 'lucide-react';
 import { 
   chatWithCopilot, 
@@ -16,27 +17,32 @@ import './NeuralCopilot.css';
 
 const JUDGE_PRESET_PROMPTS = [
   {
-    icon: '🚨',
+    icon: AlertTriangle,
+    iconColor: '#ef4444',
     label: 'Top Vulnerable Districts',
     prompt: 'Which are the top 3 most vulnerable Aspirational Districts right now according to the live SQLite DB?'
   },
   {
-    icon: '🧮',
+    icon: Calculator,
+    iconColor: '#38bdf8',
     label: 'EPI Mathematical Formula',
     prompt: 'Explain the exact Emergency Priority Index (EPI) formula and how weights prevent squeaky-wheel bias.'
   },
   {
-    icon: '💧',
+    icon: Droplets,
+    iconColor: '#0ea5e9',
     label: 'Barmer Water Crisis Profile',
     prompt: 'Give me the telemetry profile and crisis diagnostics for Barmer district in Rajasthan.'
   },
   {
-    icon: '👁️',
+    icon: Eye,
+    iconColor: '#a855f7',
     label: 'Gemini Multimodal Verification',
     prompt: 'How does Gemini 2.0 Flash Vision audit citizen grievance photos against AI hallucinations and fake claims?'
   },
   {
-    icon: '💰',
+    icon: Coins,
+    iconColor: '#f59e0b',
     label: 'Emergency ₹30 Cr Reallocation',
     prompt: 'Simulate an emergency reallocation of ₹30 Crore from Highway Beautification to Rural Drinking Water in Bundelkhand.'
   }
@@ -258,17 +264,20 @@ export default function NeuralCopilot() {
             <div className="copilot-presets-row">
               <span className="presets-label">Judge Presets:</span>
               <div className="presets-scroll">
-                {JUDGE_PRESET_PROMPTS.map((p, idx) => (
-                  <button 
-                    key={idx} 
-                    className="preset-chip"
-                    onClick={() => handleSend(p.prompt)}
-                    disabled={isThinking}
-                  >
-                    <span>{p.icon}</span>
-                    <span>{p.label}</span>
-                  </button>
-                ))}
+                {JUDGE_PRESET_PROMPTS.map((p, idx) => {
+                  const PresetIcon = p.icon;
+                  return (
+                    <button 
+                      key={idx} 
+                      className="preset-chip"
+                      onClick={() => handleSend(p.prompt)}
+                      disabled={isThinking}
+                    >
+                      <PresetIcon size={12} color={p.iconColor} />
+                      <span>{p.label}</span>
+                    </button>
+                  );
+                })}
               </div>
             </div>
 

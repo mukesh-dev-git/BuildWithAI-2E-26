@@ -9,7 +9,8 @@ import {
   TrendingUp, AlertTriangle, MapPin, Users, IndianRupee, Droplets, 
   ArrowUpRight, ArrowDownRight, Sparkles, Loader2, ChevronDown, ChevronUp, 
   Shield, Zap, BookOpen, Heart, Home as HomeIcon, Truck, FileText, 
-  Cpu, Clock, Activity, Globe, Database, CheckCircle2, Layers, Sliders, RefreshCw
+  Cpu, Clock, Activity, Globe, Database, CheckCircle2, Layers, Sliders, RefreshCw,
+  LayoutDashboard, BarChart3, Trophy, Calculator, Map
 } from 'lucide-react';
 import { calculateAllEPI, getEPISummary } from '../services/epi';
 import { generatePolicyRecommendation, simulateBudgetImpact } from '../services/gemini';
@@ -212,12 +213,12 @@ export default function PolicymakerStudio({ initialTab }) {
   };
 
   const tabs = [
-    { id: 'overview', label: '📊 Overview' },
-    { id: 'map', label: '🗺️ Hotspot Map' },
-    { id: 'rankings', label: '🏆 EPI Rankings & Projects' },
-    { id: 'ml_analytics', label: '🧠 AI/ML Dataset Lab' },
-    { id: 'simulator', label: '💰 Budget Simulator' },
-    { id: 'vertex', label: '⚡ Vertex AI Forecasting' },
+    { id: 'overview', label: 'Overview', icon: LayoutDashboard },
+    { id: 'map', label: 'Hotspot Map', icon: Map },
+    { id: 'rankings', label: 'EPI Rankings & Projects', icon: Trophy },
+    { id: 'ml_analytics', label: 'AI/ML Dataset Lab', icon: Cpu },
+    { id: 'simulator', label: 'Budget Simulator', icon: Calculator },
+    { id: 'vertex', label: 'Vertex AI Forecasting', icon: Zap },
   ];
 
   const activeDistrictFull = districtData.find(d => d.district === selectedDistrict?.district) || districtData[0];
@@ -233,7 +234,7 @@ export default function PolicymakerStudio({ initialTab }) {
               <Shield size={13} />
               <span>Digital Public Good · BRICS National Infrastructure Suite</span>
             </div>
-            <h2>📊 National Infrastructure Intelligence & Decision Studio</h2>
+            <h2><BarChart3 size={24} style={{ verticalAlign: 'middle', marginRight: '8px' }} /> National Infrastructure Intelligence & Decision Studio</h2>
             <p className="pm-subtitle">
               Fusing grassroots citizen feedback streams with national demographics, infrastructure indices, and CapEx budgets.
             </p>
@@ -301,15 +302,19 @@ export default function PolicymakerStudio({ initialTab }) {
 
         {/* ── Tab Navigation ─────────────── */}
         <div className="tab-nav pm-tabs animate-fade-in-up stagger-2">
-          {tabs.map(tab => (
-            <button
-              key={tab.id}
-              className={`tab-item ${activeTab === tab.id ? 'active' : ''}`}
-              onClick={() => setActiveTab(tab.id)}
-            >
-              {tab.label}
-            </button>
-          ))}
+          {tabs.map(tab => {
+            const TabIcon = tab.icon;
+            return (
+              <button
+                key={tab.id}
+                className={`tab-item ${activeTab === tab.id ? 'active' : ''}`}
+                onClick={() => setActiveTab(tab.id)}
+              >
+                <TabIcon size={15} />
+                <span>{tab.label}</span>
+              </button>
+            );
+          })}
         </div>
 
         {/* ── Tab Content ────────────────── */}

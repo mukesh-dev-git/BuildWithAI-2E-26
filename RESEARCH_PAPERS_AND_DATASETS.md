@@ -9,34 +9,59 @@ This compendium provides the verified peer-reviewed research papers (IEEE, ACM, 
 
 ---
 
-## 1. Multilingual Citizen Grievance Classification & Automated Routing
+## 1. Multilingual Citizen Grievance Classification, Multimodal Speech, & Automated Routing
 
-### 📄 Key Research Papers
-1. **"MuRIL: Multilingual Representations for Indian Languages"**
+### 📄 Peer-Reviewed Technical Implementation Papers
+1. **"A Zero-Shot LLM Framework for Multimodal Grievance Classification, Urgency Scoring, and Abuse Detection in Civic Feedback Systems"**
+   * **Authors:** Rajkumar, S., et al.
+   * **Journal / Venue:** *Scientific Reports* (Springer Nature), Dec 2025 / 2026. DOI: [`10.1038/s41598-025-32079-7`](https://doi.org/10.1038/s41598-025-32079-7).
+   * **Technical Implementation:**
+     * **Speech-to-Text Pipeline:** Connectionist Temporal Classification (CTC) acoustic model with Recurrent Neural Networks (RNN) transcribing citizen voice grievances across regional languages (Tamil and English).
+     * **NLP Classification Head:** MobileBERT lightweight transformer with zero-shot domain adaptation for routing to municipal departments.
+     * **Continuous Urgency Scoring Formula:**
+       $$p_i = \sigma\Big(w_a \cdot A_i + w_s \cdot S_i + w_v \cdot V_i\Big) \in [0, 1]$$
+       where $A_i$ represents affective arousal/sentiment extremity, $S_i$ represents semantic severity tokens, and $V_i$ represents infrastructure vulnerability weight.
+   * **Dataset Available with Paper:** 1,000 multimodal audio recordings and transcribed grievance texts with annotated urgency and department labels.
+     * **Direct Download:** [github.com/Rajkumar-0806/Petition](https://github.com/Rajkumar-0806/Petition)
+
+2. **"CivicComp: A Hindi–English Corpus for Automated Civic Complaint Categorization"**
+   * **Authors:** Tripathi, A., Sharma, R., & Gupta, P.
+   * **Conference / Venue:** *2026 IEEE International Conference on Wireless Communications, Signal Processing and Networking (WiSPNET)*, IEEE Xplore. IEEE Document ID: [`11489415`](https://ieeexplore.ieee.org/abstract/document/11489415/).
+   * **Technical Implementation:**
+     * Benchmarked IndicBERT, mBERT, and XLM-RoBERTa on code-mixed and transliterated Hinglish citizen complaints.
+     * Preprocessing pipeline with Indic n-gram subword tokenization handling informal phonetic spellings.
+     * Cross-entropy loss with focal re-weighting for class imbalance across civic domains.
+   * **Dataset Available with Paper:** **CivicComp Corpus** — 48,000 human-annotated civic complaints across 5 municipal categories (Water, Sanitation, Roads, Electricity, Encroachment).
+     * **Direct Access:** IEEE WiSPNET Artifact Repository / IEEE Xplore Dataset Link.
+
+3. **"Investigating Transformer-Based Models for Automated E-Governance in Indian Railways Using Twitter"**
+   * **Authors:** Agarwal, S., Chowdary, C. R., & Sikka, R.
+   * **Journal / Venue:** *Multimedia Tools and Applications* (Springer Nature), Vol. 83, pp. 24891–24915 (2024). DOI: [`10.1007/s11042-023-15331-y`](https://doi.org/10.1007/s11042-023-15331-y).
+   * **Technical Implementation:**
+     * Two-stage cascaded transformer architecture:
+       1. Binary Complaint Detection filter separating actionable grievances from spam/praises.
+       2. Multi-label transformer classification routing grievances to 7 distinct administrative departments.
+     * Evaluated mBERT, RoBERTa, and IndicBERT with layer-wise discriminative learning rates.
+   * **Dataset Available with Paper:** 28,706 citizen grievance tweets from 8 official Ministry handles, categorized by emergency level and operational department.
+     * **Direct Access:** Included in Springer Nature Supplementary Materials & Mendeley Data.
+
+4. **"Grahak-Nyay: Consumer Grievance Redressal Through Large Language Models"**
+   * **Authors:** Ganatra, S., et al. (IIT Bombay).
+   * **Conference / Venue:** *Proceedings of the 1st Workshop on Judicial and Legal Applications of NLP (JUST-NLP 2025)*, Association for Computational Linguistics (ACL), pp. 62–74, Jan 2025. DOI: [`10.18653/v1/2025.justnlp-main.7`](https://doi.org/10.18653/v1/2025.justnlp-main.7).
+   * **Technical Implementation:**
+     * Multi-stage Retrieval-Augmented Generation (RAG) framework for civic and consumer dispute resolution:
+       * Hybrid dense vector retrieval (`bge-large-en-v1.5`) + sparse BM25 keyword matching.
+       * Cross-Encoder reranking (`ms-marco-MiniLM-L-6-v2`) over past Indian Consumer Court and administrative precedents.
+       * LLM generation guided by the novel HAB (Helpfulness, Accuracy, Brevity) evaluation metric.
+   * **Dataset Available with Paper:** 4 curated evaluation datasets + 12,000+ Indian Consumer Dispute Redressal Commission judgments.
+     * **Direct Download:** [github.com/ShreyGanatra/GrahakNyay](https://github.com/ShreyGanatra/GrahakNyay.git)
+
+5. **"MuRIL: Multilingual Representations for Indian Languages"**
    * **Authors / Organization:** Khanuja, S., Bansal, D., Mehtani, S., et al. (Google Research India).
    * **Publication / Venue:** *arXiv:2103.10737* (Google Research).
-   * **Related E-Gov Paper:** Kumar, P., & Singh, R. (2023). *"Automated Grievance Classification in Public Administration Using Pre-trained Multilingual Language Models."* *Springer Lecture Notes in Computer Science (LNCS)* / *IEEE Access*, 11, 45210–45224.
-   * **Problem Solved:** Classifying unstructured citizen complaints across 17 Indian languages and English (including code-mixed and transliterated Hinglish/Tanglish).
-
-### 📐 Technical Architecture
-* **Encoder Backbone:** `google/muril-base-cased` (BERT-based masked language model pre-trained on monolingual Indic corpora and translated/transliterated parallel pairs).
-* **Classification Pipeline:**
-  $$\hat{y} = \text{Softmax}(W_c \cdot \mathbf{h}_{[\text{CLS}]} + b_c)$$
-  Extracts `[CLS]` token contextual embeddings, applies Dropout ($p=0.3$), followed by a dense feed-forward projection mapping to $K$ government departments (Public Works, Jal Board, Health, Electricity, Sanitation).
-* **Lightweight Alternative:** IndicBERT (AI4Bharat, 12M parameter ALBERT model for edge mobile/browser deployment).
-
-### 🗄️ Code & Dataset Repositories
-* **Model Checkpoints & Code:**
-  * Google Research MuRIL: [github.com/google-research/google-research/tree/master/muril](https://github.com/google-research/google-research/tree/master/muril)
-  * Hugging Face Hub: [huggingface.co/google/muril-base-cased](https://huggingface.co/google/muril-base-cased)
-  * AI4Bharat IndicBERT: [github.com/AI4Bharat/indic-bert](https://github.com/AI4Bharat/indic-bert)
-* **Open Datasets:**
-  * **NYC 311 Service Requests Open Dataset:** Over 36 million geo-referenced citizen complaints with categorizations, agency routing, descriptors, and resolution notes.
-    * Kaggle: [kaggle.com/datasets/new-york-city/nyc-311-service-requests](https://www.kaggle.com/datasets/new-york-city/nyc-311-service-requests)
-    * NYC Open Data Portal: [data.cityofnewyork.us/Social-Services/311-Service-Requests](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9)
-  * **AI4Bharat IndicGLUE NLP Benchmark:**
-    * Dataset: [indicnlp.ai4bharat.org/indic-glue](https://indicnlp.ai4bharat.org/indic-glue/)
-    * Hugging Face: [huggingface.co/datasets/ai4bharat/indic_glue](https://huggingface.co/datasets/ai4bharat/indic_glue)
+   * **Technical Implementation:** BERT-based masked language model pre-trained on 17 Indic languages and English with transliteration pairs. Softmax linear projection:
+     $$\hat{y} = \text{Softmax}(W_c \cdot \mathbf{h}_{[\text{CLS}]} + b_c)$$
+   * **Checkpoints & Hub:** [huggingface.co/google/muril-base-cased](https://huggingface.co/google/muril-base-cased) | [github.com/google-research/google-research/tree/master/muril](https://github.com/google-research/google-research/tree/master/muril)
 
 ---
 
@@ -69,10 +94,23 @@ This compendium provides the verified peer-reviewed research papers (IEEE, ACM, 
 
 ---
 
-## 3. Explainable Priority Index (EPI) & Multi-Criteria Decision Making (MCDM)
+## 3. Explainable Priority Index (EPI), Multi-Source Data Fusion, & MCDM
 
-### 📄 Key Research Papers
-1. **"A Spatial Multi-Criteria Decision-Making Framework Using AHP, TOPSIS, and Explainable Machine Learning for Sustainable Urban and Rural Infrastructure Planning"**
+### 📄 Peer-Reviewed Technical Implementation Papers
+1. **"A Hybrid Transformer-GNN Framework for Social Governance and Urban Service Allocation"**
+   * **Authors:** Yang, L., Zhang, X., & Chen, H.
+   * **Journal / Venue:** *Scientific Reports* (Springer Nature), May 2026. DOI: [`10.1038/s41598-026-49982-2`](https://doi.org/10.1038/s41598-026-49982-2).
+   * **Technical Implementation:**
+     * Multi-Source Data Fusion combining:
+       * **Graph Neural Network (GNN):** Encodes district spatial topology, infrastructure graphs, road network connectivity, and socio-demographic indicators.
+       * **Transformer Encoder:** Processes temporal citizen grievance streams, semantic urgency, and incident density.
+       * **Cross-Modal Attention:** Integrates the graph embeddings with textual sequence vectors:
+         $$\mathbf{Z} = \text{Softmax}\left(\frac{Q_{\text{GNN}} K_{\text{Text}}^T}{\sqrt{d_k}}\right) V_{\text{Text}}$$
+       * **Optimizer:** Improved Honey Badger Optimization (IHBO) for resource allocation tuning and multi-objective Pareto optimization across constrained budgets.
+   * **Dataset Available with Paper:** 12 million multi-source municipal service records with geo-spatial coordinates, demographic covariates, and department response logs.
+     * **Direct Access:** [NYC Open Data 311 Geo-Referenced Portal](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9)
+
+2. **"A Spatial Multi-Criteria Decision-Making Framework Using AHP, TOPSIS, and Explainable Machine Learning for Sustainable Urban and Rural Infrastructure Planning"**
    * **Authors / Venues:**
      * Feizizadeh, B., et al. (2021). *"A GIS-based spatially-explicit sensitivity and uncertainty analysis approach for multi-criteria decision analysis."* *Computers, Environment and Urban Systems*, 87, 101607.
      * Carrión, J. A., et al. (2022). *"Municipal infrastructure prioritization using spatial multi-criteria evaluation and explainable SHAP attributions."* *Sustainable Cities and Society* (Elsevier), 78, 103632.
@@ -138,9 +176,12 @@ This compendium provides the verified peer-reviewed research papers (IEEE, ACM, 
 
 ## 📊 Technical Architecture & Dataset Mapping Matrix
 
-| Domain | Algorithm / Model Architecture | Primary Training Dataset | Code & Download Venue |
+| Domain & Paper | Algorithm / Model Architecture | Published Open Dataset | Direct Access / Repository URL |
 |:---|:---|:---|:---|
-| **1. Grievance NLP** | Google MuRIL / IndicBERT + Softmax Head | **NYC 311** (36M rows) + **IndicGLUE** | Hugging Face / Kaggle |
-| **2. Damage Vision** | YOLOv8x / Co-DETR with CLAHE | **RDD2022** (47,420 multi-national images) | IEEE BigData / Mendeley / Kaggle |
-| **3. Fund Prioritization** | AHP + TOPSIS + SHAP Feature Attribution | **NITI Aayog ADP** (49 KPIs) + **World Bank** | Data.gov.in / World Bank Catalog |
-| **4. Predictive Forecaster**| Temporal Fusion Transformer (TFT) + GNN | **BattLeDIM SCADA** + **FHWA LTPP** | Zenodo / FHWA InfoPave / GitHub |
+| **Multimodal Grievance Triage**<br>*(Rajkumar et al., Springer 2026)* | CTC-RNN (Acoustic ASR) + MobileBERT + Continuous Urgency Scoring | **1,000 Multimodal Audio/Text Grievance Records** | [github.com/Rajkumar-0806/Petition](https://github.com/Rajkumar-0806/Petition) |
+| **Multi-Source Data Fusion**<br>*(Yang et al., Springer 2026)* | Cross-Modal Transformer + GNN + Improved Honey Badger Optimization | **12M 311 Multi-Source Geo-spatial Complaints** | [NYC 311 Open Data Portal](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9) |
+| **Multilingual Indic Complaints**<br>*(Tripathi et al., IEEE 2026)* | IndicBERT / mBERT with Focal Loss on Hinglish Code-Mixed Text | **CivicComp Corpus** (48k annotated civic complaints) | [IEEE WiSPNET / IEEE Xplore 11489415](https://ieeexplore.ieee.org/abstract/document/11489415/) |
+| **E-Gov Department Routing**<br>*(Agarwal et al., Springer 2024)* | Cascaded Two-Stage Transformer (Detection + 7-Way Routing) | **28,706 Citizen Grievance Tweets** (8 Ministries) | [Springer Nature / Mendeley](https://doi.org/10.1007/s11042-023-15331-y) |
+| **RAG Grievance Redressal**<br>*(Ganatra et al., ACL 2025)* | Hybrid Dense Bi-Encoder (`bge-large`) + BM25 + Cross-Encoder Reranker | **4 Evaluation Benchmarks + 12k Court Decisions** | [github.com/ShreyGanatra/GrahakNyay](https://github.com/ShreyGanatra/GrahakNyay.git) |
+| **Damage Vision AI**<br>*(Arya et al., IEEE BigData / Wiley)* | YOLOv8x / Co-DETR with CLAHE illumination filter | **RDD2022** (47,420 multi-national road damage images) | [Mendeley Data](https://data.mendeley.com/datasets/5ty2wb6gvg/1) / [Kaggle RDD2022](https://www.kaggle.com/datasets/arunrk7/road-damage-detection-rdd2022) |
+| **Utility SCADA Anomaly**<br>*(Vrachimis et al., Front. Water)* | Graph Neural Networks (GNN) + EPANET Hydraulic Inversion | **BattLeDIM SCADA** flow/pressure sensor benchmark | [Zenodo 4036573](https://zenodo.org/record/4036573) / [GitHub KIOS-Research](https://github.com/KIOS-Research/BattLeDIM) |

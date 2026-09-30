@@ -236,6 +236,25 @@
   font-size: 2rem;
 }
 
+.portal-icon-wrapper {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portal-icon-wrapper.saffron {
+  background: rgba(255, 107, 53, 0.12);
+  color: var(--saffron);
+}
+
+.portal-icon-wrapper.blue {
+  background: rgba(67, 97, 238, 0.12);
+  color: var(--royal-blue);
+}
+
 .portal-header h3 {
   font-size: 1.4rem;
 }

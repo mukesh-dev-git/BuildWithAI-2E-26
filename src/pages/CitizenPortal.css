@@ -486,3 +486,43 @@
   }
 }
 
+.cp-title-icon {
+  color: var(--saffron, #FF6B35);
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.35rem;
+}
+
+.rec-active-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #ef4444;
+  font-weight: 600;
+}
+
+.cat-badge-val {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.gc-category {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.gc-meta-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.location-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
