@@ -14,6 +14,8 @@ import CountryCompare from './dashboard/pages/CountryCompare';
 import Investment from './dashboard/pages/Investment';
 import Intake from './dashboard/pages/Intake';
 import Sources from './dashboard/pages/Sources';
+import GoalTracker from './dashboard/pages/GoalTracker';
+import CountryGoal from './dashboard/pages/CountryGoal';
 
 // Original India-only prototype, kept under /legacy and loaded only when visited
 const LegacyApp = lazy(() => import('./LegacyApp'));
@@ -34,6 +36,8 @@ function App() {
           <Route path="investment" element={<Investment />} />
           <Route path="intake" element={<Intake />} />
           <Route path="sources" element={<Sources />} />
+          <Route path="goals" element={<GoalTracker />} />
+          <Route path="goals/:iso3/:goal" element={<CountryGoal />} />
         </Route>
         <Route path="legacy/*" element={<Suspense fallback={null}><LegacyApp /></Suspense>} />
       </Routes>

@@ -12,6 +12,7 @@ import { INDICATORS } from '../pipeline/countries.js';
 import { registerExecutive } from './executive.js';
 import { registerHotspots } from './hotspots.js';
 import { registerRecs } from './recs.js';
+import { registerGoals } from './goals.js';
 
 const router = express.Router();
 const GEO_PATH = path.resolve('data/processed/regions.geojson');
@@ -438,6 +439,7 @@ const helpers = { getDb, memo, latestIndicators, countries, latestMonth, monthsB
 registerExecutive(router, helpers);
 registerHotspots(router, helpers);
 registerRecs(router, helpers);
+registerGoals(router, helpers);
 
 router.use((err, req, res, _next) => {
   console.error(err);

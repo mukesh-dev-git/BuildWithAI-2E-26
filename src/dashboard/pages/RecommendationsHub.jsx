@@ -411,7 +411,7 @@ function Tracker({ d, onOpen }) {
 }
 
 /* ── Modals ───────────────────────────────────────── */
-function AdaptModal({ theme, from, to, onClose }) {
+export function AdaptModal({ theme, from, to, onClose }) {
   const s = useApi('/recs/adapt', { theme, from, to });
   const [proposal, setProposal] = useState(false);
   const x = s.data;

@@ -222,6 +222,7 @@ export function registerHotspots(router, h) {
   });
 
   h.allHotspots = allHotspots;
+  h.regionalIndicators = regionalIndicators;
   h.withActions = withActions;
   h.nationalScores = nationalScores;
   h.nationalPpi = nationalPpi;

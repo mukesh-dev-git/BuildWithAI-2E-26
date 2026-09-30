@@ -219,6 +219,9 @@ export function registerRecs(router, h) {
     return have / (countries().length * keys.length);
   };
 
+  h.recsBuild = build;
+  h.improvement = improvement;
+
   router.get('/recs/overview', (req, res) => {
     const { shared, transfers, plans } = build();
     const life = lifecycle();

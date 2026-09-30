@@ -28,6 +28,7 @@ function hexPath(r) {
 export default function RegionHexMap({
   data, country = 'ALL', selectedRegion, onSelect, dots = [], height = 380, labels = 'countries',
   legendTitle = 'Priority intensity', expandable = true, footer,
+  colorOf, legendItems, // optional: colour regions by something other than need tier
 }) {
   const [zoom, setZoom] = useState(1);
   const [pan, setPan] = useState({ x: 0, y: 0 });
@@ -91,7 +92,7 @@ export default function RegionHexMap({
           const sel = selectedRegion && regionId === selectedRegion;
           return (
             <path key={i} d={hex} transform={`translate(${x},${-y})`}
-              fill={iso3 ? tier?.color || 'var(--hex-nodata)' : 'var(--hex-land)'}
+              fill={iso3 ? (colorOf ? colorOf(regionId, score) : tier?.color) || 'var(--hex-nodata)' : 'var(--hex-land)'}
               opacity={dim ? 0.25 : 1}
               className={`${iso3 ? 'rhex-cell' : ''} ${sel ? 'sel' : ''}`}
               onPointerEnter={iso3 ? () => setHover({ regionId, iso3, score }) : undefined}
@@ -137,8 +138,7 @@ export default function RegionHexMap({
       <div className="rhex-legend">
         <strong>{legendTitle}</strong>
         <div>
-          {TIERS.map((t) => <span key={t.id}><i style={{ background: t.color }} />{t.label}</span>)}
-          <span><i style={{ background: 'var(--hex-nodata)' }} />No data</span>
+          {(legendItems || [...TIERS, { id: 'nodata', label: 'No data', color: 'var(--hex-nodata)' }]).map((t) => <span key={t.id}><i style={{ background: t.color }} />{t.label}</span>)}
         </div>
       </div>
       <div className="rhex-zoom">

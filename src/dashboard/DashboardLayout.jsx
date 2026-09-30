@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
 import {
   LayoutGrid, Map, ClipboardList, ChartColumn, Handshake, Database, MessageSquarePlus, Moon, Sun, Menu, X,
-  Globe2, Layers, Calendar, ChevronDown, Layers3, RefreshCw,
+  Globe2, Layers, Calendar, ChevronDown, Layers3, RefreshCw, Goal,
 } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 import { useDashboard } from './DashboardContext';
@@ -18,6 +18,7 @@ export const NAV = [
   { to: '/investment', label: 'Investment Alignment', icon: Database },
   { to: '/intake', label: 'Citizen Intake', icon: MessageSquarePlus },
   { to: '/sources', label: 'Data Sources', icon: Database },
+  { to: '/goals', label: 'Goal Tracker', icon: Goal, title: 'Shared Goal Tracker', subtitle: 'Track which BRICS countries have adopted, approved, piloted or implemented each shared development goal' },
 ];
 
 // Pages reachable by link but not listed in the sidebar
@@ -59,7 +60,8 @@ export default function DashboardLayout() {
   const [navOpen, setNavOpen] = useState(false);
   const { pathname } = useLocation();
   const current = NAV.find((n) => (n.end ? pathname === n.to : pathname === n.to || pathname.startsWith(`${n.to}/`)));
-  const title = current?.title || current?.label || EXTRA_TITLES[pathname];
+  const onCountryGoal = /^\/goals\/[A-Z]{3}\//.test(pathname);
+  const title = onCountryGoal ? 'Goal Tracker' : current?.title || current?.label || EXTRA_TITLES[pathname];
 
   return (
     <div className="dash" data-theme={theme}>
@@ -90,11 +92,11 @@ export default function DashboardLayout() {
       {navOpen && <div className="dash-scrim" onClick={() => setNavOpen(false)} />}
 
       <div className="dash-main">
-        <header className={`dash-topbar ${current?.subtitle ? 'tall' : ''}`}>
+        <header className={`dash-topbar ${current?.subtitle && !onCountryGoal ? 'tall' : ''}`}>
           <button className="dash-icon-btn dash-nav-open" onClick={() => setNavOpen(true)} aria-label="Open menu"><Menu size={18} /></button>
           <div className="dash-heading">
             <h1 className="dash-title">{title}</h1>
-            {current?.subtitle && <p className="dash-subtitle">{current.subtitle}</p>}
+            {current?.subtitle && !onCountryGoal && <p className="dash-subtitle">{current.subtitle}</p>}
           </div>
           <div className="dash-filters">
             <FilterSelect icon={Globe2} label="Country" value={country} onChange={(e) => setCountry(e.target.value)}>
