@@ -42,14 +42,37 @@ function hit(shapes, x, y) {
   return null;
 }
 
-export function buildHexGrid() {
-  const regions = JSON.parse(fs.readFileSync(path.resolve('data/processed/regions.geojson'), 'utf8')).features;
+let regionFeatures = null;
+export function regionGeo() {
+  regionFeatures ??= JSON.parse(fs.readFileSync(path.resolve('data/processed/regions.geojson'), 'utf8')).features;
+  return regionFeatures;
+}
+
+/** Hex grid sized to one member's bounding box, for country drill-down maps. */
+// Wide or island members need more cells across for every region to show
+const CELLS_ACROSS = { RUS: 80, IDN: 80, CHN: 48, IRN: 40 };
+
+export function buildCountryHexGrid(iso3, cellsAcross = CELLS_ACROSS[iso3] || 34) {
+  const feats = regionGeo().filter((f) => f.properties.iso3 === iso3);
+  let [x0, y0, x1, y1] = [Infinity, Infinity, -Infinity, -Infinity];
+  for (const f of feats) for (const poly of polygonsOf(f.geometry)) for (const [x, y] of poly[0]) {
+    // Chukotka wraps past 180°; clamp so Russia's box stays sane
+    if (x < 0 && iso3 === 'RUS') continue;
+    x0 = Math.min(x0, x); y0 = Math.min(y0, y); x1 = Math.max(x1, x); y1 = Math.max(y1, y);
+  }
+  const r = Math.max(x1 - x0, (y1 - y0) * 1.2) / cellsAcross / Math.sqrt(3);
+  const pad = r * 2;
+  return buildHexGrid({ r, lonMin: x0 - pad, lonMax: x1 + pad, latMin: y0 - pad, latMax: y1 + pad, only: iso3 });
+}
+
+export function buildHexGrid(opts = HEX) {
+  const regions = opts.only ? regionGeo().filter((f) => f.properties.iso3 === opts.only) : regionGeo();
   const landPath = path.resolve('data/raw/ne_110m_land.geojson');
   const land = fs.existsSync(landPath) ? JSON.parse(fs.readFileSync(landPath, 'utf8')).features : [];
   const regionShapes = indexShapes(regions, (f) => f.properties);
   const landShapes = indexShapes(land, () => true);
 
-  const { r, lonMin, lonMax, latMin, latMax } = HEX;
+  const { r, lonMin, lonMax, latMin, latMax } = opts;
   const dx = Math.sqrt(3) * r;
   const dy = 1.5 * r;
   const cells = [];
@@ -63,11 +86,13 @@ export function buildHexGrid() {
     }
   }
 
-  // Small members (e.g. the UAE) can fall between hex centres; give each at least one cell
-  const present = new Set(cells.filter((c) => c.iso3).map((c) => c.iso3));
+  // Small members (e.g. the UAE) — or, on a country map, small regions (e.g. Delhi) — can fall
+  // between hex centres; give each at least one cell
+  const keyOf = (p) => (opts.only ? p.id : p.iso3);
+  const present = new Set(cells.filter((c) => c.iso3).map((c) => (opts.only ? c.regionId : c.iso3)));
   for (const f of regions) {
     const { iso3 } = f.properties;
-    if (present.has(iso3)) continue;
+    if (present.has(keyOf(f.properties))) continue;
     const pts = polygonsOf(f.geometry).flatMap((p) => p[0]);
     const cx = pts.reduce((s, p) => s + p[0], 0) / pts.length;
     const cy = pts.reduce((s, p) => s + p[1], 0) / pts.length;
@@ -77,7 +102,7 @@ export function buildHexGrid() {
       if (!best || d < best.d) best = { c, d };
     }
     if (best) Object.assign(best.c, { regionId: f.properties.id, iso3, name: f.properties.name });
-    present.add(iso3);
+    present.add(keyOf(f.properties));
   }
   return { r, bounds: { lonMin, lonMax, latMin, latMax }, cells };
 }

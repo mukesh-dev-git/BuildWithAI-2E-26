@@ -39,3 +39,12 @@ export const INDICATORS = {
   'SE.SEC.ENRR': { key: 'secondary_enrol', label: 'Secondary school enrolment (gross)', unit: '%' },
   'SP.RUR.TOTL.ZS': { key: 'rural_pct', label: 'Rural population', unit: '%' },
 };
+
+// DHS Program (USAID) sub-national survey estimates: open API, no key required.
+// One preferred survey per member whose regions match the geoBoundaries ADM1 set.
+export const DHS_SURVEYS = { IND: 'IA2020DHS', ETH: 'ET2019DHS', EGY: 'EG2014DHS', IDN: 'ID2017DHS', ZAF: 'ZA2016DHS' };
+export const DHS_INDICATORS = {
+  WS_SRCE_H_IMP: 'water_improved', WS_TLET_H_IMP: 'sanitation_improved', HC_ELEC_H_ELC: 'electricity',
+  CH_VACC_C_BAS: 'vaccination_basic', CM_ECMR_C_U5M: 'u5_mortality', ED_LITR_W_LIT: 'literacy_women',
+  CN_NUTS_C_HA2: 'stunting', HC_HEFF_H_MPH: 'mobile_phone',
+};

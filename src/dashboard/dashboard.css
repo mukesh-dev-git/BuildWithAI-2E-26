@@ -98,6 +98,9 @@
 .fselect { position: relative; display: inline-flex; align-items: center; }
 .fselect-icon { position: absolute; left: 12px; color: var(--d-text-2); pointer-events: none; }
 .fselect-caret { position: absolute; right: 10px; color: var(--d-text-2); pointer-events: none; }
+.fselect-stacked .fselect-cap { position: absolute; left: 38px; top: 5px; font-size: 10.5px; color: var(--d-text-3); pointer-events: none; }
+.dash .fselect-stacked select { padding-top: 17px; padding-bottom: 5px; font-weight: 600; }
+.dash-icon-btn.big { width: 42px; height: 42px; border-radius: 9px; }
 .dash .fselect select { appearance: none; -webkit-appearance: none; padding: 10px 34px 10px 38px; font-size: 13.5px; font-weight: 500; border-radius: 9px; min-width: 170px; background: var(--d-surface); cursor: pointer; }
 .dash-filters { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .dash select, .dash input[type='search'], .dash input[type='text'], .dash textarea {

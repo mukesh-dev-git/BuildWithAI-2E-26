@@ -3,7 +3,7 @@
 //   - geoBoundaries ADM1 (state/province) boundaries, simplified geometry
 import fs from 'node:fs';
 import path from 'node:path';
-import { BRICS, INDICATORS } from './countries.js';
+import { BRICS, INDICATORS, DHS_SURVEYS, DHS_INDICATORS } from './countries.js';
 
 const RAW = path.resolve('data/raw');
 fs.mkdirSync(path.join(RAW, 'boundaries'), { recursive: true });
@@ -69,8 +69,21 @@ async function fetchLand() {
   console.log('Natural Earth land outline downloaded');
 }
 
+// DHS Program (USAID) sub-national survey estimates: open API, no key required.
+// One preferred survey per member whose regions match the geoBoundaries ADM1 set.
+async function fetchDhs() {
+  const url = `https://api.dhsprogram.com/rest/dhs/data?surveyIds=${Object.values(DHS_SURVEYS).join(',')}` +
+    `&indicatorIds=${Object.keys(DHS_INDICATORS).join(',')}&breakdown=subnational&f=json&perpage=5000` +
+    '&returnFields=SurveyId,SurveyYear,SurveyYearLabel,IndicatorId,CharacteristicLabel,Value,LevelRank,IsPreferred';
+  const { Data } = await getJson(url);
+  const rows = Data.filter((d) => d.LevelRank === 1 || (d.SurveyId === 'EG2014DHS' && d.LevelRank === null));
+  fs.writeFileSync(path.join(RAW, 'dhs_subnational.json'), JSON.stringify(Data));
+  console.log(`DHS: ${Data.length} sub-national estimates (${rows.length} at first admin level)`);
+}
+
 const only = process.argv[2];
 if (!only || only === 'worldbank') await fetchWorldBank();
 if (!only || only === 'boundaries') await fetchBoundaries();
 if (!only || only === 'brazil') await fetchBrazilReference();
 if (!only || only === 'land') await fetchLand();
+if (!only || only === 'dhs') await fetchDhs();

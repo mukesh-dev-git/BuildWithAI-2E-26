@@ -5,7 +5,8 @@ import { DashboardProvider } from './dashboard/DashboardContext';
 import DashboardLayout from './dashboard/DashboardLayout';
 import ExecutiveOverview from './dashboard/pages/ExecutiveOverview';
 import Cooperation from './dashboard/pages/Cooperation';
-import DemandMap from './dashboard/pages/DemandMap';
+import DemandIntelligenceMap from './dashboard/pages/DemandIntelligenceMap';
+import RegionNeedMap from './dashboard/pages/RegionNeedMap';
 import Recommendations from './dashboard/pages/Recommendations';
 import Explorer from './dashboard/pages/Explorer';
 import CountryCompare from './dashboard/pages/CountryCompare';
@@ -22,7 +23,8 @@ function App() {
       <Routes>
         <Route element={<DashboardProvider><DashboardLayout /></DashboardProvider>}>
           <Route index element={<ExecutiveOverview />} />
-          <Route path="map" element={<DemandMap />} />
+          <Route path="map" element={<DemandIntelligenceMap />} />
+          <Route path="map/:iso3/:theme" element={<RegionNeedMap />} />
           <Route path="recommendations" element={<Recommendations />} />
           <Route path="explorer" element={<Explorer />} />
           <Route path="countries" element={<CountryCompare />} />

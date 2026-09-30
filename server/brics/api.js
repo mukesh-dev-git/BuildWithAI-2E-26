@@ -10,6 +10,7 @@ import { SECTORS, NON_DEVELOPMENT } from '../pipeline/sectors.js';
 const NON_DEV_SQL = `(${NON_DEVELOPMENT.map((s) => `'${s}'`).join(',')})`;
 import { INDICATORS } from '../pipeline/countries.js';
 import { registerExecutive } from './executive.js';
+import { registerHotspots } from './hotspots.js';
 
 const router = express.Router();
 const GEO_PATH = path.resolve('data/processed/regions.geojson');
@@ -432,9 +433,9 @@ router.get('/sources', (req, res) => {
   res.json(getDb().prepare('SELECT * FROM sources').all());
 });
 
-registerExecutive(router, {
-  getDb, memo, latestIndicators, countries, latestMonth, monthsBack, computeRecommendations, regionsById, NON_DEV_SQL,
-});
+const helpers = { getDb, memo, latestIndicators, countries, latestMonth, monthsBack, computeRecommendations, regionsById, NON_DEV_SQL };
+registerExecutive(router, helpers);
+registerHotspots(router, helpers);
 
 router.use((err, req, res, _next) => {
   console.error(err);

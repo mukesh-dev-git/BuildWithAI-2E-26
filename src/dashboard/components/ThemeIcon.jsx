@@ -1,9 +1,9 @@
-import { Briefcase, Bus, Droplet, GraduationCap, Heart, Leaf, Wifi, Wind } from 'lucide-react';
+import { Briefcase, Bus, Droplet, GraduationCap, Heart, Leaf, Wheat, Wifi, Wind } from 'lucide-react';
 
-const ICONS = { droplet: Droplet, heart: Heart, wifi: Wifi, bus: Bus, leaf: Leaf, graduation: GraduationCap, briefcase: Briefcase, wind: Wind };
+const ICONS = { droplet: Droplet, heart: Heart, wifi: Wifi, bus: Bus, leaf: Leaf, graduation: GraduationCap, briefcase: Briefcase, wind: Wind, wheat: Wheat };
 
 // Sector ids (from the demand data) that correspond to a theme icon
-export const SECTOR_ICON = { water: 'droplet', health: 'heart', digital: 'wifi', transport: 'bus', energy: 'leaf', education: 'graduation', social: 'briefcase', environment: 'wind' };
+export const SECTOR_ICON = { water: 'droplet', health: 'heart', digital: 'wifi', transport: 'bus', energy: 'leaf', education: 'graduation', social: 'briefcase', environment: 'wind', agriculture: 'wheat' };
 
 export default function ThemeIcon({ icon, color, size = 18, filled = true }) {
   const I = ICONS[icon] || Droplet;

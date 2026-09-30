@@ -86,3 +86,76 @@ export async function askAssistant(question, exec) {
     return { ...grounded, engine: 'data' };
   }
 }
+
+const BASIS_NOTE = { 'citizen-demand': 'citizen requests', 'regional-survey': 'regional survey', 'national-indicator': 'national estimate' };
+
+/** Map-page questions: regional hotspots, growth, investment gaps and country approaches. */
+async function mapRuleBased(question) {
+  const themeId = findTheme(question) || (/nutrition|food|stunting|hunger/i.test(question) ? 'nutrition' : null);
+  const isos = findCountries(question);
+
+  if (/how is|how are|address|tackl|respond|programme|program|policy/i.test(question) && themeId && isos.length) {
+    const t = await apiGet(`/themes/${themeId === 'nutrition' ? 'health' : themeId}`);
+    const rows = t.rows.filter((r) => isos.includes(r.iso3));
+    const hs = await apiGet('/hotspots/list', { country: isos[0], theme: themeId, size: 3 });
+    return {
+      text: `${t.theme.label} in ${rows.map((r) => r.name).join(' and ')}:`,
+      bullets: [
+        ...rows.map((r) => `${r.name}: need score ${r.score}, ${r.summary}${r.improvement ? `; ${t.theme.headline.label.toLowerCase()} ${r.improvement.change >= 0 ? '+' : ''}${r.improvement.change.toFixed(1)} since ${r.improvement.from.year}` : ''}.`),
+        ...rows.map((r) => (r.programme ? `Flagship programme: ${r.programme}` : `No flagship programme is recorded for ${r.name} in this dashboard.`)),
+        ...hs.items.map((x) => `Hotspot: ${x.region} (score ${x.score}, ${x.detail})`),
+      ],
+      source: 'World Bank WDI, DHS / Fala.BR regional data, curated programme list',
+    };
+  }
+
+  if (/fast|rising|increas|grow|surg/i.test(question)) {
+    const hs = await apiGet('/hotspots/list', { theme: themeId || 'all', basis: 'citizen-demand', sort: 'growth', size: 6 });
+    return {
+      text: `Fastest-growing citizen demand${themeId ? ` for ${hs.themes.find((t) => t.id === themeId)?.label.toLowerCase()}` : ''} (last 6 months vs the 6 before). Growth is only measurable where citizen requests are open, which today means Brazil:`,
+      bullets: hs.items.map((x) => `${x.region}, ${x.themeLabel}: ${x.growth >= 0 ? '+' : ''}${(x.growth * 100).toFixed(0)}%, ${x.requests12m.toLocaleString()} requests in 12 months (score ${x.score})`),
+      source: 'Fala.BR citizen requests via the priority engine',
+    };
+  }
+
+  if (/low investment|under.?invest|mismatch|funding gap|invest/i.test(question)) {
+    const exec = await apiGet('/executive', { months: 12 });
+    const gaps = exec.alignment.filter((a) => a.status === 'gap');
+    const sector = gaps[0]?.sector;
+    const theme = { water: 'water', energy: 'energy', transport: 'transport', digital: 'digital' }[sector];
+    const hs = theme ? await apiGet('/hotspots/list', { theme, basis: 'citizen-demand', size: 5 }) : { items: [] };
+    return {
+      text: gaps.length
+        ? `Where citizen demand outruns infrastructure investment. In Brazil, ${gaps.map((g) => `${g.sector} takes ${(g.demandShare * 100).toFixed(0)}% of citizen requests but ${(g.investmentShare * 100).toFixed(0)}% of private-participation investment`).join('; ')}. The regions driving that demand:`
+        : 'No sector currently shows citizen demand clearly ahead of investment.',
+      bullets: hs.items.map((x) => `${x.region}: ${x.requests12m.toLocaleString()} requests, score ${x.score}`),
+      source: 'Fala.BR (5 years) vs World Bank PPI; regional investment plans are not published openly',
+    };
+  }
+
+  if (themeId) {
+    const hs = await apiGet('/hotspots/list', { theme: themeId, country: isos[0] || 'ALL', size: 8 });
+    return {
+      text: `Regions with the most severe ${hs.themes.find((t) => t.id === themeId)?.label.toLowerCase()} need${isos[0] ? ` in ${COUNTRY_NAMES[isos[0]]}` : ' across BRICS'} (${hs.total} regions with regional data):`,
+      bullets: hs.items.map((x) => `${x.region}, ${COUNTRY_NAMES[x.iso3]}: score ${x.score} (${x.tier}); ${x.detail} [${BASIS_NOTE[x.basis]}]`),
+      source: 'DHS regional surveys and Fala.BR citizen requests',
+      themeId,
+    };
+  }
+  return null;
+}
+
+export async function askMap(question) {
+  const grounded = await mapRuleBased(question);
+  if (!grounded) {
+    const exec = await apiGet('/executive', { months: 12 });
+    return askAssistant(question, exec);
+  }
+  if (!isApiKeyConfigured()) return { ...grounded, engine: 'data' };
+  try {
+    const text = await answerPolicyQuestion(question, { retrieved: { text: grounded.text, facts: grounded.bullets } });
+    return text ? { ...grounded, text, engine: 'gemini' } : { ...grounded, engine: 'data' };
+  } catch {
+    return { ...grounded, engine: 'data' };
+  }
+}

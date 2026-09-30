@@ -8,8 +8,10 @@ export const COUNTRY_NAMES = {
   EGY: 'Egypt', ETH: 'Ethiopia', IRN: 'Iran', ARE: 'United Arab Emirates', IDN: 'Indonesia',
 };
 
-export default function Flag({ iso3, size = 18, className = '' }) {
+/** In HTML pass `size`; inside an SVG pass x/y/width/height to position it. */
+export default function Flag({ iso3, size = 18, className = '', ...svgProps }) {
   const F = FLAGS[iso3];
   if (!F) return null;
+  if (svgProps.width !== undefined) return <F {...svgProps} preserveAspectRatio="none" />;
   return <F title={COUNTRY_NAMES[iso3]} className={`flag ${className}`} style={{ width: size, height: Math.round((size * 2) / 3) }} />;
 }

@@ -62,7 +62,7 @@ export default function ExecutiveOverview() {
               <label className="mini-select">
                 <select value={sector} onChange={(e) => setSector(e.target.value)} aria-label="Map sector">
                   <option value="all">All sectors</option>
-                  {Object.entries(SECTOR_ICON).map(([id]) => <option key={id} value={id}>{d.risks.find((r) => r.sector === id)?.label || id}</option>)}
+                  {Object.entries(SECTOR_ICON).map(([id]) => <option key={id} value={id}>{d.risks.find((r) => r.sector === id)?.label || d.themes.find((t) => t.sector === id)?.label || 'Food & nutrition'}</option>)}
                 </select>
               </label>
             )} />

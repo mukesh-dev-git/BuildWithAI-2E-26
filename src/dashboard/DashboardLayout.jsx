@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
 import {
   LayoutGrid, Map, ClipboardList, ChartColumn, Handshake, Database, MessageSquarePlus, Moon, Sun, Menu, X,
-  Globe2, Layers, Calendar, ChevronDown,
+  Globe2, Layers, Calendar, ChevronDown, Layers3, RefreshCw,
 } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 import { useDashboard } from './DashboardContext';
@@ -11,7 +11,7 @@ import './dashboard.css';
 
 export const NAV = [
   { to: '/', label: 'Overview', icon: LayoutGrid, end: true, title: 'BRICS Executive Overview', subtitle: 'Shared development priorities, hotspots and cooperation opportunities across BRICS members' },
-  { to: '/map', label: 'Demand Map', icon: Map },
+  { to: '/map', label: 'Demand Map', icon: Map, title: 'Demand Intelligence Map', subtitle: 'Where citizen demand, infrastructure gaps and investment mismatches concentrate across BRICS', mapControls: true },
   { to: '/recommendations', label: 'Recommendations', icon: ClipboardList },
   { to: '/countries', label: 'Country Insights', icon: ChartColumn },
   { to: '/cooperation', label: 'Cooperation', icon: Handshake },
@@ -55,10 +55,10 @@ function DotGlobe() {
 
 export default function DashboardLayout() {
   const { theme, toggleTheme } = useTheme();
-  const { country, setCountry, sector, setSector, months, setMonths, meta, metaError } = useDashboard();
+  const { country, setCountry, sector, setSector, months, setMonths, mapLayer, setMapLayer, refresh, meta, metaError } = useDashboard();
   const [navOpen, setNavOpen] = useState(false);
   const { pathname } = useLocation();
-  const current = NAV.find((n) => (n.end ? pathname === n.to : pathname.startsWith(n.to)));
+  const current = NAV.find((n) => (n.end ? pathname === n.to : pathname === n.to || pathname.startsWith(`${n.to}/`)));
   const title = current?.title || current?.label || EXTRA_TITLES[pathname];
 
   return (
@@ -111,6 +111,21 @@ export default function DashboardLayout() {
               <FilterSelect icon={Calendar} label="Time window" value={months} onChange={(e) => setMonths(Number(e.target.value))}>
                 {[3, 6, 12, 24, 36].map((m) => <option key={m} value={m}>Last {m} months</option>)}
               </FilterSelect>
+            )}
+            {current?.mapControls && (
+              <>
+                <label className="fselect fselect-stacked">
+                  <Layers3 size={17} strokeWidth={1.8} className="fselect-icon" />
+                  <span className="fselect-cap">Map layer</span>
+                  <select value={mapLayer} onChange={(e) => setMapLayer(e.target.value)} aria-label="Map layer">
+                    <option value="priority">Combined priority</option>
+                    <option value="demand">Citizen demand</option>
+                    <option value="need">Infrastructure need</option>
+                  </select>
+                  <ChevronDown size={16} className="fselect-caret" />
+                </label>
+                <button className="dash-icon-btn big" onClick={refresh} aria-label="Refresh data" title="Refresh data"><RefreshCw size={17} /></button>
+              </>
             )}
             <button className="dash-icon-btn" onClick={toggleTheme} aria-label="Toggle theme">
               {theme === 'dark' ? <Sun size={17} /> : <Moon size={17} />}
