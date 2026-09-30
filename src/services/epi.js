@@ -97,6 +97,9 @@ export function calculateEPI(district, grievances) {
   return {
     district: district.district,
     state: district.state,
+    country: district.country || 'India',
+    currency: district.currency || '₹',
+    currencyUnit: district.currencyUnit || 'Crore',
     score: finalScore,
     level: getLevel(finalScore),
     grievanceCount,

@@ -147,22 +147,22 @@ export async function generatePolicyRecommendation(districtData, grievances) {
     `- ${g.category}: ${g.textEn} (Severity: ${g.severity}, Votes: ${g.votes})`
   ).join('\n');
 
-  const prompt = `You are the AI Policy Advisor for VikasDrishti AI, India's Digital Public Good for infrastructure governance.
+  const prompt = `You are the Lead Infrastructure Policy AI Advisor for VikasDrishti AI, a Digital Public Good for national infrastructure governance across BRICS nations.
 
-Analyze the following district data and citizen grievances to generate a policy recommendation:
+Analyze the following jurisdiction data and aggregated citizen grievances to generate an auditable capital project policy recommendation:
 
-DISTRICT: ${districtData.district}, ${districtData.state}
+JURISDICTION: ${districtData.district}, ${districtData.state} (${districtData.country || 'India'})
 Population: ${districtData.population?.toLocaleString()}
-BPL Ratio: ${(districtData.bplRatio * 100).toFixed(1)}%
+BPL / Poverty Ratio: ${(districtData.bplRatio * 100).toFixed(1)}%
 Literacy Rate: ${(districtData.literacyRate * 100).toFixed(1)}%
-Infrastructure Index: ${districtData.infraIndex}/100
+Infrastructure Index: ${districtData.infraIndex}/100 (Deficit: ${100 - districtData.infraIndex}%)
 Water Coverage: ${districtData.waterCoverage}%
 Road Density: ${districtData.roadDensity}/100
 Health Facilities: ${districtData.healthFacilities}/100
-Budget Allocated: ₹${districtData.budgetAllocated} Crore
-Budget Utilized: ₹${districtData.budgetUtilized} Crore (${((districtData.budgetUtilized / districtData.budgetAllocated) * 100).toFixed(1)}% utilization)
+Budget Allocated: ${districtData.currency || '₹'}${districtData.budgetAllocated} ${districtData.currencyUnit || 'Crore'}
+Budget Utilized: ${districtData.currency || '₹'}${districtData.budgetUtilized} ${districtData.currencyUnit || 'Crore'} (${((districtData.budgetUtilized / districtData.budgetAllocated) * 100).toFixed(1)}% ground utilization)
 
-TOP CITIZEN GRIEVANCES:
+TOP AGGREGATED CITIZEN DEMANDS:
 ${grievanceSummary}
 
 Generate a comprehensive policy recommendation in JSON format:
@@ -362,17 +362,17 @@ export async function chatWithCopilot(query, chatHistory = []) {
   const m = getModel();
   if (m) {
     try {
-      const systemInstruction = `You are the VikasDrishti Neural Policy Copilot (विकास दृष्टि), an expert AI policy advisor for Indian infrastructure governance and Digital Public Goods (developed for Google Build With AI Hackathon 2026).
-You have real-time visibility into the vikasdrishti.db SQLite WAL database with 80 Aspirational Districts and 82+ citizen grievances.
-Your role is to advise District Collectors, Union Secretaries, NITI Aayog evaluators, and hackathon judges.
+      const systemInstruction = `You are the VikasDrishti Neural Policy Copilot (विकास दृष्टि), an expert AI policy advisor for National Infrastructure Governance and Digital Public Goods across BRICS nations (India, Brazil, South Africa).
+You have real-time visibility into the multi-dataset fusion engine combining citizen feedback streams with national demographics, infrastructure indices, and public investment plans.
+Your role is to advise National Infrastructure Ministers, District Collectors, Union Secretaries, and NITI Aayog / BRICS evaluators.
 
 Key Context & Guidelines:
-- Platform: VikasDrishti AI Voice-to-Policy Digital Public Good
-- Purpose: Directing ₹3+ Lakh Crore annual infrastructure allocation (PMGSY, Jal Jeevan Mission, NHM) to underserved rural citizens in 22+ languages.
-- Signature Mathematical Formula: Explainable Priority Index (EPI):
-  EPI = 0.30(Demand Density) + 0.25(Vulnerability) + 0.25(Infra Gap) + 0.20(Budget Slack) + Urgency Bonus (max 15 pts).
-- High Vulnerability Districts: Barmer (Rajasthan), Purnia (Bihar), Kupwara (J&K), Chhatarpur (MP), Damoh (MP), Shravasti (UP), Bahraich (UP), Wayanad (Kerala), Dhubri (Assam), Baksa (Assam).
-- Style: Professional, insightful, concise, authoritative yet empathetic (tone of a Senior IAS Officer or NITI Aayog Fellow). Format in clean markdown with bolding, bullet points, and actionable next steps. Keep answers under 150-200 words unless asked for an in-depth policy brief.`;
+- Platform: VikasDrishti AI Multilateral Digital Public Good
+- Purpose: Directing multi-billion dollar capital infrastructure allocation (e.g., India's PMGSY & Jal Jeevan Mission, Brazil's PAC, South Africa's NIP 2050) to unaddressed grassroots deficits in 15+ BRICS languages.
+- Signature Mathematical Formula: Explainable Priority Index (EPI 2.0):
+  EPI = 0.30(Demand Density) + 0.25(Vulnerability) + 0.25(Infra Gap) + 0.20(Budget Gap) + Severity Urgency Bonus (max 10 pts).
+- High Vulnerability Hotspots: Barmer (Rajasthan), Purnia (Bihar), Kupwara (J&K), Chhatarpur (MP), Maranhão Central (Brazil), OR Tambo DM (South Africa).
+- Style: Professional, authoritative, concise, data-driven (tone of a Senior Governance Fellow or Economic Advisor). Format in clean markdown with bolding, bullet points, and actionable next steps. Keep answers under 150-200 words unless asked for an in-depth policy brief.`;
 
       const recentHistory = (chatHistory || []).slice(-6).map(msg => 
         `${msg.sender === 'user' ? 'User' : 'Assistant'}: ${msg.text}`

@@ -1,0 +1,275 @@
+/* VikasDrishti AI — Professional Footer Styling */
+
+.app-footer {
+  background: linear-gradient(180deg, #070B14 0%, #04070D 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 48px 0 24px 0;
+  color: #94A3B8;
+  font-size: 0.88rem;
+  position: relative;
+  z-index: 10;
+  margin-top: auto;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+/* ── Hero Band: Built with Gemini & Antigravity ── */
+.footer-hero-band {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 18px 24px;
+  backdrop-filter: blur(12px);
+}
+
+.footer-built-with {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.built-with-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #64748B;
+  text-transform: uppercase;
+}
+
+.built-with-badges {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.partner-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.2s ease;
+}
+
+.partner-badge:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.gemini-badge {
+  border-left: 3px solid #4285F4;
+  box-shadow: 0 4px 16px rgba(66, 133, 244, 0.12);
+}
+
+.gemini-badge .partner-name {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 0.92rem;
+}
+
+.gemini-badge .partner-role {
+  color: #93C5FD;
+  font-size: 0.75rem;
+  background: rgba(66, 133, 244, 0.15);
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.antigravity-badge {
+  border-left: 3px solid #FF6B35;
+  box-shadow: 0 4px 16px rgba(255, 107, 53, 0.12);
+}
+
+.antigravity-badge .partner-name {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 0.92rem;
+}
+
+.antigravity-badge .partner-role {
+  color: #FDBA74;
+  font-size: 0.75rem;
+  background: rgba(255, 107, 53, 0.15);
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.partner-divider {
+  color: #475569;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.footer-telemetry {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  color: #94A3B8;
+}
+
+.telemetry-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.telemetry-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.telemetry-dot.online {
+  background: #10B981;
+  box-shadow: 0 0 8px #10B981;
+  animation: pulse-telemetry 2s infinite ease-in-out;
+}
+
+@keyframes pulse-telemetry {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.2); }
+}
+
+/* ── Middle Meta Grid ── */
+.footer-meta-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 32px;
+}
+
+@media (max-width: 992px) {
+  .footer-meta-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer-meta-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.footer-brand-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.brand-gem-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #FF6B35 0%, #E85A28 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 800;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+}
+
+.footer-brand-title h5 {
+  color: #FFFFFF;
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.footer-brand-title p {
+  color: #64748B;
+  font-size: 0.76rem;
+  margin: 0;
+}
+
+.footer-mission-text {
+  color: #94A3B8;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin-top: 8px;
+}
+
+.footer-col-title {
+  color: #F1F5F9;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 14px;
+}
+
+.footer-checklist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-checklist li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.82rem;
+  color: #CBD5E1;
+}
+
+.brics-flag-tags {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.brics-flag-pill {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: #E2E8F0;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+
+/* ── Bottom Line ── */
+.footer-bottom-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  font-size: 0.8rem;
+  color: #64748B;
+}
+
+.footer-credit {
+  color: #94A3B8;
+}
+
+.text-saffron {
+  color: #FF8A5C;
+  font-weight: 600;
+}
+
+.text-royal {
+  color: #6B83F2;
+  font-weight: 600;
+}

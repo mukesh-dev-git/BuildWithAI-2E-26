@@ -35,31 +35,31 @@ export default function Header() {
           </div>
           <div className="brand-text">
             <span className="brand-name">VikasDrishti AI</span>
-            <span className="brand-tagline">विकास दृष्टि</span>
+            <span className="brand-tagline">BRICS Digital Public Good</span>
           </div>
         </Link>
 
         <nav className={`header-nav ${menuOpen ? 'open' : ''}`}>
           <Link 
             to="/" 
-            className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}
+            className={`nav-link ${location.pathname === '/' || location.pathname === '/policymaker' ? 'active' : ''}`}
             onClick={() => setMenuOpen(false)}
           >
-            Home
+            📊 Command Studio
           </Link>
           <Link 
-            to="/citizen" 
-            className={`nav-link ${location.pathname === '/citizen' ? 'active' : ''}`}
+            to="/ingestion" 
+            className={`nav-link ${location.pathname === '/ingestion' ? 'active' : ''}`}
             onClick={() => setMenuOpen(false)}
           >
-            🗣️ Citizen Portal
+            📡 Ingestion Feed
           </Link>
           <Link 
-            to="/policymaker" 
-            className={`nav-link ${location.pathname === '/policymaker' ? 'active' : ''}`}
+            to="/analytics" 
+            className={`nav-link ${location.pathname === '/analytics' ? 'active' : ''}`}
             onClick={() => setMenuOpen(false)}
           >
-            📊 Decision Studio
+            🧠 AI/ML Dataset Lab
           </Link>
         </nav>
 

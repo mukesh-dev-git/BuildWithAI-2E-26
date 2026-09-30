@@ -890,3 +890,385 @@
     grid-template-columns: 1fr !important;
   }
 }
+
+/* ── BRICS Nation Selector in PM Header ── */
+.brics-nation-selector {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: #94A3B8;
+}
+
+.brics-select {
+  background: transparent;
+  border: none;
+  color: #FFFFFF;
+  font-size: 0.85rem;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+}
+
+.brics-select option {
+  background: #0F172A;
+  color: #FFFFFF;
+}
+
+.expanded-actions-bar {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* ── AI/ML Multi-Dataset Lab Styles ── */
+.ml-analytics-pane {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.ml-hero-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 24px 28px;
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.7) 0%, rgba(15, 23, 42, 0.8) 100%);
+  border: 1px solid rgba(67, 97, 238, 0.25);
+  border-radius: 16px;
+}
+
+.ml-hero-left h3 {
+  font-size: 1.35rem;
+  color: #FFFFFF;
+  margin: 6px 0;
+}
+
+.ml-hero-left p {
+  color: #94A3B8;
+  max-width: 650px;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.ml-hero-stats {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.ml-stat-pill {
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 10px 16px;
+  display: flex;
+  flex-direction: column;
+  min-width: 100px;
+}
+
+.ml-stat-pill .val {
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: #FFFFFF;
+}
+
+.ml-stat-pill .lbl {
+  font-size: 0.72rem;
+  color: #94A3B8;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+/* Correlation Strip */
+.correlation-matrix-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .correlation-matrix-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.corr-card {
+  padding: 18px 22px;
+}
+
+.corr-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.corr-top h5 {
+  font-size: 0.96rem;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.corr-badge {
+  font-size: 0.78rem;
+  font-weight: 800;
+  background: rgba(66, 133, 244, 0.15);
+  color: #93C5FD;
+  padding: 2px 8px;
+  border-radius: 6px;
+  border: 1px solid rgba(66, 133, 244, 0.3);
+}
+
+.corr-card p {
+  font-size: 0.82rem;
+  color: #94A3B8;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.corr-bar-bg {
+  width: 100%;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.corr-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+}
+
+/* Gemini Macro Synthesizer Box */
+.macro-ai-synthesizer-box {
+  padding: 22px 26px;
+  background: linear-gradient(180deg, rgba(30, 41, 59, 0.5) 0%, rgba(15, 23, 42, 0.7) 100%);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  border-radius: 16px;
+}
+
+.macro-box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.macro-box-header h4 {
+  font-size: 1.15rem;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.macro-results-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.macro-headline-banner {
+  background: rgba(245, 158, 11, 0.12);
+  border-left: 3px solid #F59E0B;
+  color: #FDE68A;
+  padding: 10px 14px;
+  border-radius: 0 8px 8px 0;
+  font-size: 0.92rem;
+}
+
+.macro-diagnosis-text {
+  color: #CBD5E1;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.reallocation-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .reallocation-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.reallocation-card {
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-flag-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #93C5FD;
+  text-transform: uppercase;
+}
+
+.realloc-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.84rem;
+  gap: 8px;
+}
+
+.realloc-lbl {
+  color: #94A3B8;
+}
+
+.realloc-impact {
+  font-size: 0.82rem;
+  color: #CBD5E1;
+  margin-top: 4px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding-top: 6px;
+}
+
+.structural-reforms-block {
+  background: rgba(16, 185, 129, 0.06);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.structural-reforms-block h6 {
+  font-size: 0.86rem;
+  color: #6EE7B7;
+  margin-bottom: 8px;
+}
+
+.structural-reforms-block ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.structural-reforms-block li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.84rem;
+  color: #E2E8F0;
+}
+
+.macro-prompt-placeholder {
+  padding: 24px;
+  text-align: center;
+  color: #64748B;
+  font-size: 0.9rem;
+}
+
+/* Anomaly Table */
+.anomaly-table-card {
+  padding: 22px 26px;
+}
+
+.anomaly-table-card h4 {
+  font-size: 1.15rem;
+  color: #FFFFFF;
+  margin-bottom: 4px;
+}
+
+.desc-sub {
+  color: #94A3B8;
+  font-size: 0.84rem;
+  margin-bottom: 18px;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.anomaly-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.86rem;
+}
+
+.anomaly-table th {
+  text-align: left;
+  padding: 12px 14px;
+  color: #94A3B8;
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.anomaly-table td {
+  padding: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  color: #CBD5E1;
+  vertical-align: middle;
+}
+
+.anomaly-table tr.tr-critical {
+  background: rgba(239, 68, 68, 0.04);
+}
+
+.sub-txt {
+  font-size: 0.74rem;
+  color: #64748B;
+}
+
+.sub-desc {
+  font-size: 0.72rem;
+  color: #94A3B8;
+  margin-top: 2px;
+}
+
+.anomaly-pill {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.anomaly-pill.SEVERE_UNDERFUNDING { background: rgba(239, 68, 68, 0.2); color: #FCA5A5; }
+.anomaly-pill.CAPITAL_ABSORPTION_BOTTLENECK { background: rgba(245, 158, 11, 0.2); color: #FDE68A; }
+.anomaly-pill.HIGH_DEMAND_LOW_EFFICIENCY { background: rgba(59, 130, 246, 0.2); color: #93C5FD; }
+.anomaly-pill.ALIGNED { background: rgba(16, 185, 129, 0.2); color: #6EE7B7; }
+
+.mini-bar {
+  width: 80px;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 2px;
+  overflow: hidden;
+  margin-top: 3px;
+}
+
+.mini-bar .fill {
+  height: 100%;
+}
+
+.pct-val {
+  font-size: 0.8rem;
+}
+
+.misalign-score-badge {
+  font-weight: 800;
+  font-size: 0.95rem;
+}
+
