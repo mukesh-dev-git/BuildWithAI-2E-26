@@ -1,5 +1,6 @@
 import { useState, useMemo, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { useTheme } from '../context/ThemeContext';
 import { MapContainer, TileLayer, CircleMarker, Popup, useMap } from 'react-leaflet';
 import { 
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, 
@@ -69,8 +70,19 @@ function MapCenterController({ country }) {
 
 export default function PolicymakerStudio({ initialTab }) {
   const location = useLocation();
+  const { theme } = useTheme();
   const defaultTab = initialTab || (location.pathname === '/analytics' ? 'ml_analytics' : 'overview');
   const [activeTab, setActiveTab] = useState(defaultTab);
+
+  const tooltipStyle = useMemo(() => ({
+    background: theme === 'dark' ? '#1E293B' : '#FFFFFF',
+    border: theme === 'dark' ? '1px solid rgba(255,255,255,0.1)' : '1px solid rgba(0,0,0,0.1)',
+    borderRadius: '8px',
+    color: theme === 'dark' ? '#F1F5F9' : '#0F172A',
+    boxShadow: theme === 'dark' ? '0 4px 16px rgba(0,0,0,0.4)' : '0 4px 16px rgba(0,0,0,0.08)'
+  }), [theme]);
+  const gridStroke = theme === 'dark' ? 'rgba(255,255,255,0.06)' : 'rgba(0,0,0,0.06)';
+  const axisTickColor = theme === 'dark' ? '#94A3B8' : '#64748B';
 
   useEffect(() => {
     if (location.pathname === '/analytics') {
@@ -225,7 +237,7 @@ export default function PolicymakerStudio({ initialTab }) {
   const activeEpiData = epiResults.find(e => e.district === selectedDistrict?.district) || epiResults[0];
 
   return (
-    <div className="policymaker page-enter" data-theme="dark">
+    <div className="policymaker page-enter">
       <div className="container-wide">
         {/* ── Top Executive Header ─────────────────────── */}
         <div className="pm-header animate-fade-in">
@@ -327,11 +339,11 @@ export default function PolicymakerStudio({ initialTab }) {
                 <h4 className="chart-title">Demand Hotspots by Infrastructure Category</h4>
                 <ResponsiveContainer width="100%" height={300}>
                   <BarChart data={categoryData} layout="vertical" margin={{ left: 20 }}>
-                    <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" />
-                    <XAxis type="number" tick={{ fill: '#94A3B8', fontSize: 12 }} />
-                    <YAxis dataKey="name" type="category" width={130} tick={{ fill: '#CBD5E1', fontSize: 12 }} />
+                    <CartesianGrid strokeDasharray="3 3" stroke={gridStroke} />
+                    <XAxis type="number" tick={{ fill: axisTickColor, fontSize: 12 }} />
+                    <YAxis dataKey="name" type="category" width={130} tick={{ fill: axisTickColor, fontSize: 12 }} />
                     <Tooltip
-                      contentStyle={{ background: '#1E293B', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', color: '#F1F5F9' }}
+                      contentStyle={tooltipStyle}
                     />
                     <Bar dataKey="value" radius={[0, 4, 4, 0]}>
                       {categoryData.map((entry, i) => (
@@ -360,9 +372,9 @@ export default function PolicymakerStudio({ initialTab }) {
                         <Cell key={i} fill={entry.color} />
                       ))}
                     </Pie>
-                    <Tooltip contentStyle={{ background: '#1E293B', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', color: '#F1F5F9' }} />
+                    <Tooltip contentStyle={tooltipStyle} />
                     <Legend
-                      formatter={(value) => <span style={{ color: '#CBD5E1', fontSize: '0.85rem' }}>{value}</span>}
+                      formatter={(value) => <span style={{ color: axisTickColor, fontSize: '0.85rem' }}>{value}</span>}
                     />
                   </PieChart>
                 </ResponsiveContainer>
@@ -373,13 +385,13 @@ export default function PolicymakerStudio({ initialTab }) {
                 <h4 className="chart-title">Top Regional Jurisdictions by Unaddressed Grievance Volume</h4>
                 <ResponsiveContainer width="100%" height={300}>
                   <BarChart data={stateData}>
-                    <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" />
-                    <XAxis dataKey="name" tick={{ fill: '#94A3B8', fontSize: 11 }} angle={-20} textAnchor="end" height={60} />
-                    <YAxis tick={{ fill: '#94A3B8', fontSize: 12 }} />
-                    <Tooltip contentStyle={{ background: '#1E293B', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', color: '#F1F5F9' }} />
+                    <CartesianGrid strokeDasharray="3 3" stroke={gridStroke} />
+                    <XAxis dataKey="name" tick={{ fill: axisTickColor, fontSize: 11 }} angle={-20} textAnchor="end" height={60} />
+                    <YAxis tick={{ fill: axisTickColor, fontSize: 12 }} />
+                    <Tooltip contentStyle={tooltipStyle} />
                     <Bar dataKey="grievances" fill="#4361EE" radius={[4, 4, 0, 0]} name="Total Demands" />
                     <Bar dataKey="critical" fill="#EF4444" radius={[4, 4, 0, 0]} name="Critical Distress" />
-                    <Legend formatter={(value) => <span style={{ color: '#CBD5E1', fontSize: '0.85rem' }}>{value}</span>} />
+                    <Legend formatter={(value) => <span style={{ color: axisTickColor, fontSize: '0.85rem' }}>{value}</span>} />
                   </BarChart>
                 </ResponsiveContainer>
               </div>
@@ -398,8 +410,11 @@ export default function PolicymakerStudio({ initialTab }) {
                 >
                   <MapCenterController country={selectedCountry} />
                   <TileLayer
+                    key={theme}
                     attribution='&copy; <a href="https://carto.com/">CARTO</a>'
-                    url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+                    url={theme === 'dark' 
+                      ? "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png" 
+                      : "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"}
                   />
                   {epiResults.map((result) => {
                     const dist = districtData.find(d => d.district === result.district);
@@ -1028,10 +1043,10 @@ export default function PolicymakerStudio({ initialTab }) {
                           <stop offset="95%" stopColor="#F59E0B" stopOpacity={0.0}/>
                         </linearGradient>
                       </defs>
-                      <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" />
-                      <XAxis dataKey="month" stroke="#94A3B8" />
-                      <YAxis stroke="#94A3B8" domain={[0, 100]} />
-                      <Tooltip contentStyle={{ background: '#0F172A', border: '1px solid #334155', borderRadius: '8px' }} />
+                      <CartesianGrid strokeDasharray="3 3" stroke={gridStroke} />
+                      <XAxis dataKey="month" stroke={axisTickColor} />
+                      <YAxis stroke={axisTickColor} domain={[0, 100]} />
+                      <Tooltip contentStyle={tooltipStyle} />
                       <Area type="monotone" dataKey="waterStress" stroke="#3B82F6" strokeWidth={3} fillOpacity={1} fill="url(#waterGrad)" name="Water Stress" />
                       <Area type="monotone" dataKey="roadRisk" stroke="#F59E0B" strokeWidth={3} fillOpacity={1} fill="url(#roadGrad)" name="Road Disruption Risk" />
                       <Line type="monotone" dataKey="threshold" stroke="#EF4444" strokeWidth={2} strokeDasharray="5 5" name="Failure Threshold" />

@@ -273,3 +273,48 @@
   color: #6B83F2;
   font-weight: 600;
 }
+
+/* ════════ Light Mode Parity (GovTech Clean Slate) ════════ */
+[data-theme="light"] .app-footer {
+  background: linear-gradient(180deg, #F8FAFC 0%, #EEF2F6 100%);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  color: var(--text-secondary);
+}
+
+[data-theme="light"] .footer-hero-band {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+}
+
+[data-theme="light"] .gemini-badge .partner-name,
+[data-theme="light"] .antigravity-badge .partner-name,
+[data-theme="light"] .footer-brand-title h5,
+[data-theme="light"] .footer-col-title {
+  color: var(--text-primary);
+}
+
+[data-theme="light"] .partner-badge {
+  background: rgba(0, 0, 0, 0.03);
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="light"] .footer-mission-text,
+[data-theme="light"] .footer-checklist li {
+  color: var(--text-secondary);
+}
+
+[data-theme="light"] .brics-flag-pill {
+  color: var(--text-primary);
+  background: rgba(0, 0, 0, 0.04);
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="light"] .footer-bottom-line {
+  border-top-color: rgba(0, 0, 0, 0.06);
+}
+
+[data-theme="light"] .footer-credit {
+  color: var(--text-secondary);
+}
+

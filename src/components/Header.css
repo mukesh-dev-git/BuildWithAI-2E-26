@@ -2,16 +2,22 @@
   position: sticky;
   top: 0;
   z-index: var(--z-sticky);
-  background: rgba(255, 255, 255, 0.8);
+  background: var(--bg-surface);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--border-subtle);
-  transition: all var(--transition-base);
+  transition: background var(--transition-base), border-color var(--transition-base);
 }
 
 .header-dark {
-  background: rgba(7, 11, 20, 0.85);
-  border-bottom-color: rgba(255, 255, 255, 0.06);
+  background: rgba(7, 11, 20, 0.92);
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+.header-light {
+  background: rgba(255, 255, 255, 0.95);
+  border-bottom-color: rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
 }
 
 .header-inner {
@@ -139,6 +145,42 @@
 .lang-select option {
   background: var(--bg-elevated);
   color: var(--text-primary);
+}
+
+.theme-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  background: var(--bg-glass);
+  border: 1px solid var(--border-default);
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.theme-toggle-btn:hover {
+  background: var(--bg-glass-hover);
+  border-color: var(--royal-blue);
+  box-shadow: 0 2px 8px rgba(67, 97, 238, 0.15);
+  transform: translateY(-1px);
+}
+
+.theme-icon.sun {
+  color: #F59E0B;
+}
+
+.theme-icon.moon {
+  color: #818CF8;
+}
+
+.theme-toggle-label {
+  font-size: 0.78rem;
+  font-weight: 600;
 }
 
 .google-badge-btn {

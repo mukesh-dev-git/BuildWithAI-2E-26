@@ -559,3 +559,157 @@
   font-size: 0.75rem;
   font-weight: 600;
 }
+
+/* ════════ Light Mode Parity (GovTech Clean Slate) ════════ */
+[data-theme="light"] .ingestion-header-banner {
+  background: linear-gradient(180deg, rgba(240, 244, 248, 0.9) 0%, rgba(255, 255, 255, 0.95) 100%);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="light"] .ingestion-title {
+  color: var(--text-primary);
+}
+
+[data-theme="light"] .ingestion-subtitle {
+  color: var(--text-secondary);
+}
+
+[data-theme="light"] .metric-box {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+[data-theme="light"] .metric-box-val {
+  color: var(--text-primary);
+}
+
+[data-theme="light"] .metric-box-lbl {
+  color: var(--text-secondary);
+}
+
+[data-theme="light"] .channel-arch-card {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
+}
+
+[data-theme="light"] .channel-arch-card:hover {
+  border-color: rgba(67, 97, 238, 0.3);
+}
+
+[data-theme="light"] .channel-arch-card h4 {
+  color: var(--text-primary);
+}
+
+[data-theme="light"] .channel-arch-card p {
+  color: var(--text-secondary);
+}
+
+[data-theme="light"] .channel-stat-badge {
+  background: rgba(0, 0, 0, 0.04);
+  color: var(--text-primary);
+}
+
+[data-theme="light"] .arch-pill {
+  color: var(--text-tertiary);
+  border-top-color: rgba(0, 0, 0, 0.06);
+}
+
+[data-theme="light"] .simulation-launcher-panel {
+  background: linear-gradient(135deg, rgba(238, 242, 255, 0.85) 0%, rgba(240, 244, 248, 0.95) 100%);
+  border-color: rgba(66, 133, 244, 0.3);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="light"] .sim-panel-left h5 {
+  color: var(--text-primary);
+}
+
+[data-theme="light"] .sim-panel-left p {
+  color: var(--text-secondary);
+}
+
+[data-theme="light"] .btn-sim-preset {
+  background: rgba(255, 255, 255, 0.9);
+  border-color: rgba(0, 0, 0, 0.1);
+  color: var(--text-primary);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+[data-theme="light"] .btn-sim-preset:hover:not(:disabled) {
+  background: rgba(66, 133, 244, 0.1);
+  border-color: var(--royal-blue);
+  color: var(--royal-blue);
+}
+
+[data-theme="light"] .toolbar-left h3 {
+  color: var(--text-primary);
+}
+
+[data-theme="light"] .filter-group {
+  background: rgba(255, 255, 255, 0.85);
+  border-color: rgba(0, 0, 0, 0.1);
+  color: var(--text-secondary);
+}
+
+[data-theme="light"] .filter-select {
+  color: var(--text-primary);
+}
+
+[data-theme="light"] .filter-select option {
+  background: var(--bg-elevated);
+  color: var(--text-primary);
+}
+
+[data-theme="light"] .feed-card {
+  background: rgba(255, 255, 255, 0.88);
+  border-color: rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+[data-theme="light"] .feed-card:hover {
+  border-color: rgba(67, 97, 238, 0.25);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+[data-theme="light"] .country-tag {
+  color: var(--text-secondary);
+}
+
+[data-theme="light"] .lang-tag {
+  background: rgba(0, 0, 0, 0.04);
+  color: var(--text-secondary);
+}
+
+[data-theme="light"] .audio-snippet-bar {
+  background: rgba(0, 0, 0, 0.03);
+  border-color: rgba(0, 0, 0, 0.06);
+}
+
+[data-theme="light"] .original-speech {
+  color: var(--text-primary);
+}
+
+[data-theme="light"] .gemini-processed-block {
+  background: rgba(66, 133, 244, 0.06);
+}
+
+[data-theme="light"] .translated-text {
+  color: var(--text-primary);
+}
+
+[data-theme="light"] .feed-card-footer {
+  border-top-color: rgba(0, 0, 0, 0.06);
+}
+
+[data-theme="light"] .footer-location strong {
+  color: var(--text-primary);
+}
+
+[data-theme="light"] .category-pill {
+  background: rgba(67, 97, 238, 0.08);
+  border-color: rgba(67, 97, 238, 0.2);
+  color: var(--royal-blue);
+}
+

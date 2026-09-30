@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
+import { ThemeProvider, useTheme } from './context/ThemeContext';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import NeuralCopilot from './components/NeuralCopilot';
@@ -7,9 +8,11 @@ import MultichannelIngestion from './pages/MultichannelIngestion';
 import LandingPage from './pages/LandingPage';
 import './App.css';
 
-function App() {
+function AppContent() {
+  const { theme } = useTheme();
+
   return (
-    <div className="app" data-theme="dark">
+    <div className="app" data-theme={theme}>
       <Header />
       <main className="main-content">
         <Routes>
@@ -31,6 +34,14 @@ function App() {
       <Footer />
       <NeuralCopilot />
     </div>
+  );
+}
+
+function App() {
+  return (
+    <ThemeProvider>
+      <AppContent />
+    </ThemeProvider>
   );
 }
 

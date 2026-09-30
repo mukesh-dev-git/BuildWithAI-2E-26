@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Globe, Menu, X, Sparkles, Flame, BarChart3, Radio, Cpu } from 'lucide-react';
+import { Globe, Menu, X, Sparkles, Flame, BarChart3, Radio, Cpu, Sun, Moon } from 'lucide-react';
 import { useState } from 'react';
+import { useTheme } from '../context/ThemeContext';
 import GoogleTechModal from './GoogleTechModal';
 import CrisisWarRoomModal from './CrisisWarRoomModal';
 import './Header.css';
@@ -20,14 +21,14 @@ const languages = [
 
 export default function Header() {
   const location = useLocation();
+  const { theme, toggleTheme } = useTheme();
   const [lang, setLang] = useState('en');
   const [menuOpen, setMenuOpen] = useState(false);
   const [showGoogleModal, setShowGoogleModal] = useState(false);
   const [showWarRoom, setShowWarRoom] = useState(false);
-  const isPolicymaker = location.pathname.startsWith('/policymaker');
 
   return (
-    <header className={`header ${isPolicymaker ? 'header-dark' : ''}`}>
+    <header className={`header ${theme === 'dark' ? 'header-dark' : 'header-light'}`}>
       <div className="header-inner container-wide">
         <Link to="/" className="header-brand">
           <div className="brand-icon">
@@ -67,8 +68,9 @@ export default function Header() {
         </nav>
 
         <div className="header-actions">
+          {/* Language Selector */}
           <div className="lang-selector">
-            <Globe size={16} />
+            <Globe size={15} />
             <select 
               value={lang} 
               onChange={(e) => setLang(e.target.value)}
@@ -80,6 +82,18 @@ export default function Header() {
             </select>
           </div>
 
+          {/* Theme Toggle Button */}
+          <button 
+            className="theme-toggle-btn" 
+            onClick={toggleTheme}
+            title={theme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+            aria-label="Toggle theme"
+          >
+            {theme === 'dark' ? <Sun size={15} className="theme-icon sun" /> : <Moon size={15} className="theme-icon moon" />}
+            <span className="theme-toggle-label">{theme === 'dark' ? 'Light' : 'Dark'}</span>
+          </button>
+
+          {/* Crisis War Room Trigger */}
           <button 
             className="crisis-badge-btn" 
             onClick={() => setShowWarRoom(true)}
@@ -89,6 +103,7 @@ export default function Header() {
             <span>Crisis War Room</span>
           </button>
 
+          {/* Google AI Stack Modal Trigger */}
           <button 
             className="google-badge-btn" 
             onClick={() => setShowGoogleModal(true)}
@@ -120,4 +135,3 @@ export default function Header() {
     </header>
   );
 }
-
