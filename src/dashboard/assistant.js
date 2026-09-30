@@ -159,3 +159,49 @@ export async function askMap(question) {
     return { ...grounded, engine: 'data' };
   }
 }
+
+/** Recommendation-page questions: country actions, what a member can learn, who needs action. */
+export async function askRecs(question) {
+  const isos = findCountries(question);
+  const themeId = findTheme(question);
+  const recs = await apiGet('/recs/overview');
+  let grounded = null;
+
+  if (isos.length && /learn|study|borrow|adopt|copy|from others/i.test(question)) {
+    const iso = isos[0];
+    const t = recs.transfers.filter((x) => x.to === iso && (!themeId || x.theme === themeId));
+    grounded = {
+      text: t.length ? `${COUNTRY_NAMES[iso]} could learn from these members, matched on measured progress:` : `No knowledge-transfer match was found for ${COUNTRY_NAMES[iso]}${themeId ? ' on this theme' : ''}.`,
+      bullets: t.map((x) => `${x.label}: ${COUNTRY_NAMES[x.from]} (${x.model}). ${x.match.problemNote}; context similarity ${x.match.context.toLowerCase()}, income similarity ${x.match.income.toLowerCase()}.`),
+      source: 'World Bank WDI trends since 2010, curated programme list',
+    };
+  } else if (isos.length && !themeId) {
+    const plan = recs.plans.find((p) => p.iso3 === isos[0]);
+    grounded = {
+      text: `Country actions for ${plan.name}, ranked by need:`,
+      bullets: plan.top.map((x) => `${x.label} (need ${x.score}): ${x.action}${x.evidence.pilotRegions.length ? `. Start in ${x.evidence.pilotRegions.map((r) => r.name).join(', ')}` : ''}${x.learnFrom.length ? `. Learn from ${x.learnFrom.map((l) => COUNTRY_NAMES[l.iso3]).join(', ')}` : ''}.`),
+      source: 'Country plan: regional surveys / citizen requests + World Bank indicators',
+    };
+  } else if (themeId && /need|which countries|who/i.test(question)) {
+    const s = recs.shared.find((x) => x.theme === themeId);
+    if (s) {
+      grounded = {
+        text: `${s.label} (${recs.types[s.type].label.toLowerCase()}, priority ${s.score}). Members needing action:`,
+        bullets: [
+          ...s.needCountries.map((c) => `${COUNTRY_NAMES[c]} needs action`),
+          ...(s.mentorCountries.length ? [`Relevant experience: ${s.mentorCountries.map((c) => COUNTRY_NAMES[c]).join(', ')}`] : ['No member has yet shown the improvement needed to act as a model: a research opportunity.']),
+          ...s.actions.map((a) => `Suggested BRICS action: ${a}`),
+        ],
+        source: 'World Bank WDI need scores (45+ = needs action)',
+      };
+    }
+  }
+  if (!grounded) return askMap(question);
+  if (!isApiKeyConfigured()) return { ...grounded, engine: 'data' };
+  try {
+    const text = await answerPolicyQuestion(question, { retrieved: { text: grounded.text, facts: grounded.bullets } });
+    return text ? { ...grounded, text, engine: 'gemini' } : { ...grounded, engine: 'data' };
+  } catch {
+    return { ...grounded, engine: 'data' };
+  }
+}

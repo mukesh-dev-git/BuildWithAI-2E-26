@@ -7,7 +7,8 @@ import ExecutiveOverview from './dashboard/pages/ExecutiveOverview';
 import Cooperation from './dashboard/pages/Cooperation';
 import DemandIntelligenceMap from './dashboard/pages/DemandIntelligenceMap';
 import RegionNeedMap from './dashboard/pages/RegionNeedMap';
-import Recommendations from './dashboard/pages/Recommendations';
+import RecommendationsHub from './dashboard/pages/RecommendationsHub';
+import RegionalPriorities from './dashboard/pages/RegionalPriorities';
 import Explorer from './dashboard/pages/Explorer';
 import CountryCompare from './dashboard/pages/CountryCompare';
 import Investment from './dashboard/pages/Investment';
@@ -25,7 +26,8 @@ function App() {
           <Route index element={<ExecutiveOverview />} />
           <Route path="map" element={<DemandIntelligenceMap />} />
           <Route path="map/:iso3/:theme" element={<RegionNeedMap />} />
-          <Route path="recommendations" element={<Recommendations />} />
+          <Route path="recommendations" element={<RecommendationsHub />} />
+          <Route path="recommendations/regional" element={<RegionalPriorities />} />
           <Route path="explorer" element={<Explorer />} />
           <Route path="countries" element={<CountryCompare />} />
           <Route path="cooperation" element={<Cooperation />} />

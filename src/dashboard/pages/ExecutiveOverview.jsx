@@ -143,7 +143,7 @@ function BriefCard({ d, onExpand, onAsk }) {
         <div className="brief-actions">
           <p className="brief-hint">Ask questions about countries, sectors and hotspots</p>
           <button className="row-btn" onClick={onExpand}><MessageCircle size={17} /> Explain this analysis <ChevronRight size={16} /></button>
-          <button className="row-btn" onClick={() => navigate('/recommendations')}><FileText size={17} /> View evidence <ChevronRight size={16} /></button>
+          <button className="row-btn" onClick={() => navigate('/recommendations/regional')}><FileText size={17} /> View evidence <ChevronRight size={16} /></button>
           <button className="row-btn" onClick={() => navigate('/countries')}><ChartNoAxesColumn size={17} /> Compare countries <ChevronRight size={16} /></button>
         </div>
       </div>
@@ -242,7 +242,7 @@ function RisksCard({ risks, months, onExplore }) {
     <section className="ecard">
       <CardHead icon={<TriangleAlert size={28} color="#fff" fill="#e11d2e" />} title="Emerging Risks"
         subtitle={`Fastest-rising citizen demand (last ${months} months vs the ${months} before)`}
-        actions={<button className="link-btn" onClick={() => navigate('/recommendations')}>View all risks <ArrowRight size={15} /></button>} />
+        actions={<button className="link-btn" onClick={() => navigate('/recommendations/regional')}>View all risks <ArrowRight size={15} /></button>} />
       <ul className="risk-list">
         {risks.slice(0, 4).map((r) => (
           <li key={r.theme}>

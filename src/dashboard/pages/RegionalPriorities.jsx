@@ -13,7 +13,7 @@ const COMPONENTS = [
   ['infraGap', 'Infrastructure gap', 'National shortfall from World Bank indicators (20%)'],
 ];
 
-export default function Recommendations() {
+export default function RegionalPriorities() {
   const { params } = useDashboard();
   const [search, setSearch] = useSearchParams();
   const [basis, setBasis] = useState('');

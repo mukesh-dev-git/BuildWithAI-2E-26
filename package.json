@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently -k \"node --watch-path=server server/index.js\" \"vite\"",
+    "dev": "concurrently -k \"node --watch-path=server/brics --watch-path=server/pipeline --watch-path=server/index.js server/index.js\" \"vite\"",
     "dev:frontend": "vite",
     "server": "node server/index.js",
     "db:seed": "node server/seed.js",

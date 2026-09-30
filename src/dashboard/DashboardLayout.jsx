@@ -12,7 +12,7 @@ import './dashboard.css';
 export const NAV = [
   { to: '/', label: 'Overview', icon: LayoutGrid, end: true, title: 'BRICS Executive Overview', subtitle: 'Shared development priorities, hotspots and cooperation opportunities across BRICS members' },
   { to: '/map', label: 'Demand Map', icon: Map, title: 'Demand Intelligence Map', subtitle: 'Where citizen demand, infrastructure gaps and investment mismatches concentrate across BRICS', mapControls: true },
-  { to: '/recommendations', label: 'Recommendations', icon: ClipboardList },
+  { to: '/recommendations', label: 'Recommendations', icon: ClipboardList, title: 'Recommendations', subtitle: 'Shared BRICS priorities, country actions and transferable implementation models' },
   { to: '/countries', label: 'Country Insights', icon: ChartColumn },
   { to: '/cooperation', label: 'Cooperation', icon: Handshake },
   { to: '/investment', label: 'Investment Alignment', icon: Database },
@@ -21,7 +21,7 @@ export const NAV = [
 ];
 
 // Pages reachable by link but not listed in the sidebar
-const EXTRA_TITLES = { '/explorer': 'Request Explorer' };
+const EXTRA_TITLES = { '/explorer': 'Request Explorer', '/recommendations/regional': 'Regional priorities' };
 
 // Pages where the time window filter has no effect
 const NO_WINDOW = ['/countries', '/investment', '/sources', '/intake', '/explorer', '/cooperation'];

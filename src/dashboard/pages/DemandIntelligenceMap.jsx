@@ -154,7 +154,7 @@ export default function DemandIntelligenceMap() {
       <div className="dmap-main">
         <section className="ecard map-card">
           {hex.error ? <ErrorNote error={hex.error} /> : !hex.data ? <Loading label="Placing hexagons…" /> : (
-            <RegionHexMap data={hex.data} country={country} height={380} dots={dots}
+            <RegionHexMap data={hex.data} country={country} height={null} dots={dots}
               selectedRegion={selected?.regionId}
               legendTitle={LAYER_LEGEND[mapLayer]}
               onSelect={(regionId) => setSelected({ regionId, theme: hex.data.regionBest[regionId]?.theme || (theme === 'all' ? 'water' : theme) })}
@@ -178,7 +178,7 @@ export default function DemandIntelligenceMap() {
                 <li key={x.key} className={`${selected?.regionId === x.regionId ? 'on' : ''} ${x.addressed ? 'done' : ''}`}>
                   <span className="top6-n">{i + 1}</span>
                   <button className="top6-name" onClick={() => setSelected({ regionId: x.regionId, theme: x.theme })}>
-                    {x.region}, <span className="muted">{COUNTRY_NAMES[x.iso3]}</span>
+                    <Flag iso3={x.iso3} size={16} /> {x.region}
                   </button>
                   <span className="tier-dot" style={{ '--c': tierOf(x.score)?.color }}>{tierOf(x.score)?.label}</span>
                   <span className="top6-val num">{x.requests12m ? fmtCompact(x.requests12m) : x.score}</span>
@@ -313,7 +313,7 @@ function SelectedHotspot({ sel, onClose, actionTick, onAsk, onToggle }) {
             <Info size={14} className="muted" />
           </div>
           <div className="sel-actions">
-            <button className="btn-brand sm" onClick={() => (x.basis === 'citizen-demand' ? navigate(`/recommendations?focus=${encodeURIComponent(`${x.regionId}:${x.sector}`)}`) : navigate(`/map/${x.iso3}/${x.theme}`))}>
+            <button className="btn-brand sm" onClick={() => (x.basis === 'citizen-demand' ? navigate(`/recommendations/regional?focus=${encodeURIComponent(`${x.regionId}:${x.sector}`)}`) : navigate(`/map/${x.iso3}/${x.theme}`))}>
               <FileText size={14} /> View evidence
             </button>
             <button className="outline-btn sm" onClick={() => onAsk(`How is ${COUNTRY_NAMES[x.iso3]} addressing ${x.themeLabel.toLowerCase()}?`)}><Sparkles size={14} /> Ask AI</button>

@@ -221,6 +221,11 @@ export function registerHotspots(router, h) {
     });
   });
 
+  h.allHotspots = allHotspots;
+  h.withActions = withActions;
+  h.nationalScores = nationalScores;
+  h.nationalPpi = nationalPpi;
+
   // Top needs per member: the member's three highest-scoring map themes
   router.get('/hotspots/topneeds', (req, res) => {
     const nat = nationalScores();

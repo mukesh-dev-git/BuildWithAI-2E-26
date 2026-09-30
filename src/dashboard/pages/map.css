@@ -40,7 +40,8 @@
 
 /* main row */
 .dmap-main { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr) minmax(0, 0.95fr); gap: 12px; align-items: stretch; }
-.map-card { padding: 8px; }
+.map-card { padding: 8px; display: flex; flex-direction: column; }
+.map-card > .rhex:not(.rhex-full) { flex: 1; min-height: 400px; }
 
 /* hex map */
 .rhex { position: relative; border-radius: 10px; overflow: hidden; background: #f4f7fb; --hex-land: #e2e7ee; --hex-nodata: #c9d1dd; }
@@ -70,7 +71,7 @@
 .rhex-zoom button + button { border-top: 1px solid var(--d-border); }
 .rhex-expand { position: absolute; right: 10px; top: 10px; width: 36px; height: 36px; display: grid; place-items: center; border-radius: 8px; border: 1.5px solid #e11d2e; background: var(--d-surface); color: var(--d-text); cursor: pointer; box-shadow: 0 2px 8px rgba(15,30,70,0.08); }
 .rhex-expand:hover { background: #fff1f1; }
-.rhex-footer { position: absolute; right: 10px; bottom: 10px; }
+.rhex-footer { position: absolute; right: 56px; top: 10px; }
 .map-src { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: #1d63f0; background: var(--d-surface); border: 1px solid var(--d-border); border-radius: 8px; padding: 6px 10px; text-decoration: none; }
 
 /* top 6 */
@@ -82,7 +83,7 @@
 .theme-pick.big { padding: 2px 10px; }
 .dash .theme-pick.big select { font-size: 14px; padding: 8px 2px; }
 .top6-list { list-style: none; margin: 0; padding: 0; flex: 1; display: flex; flex-direction: column; }
-.top6-list li { display: grid; grid-template-columns: 22px minmax(0, 1fr) 76px 50px 50px 22px; gap: 6px; align-items: center; padding: 9px 4px; border-bottom: 1px solid var(--d-border); font-size: 12.5px; border-radius: 6px; }
+.top6-list li { display: grid; grid-template-columns: 22px minmax(0, 1fr) 72px 44px 46px 20px; gap: 6px; align-items: center; padding: 9px 4px; border-bottom: 1px solid var(--d-border); font-size: 12.5px; border-radius: 6px; }
 .top6-list li.on { background: var(--d-accent-soft); }
 .top6-list li.done .top6-name { text-decoration: line-through; color: var(--d-text-3); }
 .top6-n { width: 20px; height: 20px; border-radius: 50%; display: grid; place-items: center; font-size: 11px; background: var(--d-surface-2); color: var(--d-text-2); border: 1px solid var(--d-border); }
