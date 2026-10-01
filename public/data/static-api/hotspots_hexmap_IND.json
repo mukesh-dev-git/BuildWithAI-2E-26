@@ -1,0 +1,7178 @@
+{
+  "r": 0.6163859397429524,
+  "bounds": {
+    "lonMin": 66.88622812051409,
+    "lonMax": 98.3957718794859,
+    "latMin": 5.574228120514095,
+    "latMax": 38.2887718794859
+  },
+  "regionNames": {
+    "BRA-roraima": "Roraima",
+    "BRA-amapa": "Amapa",
+    "BRA-amazonas": "Amazonas",
+    "BRA-para": "Para",
+    "BRA-maranhao": "Maranhao",
+    "BRA-ceara": "Ceara",
+    "BRA-rio-grande-do-norte": "Rio Grande do Norte",
+    "BRA-paraiba": "Paraiba",
+    "BRA-piaui": "Piaui",
+    "BRA-pernambuco": "Pernambuco",
+    "BRA-alagoas": "Alagoas",
+    "BRA-acre": "Acre",
+    "BRA-rondonia": "Rondonia",
+    "BRA-sergipe": "Sergipe",
+    "BRA-tocantins": "Tocantins",
+    "BRA-bahia": "Bahia",
+    "BRA-mato-grosso": "Mato Grosso",
+    "BRA-goias": "Goias",
+    "BRA-distrito-federal": "Distrito Federal",
+    "BRA-minas-gerais": "Minas Gerais",
+    "BRA-espirito-santo": "Espirito Santo",
+    "BRA-mato-grosso-do-sul": "Mato Grosso do Sul",
+    "BRA-rio-de-janeiro": "Rio de Janeiro",
+    "BRA-sao-paulo": "Sao Paulo",
+    "BRA-parana": "Parana",
+    "BRA-santa-catarina": "Santa Catarina",
+    "BRA-rio-grande-do-sul": "Rio Grande do Sul",
+    "RUS-altai-krai": "Altai Krai",
+    "RUS-republic-of-mordovia": "Republic of Mordovia",
+    "RUS-tula-oblast": "Tula Oblast",
+    "RUS-kurgan-oblast": "Kurgan Oblast",
+    "RUS-ingushetia": "Ingushetia",
+    "RUS-khanty-mansiysk-autonomous-okrug-ugra": "Khanty-Mansiysk Autonomous Okrug – Ugra",
+    "RUS-kirov-oblast": "Kirov Oblast",
+    "RUS-komi-republic": "Komi Republic",
+    "RUS-kostroma-oblast": "Kostroma Oblast",
+    "RUS-krasnoyarsk-krai": "Krasnoyarsk Krai",
+    "RUS-zabaykalsky-krai": "Zabaykalsky Krai",
+    "RUS-sverdlovsk-oblast": "Sverdlovsk Oblast",
+    "RUS-volgograd-oblast": "Volgograd Oblast",
+    "RUS-irkutsk-oblast": "Irkutsk Oblast",
+    "RUS-perm-krai": "Perm Krai",
+    "RUS-pskov-oblast": "Pskov Oblast",
+    "RUS-rostov-oblast": "Rostov Oblast",
+    "RUS-ryazan-oblast": "Ryazan Oblast",
+    "RUS-adygea": "Adygea",
+    "RUS-samara-oblast": "Samara Oblast",
+    "RUS-khakassia": "Khakassia",
+    "RUS-tambov-oblast": "Tambov Oblast",
+    "RUS-tatarstan": "Tatarstan",
+    "RUS-tomsk-oblast": "Tomsk Oblast",
+    "RUS-nizhny-novgorod-oblast": "Nizhny Novgorod Oblast",
+    "RUS-republic-of-karelia": "Republic of Karelia",
+    "RUS-arkhangelsk-oblast": "Arkhangelsk Oblast",
+    "RUS-astrakhan-oblast": "Astrakhan Oblast",
+    "RUS-belgorod-oblast": "Belgorod Oblast",
+    "RUS-bryansk-oblast": "Bryansk Oblast",
+    "RUS-buryatia": "Buryatia",
+    "RUS-chechnya": "Chechnya",
+    "RUS-chelyabinsk-oblast": "Chelyabinsk Oblast",
+    "RUS-chuvashia": "Chuvashia",
+    "RUS-tyumen-oblast": "Tyumen Oblast",
+    "RUS-north-ossetia-alania": "North Ossetia–Alania",
+    "RUS-penza-oblast": "Penza Oblast",
+    "RUS-amur-oblast": "Amur Oblast",
+    "RUS-kabardino-balkaria": "Kabardino-Balkaria",
+    "RUS-krasnodar-krai": "Krasnodar Krai",
+    "RUS-kursk-oblast": "Kursk Oblast",
+    "RUS-leningrad-oblast": "Leningrad oblast",
+    "RUS-mari-el": "Mari El",
+    "RUS-moscow": "Moscow",
+    "RUS-moscow-oblast": "Moscow Oblast",
+    "RUS-murmansk-oblast": "Murmansk Oblast",
+    "RUS-nenets-autonomous-okrug": "Nenets Autonomous Okrug",
+    "RUS-novgorod-oblast": "Novgorod Oblast",
+    "RUS-novosibirsk-oblast": "Novosibirsk Oblast",
+    "RUS-omsk-oblast": "Omsk Oblast",
+    "RUS-oryol-oblast": "Oryol Oblast",
+    "RUS-saint-petersburg": "Saint Petersburg",
+    "RUS-sakhalin-oblast": "Sakhalin Oblast",
+    "RUS-sakha-republic": "Sakha Republic",
+    "RUS-saratov-oblast": "Saratov Oblast",
+    "RUS-smolensk-oblast": "Smolensk Oblast",
+    "RUS-stavropol-krai": "Stavropol Krai",
+    "RUS-tuva": "Tuva",
+    "RUS-tver-oblast": "Tver Oblast",
+    "RUS-udmurtia": "Udmurtia",
+    "RUS-kaluga-oblast": "Kaluga Oblast",
+    "RUS-lipetsk-oblast": "Lipetsk Oblast",
+    "RUS-magadan-oblast": "Magadan Oblast",
+    "RUS-ulyanovsk-oblast": "Ulyanovsk Oblast",
+    "RUS-vladimir-oblast": "Vladimir Oblast",
+    "RUS-vologda-oblast": "Vologda Oblast",
+    "RUS-yaroslavl-oblast": "Yaroslavl Oblast",
+    "RUS-voronezh-oblast": "Voronezh Oblast",
+    "RUS-yamalo-nenets-autonomous-okrug": "Yamalo-Nenets Autonomous Okrug",
+    "RUS-altai-republic": "Altai Republic",
+    "RUS-ivanovo-oblast": "Ivanovo Oblast",
+    "RUS-jewish-autonomous-oblast": "Jewish Autonomous Oblast",
+    "RUS-kalmykia": "Kalmykia",
+    "RUS-kamchatka-krai": "Kamchatka Krai",
+    "RUS-karachay-cherkessia": "Karachay-Cherkessia",
+    "RUS-kemerovo-oblast": "Kemerovo Oblast",
+    "RUS-khabarovsk-krai": "Khabarovsk Krai",
+    "RUS-chukotka-autonomous-okrug": "Chukotka Autonomous Okrug",
+    "RUS-dagestan": "Dagestan",
+    "RUS-kaliningrad": "Kaliningrad",
+    "RUS-orenburg-oblast": "Orenburg Oblast",
+    "RUS-primorsky-krai": "Primorsky Krai",
+    "RUS-bashkortostan": "Bashkortostan",
+    "IND-puducherry": "Puducherry",
+    "IND-maharashtra": "Mahārāshtra",
+    "IND-nagaland": "Nāgāland",
+    "IND-lakshadweep": "Lakshadweep",
+    "IND-uttar-pradesh": "Uttar Pradesh",
+    "IND-tamil-nadu": "Tamil Nādu",
+    "IND-chhattisgarh": "Chhattīsgarh",
+    "IND-gujarat": "Gujarāt",
+    "IND-delhi": "Delhi",
+    "IND-sikkim": "Sikkim",
+    "IND-tripura": "Tripura",
+    "IND-west-bengal": "West Bengal",
+    "IND-odisha": "Odisha",
+    "IND-bihar": "Bihār",
+    "IND-ladakh": "Ladākh",
+    "IND-rajasthan": "Rājasthān",
+    "IND-telangana": "Telangāna",
+    "IND-andhra-pradesh": "Andhra Pradesh",
+    "IND-mizoram": "Mizoram",
+    "IND-arunachal-pradesh": "Arunāchal Pradesh",
+    "IND-meghalaya": "Meghālaya",
+    "IND-jharkhand": "Jhārkhand",
+    "IND-assam": "Assam",
+    "IND-manipur": "Manipur",
+    "IND-karnataka": "Karnātaka",
+    "IND-uttarakhand": "Uttarākhand",
+    "IND-dadra-and-nagar-haveli-and-daman-and-diu": "Dādra and Nagar Haveli and Damān and Diu",
+    "IND-madhya-pradesh": "Madhya Pradesh",
+    "IND-goa": "Goa",
+    "IND-kerala": "Kerala",
+    "IND-chandigarh": "Chandīgarh",
+    "IND-andaman-and-nicobar-islands": "Andaman and Nicobar Islands",
+    "IND-himachal-pradesh": "Himāchal Pradesh",
+    "IND-jammu-and-kashmir": "Jammu and Kashmīr",
+    "IND-punjab": "Punjab",
+    "IND-haryana": "Haryāna",
+    "CHN-hainan-province": "Hainan Province",
+    "CHN-taiwan-province": "Taiwan Province",
+    "CHN-guangxi-zhuang-autonomous-region": "Guangxi Zhuang Autonomous Region",
+    "CHN-fujian-province": "Fujian Province",
+    "CHN-yunnan-province": "Yunnan Province",
+    "CHN-guizhou-province": "Guizhou Province",
+    "CHN-jiangxi-province": "Jiangxi Province",
+    "CHN-hunan-province": "Hunan Province",
+    "CHN-zhejiang-province": "Zhejiang Province",
+    "CHN-shanghai-municipality": "Shanghai Municipality",
+    "CHN-chongqing-municipality": "Chongqing Municipality",
+    "CHN-hubei-province": "Hubei Province",
+    "CHN-sichuan-province": "Sichuan Province",
+    "CHN-anhui-province": "Anhui Province",
+    "CHN-jiangsu-province": "Jiangsu Province",
+    "CHN-henan-province": "Henan Province",
+    "CHN-tibet-autonomous-region": "Tibet Autonomous Region",
+    "CHN-shandong-province": "Shandong Province",
+    "CHN-qinghai-province": "Qinghai Province",
+    "CHN-ningxia-ningxia-hui-autonomous-region": "Ningxia Ningxia Hui Autonomous Region",
+    "CHN-shaanxi-province": "Shaanxi Province",
+    "CHN-tianjin-municipality": "Tianjin Municipality",
+    "CHN-shanxi-province": "Shanxi Province",
+    "CHN-beijing-municipality": "Beijing Municipality",
+    "CHN-gansu-province": "Gansu Province",
+    "CHN-hebei-province": "Hebei Province",
+    "CHN-liaoning-province": "Liaoning Province",
+    "CHN-jilin-province": "Jilin Province",
+    "CHN-xinjiang-uyghur-autonomous-region": "Xinjiang Uyghur Autonomous Region",
+    "CHN-inner-mongolia-autonomous-region": "Inner Mongolia Autonomous Region",
+    "CHN-heilongjiang-province": "Heilongjiang Province",
+    "CHN-macau-special-administrative-region": "Macau Special Administrative Region",
+    "CHN-hong-kong-special-administrative-region": "Hong Kong Special Administrative Region",
+    "CHN-guangzhou-province": "Guangzhou Province",
+    "ZAF-eastern-cape": "Eastern Cape",
+    "ZAF-free-state": "Free State",
+    "ZAF-gauteng": "Gauteng",
+    "ZAF-kwazulu-natal": "KwaZulu-Natal",
+    "ZAF-limpopo": "Limpopo",
+    "ZAF-mpumalanga": "Mpumalanga",
+    "ZAF-north-west": "North West",
+    "ZAF-nothern-cape": "Nothern Cape",
+    "ZAF-western-cape": "Western Cape",
+    "EGY-north-sinai-governorate": "North Sinai Governorate",
+    "EGY-south-sinai-governorate": "South Sinai Governorate",
+    "EGY-aswan-governorate": "Aswan Governorate",
+    "EGY-red-sea-governorate": "Red Sea Governorate",
+    "EGY-matrouh-governorate": "Matrouh Governorate",
+    "EGY-new-valley-governorate": "New Valley Governorate",
+    "EGY-alexandria-governorate": "Alexandria Governorate",
+    "EGY-ismailia-governorate": "Ismailia Governorate",
+    "EGY-suez-governorate": "Suez Governorate",
+    "EGY-gharbiyya-governorate": "Gharbiyya Governorate",
+    "EGY-faiyum-governorate": "Faiyum Governorate",
+    "EGY-beni-suef-governorate": "Beni Suef Governorate",
+    "EGY-minya-governate": "Minya Governate",
+    "EGY-asyut-governorate": "Asyut Governorate",
+    "EGY-sohag-governorate": "Sohag Governorate",
+    "EGY-qena-governorate": "Qena Governorate",
+    "EGY-luxor-governate": "Luxor Governate",
+    "EGY-giza-governorate": "Giza Governorate",
+    "EGY-monufia-governorate": "Monufia Governorate",
+    "EGY-beheira-governorate": "Beheira Governorate",
+    "EGY-cairo-governorate": "Cairo Governorate",
+    "EGY-qalyubia-governorate": "Qalyubia Governorate",
+    "EGY-dakahlia-governorate": "Dakahlia Governorate",
+    "EGY-damietta-governorate": "Damietta Governorate",
+    "EGY-kafr-el-sheikh-governorate": "Kafr el-Sheikh Governorate",
+    "EGY-port-said-governorate": "Port Said Governorate",
+    "EGY-al-sharqia-governorate": "Al Sharqia Governorate",
+    "ETH-addis-ababa": "Addis Ababa",
+    "ETH-afar": "Afar",
+    "ETH-amhara": "Amhara",
+    "ETH-beneshangul-gumu": "Beneshangul Gumu",
+    "ETH-dire-dawa": "Dire Dawa",
+    "ETH-gambela": "Gambela",
+    "ETH-hareri": "Hareri",
+    "ETH-oromia": "Oromia",
+    "ETH-snnpr": "SNNPR",
+    "ETH-somali": "Somali",
+    "ETH-tigray": "Tigray",
+    "IRN-mazandaran": "Mazandaran",
+    "IRN-north-khorasan": "North Khorasan",
+    "IRN-kerman": "Kerman",
+    "IRN-ilam": "Ilam",
+    "IRN-lorestan": "Lorestan",
+    "IRN-markazi": "Markazi",
+    "IRN-chaharmahal-and-bakhtiari": "Chaharmahal and Bakhtiari",
+    "IRN-kermanshah": "Kermanshah",
+    "IRN-hamadan": "Hamadan",
+    "IRN-qazvin": "Qazvin",
+    "IRN-gilan": "Gilan",
+    "IRN-zanjan": "Zanjan",
+    "IRN-semnan": "Semnan",
+    "IRN-isfahan": "Isfahan",
+    "IRN-kohgiluyeh-and-boyer-ahmad": "Kohgiluyeh and Boyer-Ahmad",
+    "IRN-kurdistan": "Kurdistan",
+    "IRN-west-azerbaijan": "West Azerbaijan",
+    "IRN-fars": "Fars",
+    "IRN-bushehr": "Bushehr",
+    "IRN-ardabil": "Ardabil",
+    "IRN-golestan": "Golestan",
+    "IRN-razavi-khorasan": "Razavi Khorasan",
+    "IRN-south-khorasan": "South Khorasan",
+    "IRN-sistan-and-baluchestan": "Sistan and Baluchestan",
+    "IRN-qom": "Qom",
+    "IRN-alborz": "Alborz",
+    "IRN-east-azerbaijan": "East Azerbaijan",
+    "IRN-yazd": "Yazd",
+    "IRN-hormozgan": "Hormozgan",
+    "IRN-khuzestan": "Khuzestan",
+    "IRN-tehran": "Tehran",
+    "ARE-abu-dhabi": "Abu Dhabi",
+    "ARE-ajman": "Ajman",
+    "ARE-dubai": "Dubai",
+    "ARE-fujairah": "Fujairah",
+    "ARE-ras-al-khaimah": "Ras al-Khaimah",
+    "ARE-sharjah": "Sharjah",
+    "ARE-umm-al-quwain": "Umm al-Quwain",
+    "IDN-bali": "Bali",
+    "IDN-west-nusa-tenggara": "West Nusa Tenggara",
+    "IDN-banten": "Banten",
+    "IDN-central-java": "Central Java",
+    "IDN-west-java": "West Java",
+    "IDN-central-kalimantan": "Central Kalimantan",
+    "IDN-south-kalimantan": "South Kalimantan",
+    "IDN-west-kalimantan": "West Kalimantan",
+    "IDN-central-sulawesi": "Central Sulawesi",
+    "IDN-gorontalo": "Gorontalo",
+    "IDN-north-sulawesi": "North Sulawesi",
+    "IDN-south-sulawesi": "South Sulawesi",
+    "IDN-southeast-sulawesi": "Southeast Sulawesi",
+    "IDN-west-sulawesi": "West Sulawesi",
+    "IDN-aceh": "Aceh",
+    "IDN-bengkulu": "Bengkulu",
+    "IDN-jambi": "Jambi",
+    "IDN-lampung": "Lampung",
+    "IDN-riau": "Riau",
+    "IDN-west-sumatra": "West Sumatra",
+    "IDN-south-sumatra": "South Sumatra",
+    "IDN-north-sumatra": "North Sumatra",
+    "IDN-east-nusa-tenggara": "East Nusa Tenggara",
+    "IDN-maluku": "Maluku",
+    "IDN-north-maluku": "North Maluku",
+    "IDN-east-java": "East Java",
+    "IDN-bangka-belitung-islands": "Bangka-Belitung Islands",
+    "IDN-riau-islands": "Riau Islands",
+    "IDN-papua": "Papua",
+    "IDN-west-papua": "West Papua",
+    "IDN-east-kalimantan": "East Kalimantan",
+    "IDN-north-kalimantan": "North Kalimantan",
+    "IDN-special-region-of-yogyakarta": "Special Region of Yogyakarta",
+    "IDN-jakarta-special-capital-region": "Jakarta Special Capital Region"
+  },
+  "regionBest": {
+    "RUS-altai-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-republic-of-mordovia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tula-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kurgan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ingushetia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khanty-mansiysk-autonomous-okrug-ugra": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kirov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-komi-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kostroma-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-krasnoyarsk-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-zabaykalsky-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sverdlovsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-volgograd-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-irkutsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-perm-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-pskov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-rostov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ryazan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-adygea": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-samara-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khakassia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tambov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tatarstan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tomsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-nizhny-novgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-republic-of-karelia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-arkhangelsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-astrakhan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-belgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-bryansk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-buryatia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chechnya": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chelyabinsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chuvashia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tyumen-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-north-ossetia-alania": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-penza-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-amur-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kabardino-balkaria": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-krasnodar-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kursk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-leningrad-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-mari-el": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-moscow": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-moscow-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-murmansk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-nenets-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-novgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-novosibirsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-omsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-oryol-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-saint-petersburg": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sakhalin-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sakha-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-saratov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-smolensk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-stavropol-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tuva": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tver-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-udmurtia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kaluga-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-lipetsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-magadan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ulyanovsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-vladimir-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-vologda-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-yaroslavl-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-voronezh-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-yamalo-nenets-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-altai-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ivanovo-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-jewish-autonomous-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kalmykia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kamchatka-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-karachay-cherkessia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kemerovo-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khabarovsk-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chukotka-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-dagestan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kaliningrad": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-orenburg-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-primorsky-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-bashkortostan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IND-puducherry": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-maharashtra": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-nagaland": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-lakshadweep": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-uttar-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-tamil-nadu": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-chhattisgarh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-gujarat": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-delhi": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-sikkim": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-tripura": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-west-bengal": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-odisha": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-bihar": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "IND-ladakh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-rajasthan": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-telangana": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-andhra-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-mizoram": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-arunachal-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-meghalaya": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-jharkhand": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-assam": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-manipur": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-karnataka": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-uttarakhand": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-dadra-and-nagar-haveli-and-daman-and-diu": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-madhya-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-goa": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-kerala": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-chandigarh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-andaman-and-nicobar-islands": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-himachal-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-jammu-and-kashmir": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-punjab": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-haryana": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hainan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-taiwan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guangxi-zhuang-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-fujian-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-yunnan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guizhou-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jiangxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hunan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-zhejiang-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shanghai-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-chongqing-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hubei-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-sichuan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-anhui-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jiangsu-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-henan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-tibet-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shandong-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-qinghai-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-ningxia-ningxia-hui-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shaanxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-tianjin-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shanxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-beijing-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-gansu-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hebei-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-liaoning-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jilin-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-xinjiang-uyghur-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-inner-mongolia-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-heilongjiang-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-macau-special-administrative-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hong-kong-special-administrative-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guangzhou-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ZAF-eastern-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-free-state": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-gauteng": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-kwazulu-natal": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-limpopo": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-mpumalanga": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-north-west": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-nothern-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-western-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "EGY-north-sinai-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-south-sinai-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-aswan-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-red-sea-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-matrouh-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-new-valley-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-alexandria-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-ismailia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-suez-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-gharbiyya-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-faiyum-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-beni-suef-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-minya-governate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-asyut-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-sohag-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-qena-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-luxor-governate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-giza-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-monufia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-beheira-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-cairo-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-qalyubia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-dakahlia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-damietta-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-kafr-el-sheikh-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-port-said-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-al-sharqia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ETH-addis-ababa": {
+      "score": 94,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "ETH-afar": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "ETH-amhara": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "digital"
+    },
+    "ETH-beneshangul-gumu": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "ETH-dire-dawa": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "ETH-gambela": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-hareri": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-oromia": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-snnpr": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "ETH-somali": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "ETH-tigray": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "IRN-mazandaran": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-north-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kerman": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-ilam": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-lorestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-markazi": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-chaharmahal-and-bakhtiari": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kermanshah": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-hamadan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-qazvin": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-gilan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-zanjan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-semnan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-isfahan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kohgiluyeh-and-boyer-ahmad": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kurdistan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-west-azerbaijan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-fars": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-bushehr": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-ardabil": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-golestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-razavi-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-south-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-sistan-and-baluchestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-qom": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-alborz": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-east-azerbaijan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-yazd": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-hormozgan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-khuzestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-tehran": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "ARE-abu-dhabi": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-ajman": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-dubai": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-fujairah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-ras-al-khaimah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-sharjah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-umm-al-quwain": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IDN-bali": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-west-nusa-tenggara": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-banten": {
+      "score": 84,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-central-java": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-west-java": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-central-kalimantan": {
+      "score": 80,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-kalimantan": {
+      "score": 57,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-west-kalimantan": {
+      "score": 61,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-central-sulawesi": {
+      "score": 74,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-gorontalo": {
+      "score": 75,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-sulawesi": {
+      "score": 57,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-sulawesi": {
+      "score": 59,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-southeast-sulawesi": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-sulawesi": {
+      "score": 82,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-aceh": {
+      "score": 79,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-bengkulu": {
+      "score": 88,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-jambi": {
+      "score": 63,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-lampung": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-riau": {
+      "score": 80,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-sumatra": {
+      "score": 73,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-sumatra": {
+      "score": 62,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-sumatra": {
+      "score": 72,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-nusa-tenggara": {
+      "score": 68,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-maluku": {
+      "score": 90,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-maluku": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-java": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-bangka-belitung-islands": {
+      "score": 68,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-riau-islands": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-papua": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-papua": {
+      "score": 90,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-kalimantan": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-north-kalimantan": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-special-region-of-yogyakarta": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-jakarta-special-capital-region": {
+      "score": 55,
+      "basis": "regional-survey",
+      "theme": "health"
+    }
+  },
+  "cells": [
+    [
+      66.886,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.954,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.021,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.089,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      71.157,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      72.224,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.292,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      74.36,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      75.427,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      76.495,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      77.562,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      78.63,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      79.698,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      80.765,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      81.833,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      82.9,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      83.968,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      85.036,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      86.103,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      87.171,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      88.238,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      89.306,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      90.374,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      91.441,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      92.509,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      93.577,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      94.644,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.712,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.779,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.847,
+      38.289,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.42,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      68.488,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.555,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.623,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      71.69,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      72.758,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.826,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      74.893,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      75.961,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      77.029,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      78.096,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      79.164,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      80.231,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      81.299,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      82.367,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      83.434,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      84.502,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      85.569,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      86.637,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      87.705,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      88.772,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      89.84,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      90.907,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      91.975,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      93.043,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      94.11,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.178,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.246,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.313,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      98.381,
+      37.364,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      66.886,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.954,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.021,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.089,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      71.157,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      72.224,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.292,
+      36.44,
+      "IND",
+      "IND-ladakh",
+      100,
+      "national-indicator"
+    ],
+    [
+      74.36,
+      36.44,
+      "IND",
+      "IND-ladakh",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.427,
+      36.44,
+      "IND",
+      "IND-ladakh",
+      100,
+      "national-indicator"
+    ],
+    [
+      76.495,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      77.562,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      78.63,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      79.698,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      80.765,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      81.833,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      82.9,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      83.968,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      85.036,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      86.103,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      87.171,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      88.238,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      89.306,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      90.374,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      91.441,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      92.509,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      93.577,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      94.644,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.712,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.779,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.847,
+      36.44,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.42,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      68.488,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.555,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.623,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      71.69,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      72.758,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.826,
+      35.515,
+      "IND",
+      "IND-ladakh",
+      100,
+      "national-indicator"
+    ],
+    [
+      74.893,
+      35.515,
+      "IND",
+      "IND-ladakh",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.961,
+      35.515,
+      "IND",
+      "IND-ladakh",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.029,
+      35.515,
+      "IND",
+      "IND-ladakh",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.096,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      79.164,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      80.231,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      81.299,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      82.367,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      83.434,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      84.502,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      85.569,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      86.637,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      87.705,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      88.772,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      89.84,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      90.907,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      91.975,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      93.043,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      94.11,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.178,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.246,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.313,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      98.381,
+      35.515,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      66.886,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.954,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.021,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.089,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      71.157,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      72.224,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.292,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      74.36,
+      34.59,
+      "IND",
+      "IND-jammu-and-kashmir",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.427,
+      34.59,
+      "IND",
+      "IND-ladakh",
+      100,
+      "national-indicator"
+    ],
+    [
+      76.495,
+      34.59,
+      "IND",
+      "IND-ladakh",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.562,
+      34.59,
+      "IND",
+      "IND-ladakh",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.63,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      79.698,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      80.765,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      81.833,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      82.9,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      83.968,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      85.036,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      86.103,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      87.171,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      88.238,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      89.306,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      90.374,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      91.441,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      92.509,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      93.577,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      94.644,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.712,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.779,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.847,
+      34.59,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.42,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      68.488,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.555,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.623,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      71.69,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      72.758,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.826,
+      33.666,
+      "IND",
+      "IND-jammu-and-kashmir",
+      100,
+      "national-indicator"
+    ],
+    [
+      74.893,
+      33.666,
+      "IND",
+      "IND-jammu-and-kashmir",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.961,
+      33.666,
+      "IND",
+      "IND-jammu-and-kashmir",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.029,
+      33.666,
+      "IND",
+      "IND-ladakh",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.096,
+      33.666,
+      "IND",
+      "IND-ladakh",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.164,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      80.231,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      81.299,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      82.367,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      83.434,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      84.502,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      85.569,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      86.637,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      87.705,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      88.772,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      89.84,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      90.907,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      91.975,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      93.043,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      94.11,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.178,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.246,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.313,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      98.381,
+      33.666,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      66.886,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.954,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.021,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.089,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      71.157,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      72.224,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.292,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      74.36,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      75.427,
+      32.741,
+      "IND",
+      "IND-jammu-and-kashmir",
+      100,
+      "national-indicator"
+    ],
+    [
+      76.495,
+      32.741,
+      "IND",
+      "IND-himachal-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.562,
+      32.741,
+      "IND",
+      "IND-himachal-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.63,
+      32.741,
+      "IND",
+      "IND-ladakh",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.698,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      80.765,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      81.833,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      82.9,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      83.968,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      85.036,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      86.103,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      87.171,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      88.238,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      89.306,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      90.374,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      91.441,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      92.509,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      93.577,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      94.644,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.712,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.779,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.847,
+      32.741,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.42,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      68.488,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.555,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.623,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      71.69,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      72.758,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.826,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      74.893,
+      31.817,
+      "IND",
+      "IND-punjab",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.961,
+      31.817,
+      "IND",
+      "IND-himachal-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.029,
+      31.817,
+      "IND",
+      "IND-himachal-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.096,
+      31.817,
+      "IND",
+      "IND-himachal-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.164,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      80.231,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      81.299,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      82.367,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      83.434,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      84.502,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      85.569,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      86.637,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      87.705,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      88.772,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      89.84,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      90.907,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      91.975,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      93.043,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      94.11,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.178,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.246,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.313,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      98.381,
+      31.817,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      66.886,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.954,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.021,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.089,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      71.157,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      72.224,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.292,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      74.36,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      75.427,
+      30.892,
+      "IND",
+      "IND-punjab",
+      100,
+      "national-indicator"
+    ],
+    [
+      76.495,
+      30.892,
+      "IND",
+      "IND-chandigarh",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.562,
+      30.892,
+      "IND",
+      "IND-himachal-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.63,
+      30.892,
+      "IND",
+      "IND-uttarakhand",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.698,
+      30.892,
+      "IND",
+      "IND-uttarakhand",
+      100,
+      "national-indicator"
+    ],
+    [
+      80.765,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      81.833,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      82.9,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      83.968,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      85.036,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      86.103,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      87.171,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      88.238,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      89.306,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      90.374,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      91.441,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      92.509,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      93.577,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      94.644,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.712,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.779,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.847,
+      30.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.42,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      68.488,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.555,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.623,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      71.69,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      72.758,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.826,
+      29.968,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      74.893,
+      29.968,
+      "IND",
+      "IND-punjab",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.961,
+      29.968,
+      "IND",
+      "IND-punjab",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.029,
+      29.968,
+      "IND",
+      "IND-haryana",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.096,
+      29.968,
+      "IND",
+      "IND-uttarakhand",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.164,
+      29.968,
+      "IND",
+      "IND-uttarakhand",
+      100,
+      "national-indicator"
+    ],
+    [
+      80.231,
+      29.968,
+      "IND",
+      "IND-uttarakhand",
+      100,
+      "national-indicator"
+    ],
+    [
+      81.299,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      82.367,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      83.434,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      84.502,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      85.569,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      86.637,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      87.705,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      88.772,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      89.84,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      90.907,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      91.975,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      93.043,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      94.11,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.178,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.246,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.313,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      98.381,
+      29.968,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      66.886,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.954,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.021,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.089,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      71.157,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      72.224,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.292,
+      29.043,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      74.36,
+      29.043,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.427,
+      29.043,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      76.495,
+      29.043,
+      "IND",
+      "IND-haryana",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.562,
+      29.043,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.63,
+      29.043,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.698,
+      29.043,
+      "IND",
+      "IND-uttarakhand",
+      100,
+      "national-indicator"
+    ],
+    [
+      80.765,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      81.833,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      82.9,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      83.968,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      85.036,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      86.103,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      87.171,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      88.238,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      89.306,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      90.374,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      91.441,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      92.509,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      93.577,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      94.644,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.712,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.779,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.847,
+      29.043,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.42,
+      28.118,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      68.488,
+      28.118,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.555,
+      28.118,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.623,
+      28.118,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      71.69,
+      28.118,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      72.758,
+      28.118,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      73.826,
+      28.118,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      74.893,
+      28.118,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.961,
+      28.118,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.029,
+      28.118,
+      "IND",
+      "IND-delhi",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.096,
+      28.118,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.164,
+      28.118,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      80.231,
+      28.118,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      81.299,
+      28.118,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      82.367,
+      28.118,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      83.434,
+      28.118,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      84.502,
+      28.118,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      85.569,
+      28.118,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      86.637,
+      28.118,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      87.705,
+      28.118,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      88.772,
+      28.118,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      89.84,
+      28.118,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      90.907,
+      28.118,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      91.975,
+      28.118,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      93.043,
+      28.118,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      94.11,
+      28.118,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.178,
+      28.118,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.246,
+      28.118,
+      "IND",
+      "IND-arunachal-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      97.313,
+      28.118,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      98.381,
+      28.118,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      66.886,
+      27.194,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.954,
+      27.194,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.021,
+      27.194,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.089,
+      27.194,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      71.157,
+      27.194,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      72.224,
+      27.194,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      73.292,
+      27.194,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      74.36,
+      27.194,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.427,
+      27.194,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      76.495,
+      27.194,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.562,
+      27.194,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.63,
+      27.194,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.698,
+      27.194,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      80.765,
+      27.194,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      81.833,
+      27.194,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      82.9,
+      27.194,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      83.968,
+      27.194,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      85.036,
+      27.194,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      86.103,
+      27.194,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      87.171,
+      27.194,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      88.238,
+      27.194,
+      "IND",
+      "IND-sikkim",
+      100,
+      "national-indicator"
+    ],
+    [
+      89.306,
+      27.194,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      90.374,
+      27.194,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      91.441,
+      27.194,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      92.509,
+      27.194,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      93.577,
+      27.194,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      94.644,
+      27.194,
+      "IND",
+      "IND-assam",
+      100,
+      "national-indicator"
+    ],
+    [
+      95.712,
+      27.194,
+      "IND",
+      "IND-arunachal-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      96.779,
+      27.194,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.847,
+      27.194,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.42,
+      26.269,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      68.488,
+      26.269,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.555,
+      26.269,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.623,
+      26.269,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      71.69,
+      26.269,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      72.758,
+      26.269,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      73.826,
+      26.269,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      74.893,
+      26.269,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.961,
+      26.269,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.029,
+      26.269,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.096,
+      26.269,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.164,
+      26.269,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      80.231,
+      26.269,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      81.299,
+      26.269,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      82.367,
+      26.269,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      83.434,
+      26.269,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      84.502,
+      26.269,
+      "IND",
+      "IND-bihar",
+      100,
+      "regional-survey"
+    ],
+    [
+      85.569,
+      26.269,
+      "IND",
+      "IND-bihar",
+      100,
+      "regional-survey"
+    ],
+    [
+      86.637,
+      26.269,
+      "IND",
+      "IND-bihar",
+      100,
+      "regional-survey"
+    ],
+    [
+      87.705,
+      26.269,
+      "IND",
+      "IND-bihar",
+      100,
+      "regional-survey"
+    ],
+    [
+      88.772,
+      26.269,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      89.84,
+      26.269,
+      "IND",
+      "IND-assam",
+      100,
+      "national-indicator"
+    ],
+    [
+      90.907,
+      26.269,
+      "IND",
+      "IND-assam",
+      100,
+      "national-indicator"
+    ],
+    [
+      91.975,
+      26.269,
+      "IND",
+      "IND-assam",
+      100,
+      "national-indicator"
+    ],
+    [
+      93.043,
+      26.269,
+      "IND",
+      "IND-assam",
+      100,
+      "national-indicator"
+    ],
+    [
+      94.11,
+      26.269,
+      "IND",
+      "IND-nagaland",
+      100,
+      "national-indicator"
+    ],
+    [
+      95.178,
+      26.269,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.246,
+      26.269,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.313,
+      26.269,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      98.381,
+      26.269,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      66.886,
+      25.345,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.954,
+      25.345,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.021,
+      25.345,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.089,
+      25.345,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      71.157,
+      25.345,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      72.224,
+      25.345,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      73.292,
+      25.345,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      74.36,
+      25.345,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.427,
+      25.345,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      76.495,
+      25.345,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.562,
+      25.345,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.63,
+      25.345,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.698,
+      25.345,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      80.765,
+      25.345,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      81.833,
+      25.345,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      82.9,
+      25.345,
+      "IND",
+      "IND-uttar-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      83.968,
+      25.345,
+      "IND",
+      "IND-bihar",
+      100,
+      "regional-survey"
+    ],
+    [
+      85.036,
+      25.345,
+      "IND",
+      "IND-bihar",
+      100,
+      "regional-survey"
+    ],
+    [
+      86.103,
+      25.345,
+      "IND",
+      "IND-bihar",
+      100,
+      "regional-survey"
+    ],
+    [
+      87.171,
+      25.345,
+      "IND",
+      "IND-bihar",
+      100,
+      "regional-survey"
+    ],
+    [
+      88.238,
+      25.345,
+      "IND",
+      "IND-west-bengal",
+      100,
+      "national-indicator"
+    ],
+    [
+      89.306,
+      25.345,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      90.374,
+      25.345,
+      "IND",
+      "IND-meghalaya",
+      100,
+      "national-indicator"
+    ],
+    [
+      91.441,
+      25.345,
+      "IND",
+      "IND-meghalaya",
+      100,
+      "national-indicator"
+    ],
+    [
+      92.509,
+      25.345,
+      "IND",
+      "IND-meghalaya",
+      100,
+      "national-indicator"
+    ],
+    [
+      93.577,
+      25.345,
+      "IND",
+      "IND-nagaland",
+      100,
+      "national-indicator"
+    ],
+    [
+      94.644,
+      25.345,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.712,
+      25.345,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.779,
+      25.345,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.847,
+      25.345,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.42,
+      24.42,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      68.488,
+      24.42,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.555,
+      24.42,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.623,
+      24.42,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      71.69,
+      24.42,
+      "IND",
+      "IND-gujarat",
+      100,
+      "national-indicator"
+    ],
+    [
+      72.758,
+      24.42,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      73.826,
+      24.42,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      74.893,
+      24.42,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.961,
+      24.42,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.029,
+      24.42,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.096,
+      24.42,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.164,
+      24.42,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      80.231,
+      24.42,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      81.299,
+      24.42,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      82.367,
+      24.42,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      83.434,
+      24.42,
+      "IND",
+      "IND-jharkhand",
+      100,
+      "national-indicator"
+    ],
+    [
+      84.502,
+      24.42,
+      "IND",
+      "IND-bihar",
+      100,
+      "regional-survey"
+    ],
+    [
+      85.569,
+      24.42,
+      "IND",
+      "IND-jharkhand",
+      100,
+      "national-indicator"
+    ],
+    [
+      86.637,
+      24.42,
+      "IND",
+      "IND-jharkhand",
+      100,
+      "national-indicator"
+    ],
+    [
+      87.705,
+      24.42,
+      "IND",
+      "IND-jharkhand",
+      100,
+      "national-indicator"
+    ],
+    [
+      88.772,
+      24.42,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      89.84,
+      24.42,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      90.907,
+      24.42,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      91.975,
+      24.42,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      93.043,
+      24.42,
+      "IND",
+      "IND-manipur",
+      100,
+      "national-indicator"
+    ],
+    [
+      94.11,
+      24.42,
+      "IND",
+      "IND-manipur",
+      100,
+      "national-indicator"
+    ],
+    [
+      95.178,
+      24.42,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.246,
+      24.42,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.313,
+      24.42,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      98.381,
+      24.42,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.021,
+      23.496,
+      "IND",
+      "IND-gujarat",
+      100,
+      "national-indicator"
+    ],
+    [
+      70.089,
+      23.496,
+      "IND",
+      "IND-gujarat",
+      100,
+      "national-indicator"
+    ],
+    [
+      71.157,
+      23.496,
+      "IND",
+      "IND-gujarat",
+      100,
+      "national-indicator"
+    ],
+    [
+      72.224,
+      23.496,
+      "IND",
+      "IND-gujarat",
+      100,
+      "national-indicator"
+    ],
+    [
+      73.292,
+      23.496,
+      "IND",
+      "IND-gujarat",
+      100,
+      "national-indicator"
+    ],
+    [
+      74.36,
+      23.496,
+      "IND",
+      "IND-rajasthan",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.427,
+      23.496,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      76.495,
+      23.496,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.562,
+      23.496,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.63,
+      23.496,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.698,
+      23.496,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      80.765,
+      23.496,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      81.833,
+      23.496,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      82.9,
+      23.496,
+      "IND",
+      "IND-chhattisgarh",
+      100,
+      "national-indicator"
+    ],
+    [
+      83.968,
+      23.496,
+      "IND",
+      "IND-jharkhand",
+      100,
+      "national-indicator"
+    ],
+    [
+      85.036,
+      23.496,
+      "IND",
+      "IND-jharkhand",
+      100,
+      "national-indicator"
+    ],
+    [
+      86.103,
+      23.496,
+      "IND",
+      "IND-west-bengal",
+      100,
+      "national-indicator"
+    ],
+    [
+      87.171,
+      23.496,
+      "IND",
+      "IND-west-bengal",
+      100,
+      "national-indicator"
+    ],
+    [
+      88.238,
+      23.496,
+      "IND",
+      "IND-west-bengal",
+      100,
+      "national-indicator"
+    ],
+    [
+      89.306,
+      23.496,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      90.374,
+      23.496,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      91.441,
+      23.496,
+      "IND",
+      "IND-tripura",
+      100,
+      "national-indicator"
+    ],
+    [
+      92.509,
+      23.496,
+      "IND",
+      "IND-mizoram",
+      100,
+      "national-indicator"
+    ],
+    [
+      93.577,
+      23.496,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      94.644,
+      23.496,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.712,
+      23.496,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.779,
+      23.496,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.847,
+      23.496,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.555,
+      22.571,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.623,
+      22.571,
+      "IND",
+      "IND-gujarat",
+      100,
+      "national-indicator"
+    ],
+    [
+      71.69,
+      22.571,
+      "IND",
+      "IND-gujarat",
+      100,
+      "national-indicator"
+    ],
+    [
+      72.758,
+      22.571,
+      "IND",
+      "IND-gujarat",
+      100,
+      "national-indicator"
+    ],
+    [
+      73.826,
+      22.571,
+      "IND",
+      "IND-gujarat",
+      100,
+      "national-indicator"
+    ],
+    [
+      74.893,
+      22.571,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.961,
+      22.571,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.029,
+      22.571,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.096,
+      22.571,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.164,
+      22.571,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      80.231,
+      22.571,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      81.299,
+      22.571,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      82.367,
+      22.571,
+      "IND",
+      "IND-chhattisgarh",
+      100,
+      "national-indicator"
+    ],
+    [
+      83.434,
+      22.571,
+      "IND",
+      "IND-chhattisgarh",
+      100,
+      "national-indicator"
+    ],
+    [
+      84.502,
+      22.571,
+      "IND",
+      "IND-jharkhand",
+      100,
+      "national-indicator"
+    ],
+    [
+      85.569,
+      22.571,
+      "IND",
+      "IND-jharkhand",
+      100,
+      "national-indicator"
+    ],
+    [
+      86.637,
+      22.571,
+      "IND",
+      "IND-jharkhand",
+      100,
+      "national-indicator"
+    ],
+    [
+      87.705,
+      22.571,
+      "IND",
+      "IND-west-bengal",
+      100,
+      "national-indicator"
+    ],
+    [
+      88.772,
+      22.571,
+      "IND",
+      "IND-west-bengal",
+      100,
+      "national-indicator"
+    ],
+    [
+      89.84,
+      22.571,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      91.975,
+      22.571,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      93.043,
+      22.571,
+      "IND",
+      "IND-mizoram",
+      100,
+      "national-indicator"
+    ],
+    [
+      94.11,
+      22.571,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.178,
+      22.571,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.246,
+      22.571,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.313,
+      22.571,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      98.381,
+      22.571,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.089,
+      21.646,
+      "IND",
+      "IND-gujarat",
+      100,
+      "national-indicator"
+    ],
+    [
+      71.157,
+      21.646,
+      "IND",
+      "IND-gujarat",
+      100,
+      "national-indicator"
+    ],
+    [
+      72.224,
+      21.646,
+      "IND",
+      "IND-gujarat",
+      100,
+      "national-indicator"
+    ],
+    [
+      73.292,
+      21.646,
+      "IND",
+      "IND-gujarat",
+      100,
+      "national-indicator"
+    ],
+    [
+      74.36,
+      21.646,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.427,
+      21.646,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      76.495,
+      21.646,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.562,
+      21.646,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.63,
+      21.646,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.698,
+      21.646,
+      "IND",
+      "IND-madhya-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      80.765,
+      21.646,
+      "IND",
+      "IND-chhattisgarh",
+      100,
+      "national-indicator"
+    ],
+    [
+      81.833,
+      21.646,
+      "IND",
+      "IND-chhattisgarh",
+      100,
+      "national-indicator"
+    ],
+    [
+      82.9,
+      21.646,
+      "IND",
+      "IND-chhattisgarh",
+      100,
+      "national-indicator"
+    ],
+    [
+      83.968,
+      21.646,
+      "IND",
+      "IND-odisha",
+      100,
+      "national-indicator"
+    ],
+    [
+      85.036,
+      21.646,
+      "IND",
+      "IND-odisha",
+      100,
+      "national-indicator"
+    ],
+    [
+      86.103,
+      21.646,
+      "IND",
+      "IND-odisha",
+      100,
+      "national-indicator"
+    ],
+    [
+      87.171,
+      21.646,
+      "IND",
+      "IND-odisha",
+      100,
+      "national-indicator"
+    ],
+    [
+      88.238,
+      21.646,
+      "IND",
+      "IND-west-bengal",
+      100,
+      "national-indicator"
+    ],
+    [
+      92.509,
+      21.646,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      93.577,
+      21.646,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      94.644,
+      21.646,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.712,
+      21.646,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.779,
+      21.646,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.847,
+      21.646,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.826,
+      20.722,
+      "IND",
+      "IND-gujarat",
+      100,
+      "national-indicator"
+    ],
+    [
+      74.893,
+      20.722,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.961,
+      20.722,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.029,
+      20.722,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.096,
+      20.722,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.164,
+      20.722,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      80.231,
+      20.722,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      81.299,
+      20.722,
+      "IND",
+      "IND-chhattisgarh",
+      100,
+      "national-indicator"
+    ],
+    [
+      82.367,
+      20.722,
+      "IND",
+      "IND-odisha",
+      100,
+      "national-indicator"
+    ],
+    [
+      83.434,
+      20.722,
+      "IND",
+      "IND-odisha",
+      100,
+      "national-indicator"
+    ],
+    [
+      84.502,
+      20.722,
+      "IND",
+      "IND-odisha",
+      100,
+      "national-indicator"
+    ],
+    [
+      85.569,
+      20.722,
+      "IND",
+      "IND-odisha",
+      100,
+      "national-indicator"
+    ],
+    [
+      86.637,
+      20.722,
+      "IND",
+      "IND-odisha",
+      100,
+      "national-indicator"
+    ],
+    [
+      93.043,
+      20.722,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      94.11,
+      20.722,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.178,
+      20.722,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.246,
+      20.722,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.313,
+      20.722,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      98.381,
+      20.722,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.292,
+      19.797,
+      "IND",
+      "IND-dadra-and-nagar-haveli-and-daman-and-diu",
+      100,
+      "national-indicator"
+    ],
+    [
+      74.36,
+      19.797,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.427,
+      19.797,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      76.495,
+      19.797,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.562,
+      19.797,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.63,
+      19.797,
+      "IND",
+      "IND-telangana",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.698,
+      19.797,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      80.765,
+      19.797,
+      "IND",
+      "IND-chhattisgarh",
+      100,
+      "national-indicator"
+    ],
+    [
+      81.833,
+      19.797,
+      "IND",
+      "IND-chhattisgarh",
+      100,
+      "national-indicator"
+    ],
+    [
+      82.9,
+      19.797,
+      "IND",
+      "IND-odisha",
+      100,
+      "national-indicator"
+    ],
+    [
+      83.968,
+      19.797,
+      "IND",
+      "IND-odisha",
+      100,
+      "national-indicator"
+    ],
+    [
+      85.036,
+      19.797,
+      "IND",
+      "IND-odisha",
+      100,
+      "national-indicator"
+    ],
+    [
+      93.577,
+      19.797,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      94.644,
+      19.797,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.712,
+      19.797,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.779,
+      19.797,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.847,
+      19.797,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.826,
+      18.873,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      74.893,
+      18.873,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.961,
+      18.873,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.029,
+      18.873,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.096,
+      18.873,
+      "IND",
+      "IND-telangana",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.164,
+      18.873,
+      "IND",
+      "IND-telangana",
+      100,
+      "national-indicator"
+    ],
+    [
+      80.231,
+      18.873,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      81.299,
+      18.873,
+      "IND",
+      "IND-chhattisgarh",
+      100,
+      "national-indicator"
+    ],
+    [
+      82.367,
+      18.873,
+      "IND",
+      "IND-odisha",
+      100,
+      "national-indicator"
+    ],
+    [
+      83.434,
+      18.873,
+      "IND",
+      "IND-andhra-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      84.502,
+      18.873,
+      "IND",
+      "IND-andhra-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      94.11,
+      18.873,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.178,
+      18.873,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.246,
+      18.873,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.313,
+      18.873,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      98.381,
+      18.873,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.292,
+      17.948,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      74.36,
+      17.948,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.427,
+      17.948,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      76.495,
+      17.948,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.562,
+      17.948,
+      "IND",
+      "IND-karnataka",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.63,
+      17.948,
+      "IND",
+      "IND-telangana",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.698,
+      17.948,
+      "IND",
+      "IND-telangana",
+      100,
+      "national-indicator"
+    ],
+    [
+      80.765,
+      17.948,
+      "IND",
+      "IND-telangana",
+      100,
+      "national-indicator"
+    ],
+    [
+      81.833,
+      17.948,
+      "IND",
+      "IND-andhra-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      82.9,
+      17.948,
+      "IND",
+      "IND-andhra-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      94.644,
+      17.948,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.712,
+      17.948,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.779,
+      17.948,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.847,
+      17.948,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.826,
+      17.023,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      74.893,
+      17.023,
+      "IND",
+      "IND-maharashtra",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.961,
+      17.023,
+      "IND",
+      "IND-karnataka",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.029,
+      17.023,
+      "IND",
+      "IND-karnataka",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.096,
+      17.023,
+      "IND",
+      "IND-telangana",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.164,
+      17.023,
+      "IND",
+      "IND-telangana",
+      100,
+      "national-indicator"
+    ],
+    [
+      80.231,
+      17.023,
+      "IND",
+      "IND-telangana",
+      100,
+      "national-indicator"
+    ],
+    [
+      81.299,
+      17.023,
+      "IND",
+      "IND-andhra-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      95.178,
+      17.023,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.246,
+      17.023,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.313,
+      17.023,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      98.381,
+      17.023,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      74.36,
+      16.099,
+      "IND",
+      "IND-goa",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.427,
+      16.099,
+      "IND",
+      "IND-karnataka",
+      100,
+      "national-indicator"
+    ],
+    [
+      76.495,
+      16.099,
+      "IND",
+      "IND-karnataka",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.562,
+      16.099,
+      "IND",
+      "IND-telangana",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.63,
+      16.099,
+      "IND",
+      "IND-telangana",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.698,
+      16.099,
+      "IND",
+      "IND-andhra-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      80.765,
+      16.099,
+      "IND",
+      "IND-andhra-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      94.644,
+      16.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.712,
+      16.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.847,
+      16.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      74.893,
+      15.174,
+      "IND",
+      "IND-karnataka",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.961,
+      15.174,
+      "IND",
+      "IND-karnataka",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.029,
+      15.174,
+      "IND",
+      "IND-karnataka",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.096,
+      15.174,
+      "IND",
+      "IND-andhra-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.164,
+      15.174,
+      "IND",
+      "IND-andhra-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      98.381,
+      15.174,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      75.427,
+      14.25,
+      "IND",
+      "IND-karnataka",
+      100,
+      "national-indicator"
+    ],
+    [
+      76.495,
+      14.25,
+      "IND",
+      "IND-karnataka",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.562,
+      14.25,
+      "IND",
+      "IND-andhra-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.63,
+      14.25,
+      "IND",
+      "IND-andhra-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.698,
+      14.25,
+      "IND",
+      "IND-andhra-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      74.893,
+      13.325,
+      "IND",
+      "IND-karnataka",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.961,
+      13.325,
+      "IND",
+      "IND-karnataka",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.029,
+      13.325,
+      "IND",
+      "IND-karnataka",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.096,
+      13.325,
+      "IND",
+      "IND-karnataka",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.164,
+      13.325,
+      "IND",
+      "IND-andhra-pradesh",
+      100,
+      "national-indicator"
+    ],
+    [
+      80.231,
+      13.325,
+      "IND",
+      "IND-tamil-nadu",
+      100,
+      "national-indicator"
+    ],
+    [
+      98.381,
+      13.325,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      75.427,
+      12.401,
+      "IND",
+      "IND-karnataka",
+      100,
+      "national-indicator"
+    ],
+    [
+      76.495,
+      12.401,
+      "IND",
+      "IND-karnataka",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.562,
+      12.401,
+      "IND",
+      "IND-karnataka",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.63,
+      12.401,
+      "IND",
+      "IND-tamil-nadu",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.698,
+      12.401,
+      "IND",
+      "IND-tamil-nadu",
+      100,
+      "national-indicator"
+    ],
+    [
+      75.961,
+      11.476,
+      "IND",
+      "IND-kerala",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.029,
+      11.476,
+      "IND",
+      "IND-tamil-nadu",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.096,
+      11.476,
+      "IND",
+      "IND-tamil-nadu",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.164,
+      11.476,
+      "IND",
+      "IND-puducherry",
+      100,
+      "national-indicator"
+    ],
+    [
+      76.495,
+      10.551,
+      "IND",
+      "IND-lakshadweep",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.562,
+      10.551,
+      "IND",
+      "IND-tamil-nadu",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.63,
+      10.551,
+      "IND",
+      "IND-tamil-nadu",
+      100,
+      "national-indicator"
+    ],
+    [
+      79.698,
+      10.551,
+      "IND",
+      "IND-tamil-nadu",
+      100,
+      "national-indicator"
+    ],
+    [
+      92.509,
+      10.551,
+      "IND",
+      "IND-andaman-and-nicobar-islands",
+      100,
+      "national-indicator"
+    ],
+    [
+      77.029,
+      9.627,
+      "IND",
+      "IND-kerala",
+      100,
+      "national-indicator"
+    ],
+    [
+      78.096,
+      9.627,
+      "IND",
+      "IND-tamil-nadu",
+      100,
+      "national-indicator"
+    ],
+    [
+      80.231,
+      9.627,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      77.562,
+      8.702,
+      "IND",
+      "IND-tamil-nadu",
+      100,
+      "national-indicator"
+    ],
+    [
+      80.765,
+      8.702,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      80.231,
+      7.778,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      81.299,
+      7.778,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      80.765,
+      6.853,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "labels": [
+    {
+      "iso3": "IND",
+      "name": "India",
+      "x": 79.27508127208483,
+      "y": 23.136159010600633
+    }
+  ]
+}

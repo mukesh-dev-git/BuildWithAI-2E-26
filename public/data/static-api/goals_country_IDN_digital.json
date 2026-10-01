@@ -1,0 +1,1221 @@
+{
+  "goal": {
+    "id": "digital",
+    "label": "Digital connectivity",
+    "icon": "wifi",
+    "color": "#8b5cf6",
+    "sector": "digital",
+    "blurb": "Affordable connectivity and access to online public services",
+    "headline": {
+      "key": "internet_pct",
+      "label": "Internet users",
+      "unit": "%",
+      "better": "up"
+    }
+  },
+  "country": {
+    "iso3": "IDN",
+    "name": "Indonesia"
+  },
+  "milestones": [
+    {
+      "id": "need",
+      "label": "Need identified",
+      "status": "done",
+      "date": "2025",
+      "source": "data",
+      "evidence": "Need score 68 (regional peak 65): 73% of people online"
+    },
+    {
+      "id": "strategy",
+      "label": "Strategy approved",
+      "status": "done",
+      "date": "2015",
+      "source": "curated",
+      "evidence": "Palapa Ring (2015): national fibre backbone to remote islands"
+    },
+    {
+      "id": "funding",
+      "label": "Funding secured",
+      "status": "done",
+      "date": "2023",
+      "source": "data",
+      "evidence": "US$1.15B private-participation investment, 2016–2023"
+    },
+    {
+      "id": "pilot",
+      "label": "Pilot launched",
+      "status": "not_started",
+      "source": "none",
+      "evidence": "Not reported yet"
+    },
+    {
+      "id": "full",
+      "label": "Full implementation",
+      "status": "not_started",
+      "source": "none",
+      "evidence": "Not reported yet"
+    },
+    {
+      "id": "impact",
+      "label": "Impact measured",
+      "status": "done",
+      "date": "2024",
+      "source": "data",
+      "evidence": "Internet users 22.1 → 72.8 (2015–2024). An outcome trend, not proof of attribution"
+    }
+  ],
+  "needScore": 68,
+  "inScope": true,
+  "progress": 0.6666666666666666,
+  "done": 4,
+  "state": "in_progress",
+  "programme": "Palapa Ring (2015): national fibre backbone to remote islands",
+  "regionalCount": 34,
+  "regions": [
+    {
+      "regionId": "IDN-papua",
+      "region": "Papua",
+      "score": 65,
+      "tier": "high",
+      "detail": "74% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (74% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-east-nusa-tenggara",
+      "region": "East Nusa Tenggara",
+      "score": 54,
+      "tier": "high",
+      "detail": "78% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (78% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-west-kalimantan",
+      "region": "West Kalimantan",
+      "score": 43,
+      "tier": "moderate",
+      "detail": "83% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (83% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-west-sulawesi",
+      "region": "West Sulawesi",
+      "score": 41,
+      "tier": "moderate",
+      "detail": "83% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (83% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-west-nusa-tenggara",
+      "region": "West Nusa Tenggara",
+      "score": 39,
+      "tier": "moderate",
+      "detail": "85% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (85% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-central-java",
+      "region": "Central Java",
+      "score": 35,
+      "tier": "moderate",
+      "detail": "86% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (86% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-gorontalo",
+      "region": "Gorontalo",
+      "score": 35,
+      "tier": "moderate",
+      "detail": "86% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (86% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-maluku",
+      "region": "Maluku",
+      "score": 35,
+      "tier": "moderate",
+      "detail": "86% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (86% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-central-sulawesi",
+      "region": "Central Sulawesi",
+      "score": 32,
+      "tier": "moderate",
+      "detail": "87% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (87% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-north-maluku",
+      "region": "North Maluku",
+      "score": 32,
+      "tier": "moderate",
+      "detail": "87% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (87% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-aceh",
+      "region": "Aceh",
+      "score": 31,
+      "tier": "moderate",
+      "detail": "88% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (88% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-east-java",
+      "region": "East Java",
+      "score": 31,
+      "tier": "moderate",
+      "detail": "87% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (87% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-west-java",
+      "region": "West Java",
+      "score": 27,
+      "tier": "moderate",
+      "detail": "89% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (89% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-south-kalimantan",
+      "region": "South Kalimantan",
+      "score": 26,
+      "tier": "moderate",
+      "detail": "90% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (90% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-west-papua",
+      "region": "West Papua",
+      "score": 25,
+      "tier": "moderate",
+      "detail": "90% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (90% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-special-region-of-yogyakarta",
+      "region": "Special Region of Yogyakarta",
+      "score": 25,
+      "tier": "moderate",
+      "detail": "90% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (90% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-lampung",
+      "region": "Lampung",
+      "score": 24,
+      "tier": "low",
+      "detail": "90% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (90% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-north-sumatra",
+      "region": "North Sumatra",
+      "score": 24,
+      "tier": "low",
+      "detail": "90% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (90% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-south-sulawesi",
+      "region": "South Sulawesi",
+      "score": 23,
+      "tier": "low",
+      "detail": "91% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (91% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-banten",
+      "region": "Banten",
+      "score": 22,
+      "tier": "low",
+      "detail": "91% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (91% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-north-sulawesi",
+      "region": "North Sulawesi",
+      "score": 22,
+      "tier": "low",
+      "detail": "91% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (91% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-southeast-sulawesi",
+      "region": "Southeast Sulawesi",
+      "score": 22,
+      "tier": "low",
+      "detail": "91% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (91% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-bali",
+      "region": "Bali",
+      "score": 21,
+      "tier": "low",
+      "detail": "91% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (91% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-south-sumatra",
+      "region": "South Sumatra",
+      "score": 21,
+      "tier": "low",
+      "detail": "91% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (91% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-central-kalimantan",
+      "region": "Central Kalimantan",
+      "score": 20,
+      "tier": "low",
+      "detail": "92% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (92% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-bengkulu",
+      "region": "Bengkulu",
+      "score": 20,
+      "tier": "low",
+      "detail": "92% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (92% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-bangka-belitung-islands",
+      "region": "Bangka-Belitung Islands",
+      "score": 20,
+      "tier": "low",
+      "detail": "92% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (92% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-jambi",
+      "region": "Jambi",
+      "score": 16,
+      "tier": "low",
+      "detail": "93% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (93% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-west-sumatra",
+      "region": "West Sumatra",
+      "score": 14,
+      "tier": "low",
+      "detail": "94% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (94% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-riau",
+      "region": "Riau",
+      "score": 9,
+      "tier": "low",
+      "detail": "96% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (96% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-north-kalimantan",
+      "region": "North Kalimantan",
+      "score": 9,
+      "tier": "low",
+      "detail": "96% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (96% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-jakarta-special-capital-region",
+      "region": "Jakarta Special Capital Region",
+      "score": 8,
+      "tier": "low",
+      "detail": "97% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (97% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-east-kalimantan",
+      "region": "East Kalimantan",
+      "score": 7,
+      "tier": "low",
+      "detail": "97% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (97% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IDN-riau-islands",
+      "region": "Riau Islands",
+      "score": 6,
+      "tier": "low",
+      "detail": "98% of households own a mobile phone",
+      "source": "DHS survey (2017)",
+      "action": "Mobile access (98% of households)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    }
+  ],
+  "regionsCovered": 0,
+  "regionsNeeding": 16,
+  "others": [
+    {
+      "iso3": "IDN",
+      "name": "Indonesia",
+      "needScore": 68,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 68 (regional peak 65): 73% of people online"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2015",
+          "source": "curated",
+          "evidence": "Palapa Ring (2015): national fibre backbone to remote islands"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2023",
+          "source": "data",
+          "evidence": "US$1.15B private-participation investment, 2016–2023"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Internet users 22.1 → 72.8 (2015–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.6666666666666666,
+      "done": 4,
+      "state": "in_progress",
+      "programme": "Palapa Ring (2015): national fibre backbone to remote islands",
+      "regionalCount": 34
+    },
+    {
+      "iso3": "BRA",
+      "name": "Brazil",
+      "needScore": 39,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 39: 84% of people online"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2010",
+          "source": "curated",
+          "evidence": "Programa Nacional de Banda Larga (2010): national broadband plan"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "US$1.75B private-participation investment, 2018–2024"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Internet users 40.6 → 84.5 (2010–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.6666666666666666,
+      "done": 4,
+      "state": "in_progress",
+      "programme": "Programa Nacional de Banda Larga (2010): national broadband plan",
+      "regionalCount": 0
+    },
+    {
+      "iso3": "IND",
+      "name": "India",
+      "needScore": 75,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 75 (regional peak 36): 70% of people online"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2011",
+          "source": "curated",
+          "evidence": "BharatNet (2011) and Digital India (2015): village broadband and e-services"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "US$1.47B private-participation investment, 2023–2024"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Internet users 10.1 → 70.0 (2011–2025). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.6666666666666666,
+      "done": 4,
+      "state": "in_progress",
+      "programme": "BharatNet (2011) and Digital India (2015): village broadband and e-services",
+      "regionalCount": 36
+    },
+    {
+      "iso3": "ZAF",
+      "name": "South Africa",
+      "needScore": 54,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 54 (regional peak 22): 78% of people online"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2013",
+          "source": "curated",
+          "evidence": "SA Connect (2013): national broadband policy"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "US$0.76B private-participation investment, 2016–2024"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Internet users 46.5 → 78.4 (2013–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.6666666666666666,
+      "done": 4,
+      "state": "in_progress",
+      "programme": "SA Connect (2013): national broadband policy",
+      "regionalCount": 9
+    },
+    {
+      "iso3": "EGY",
+      "name": "Egypt",
+      "needScore": 63,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 63 (regional peak 27): 75% of people online"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2023",
+          "source": "data",
+          "evidence": "US$0.07B private-participation investment, 2023–2023"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Internet users 21.6 → 74.6 (2010–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "in_progress",
+      "programme": null,
+      "regionalCount": 25
+    },
+    {
+      "iso3": "ETH",
+      "name": "Ethiopia",
+      "needScore": 100,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 100 (regional peak 100): 22% of people online"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2023",
+          "source": "data",
+          "evidence": "US$0.28B private-participation investment, 2023–2023"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Internet users 0.8 → 21.9 (2010–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "in_progress",
+      "programme": null,
+      "regionalCount": 11
+    },
+    {
+      "iso3": "IRN",
+      "name": "Iran",
+      "needScore": 37,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 37: 85% of people online"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "data",
+          "evidence": "No infrastructure investment recorded in 10 years"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Internet users 15.9 → 85.3 (2010–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.3333333333333333,
+      "done": 2,
+      "state": "in_progress",
+      "programme": null,
+      "regionalCount": 0
+    },
+    {
+      "iso3": "CHN",
+      "name": "China",
+      "needScore": 21,
+      "inScope": false,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "na",
+          "source": "data",
+          "evidence": "Need score 21, below the 25 priority line"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2013",
+          "source": "curated",
+          "evidence": "Broadband China (2013): national broadband strategy"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "US$2.24B private-participation investment, 2022–2024"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Internet users 45.8 → 91.6 (2013–2025). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "na",
+      "programme": "Broadband China (2013): national broadband strategy",
+      "regionalCount": 0
+    },
+    {
+      "iso3": "RUS",
+      "name": "Russia",
+      "needScore": 14,
+      "inScope": false,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "na",
+          "source": "data",
+          "evidence": "Need score 14, below the 25 priority line"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2019",
+          "source": "curated",
+          "evidence": "Digital Economy national programme (2019)"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "data",
+          "evidence": "No infrastructure investment recorded in 10 years"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Internet users 82.6 → 94.4 (2019–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.3333333333333333,
+      "done": 2,
+      "state": "na",
+      "programme": "Digital Economy national programme (2019)",
+      "regionalCount": 0
+    },
+    {
+      "iso3": "ARE",
+      "name": "United Arab Emirates",
+      "needScore": 0,
+      "inScope": false,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "na",
+          "source": "data",
+          "evidence": "Need score 0, below the 25 priority line"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "data",
+          "evidence": "No infrastructure investment recorded in 10 years"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Internet users 68.0 → 100.0 (2010–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.16666666666666666,
+      "done": 1,
+      "state": "na",
+      "programme": null,
+      "regionalCount": 0
+    }
+  ],
+  "learn": [
+    {
+      "iso3": "CHN",
+      "model": "Broadband China (2013)",
+      "programme": "Broadband China (2013): national broadband strategy",
+      "match": null
+    },
+    {
+      "iso3": "RUS",
+      "model": "Digital Economy national programme (2019)",
+      "programme": "Digital Economy national programme (2019)",
+      "match": null
+    },
+    {
+      "iso3": "ARE",
+      "model": "Internet users improvement",
+      "programme": null,
+      "match": null
+    }
+  ],
+  "investments": [
+    {
+      "year": 2016,
+      "value": 204000000
+    },
+    {
+      "year": 2017,
+      "value": 385290000
+    },
+    {
+      "year": 2023,
+      "value": 563800000
+    }
+  ],
+  "outcome": [
+    {
+      "year": 2005,
+      "value": 3.60202476259646
+    },
+    {
+      "year": 2006,
+      "value": 4.76481313366657
+    },
+    {
+      "year": 2007,
+      "value": 5.78627472934199
+    },
+    {
+      "year": 2008,
+      "value": 7.917500019
+    },
+    {
+      "year": 2009,
+      "value": 6.92
+    },
+    {
+      "year": 2010,
+      "value": 10.92
+    },
+    {
+      "year": 2011,
+      "value": 12.28
+    },
+    {
+      "year": 2012,
+      "value": 14.52
+    },
+    {
+      "year": 2013,
+      "value": 14.94
+    },
+    {
+      "year": 2014,
+      "value": 17.1431598350566
+    },
+    {
+      "year": 2015,
+      "value": 22.062742603379
+    },
+    {
+      "year": 2016,
+      "value": 25.447353701827
+    },
+    {
+      "year": 2017,
+      "value": 32.335806250688
+    },
+    {
+      "year": 2018,
+      "value": 39.9046386385762
+    },
+    {
+      "year": 2019,
+      "value": 47.6906489788375
+    },
+    {
+      "year": 2020,
+      "value": 53.72649449
+    },
+    {
+      "year": 2021,
+      "value": 62.10447842
+    },
+    {
+      "year": 2022,
+      "value": 66.48461277
+    },
+    {
+      "year": 2023,
+      "value": 69.20836554
+    },
+    {
+      "year": 2024,
+      "value": 72.78075544
+    }
+  ],
+  "lastUpdated": null,
+  "nextReview": null
+}

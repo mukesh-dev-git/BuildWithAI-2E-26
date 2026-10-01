@@ -1,0 +1,1259 @@
+{
+  "goal": {
+    "id": "water",
+    "label": "Water security",
+    "icon": "droplet",
+    "color": "#3b82f6",
+    "sector": "water",
+    "blurb": "Safe, sustainable and resilient water and sanitation for all",
+    "headline": {
+      "key": "water_pct",
+      "label": "Basic drinking water",
+      "unit": "%",
+      "better": "up"
+    }
+  },
+  "country": {
+    "iso3": "IND",
+    "name": "India"
+  },
+  "milestones": [
+    {
+      "id": "need",
+      "label": "Need identified",
+      "status": "done",
+      "date": "2025",
+      "source": "data",
+      "evidence": "Need score 64 (regional peak 64): 96% basic water, 83% basic sanitation"
+    },
+    {
+      "id": "strategy",
+      "label": "Strategy approved",
+      "status": "done",
+      "date": "2019",
+      "source": "curated",
+      "evidence": "Jal Jeevan Mission (2019): piped tap water to every rural household"
+    },
+    {
+      "id": "funding",
+      "label": "Funding secured",
+      "status": "done",
+      "date": "2022",
+      "source": "data",
+      "evidence": "US$0.96B private-participation investment, 2015–2022"
+    },
+    {
+      "id": "pilot",
+      "label": "Pilot launched",
+      "status": "not_started",
+      "source": "none",
+      "evidence": "Not reported yet"
+    },
+    {
+      "id": "full",
+      "label": "Full implementation",
+      "status": "not_started",
+      "source": "none",
+      "evidence": "Not reported yet"
+    },
+    {
+      "id": "impact",
+      "label": "Impact measured",
+      "status": "done",
+      "date": "2024",
+      "source": "data",
+      "evidence": "Basic drinking water 92.4 → 95.7 (2019–2024). An outcome trend, not proof of attribution"
+    }
+  ],
+  "needScore": 64,
+  "inScope": true,
+  "progress": 0.6666666666666666,
+  "done": 4,
+  "state": "in_progress",
+  "programme": "Jal Jeevan Mission (2019): piped tap water to every rural household",
+  "regionalCount": 36,
+  "regions": [
+    {
+      "regionId": "IND-jharkhand",
+      "region": "Jhārkhand",
+      "score": 64,
+      "tier": "high",
+      "detail": "87% improved water, 62% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (62% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-ladakh",
+      "region": "Ladākh",
+      "score": 63,
+      "tier": "high",
+      "detail": "89% improved water, 43% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (43% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-odisha",
+      "region": "Odisha",
+      "score": 55,
+      "tier": "high",
+      "detail": "91% improved water, 65% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (65% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-bihar",
+      "region": "Bihār",
+      "score": 51,
+      "tier": "high",
+      "detail": "99% improved water, 58% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (58% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-madhya-pradesh",
+      "region": "Madhya Pradesh",
+      "score": 50,
+      "tier": "high",
+      "detail": "89% improved water, 71% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (71% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-assam",
+      "region": "Assam",
+      "score": 43,
+      "tier": "moderate",
+      "detail": "86% improved water, 79% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (79% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-meghalaya",
+      "region": "Meghālaya",
+      "score": 39,
+      "tier": "moderate",
+      "detail": "79% improved water, 90% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Safe water access (79% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-manipur",
+      "region": "Manipur",
+      "score": 36,
+      "tier": "moderate",
+      "detail": "77% improved water, 94% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Safe water access (77% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-jammu-and-kashmir",
+      "region": "Jammu and Kashmīr",
+      "score": 36,
+      "tier": "moderate",
+      "detail": "92% improved water, 79% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (79% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-rajasthan",
+      "region": "Rājasthān",
+      "score": 34,
+      "tier": "moderate",
+      "detail": "96% improved water, 76% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (76% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-maharashtra",
+      "region": "Mahārāshtra",
+      "score": 33,
+      "tier": "moderate",
+      "detail": "94% improved water, 80% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (80% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-uttar-pradesh",
+      "region": "Uttar Pradesh",
+      "score": 32,
+      "tier": "moderate",
+      "detail": "99% improved water, 75% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (75% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-tamil-nadu",
+      "region": "Tamil Nādu",
+      "score": 32,
+      "tier": "moderate",
+      "detail": "99% improved water, 76% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (76% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-karnataka",
+      "region": "Karnātaka",
+      "score": 32,
+      "tier": "moderate",
+      "detail": "96% improved water, 79% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (79% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-gujarat",
+      "region": "Gujarāt",
+      "score": 31,
+      "tier": "moderate",
+      "detail": "98% improved water, 78% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (78% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-tripura",
+      "region": "Tripura",
+      "score": 29,
+      "tier": "moderate",
+      "detail": "89% improved water, 89% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Safe water access (89% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-chhattisgarh",
+      "region": "Chhattīsgarh",
+      "score": 28,
+      "tier": "moderate",
+      "detail": "96% improved water, 82% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (82% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-andhra-pradesh",
+      "region": "Andhra Pradesh",
+      "score": 26,
+      "tier": "moderate",
+      "detail": "97% improved water, 82% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (82% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-west-bengal",
+      "region": "West Bengal",
+      "score": 24,
+      "tier": "low",
+      "detail": "98% improved water, 83% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (83% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-dadra-and-nagar-haveli-and-daman-and-diu",
+      "region": "Dādra and Nagar Haveli and Damān and Diu",
+      "score": 22,
+      "tier": "low",
+      "detail": "96% improved water, 86% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (86% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-telangana",
+      "region": "Telangāna",
+      "score": 21,
+      "tier": "low",
+      "detail": "99% improved water, 85% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (85% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-nagaland",
+      "region": "Nāgāland",
+      "score": 17,
+      "tier": "low",
+      "detail": "91% improved water, 96% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Safe water access (91% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-arunachal-pradesh",
+      "region": "Arunāchal Pradesh",
+      "score": 17,
+      "tier": "low",
+      "detail": "94% improved water, 92% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (92% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-uttarakhand",
+      "region": "Uttarākhand",
+      "score": 15,
+      "tier": "low",
+      "detail": "96% improved water, 93% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (93% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-puducherry",
+      "region": "Puducherry",
+      "score": 14,
+      "tier": "low",
+      "detail": "100% improved water, 89% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (89% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-himachal-pradesh",
+      "region": "Himāchal Pradesh",
+      "score": 14,
+      "tier": "low",
+      "detail": "96% improved water, 92% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (92% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-sikkim",
+      "region": "Sikkim",
+      "score": 10,
+      "tier": "low",
+      "detail": "94% improved water, 98% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Safe water access (94% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-andaman-and-nicobar-islands",
+      "region": "Andaman and Nicobar Islands",
+      "score": 10,
+      "tier": "low",
+      "detail": "96% improved water, 96% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (96% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-lakshadweep",
+      "region": "Lakshadweep",
+      "score": 9,
+      "tier": "low",
+      "detail": "93% improved water, 100% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Safe water access (93% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-goa",
+      "region": "Goa",
+      "score": 9,
+      "tier": "low",
+      "detail": "98% improved water, 95% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (95% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-delhi",
+      "region": "Delhi",
+      "score": 8,
+      "tier": "low",
+      "detail": "100% improved water, 94% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (94% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-mizoram",
+      "region": "Mizoram",
+      "score": 8,
+      "tier": "low",
+      "detail": "96% improved water, 98% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Safe water access (96% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-kerala",
+      "region": "Kerala",
+      "score": 8,
+      "tier": "low",
+      "detail": "95% improved water, 99% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Safe water access (95% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-haryana",
+      "region": "Haryāna",
+      "score": 8,
+      "tier": "low",
+      "detail": "99% improved water, 95% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (95% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-punjab",
+      "region": "Punjab",
+      "score": 7,
+      "tier": "low",
+      "detail": "99% improved water, 96% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (96% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    },
+    {
+      "regionId": "IND-chandigarh",
+      "region": "Chandīgarh",
+      "score": 6,
+      "tier": "low",
+      "detail": "99% improved water, 96% improved sanitation",
+      "source": "NFHS-5 survey (2019–21)",
+      "action": "Sanitation coverage (96% today)",
+      "status": "not_started",
+      "progress": 0,
+      "note": null,
+      "updatedAt": null
+    }
+  ],
+  "regionsCovered": 0,
+  "regionsNeeding": 18,
+  "others": [
+    {
+      "iso3": "IND",
+      "name": "India",
+      "needScore": 64,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 64 (regional peak 64): 96% basic water, 83% basic sanitation"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2019",
+          "source": "curated",
+          "evidence": "Jal Jeevan Mission (2019): piped tap water to every rural household"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2022",
+          "source": "data",
+          "evidence": "US$0.96B private-participation investment, 2015–2022"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Basic drinking water 92.4 → 95.7 (2019–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.6666666666666666,
+      "done": 4,
+      "state": "in_progress",
+      "programme": "Jal Jeevan Mission (2019): piped tap water to every rural household",
+      "regionalCount": 36
+    },
+    {
+      "iso3": "IDN",
+      "name": "Indonesia",
+      "needScore": 88,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 88 (regional peak 88): 89% basic water, 88% basic sanitation"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2008",
+          "source": "curated",
+          "evidence": "PAMSIMAS (2008): community-based rural water supply and sanitation"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2023",
+          "source": "data",
+          "evidence": "US$1.66B private-participation investment, 2017–2023"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Basic drinking water 83.5 → 89.0 (2008–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.6666666666666666,
+      "done": 4,
+      "state": "in_progress",
+      "programme": "PAMSIMAS (2008): community-based rural water supply and sanitation",
+      "regionalCount": 34
+    },
+    {
+      "iso3": "ZAF",
+      "name": "South Africa",
+      "needScore": 41,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 41 (regional peak 35): 90% basic water, 77% basic sanitation"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2001",
+          "source": "curated",
+          "evidence": "Free Basic Water policy (2001): free lifeline water allowance per household"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "data",
+          "evidence": "No infrastructure investment recorded in 10 years"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Basic drinking water 86.5 → 90.2 (2001–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "in_progress",
+      "programme": "Free Basic Water policy (2001): free lifeline water allowance per household",
+      "regionalCount": 9
+    },
+    {
+      "iso3": "ETH",
+      "name": "Ethiopia",
+      "needScore": 100,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 100 (regional peak 100): 56% basic water, 10% basic sanitation"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2013",
+          "source": "curated",
+          "evidence": "One WASH National Programme (2013): integrated water, sanitation and hygiene"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "data",
+          "evidence": "No infrastructure investment recorded in 10 years"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Basic drinking water 38.9 → 55.6 (2013–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "in_progress",
+      "programme": "One WASH National Programme (2013): integrated water, sanitation and hygiene",
+      "regionalCount": 11
+    },
+    {
+      "iso3": "BRA",
+      "name": "Brazil",
+      "needScore": 9,
+      "inScope": false,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "na",
+          "source": "data",
+          "evidence": "Need score 9, below the 25 priority line"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2011",
+          "source": "curated",
+          "evidence": "Água para Todos (2011): cisterns and water systems for the semi-arid north-east"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "US$9.89B private-participation investment, 2015–2024"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Basic drinking water 96.7 → 100.0 (2011–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "na",
+      "programme": "Água para Todos (2011): cisterns and water systems for the semi-arid north-east",
+      "regionalCount": 0
+    },
+    {
+      "iso3": "RUS",
+      "name": "Russia",
+      "needScore": 14,
+      "inScope": false,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "na",
+          "source": "data",
+          "evidence": "Need score 14, below the 25 priority line"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2019",
+          "source": "curated",
+          "evidence": "Clean Water federal project (2019): modernising municipal water supply"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2015",
+          "source": "data",
+          "evidence": "US$1.20B private-participation investment, 2015–2015"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Basic drinking water 96.7 → 96.9 (2019–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "na",
+      "programme": "Clean Water federal project (2019): modernising municipal water supply",
+      "regionalCount": 0
+    },
+    {
+      "iso3": "CHN",
+      "name": "China",
+      "needScore": 8,
+      "inScope": false,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "na",
+          "source": "data",
+          "evidence": "Need score 8, below the 25 priority line"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "US$15.87B private-participation investment, 2015–2024"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Basic drinking water 88.4 → 96.1 (2010–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.3333333333333333,
+      "done": 2,
+      "state": "na",
+      "programme": null,
+      "regionalCount": 0
+    },
+    {
+      "iso3": "EGY",
+      "name": "Egypt",
+      "needScore": 13,
+      "inScope": false,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "na",
+          "source": "data",
+          "evidence": "Need score 13, below the 25 priority line"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2019",
+          "source": "curated",
+          "evidence": "Hayah Karima / Decent Life (2019): rural infrastructure upgrade incl. water and sewage"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2021",
+          "source": "data",
+          "evidence": "US$0.05B private-participation investment, 2021–2021"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "not_started",
+          "source": "data",
+          "evidence": "Basic drinking water has not improved since 2019"
+        }
+      ],
+      "progress": 0.3333333333333333,
+      "done": 2,
+      "state": "na",
+      "programme": "Hayah Karima / Decent Life (2019): rural infrastructure upgrade incl. water and sewage",
+      "regionalCount": 25
+    },
+    {
+      "iso3": "IRN",
+      "name": "Iran",
+      "needScore": 15,
+      "inScope": false,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "na",
+          "source": "data",
+          "evidence": "Need score 15, below the 25 priority line"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "data",
+          "evidence": "No infrastructure investment recorded in 10 years"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Basic drinking water 96.0 → 97.9 (2010–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.16666666666666666,
+      "done": 1,
+      "state": "na",
+      "programme": null,
+      "regionalCount": 0
+    },
+    {
+      "iso3": "ARE",
+      "name": "United Arab Emirates",
+      "needScore": 1,
+      "inScope": false,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "na",
+          "source": "data",
+          "evidence": "Need score 1, below the 25 priority line"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "data",
+          "evidence": "No infrastructure investment recorded in 10 years"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Basic drinking water 99.8 → 100.0 (2010–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.16666666666666666,
+      "done": 1,
+      "state": "na",
+      "programme": null,
+      "regionalCount": 0
+    }
+  ],
+  "learn": [
+    {
+      "iso3": "CHN",
+      "model": "Basic drinking water improvement",
+      "programme": null,
+      "match": null
+    },
+    {
+      "iso3": "BRA",
+      "model": "Água para Todos (2011)",
+      "programme": "Água para Todos (2011): cisterns and water systems for the semi-arid north-east",
+      "match": null
+    },
+    {
+      "iso3": "IRN",
+      "model": "Basic drinking water improvement",
+      "programme": null,
+      "match": null
+    }
+  ],
+  "investments": [
+    {
+      "year": 2012,
+      "value": 115600000
+    },
+    {
+      "year": 2013,
+      "value": 135100000
+    },
+    {
+      "year": 2015,
+      "value": 18500000
+    },
+    {
+      "year": 2017,
+      "value": 50880000
+    },
+    {
+      "year": 2018,
+      "value": 583300000
+    },
+    {
+      "year": 2021,
+      "value": 278250000
+    },
+    {
+      "year": 2022,
+      "value": 25000000
+    }
+  ],
+  "outcome": [
+    {
+      "year": 2005,
+      "value": 82.8660018054267
+    },
+    {
+      "year": 2006,
+      "value": 83.5615500374212
+    },
+    {
+      "year": 2007,
+      "value": 84.2553439378038
+    },
+    {
+      "year": 2008,
+      "value": 84.9473094624581
+    },
+    {
+      "year": 2009,
+      "value": 85.6371461321776
+    },
+    {
+      "year": 2010,
+      "value": 86.3249166723471
+    },
+    {
+      "year": 2011,
+      "value": 87.0106732998892
+    },
+    {
+      "year": 2012,
+      "value": 87.6951918936397
+    },
+    {
+      "year": 2013,
+      "value": 88.3781430142448
+    },
+    {
+      "year": 2014,
+      "value": 89.0593975763785
+    },
+    {
+      "year": 2015,
+      "value": 89.7387066732488
+    },
+    {
+      "year": 2016,
+      "value": 90.4158282525921
+    },
+    {
+      "year": 2017,
+      "value": 91.0905825625786
+    },
+    {
+      "year": 2018,
+      "value": 91.7626505318817
+    },
+    {
+      "year": 2019,
+      "value": 92.4317828217009
+    },
+    {
+      "year": 2020,
+      "value": 93.0977309081783
+    },
+    {
+      "year": 2021,
+      "value": 93.760281159736
+    },
+    {
+      "year": 2022,
+      "value": 94.4191311935781
+    },
+    {
+      "year": 2023,
+      "value": 95.0740565981493
+    },
+    {
+      "year": 2024,
+      "value": 95.7247373523918
+    }
+  ],
+  "lastUpdated": null,
+  "nextReview": null
+}

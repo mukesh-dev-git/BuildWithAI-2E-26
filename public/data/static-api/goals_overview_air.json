@@ -1,0 +1,938 @@
+{
+  "goal": {
+    "id": "air",
+    "label": "Clean air",
+    "icon": "wind",
+    "color": "#14b8a6",
+    "sector": "environment",
+    "blurb": "Cleaner air within WHO guideline levels",
+    "headline": {
+      "key": "pm25",
+      "label": "PM2.5 exposure",
+      "unit": "µg/m³",
+      "better": "down"
+    }
+  },
+  "milestones": [
+    {
+      "id": "need",
+      "label": "Need identified",
+      "auto": "World Bank / regional need score"
+    },
+    {
+      "id": "strategy",
+      "label": "Strategy approved",
+      "auto": "Flagship programme on record"
+    },
+    {
+      "id": "funding",
+      "label": "Funding secured",
+      "auto": "Infrastructure investment (World Bank PPI)"
+    },
+    {
+      "id": "pilot",
+      "label": "Pilot launched",
+      "auto": null
+    },
+    {
+      "id": "full",
+      "label": "Full implementation",
+      "auto": null
+    },
+    {
+      "id": "impact",
+      "label": "Impact measured",
+      "auto": "Headline indicator improved since the programme began"
+    }
+  ],
+  "countries": [
+    {
+      "iso3": "CHN",
+      "name": "China",
+      "needScore": 60,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 60: PM2.5 exposure 32 µg/m³ (WHO guideline: 5)"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2013",
+          "source": "curated",
+          "evidence": "Air Pollution Prevention and Control Action Plan (2013)"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2023",
+          "source": "data",
+          "evidence": "PM2.5 exposure 51.7 → 32.0 (2013–2023). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "in_progress",
+      "programme": "Air Pollution Prevention and Control Action Plan (2013)",
+      "regionalCount": 0
+    },
+    {
+      "iso3": "IND",
+      "name": "India",
+      "needScore": 100,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 100: PM2.5 exposure 54 µg/m³ (WHO guideline: 5)"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2019",
+          "source": "curated",
+          "evidence": "National Clean Air Programme (2019)"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "not_started",
+          "source": "data",
+          "evidence": "PM2.5 exposure has not improved since 2019"
+        }
+      ],
+      "progress": 0.3333333333333333,
+      "done": 2,
+      "state": "in_progress",
+      "programme": "National Clean Air Programme (2019)",
+      "regionalCount": 0
+    },
+    {
+      "iso3": "EGY",
+      "name": "Egypt",
+      "needScore": 85,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 85: PM2.5 exposure 43 µg/m³ (WHO guideline: 5)"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2023",
+          "source": "data",
+          "evidence": "PM2.5 exposure 46.3 → 43.1 (2010–2023). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.3333333333333333,
+      "done": 2,
+      "state": "in_progress",
+      "programme": null,
+      "regionalCount": 0
+    },
+    {
+      "iso3": "IRN",
+      "name": "Iran",
+      "needScore": 78,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 78: PM2.5 exposure 40 µg/m³ (WHO guideline: 5)"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2023",
+          "source": "data",
+          "evidence": "PM2.5 exposure 43.3 → 40.2 (2010–2023). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.3333333333333333,
+      "done": 2,
+      "state": "in_progress",
+      "programme": null,
+      "regionalCount": 0
+    },
+    {
+      "iso3": "ZAF",
+      "name": "South Africa",
+      "needScore": 50,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 50: PM2.5 exposure 28 µg/m³ (WHO guideline: 5)"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2023",
+          "source": "data",
+          "evidence": "PM2.5 exposure 32.8 → 27.7 (2010–2023). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.3333333333333333,
+      "done": 2,
+      "state": "in_progress",
+      "programme": null,
+      "regionalCount": 0
+    },
+    {
+      "iso3": "ETH",
+      "name": "Ethiopia",
+      "needScore": 42,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 42: PM2.5 exposure 24 µg/m³ (WHO guideline: 5)"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2023",
+          "source": "data",
+          "evidence": "PM2.5 exposure 24.2 → 23.8 (2010–2023). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.3333333333333333,
+      "done": 2,
+      "state": "in_progress",
+      "programme": null,
+      "regionalCount": 0
+    },
+    {
+      "iso3": "ARE",
+      "name": "United Arab Emirates",
+      "needScore": 100,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 100: PM2.5 exposure 57 µg/m³ (WHO guideline: 5)"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "not_started",
+          "source": "data",
+          "evidence": "PM2.5 exposure has not improved since 2010"
+        }
+      ],
+      "progress": 0.16666666666666666,
+      "done": 1,
+      "state": "not_started",
+      "programme": null,
+      "regionalCount": 0
+    },
+    {
+      "iso3": "IDN",
+      "name": "Indonesia",
+      "needScore": 35,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 35: PM2.5 exposure 21 µg/m³ (WHO guideline: 5)"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "not_started",
+          "source": "data",
+          "evidence": "PM2.5 exposure has not improved since 2010"
+        }
+      ],
+      "progress": 0.16666666666666666,
+      "done": 1,
+      "state": "not_started",
+      "programme": null,
+      "regionalCount": 0
+    },
+    {
+      "iso3": "BRA",
+      "name": "Brazil",
+      "needScore": 19,
+      "inScope": false,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "na",
+          "source": "data",
+          "evidence": "Need score 19, below the 25 priority line"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2023",
+          "source": "data",
+          "evidence": "PM2.5 exposure 15.2 → 13.4 (2010–2023). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.16666666666666666,
+      "done": 1,
+      "state": "na",
+      "programme": null,
+      "regionalCount": 0
+    },
+    {
+      "iso3": "RUS",
+      "name": "Russia",
+      "needScore": 15,
+      "inScope": false,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "na",
+          "source": "data",
+          "evidence": "Need score 15, below the 25 priority line"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2023",
+          "source": "data",
+          "evidence": "PM2.5 exposure 18.6 → 11.6 (2010–2023). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.16666666666666666,
+      "done": 1,
+      "state": "na",
+      "programme": null,
+      "regionalCount": 0
+    }
+  ],
+  "kpis": {
+    "inScope": 8,
+    "completed": 0,
+    "inProgress": 6,
+    "notStarted": 2,
+    "regionsCovered": 0
+  },
+  "pipeline": [
+    {
+      "id": "energy",
+      "label": "Clean energy",
+      "icon": "leaf",
+      "color": "#22c55e",
+      "sector": "energy",
+      "blurb": "Universal electricity access with a growing renewable share",
+      "headline": {
+        "key": "renewable_pct",
+        "label": "Renewable share of energy",
+        "unit": "%",
+        "better": "up"
+      },
+      "inScope": [
+        "RUS",
+        "IND",
+        "CHN",
+        "ZAF",
+        "EGY",
+        "ETH",
+        "IRN",
+        "ARE",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.5185185185185185
+    },
+    {
+      "id": "air",
+      "label": "Clean air",
+      "icon": "wind",
+      "color": "#14b8a6",
+      "sector": "environment",
+      "blurb": "Cleaner air within WHO guideline levels",
+      "headline": {
+        "key": "pm25",
+        "label": "PM2.5 exposure",
+        "unit": "µg/m³",
+        "better": "down"
+      },
+      "inScope": [
+        "IND",
+        "CHN",
+        "ZAF",
+        "EGY",
+        "ETH",
+        "IRN",
+        "ARE",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.31249999999999994
+    },
+    {
+      "id": "health",
+      "label": "Healthcare access",
+      "icon": "heart",
+      "color": "#ef4444",
+      "sector": "health",
+      "blurb": "Accessible primary health care and better child-health outcomes",
+      "headline": {
+        "key": "u5_mortality",
+        "label": "Under-5 mortality",
+        "unit": "per 1,000",
+        "better": "down"
+      },
+      "inScope": [
+        "BRA",
+        "IND",
+        "ZAF",
+        "EGY",
+        "ETH",
+        "IRN",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.47619047619047616
+    },
+    {
+      "id": "digital",
+      "label": "Digital connectivity",
+      "icon": "wifi",
+      "color": "#8b5cf6",
+      "sector": "digital",
+      "blurb": "Affordable connectivity and access to online public services",
+      "headline": {
+        "key": "internet_pct",
+        "label": "Internet users",
+        "unit": "%",
+        "better": "up"
+      },
+      "inScope": [
+        "BRA",
+        "IND",
+        "ZAF",
+        "EGY",
+        "ETH",
+        "IRN",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.5714285714285714
+    },
+    {
+      "id": "transport",
+      "label": "Transport & logistics",
+      "icon": "bus",
+      "color": "#f97316",
+      "sector": "transport",
+      "blurb": "Reliable roads, logistics and public transport",
+      "headline": {
+        "key": "lpi_infra",
+        "label": "Infrastructure quality (LPI)",
+        "unit": "1–5",
+        "better": "up"
+      },
+      "inScope": [
+        "BRA",
+        "RUS",
+        "IND",
+        "EGY",
+        "ETH",
+        "IRN",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.5238095238095238
+    },
+    {
+      "id": "jobs",
+      "label": "Job opportunities",
+      "icon": "briefcase",
+      "color": "#ec4899",
+      "sector": "social",
+      "blurb": "More and better jobs, especially for young people",
+      "headline": {
+        "key": "unemployment_pct",
+        "label": "Unemployment",
+        "unit": "%",
+        "better": "down"
+      },
+      "inScope": [
+        "BRA",
+        "IND",
+        "CHN",
+        "ZAF",
+        "EGY",
+        "IRN"
+      ],
+      "total": 10,
+      "avgProgress": 0.3333333333333333
+    },
+    {
+      "id": "education",
+      "label": "Education access",
+      "icon": "graduation",
+      "color": "#eab308",
+      "sector": "education",
+      "blurb": "Literacy and secondary schooling for every region",
+      "headline": {
+        "key": "literacy_pct",
+        "label": "Adult literacy",
+        "unit": "%",
+        "better": "up"
+      },
+      "inScope": [
+        "IND",
+        "EGY",
+        "ETH",
+        "IRN",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.39999999999999997
+    },
+    {
+      "id": "water",
+      "label": "Water security",
+      "icon": "droplet",
+      "color": "#3b82f6",
+      "sector": "water",
+      "blurb": "Safe, sustainable and resilient water and sanitation for all",
+      "headline": {
+        "key": "water_pct",
+        "label": "Basic drinking water",
+        "unit": "%",
+        "better": "up"
+      },
+      "inScope": [
+        "IND",
+        "ZAF",
+        "ETH",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.5833333333333333
+    }
+  ],
+  "lastUpdate": null,
+  "goals": [
+    {
+      "id": "water",
+      "label": "Water security",
+      "icon": "droplet",
+      "color": "#3b82f6",
+      "sector": "water",
+      "blurb": "Safe, sustainable and resilient water and sanitation for all",
+      "headline": {
+        "key": "water_pct",
+        "label": "Basic drinking water",
+        "unit": "%",
+        "better": "up"
+      }
+    },
+    {
+      "id": "health",
+      "label": "Healthcare access",
+      "icon": "heart",
+      "color": "#ef4444",
+      "sector": "health",
+      "blurb": "Accessible primary health care and better child-health outcomes",
+      "headline": {
+        "key": "u5_mortality",
+        "label": "Under-5 mortality",
+        "unit": "per 1,000",
+        "better": "down"
+      }
+    },
+    {
+      "id": "digital",
+      "label": "Digital connectivity",
+      "icon": "wifi",
+      "color": "#8b5cf6",
+      "sector": "digital",
+      "blurb": "Affordable connectivity and access to online public services",
+      "headline": {
+        "key": "internet_pct",
+        "label": "Internet users",
+        "unit": "%",
+        "better": "up"
+      }
+    },
+    {
+      "id": "transport",
+      "label": "Transport & logistics",
+      "icon": "bus",
+      "color": "#f97316",
+      "sector": "transport",
+      "blurb": "Reliable roads, logistics and public transport",
+      "headline": {
+        "key": "lpi_infra",
+        "label": "Infrastructure quality (LPI)",
+        "unit": "1–5",
+        "better": "up"
+      }
+    },
+    {
+      "id": "energy",
+      "label": "Clean energy",
+      "icon": "leaf",
+      "color": "#22c55e",
+      "sector": "energy",
+      "blurb": "Universal electricity access with a growing renewable share",
+      "headline": {
+        "key": "renewable_pct",
+        "label": "Renewable share of energy",
+        "unit": "%",
+        "better": "up"
+      }
+    },
+    {
+      "id": "education",
+      "label": "Education access",
+      "icon": "graduation",
+      "color": "#eab308",
+      "sector": "education",
+      "blurb": "Literacy and secondary schooling for every region",
+      "headline": {
+        "key": "literacy_pct",
+        "label": "Adult literacy",
+        "unit": "%",
+        "better": "up"
+      }
+    },
+    {
+      "id": "jobs",
+      "label": "Job opportunities",
+      "icon": "briefcase",
+      "color": "#ec4899",
+      "sector": "social",
+      "blurb": "More and better jobs, especially for young people",
+      "headline": {
+        "key": "unemployment_pct",
+        "label": "Unemployment",
+        "unit": "%",
+        "better": "down"
+      }
+    },
+    {
+      "id": "air",
+      "label": "Clean air",
+      "icon": "wind",
+      "color": "#14b8a6",
+      "sector": "environment",
+      "blurb": "Cleaner air within WHO guideline levels",
+      "headline": {
+        "key": "pm25",
+        "label": "PM2.5 exposure",
+        "unit": "µg/m³",
+        "better": "down"
+      }
+    }
+  ]
+}

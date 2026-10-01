@@ -1,0 +1,952 @@
+{
+  "goal": {
+    "id": "energy",
+    "label": "Clean energy",
+    "icon": "leaf",
+    "color": "#22c55e",
+    "sector": "energy",
+    "blurb": "Universal electricity access with a growing renewable share",
+    "headline": {
+      "key": "renewable_pct",
+      "label": "Renewable share of energy",
+      "unit": "%",
+      "better": "up"
+    }
+  },
+  "milestones": [
+    {
+      "id": "need",
+      "label": "Need identified",
+      "auto": "World Bank / regional need score"
+    },
+    {
+      "id": "strategy",
+      "label": "Strategy approved",
+      "auto": "Flagship programme on record"
+    },
+    {
+      "id": "funding",
+      "label": "Funding secured",
+      "auto": "Infrastructure investment (World Bank PPI)"
+    },
+    {
+      "id": "pilot",
+      "label": "Pilot launched",
+      "auto": null
+    },
+    {
+      "id": "full",
+      "label": "Full implementation",
+      "auto": null
+    },
+    {
+      "id": "impact",
+      "label": "Impact measured",
+      "auto": "Headline indicator improved since the programme began"
+    }
+  ],
+  "countries": [
+    {
+      "iso3": "ZAF",
+      "name": "South Africa",
+      "needScore": 53,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 53 (regional peak 47): 90% electricity access, 10% renewable energy"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2011",
+          "source": "curated",
+          "evidence": "REIPPPP (2011): competitive renewable energy procurement"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "US$14.30B private-participation investment, 2015–2024"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2021",
+          "source": "data",
+          "evidence": "Renewable share of energy 9.0 → 9.7 (2011–2021). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.6666666666666666,
+      "done": 4,
+      "state": "in_progress",
+      "programme": "REIPPPP (2011): competitive renewable energy procurement",
+      "regionalCount": 9
+    },
+    {
+      "iso3": "ARE",
+      "name": "United Arab Emirates",
+      "needScore": 49,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 49: 100% electricity access, 1% renewable energy"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2017",
+          "source": "curated",
+          "evidence": "UAE Energy Strategy 2050 (2017): clean energy targets"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2022",
+          "source": "data",
+          "evidence": "US$3.80B private-participation investment, 2022–2022"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2021",
+          "source": "data",
+          "evidence": "Renewable share of energy 0.2 → 1.0 (2017–2021). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.6666666666666666,
+      "done": 4,
+      "state": "in_progress",
+      "programme": "UAE Energy Strategy 2050 (2017): clean energy targets",
+      "regionalCount": 0
+    },
+    {
+      "iso3": "IND",
+      "name": "India",
+      "needScore": 26,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 26 (regional peak 26): 100% electricity access, 35% renewable energy"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2017",
+          "source": "curated",
+          "evidence": "Saubhagya (2017): household electrification"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "US$23.51B private-participation investment, 2015–2024"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2021",
+          "source": "data",
+          "evidence": "Renewable share of energy 32.5 → 34.9 (2017–2021). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.6666666666666666,
+      "done": 4,
+      "state": "in_progress",
+      "programme": "Saubhagya (2017): household electrification",
+      "regionalCount": 36
+    },
+    {
+      "iso3": "ETH",
+      "name": "Ethiopia",
+      "needScore": 100,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 100 (regional peak 100): 57% electricity access, 91% renewable energy"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2017",
+          "source": "curated",
+          "evidence": "National Electrification Program (2017): grid and off-grid access"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2021",
+          "source": "data",
+          "evidence": "US$0.27B private-participation investment, 2021–2021"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "not_started",
+          "source": "data",
+          "evidence": "Renewable share of energy has not improved since 2017"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "in_progress",
+      "programme": "National Electrification Program (2017): grid and off-grid access",
+      "regionalCount": 11
+    },
+    {
+      "iso3": "RUS",
+      "name": "Russia",
+      "needScore": 47,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 47: 100% electricity access, 4% renewable energy"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2021",
+          "source": "data",
+          "evidence": "US$2.38B private-participation investment, 2015–2021"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2021",
+          "source": "data",
+          "evidence": "Renewable share of energy 3.3 → 3.5 (2010–2021). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "in_progress",
+      "programme": null,
+      "regionalCount": 0
+    },
+    {
+      "iso3": "EGY",
+      "name": "Egypt",
+      "needScore": 44,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 44 (regional peak 1): 100% electricity access, 6% renewable energy"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2019",
+          "source": "curated",
+          "evidence": "Benban Solar Park (2019): utility-scale solar"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "US$4.92B private-participation investment, 2016–2024"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "not_started",
+          "source": "data",
+          "evidence": "Renewable share of energy has not improved since 2019"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "in_progress",
+      "programme": "Benban Solar Park (2019): utility-scale solar",
+      "regionalCount": 25
+    },
+    {
+      "iso3": "CHN",
+      "name": "China",
+      "needScore": 35,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 35: 100% electricity access, 15% renewable energy"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "US$86.23B private-participation investment, 2015–2024"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2021",
+          "source": "data",
+          "evidence": "Renewable share of energy 12.3 → 15.2 (2010–2021). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "in_progress",
+      "programme": null,
+      "regionalCount": 0
+    },
+    {
+      "iso3": "IDN",
+      "name": "Indonesia",
+      "needScore": 62,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 62 (regional peak 62): 100% electricity access, 20% renewable energy"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "US$21.26B private-participation investment, 2015–2024"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "not_started",
+          "source": "data",
+          "evidence": "Renewable share of energy has not improved since 2010"
+        }
+      ],
+      "progress": 0.3333333333333333,
+      "done": 2,
+      "state": "in_progress",
+      "programme": null,
+      "regionalCount": 34
+    },
+    {
+      "iso3": "IRN",
+      "name": "Iran",
+      "needScore": 49,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 49: 100% electricity access, 1% renewable energy"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2017",
+          "source": "data",
+          "evidence": "US$0.09B private-participation investment, 2017–2017"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "not_started",
+          "source": "data",
+          "evidence": "Renewable share of energy has not improved since 2010"
+        }
+      ],
+      "progress": 0.3333333333333333,
+      "done": 2,
+      "state": "in_progress",
+      "programme": null,
+      "regionalCount": 0
+    },
+    {
+      "iso3": "BRA",
+      "name": "Brazil",
+      "needScore": 4,
+      "inScope": false,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "na",
+          "source": "data",
+          "evidence": "Need score 4, below the 25 priority line"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2003",
+          "source": "curated",
+          "evidence": "Luz para Todos (2003): rural electrification"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "US$72.17B private-participation investment, 2015–2024"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2021",
+          "source": "data",
+          "evidence": "Renewable share of energy 45.1 → 46.5 (2003–2021). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "na",
+      "programme": "Luz para Todos (2003): rural electrification",
+      "regionalCount": 0
+    }
+  ],
+  "kpis": {
+    "inScope": 9,
+    "completed": 0,
+    "inProgress": 9,
+    "notStarted": 0,
+    "regionsCovered": 17
+  },
+  "pipeline": [
+    {
+      "id": "energy",
+      "label": "Clean energy",
+      "icon": "leaf",
+      "color": "#22c55e",
+      "sector": "energy",
+      "blurb": "Universal electricity access with a growing renewable share",
+      "headline": {
+        "key": "renewable_pct",
+        "label": "Renewable share of energy",
+        "unit": "%",
+        "better": "up"
+      },
+      "inScope": [
+        "RUS",
+        "IND",
+        "CHN",
+        "ZAF",
+        "EGY",
+        "ETH",
+        "IRN",
+        "ARE",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.5185185185185185
+    },
+    {
+      "id": "air",
+      "label": "Clean air",
+      "icon": "wind",
+      "color": "#14b8a6",
+      "sector": "environment",
+      "blurb": "Cleaner air within WHO guideline levels",
+      "headline": {
+        "key": "pm25",
+        "label": "PM2.5 exposure",
+        "unit": "µg/m³",
+        "better": "down"
+      },
+      "inScope": [
+        "IND",
+        "CHN",
+        "ZAF",
+        "EGY",
+        "ETH",
+        "IRN",
+        "ARE",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.31249999999999994
+    },
+    {
+      "id": "health",
+      "label": "Healthcare access",
+      "icon": "heart",
+      "color": "#ef4444",
+      "sector": "health",
+      "blurb": "Accessible primary health care and better child-health outcomes",
+      "headline": {
+        "key": "u5_mortality",
+        "label": "Under-5 mortality",
+        "unit": "per 1,000",
+        "better": "down"
+      },
+      "inScope": [
+        "BRA",
+        "IND",
+        "ZAF",
+        "EGY",
+        "ETH",
+        "IRN",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.47619047619047616
+    },
+    {
+      "id": "digital",
+      "label": "Digital connectivity",
+      "icon": "wifi",
+      "color": "#8b5cf6",
+      "sector": "digital",
+      "blurb": "Affordable connectivity and access to online public services",
+      "headline": {
+        "key": "internet_pct",
+        "label": "Internet users",
+        "unit": "%",
+        "better": "up"
+      },
+      "inScope": [
+        "BRA",
+        "IND",
+        "ZAF",
+        "EGY",
+        "ETH",
+        "IRN",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.5714285714285714
+    },
+    {
+      "id": "transport",
+      "label": "Transport & logistics",
+      "icon": "bus",
+      "color": "#f97316",
+      "sector": "transport",
+      "blurb": "Reliable roads, logistics and public transport",
+      "headline": {
+        "key": "lpi_infra",
+        "label": "Infrastructure quality (LPI)",
+        "unit": "1–5",
+        "better": "up"
+      },
+      "inScope": [
+        "BRA",
+        "RUS",
+        "IND",
+        "EGY",
+        "ETH",
+        "IRN",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.5238095238095238
+    },
+    {
+      "id": "jobs",
+      "label": "Job opportunities",
+      "icon": "briefcase",
+      "color": "#ec4899",
+      "sector": "social",
+      "blurb": "More and better jobs, especially for young people",
+      "headline": {
+        "key": "unemployment_pct",
+        "label": "Unemployment",
+        "unit": "%",
+        "better": "down"
+      },
+      "inScope": [
+        "BRA",
+        "IND",
+        "CHN",
+        "ZAF",
+        "EGY",
+        "IRN"
+      ],
+      "total": 10,
+      "avgProgress": 0.3333333333333333
+    },
+    {
+      "id": "education",
+      "label": "Education access",
+      "icon": "graduation",
+      "color": "#eab308",
+      "sector": "education",
+      "blurb": "Literacy and secondary schooling for every region",
+      "headline": {
+        "key": "literacy_pct",
+        "label": "Adult literacy",
+        "unit": "%",
+        "better": "up"
+      },
+      "inScope": [
+        "IND",
+        "EGY",
+        "ETH",
+        "IRN",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.39999999999999997
+    },
+    {
+      "id": "water",
+      "label": "Water security",
+      "icon": "droplet",
+      "color": "#3b82f6",
+      "sector": "water",
+      "blurb": "Safe, sustainable and resilient water and sanitation for all",
+      "headline": {
+        "key": "water_pct",
+        "label": "Basic drinking water",
+        "unit": "%",
+        "better": "up"
+      },
+      "inScope": [
+        "IND",
+        "ZAF",
+        "ETH",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.5833333333333333
+    }
+  ],
+  "lastUpdate": null,
+  "goals": [
+    {
+      "id": "water",
+      "label": "Water security",
+      "icon": "droplet",
+      "color": "#3b82f6",
+      "sector": "water",
+      "blurb": "Safe, sustainable and resilient water and sanitation for all",
+      "headline": {
+        "key": "water_pct",
+        "label": "Basic drinking water",
+        "unit": "%",
+        "better": "up"
+      }
+    },
+    {
+      "id": "health",
+      "label": "Healthcare access",
+      "icon": "heart",
+      "color": "#ef4444",
+      "sector": "health",
+      "blurb": "Accessible primary health care and better child-health outcomes",
+      "headline": {
+        "key": "u5_mortality",
+        "label": "Under-5 mortality",
+        "unit": "per 1,000",
+        "better": "down"
+      }
+    },
+    {
+      "id": "digital",
+      "label": "Digital connectivity",
+      "icon": "wifi",
+      "color": "#8b5cf6",
+      "sector": "digital",
+      "blurb": "Affordable connectivity and access to online public services",
+      "headline": {
+        "key": "internet_pct",
+        "label": "Internet users",
+        "unit": "%",
+        "better": "up"
+      }
+    },
+    {
+      "id": "transport",
+      "label": "Transport & logistics",
+      "icon": "bus",
+      "color": "#f97316",
+      "sector": "transport",
+      "blurb": "Reliable roads, logistics and public transport",
+      "headline": {
+        "key": "lpi_infra",
+        "label": "Infrastructure quality (LPI)",
+        "unit": "1–5",
+        "better": "up"
+      }
+    },
+    {
+      "id": "energy",
+      "label": "Clean energy",
+      "icon": "leaf",
+      "color": "#22c55e",
+      "sector": "energy",
+      "blurb": "Universal electricity access with a growing renewable share",
+      "headline": {
+        "key": "renewable_pct",
+        "label": "Renewable share of energy",
+        "unit": "%",
+        "better": "up"
+      }
+    },
+    {
+      "id": "education",
+      "label": "Education access",
+      "icon": "graduation",
+      "color": "#eab308",
+      "sector": "education",
+      "blurb": "Literacy and secondary schooling for every region",
+      "headline": {
+        "key": "literacy_pct",
+        "label": "Adult literacy",
+        "unit": "%",
+        "better": "up"
+      }
+    },
+    {
+      "id": "jobs",
+      "label": "Job opportunities",
+      "icon": "briefcase",
+      "color": "#ec4899",
+      "sector": "social",
+      "blurb": "More and better jobs, especially for young people",
+      "headline": {
+        "key": "unemployment_pct",
+        "label": "Unemployment",
+        "unit": "%",
+        "better": "down"
+      }
+    },
+    {
+      "id": "air",
+      "label": "Clean air",
+      "icon": "wind",
+      "color": "#14b8a6",
+      "sector": "environment",
+      "blurb": "Cleaner air within WHO guideline levels",
+      "headline": {
+        "key": "pm25",
+        "label": "PM2.5 exposure",
+        "unit": "µg/m³",
+        "better": "down"
+      }
+    }
+  ]
+}

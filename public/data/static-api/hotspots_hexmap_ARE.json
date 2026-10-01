@@ -1,0 +1,6986 @@
+{
+  "r": 0.08127054083357486,
+  "bounds": {
+    "lonMin": 51.42745891833285,
+    "lonMax": 56.53854108166715,
+    "latMin": 22.46945891833285,
+    "latMax": 26.23254108166715
+  },
+  "regionNames": {
+    "BRA-roraima": "Roraima",
+    "BRA-amapa": "Amapa",
+    "BRA-amazonas": "Amazonas",
+    "BRA-para": "Para",
+    "BRA-maranhao": "Maranhao",
+    "BRA-ceara": "Ceara",
+    "BRA-rio-grande-do-norte": "Rio Grande do Norte",
+    "BRA-paraiba": "Paraiba",
+    "BRA-piaui": "Piaui",
+    "BRA-pernambuco": "Pernambuco",
+    "BRA-alagoas": "Alagoas",
+    "BRA-acre": "Acre",
+    "BRA-rondonia": "Rondonia",
+    "BRA-sergipe": "Sergipe",
+    "BRA-tocantins": "Tocantins",
+    "BRA-bahia": "Bahia",
+    "BRA-mato-grosso": "Mato Grosso",
+    "BRA-goias": "Goias",
+    "BRA-distrito-federal": "Distrito Federal",
+    "BRA-minas-gerais": "Minas Gerais",
+    "BRA-espirito-santo": "Espirito Santo",
+    "BRA-mato-grosso-do-sul": "Mato Grosso do Sul",
+    "BRA-rio-de-janeiro": "Rio de Janeiro",
+    "BRA-sao-paulo": "Sao Paulo",
+    "BRA-parana": "Parana",
+    "BRA-santa-catarina": "Santa Catarina",
+    "BRA-rio-grande-do-sul": "Rio Grande do Sul",
+    "RUS-altai-krai": "Altai Krai",
+    "RUS-republic-of-mordovia": "Republic of Mordovia",
+    "RUS-tula-oblast": "Tula Oblast",
+    "RUS-kurgan-oblast": "Kurgan Oblast",
+    "RUS-ingushetia": "Ingushetia",
+    "RUS-khanty-mansiysk-autonomous-okrug-ugra": "Khanty-Mansiysk Autonomous Okrug – Ugra",
+    "RUS-kirov-oblast": "Kirov Oblast",
+    "RUS-komi-republic": "Komi Republic",
+    "RUS-kostroma-oblast": "Kostroma Oblast",
+    "RUS-krasnoyarsk-krai": "Krasnoyarsk Krai",
+    "RUS-zabaykalsky-krai": "Zabaykalsky Krai",
+    "RUS-sverdlovsk-oblast": "Sverdlovsk Oblast",
+    "RUS-volgograd-oblast": "Volgograd Oblast",
+    "RUS-irkutsk-oblast": "Irkutsk Oblast",
+    "RUS-perm-krai": "Perm Krai",
+    "RUS-pskov-oblast": "Pskov Oblast",
+    "RUS-rostov-oblast": "Rostov Oblast",
+    "RUS-ryazan-oblast": "Ryazan Oblast",
+    "RUS-adygea": "Adygea",
+    "RUS-samara-oblast": "Samara Oblast",
+    "RUS-khakassia": "Khakassia",
+    "RUS-tambov-oblast": "Tambov Oblast",
+    "RUS-tatarstan": "Tatarstan",
+    "RUS-tomsk-oblast": "Tomsk Oblast",
+    "RUS-nizhny-novgorod-oblast": "Nizhny Novgorod Oblast",
+    "RUS-republic-of-karelia": "Republic of Karelia",
+    "RUS-arkhangelsk-oblast": "Arkhangelsk Oblast",
+    "RUS-astrakhan-oblast": "Astrakhan Oblast",
+    "RUS-belgorod-oblast": "Belgorod Oblast",
+    "RUS-bryansk-oblast": "Bryansk Oblast",
+    "RUS-buryatia": "Buryatia",
+    "RUS-chechnya": "Chechnya",
+    "RUS-chelyabinsk-oblast": "Chelyabinsk Oblast",
+    "RUS-chuvashia": "Chuvashia",
+    "RUS-tyumen-oblast": "Tyumen Oblast",
+    "RUS-north-ossetia-alania": "North Ossetia–Alania",
+    "RUS-penza-oblast": "Penza Oblast",
+    "RUS-amur-oblast": "Amur Oblast",
+    "RUS-kabardino-balkaria": "Kabardino-Balkaria",
+    "RUS-krasnodar-krai": "Krasnodar Krai",
+    "RUS-kursk-oblast": "Kursk Oblast",
+    "RUS-leningrad-oblast": "Leningrad oblast",
+    "RUS-mari-el": "Mari El",
+    "RUS-moscow": "Moscow",
+    "RUS-moscow-oblast": "Moscow Oblast",
+    "RUS-murmansk-oblast": "Murmansk Oblast",
+    "RUS-nenets-autonomous-okrug": "Nenets Autonomous Okrug",
+    "RUS-novgorod-oblast": "Novgorod Oblast",
+    "RUS-novosibirsk-oblast": "Novosibirsk Oblast",
+    "RUS-omsk-oblast": "Omsk Oblast",
+    "RUS-oryol-oblast": "Oryol Oblast",
+    "RUS-saint-petersburg": "Saint Petersburg",
+    "RUS-sakhalin-oblast": "Sakhalin Oblast",
+    "RUS-sakha-republic": "Sakha Republic",
+    "RUS-saratov-oblast": "Saratov Oblast",
+    "RUS-smolensk-oblast": "Smolensk Oblast",
+    "RUS-stavropol-krai": "Stavropol Krai",
+    "RUS-tuva": "Tuva",
+    "RUS-tver-oblast": "Tver Oblast",
+    "RUS-udmurtia": "Udmurtia",
+    "RUS-kaluga-oblast": "Kaluga Oblast",
+    "RUS-lipetsk-oblast": "Lipetsk Oblast",
+    "RUS-magadan-oblast": "Magadan Oblast",
+    "RUS-ulyanovsk-oblast": "Ulyanovsk Oblast",
+    "RUS-vladimir-oblast": "Vladimir Oblast",
+    "RUS-vologda-oblast": "Vologda Oblast",
+    "RUS-yaroslavl-oblast": "Yaroslavl Oblast",
+    "RUS-voronezh-oblast": "Voronezh Oblast",
+    "RUS-yamalo-nenets-autonomous-okrug": "Yamalo-Nenets Autonomous Okrug",
+    "RUS-altai-republic": "Altai Republic",
+    "RUS-ivanovo-oblast": "Ivanovo Oblast",
+    "RUS-jewish-autonomous-oblast": "Jewish Autonomous Oblast",
+    "RUS-kalmykia": "Kalmykia",
+    "RUS-kamchatka-krai": "Kamchatka Krai",
+    "RUS-karachay-cherkessia": "Karachay-Cherkessia",
+    "RUS-kemerovo-oblast": "Kemerovo Oblast",
+    "RUS-khabarovsk-krai": "Khabarovsk Krai",
+    "RUS-chukotka-autonomous-okrug": "Chukotka Autonomous Okrug",
+    "RUS-dagestan": "Dagestan",
+    "RUS-kaliningrad": "Kaliningrad",
+    "RUS-orenburg-oblast": "Orenburg Oblast",
+    "RUS-primorsky-krai": "Primorsky Krai",
+    "RUS-bashkortostan": "Bashkortostan",
+    "IND-puducherry": "Puducherry",
+    "IND-maharashtra": "Mahārāshtra",
+    "IND-nagaland": "Nāgāland",
+    "IND-lakshadweep": "Lakshadweep",
+    "IND-uttar-pradesh": "Uttar Pradesh",
+    "IND-tamil-nadu": "Tamil Nādu",
+    "IND-chhattisgarh": "Chhattīsgarh",
+    "IND-gujarat": "Gujarāt",
+    "IND-delhi": "Delhi",
+    "IND-sikkim": "Sikkim",
+    "IND-tripura": "Tripura",
+    "IND-west-bengal": "West Bengal",
+    "IND-odisha": "Odisha",
+    "IND-bihar": "Bihār",
+    "IND-ladakh": "Ladākh",
+    "IND-rajasthan": "Rājasthān",
+    "IND-telangana": "Telangāna",
+    "IND-andhra-pradesh": "Andhra Pradesh",
+    "IND-mizoram": "Mizoram",
+    "IND-arunachal-pradesh": "Arunāchal Pradesh",
+    "IND-meghalaya": "Meghālaya",
+    "IND-jharkhand": "Jhārkhand",
+    "IND-assam": "Assam",
+    "IND-manipur": "Manipur",
+    "IND-karnataka": "Karnātaka",
+    "IND-uttarakhand": "Uttarākhand",
+    "IND-dadra-and-nagar-haveli-and-daman-and-diu": "Dādra and Nagar Haveli and Damān and Diu",
+    "IND-madhya-pradesh": "Madhya Pradesh",
+    "IND-goa": "Goa",
+    "IND-kerala": "Kerala",
+    "IND-chandigarh": "Chandīgarh",
+    "IND-andaman-and-nicobar-islands": "Andaman and Nicobar Islands",
+    "IND-himachal-pradesh": "Himāchal Pradesh",
+    "IND-jammu-and-kashmir": "Jammu and Kashmīr",
+    "IND-punjab": "Punjab",
+    "IND-haryana": "Haryāna",
+    "CHN-hainan-province": "Hainan Province",
+    "CHN-taiwan-province": "Taiwan Province",
+    "CHN-guangxi-zhuang-autonomous-region": "Guangxi Zhuang Autonomous Region",
+    "CHN-fujian-province": "Fujian Province",
+    "CHN-yunnan-province": "Yunnan Province",
+    "CHN-guizhou-province": "Guizhou Province",
+    "CHN-jiangxi-province": "Jiangxi Province",
+    "CHN-hunan-province": "Hunan Province",
+    "CHN-zhejiang-province": "Zhejiang Province",
+    "CHN-shanghai-municipality": "Shanghai Municipality",
+    "CHN-chongqing-municipality": "Chongqing Municipality",
+    "CHN-hubei-province": "Hubei Province",
+    "CHN-sichuan-province": "Sichuan Province",
+    "CHN-anhui-province": "Anhui Province",
+    "CHN-jiangsu-province": "Jiangsu Province",
+    "CHN-henan-province": "Henan Province",
+    "CHN-tibet-autonomous-region": "Tibet Autonomous Region",
+    "CHN-shandong-province": "Shandong Province",
+    "CHN-qinghai-province": "Qinghai Province",
+    "CHN-ningxia-ningxia-hui-autonomous-region": "Ningxia Ningxia Hui Autonomous Region",
+    "CHN-shaanxi-province": "Shaanxi Province",
+    "CHN-tianjin-municipality": "Tianjin Municipality",
+    "CHN-shanxi-province": "Shanxi Province",
+    "CHN-beijing-municipality": "Beijing Municipality",
+    "CHN-gansu-province": "Gansu Province",
+    "CHN-hebei-province": "Hebei Province",
+    "CHN-liaoning-province": "Liaoning Province",
+    "CHN-jilin-province": "Jilin Province",
+    "CHN-xinjiang-uyghur-autonomous-region": "Xinjiang Uyghur Autonomous Region",
+    "CHN-inner-mongolia-autonomous-region": "Inner Mongolia Autonomous Region",
+    "CHN-heilongjiang-province": "Heilongjiang Province",
+    "CHN-macau-special-administrative-region": "Macau Special Administrative Region",
+    "CHN-hong-kong-special-administrative-region": "Hong Kong Special Administrative Region",
+    "CHN-guangzhou-province": "Guangzhou Province",
+    "ZAF-eastern-cape": "Eastern Cape",
+    "ZAF-free-state": "Free State",
+    "ZAF-gauteng": "Gauteng",
+    "ZAF-kwazulu-natal": "KwaZulu-Natal",
+    "ZAF-limpopo": "Limpopo",
+    "ZAF-mpumalanga": "Mpumalanga",
+    "ZAF-north-west": "North West",
+    "ZAF-nothern-cape": "Nothern Cape",
+    "ZAF-western-cape": "Western Cape",
+    "EGY-north-sinai-governorate": "North Sinai Governorate",
+    "EGY-south-sinai-governorate": "South Sinai Governorate",
+    "EGY-aswan-governorate": "Aswan Governorate",
+    "EGY-red-sea-governorate": "Red Sea Governorate",
+    "EGY-matrouh-governorate": "Matrouh Governorate",
+    "EGY-new-valley-governorate": "New Valley Governorate",
+    "EGY-alexandria-governorate": "Alexandria Governorate",
+    "EGY-ismailia-governorate": "Ismailia Governorate",
+    "EGY-suez-governorate": "Suez Governorate",
+    "EGY-gharbiyya-governorate": "Gharbiyya Governorate",
+    "EGY-faiyum-governorate": "Faiyum Governorate",
+    "EGY-beni-suef-governorate": "Beni Suef Governorate",
+    "EGY-minya-governate": "Minya Governate",
+    "EGY-asyut-governorate": "Asyut Governorate",
+    "EGY-sohag-governorate": "Sohag Governorate",
+    "EGY-qena-governorate": "Qena Governorate",
+    "EGY-luxor-governate": "Luxor Governate",
+    "EGY-giza-governorate": "Giza Governorate",
+    "EGY-monufia-governorate": "Monufia Governorate",
+    "EGY-beheira-governorate": "Beheira Governorate",
+    "EGY-cairo-governorate": "Cairo Governorate",
+    "EGY-qalyubia-governorate": "Qalyubia Governorate",
+    "EGY-dakahlia-governorate": "Dakahlia Governorate",
+    "EGY-damietta-governorate": "Damietta Governorate",
+    "EGY-kafr-el-sheikh-governorate": "Kafr el-Sheikh Governorate",
+    "EGY-port-said-governorate": "Port Said Governorate",
+    "EGY-al-sharqia-governorate": "Al Sharqia Governorate",
+    "ETH-addis-ababa": "Addis Ababa",
+    "ETH-afar": "Afar",
+    "ETH-amhara": "Amhara",
+    "ETH-beneshangul-gumu": "Beneshangul Gumu",
+    "ETH-dire-dawa": "Dire Dawa",
+    "ETH-gambela": "Gambela",
+    "ETH-hareri": "Hareri",
+    "ETH-oromia": "Oromia",
+    "ETH-snnpr": "SNNPR",
+    "ETH-somali": "Somali",
+    "ETH-tigray": "Tigray",
+    "IRN-mazandaran": "Mazandaran",
+    "IRN-north-khorasan": "North Khorasan",
+    "IRN-kerman": "Kerman",
+    "IRN-ilam": "Ilam",
+    "IRN-lorestan": "Lorestan",
+    "IRN-markazi": "Markazi",
+    "IRN-chaharmahal-and-bakhtiari": "Chaharmahal and Bakhtiari",
+    "IRN-kermanshah": "Kermanshah",
+    "IRN-hamadan": "Hamadan",
+    "IRN-qazvin": "Qazvin",
+    "IRN-gilan": "Gilan",
+    "IRN-zanjan": "Zanjan",
+    "IRN-semnan": "Semnan",
+    "IRN-isfahan": "Isfahan",
+    "IRN-kohgiluyeh-and-boyer-ahmad": "Kohgiluyeh and Boyer-Ahmad",
+    "IRN-kurdistan": "Kurdistan",
+    "IRN-west-azerbaijan": "West Azerbaijan",
+    "IRN-fars": "Fars",
+    "IRN-bushehr": "Bushehr",
+    "IRN-ardabil": "Ardabil",
+    "IRN-golestan": "Golestan",
+    "IRN-razavi-khorasan": "Razavi Khorasan",
+    "IRN-south-khorasan": "South Khorasan",
+    "IRN-sistan-and-baluchestan": "Sistan and Baluchestan",
+    "IRN-qom": "Qom",
+    "IRN-alborz": "Alborz",
+    "IRN-east-azerbaijan": "East Azerbaijan",
+    "IRN-yazd": "Yazd",
+    "IRN-hormozgan": "Hormozgan",
+    "IRN-khuzestan": "Khuzestan",
+    "IRN-tehran": "Tehran",
+    "ARE-abu-dhabi": "Abu Dhabi",
+    "ARE-ajman": "Ajman",
+    "ARE-dubai": "Dubai",
+    "ARE-fujairah": "Fujairah",
+    "ARE-ras-al-khaimah": "Ras al-Khaimah",
+    "ARE-sharjah": "Sharjah",
+    "ARE-umm-al-quwain": "Umm al-Quwain",
+    "IDN-bali": "Bali",
+    "IDN-west-nusa-tenggara": "West Nusa Tenggara",
+    "IDN-banten": "Banten",
+    "IDN-central-java": "Central Java",
+    "IDN-west-java": "West Java",
+    "IDN-central-kalimantan": "Central Kalimantan",
+    "IDN-south-kalimantan": "South Kalimantan",
+    "IDN-west-kalimantan": "West Kalimantan",
+    "IDN-central-sulawesi": "Central Sulawesi",
+    "IDN-gorontalo": "Gorontalo",
+    "IDN-north-sulawesi": "North Sulawesi",
+    "IDN-south-sulawesi": "South Sulawesi",
+    "IDN-southeast-sulawesi": "Southeast Sulawesi",
+    "IDN-west-sulawesi": "West Sulawesi",
+    "IDN-aceh": "Aceh",
+    "IDN-bengkulu": "Bengkulu",
+    "IDN-jambi": "Jambi",
+    "IDN-lampung": "Lampung",
+    "IDN-riau": "Riau",
+    "IDN-west-sumatra": "West Sumatra",
+    "IDN-south-sumatra": "South Sumatra",
+    "IDN-north-sumatra": "North Sumatra",
+    "IDN-east-nusa-tenggara": "East Nusa Tenggara",
+    "IDN-maluku": "Maluku",
+    "IDN-north-maluku": "North Maluku",
+    "IDN-east-java": "East Java",
+    "IDN-bangka-belitung-islands": "Bangka-Belitung Islands",
+    "IDN-riau-islands": "Riau Islands",
+    "IDN-papua": "Papua",
+    "IDN-west-papua": "West Papua",
+    "IDN-east-kalimantan": "East Kalimantan",
+    "IDN-north-kalimantan": "North Kalimantan",
+    "IDN-special-region-of-yogyakarta": "Special Region of Yogyakarta",
+    "IDN-jakarta-special-capital-region": "Jakarta Special Capital Region"
+  },
+  "regionBest": {
+    "RUS-altai-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-republic-of-mordovia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tula-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kurgan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ingushetia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khanty-mansiysk-autonomous-okrug-ugra": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kirov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-komi-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kostroma-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-krasnoyarsk-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-zabaykalsky-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sverdlovsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-volgograd-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-irkutsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-perm-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-pskov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-rostov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ryazan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-adygea": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-samara-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khakassia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tambov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tatarstan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tomsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-nizhny-novgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-republic-of-karelia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-arkhangelsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-astrakhan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-belgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-bryansk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-buryatia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chechnya": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chelyabinsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chuvashia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tyumen-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-north-ossetia-alania": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-penza-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-amur-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kabardino-balkaria": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-krasnodar-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kursk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-leningrad-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-mari-el": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-moscow": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-moscow-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-murmansk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-nenets-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-novgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-novosibirsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-omsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-oryol-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-saint-petersburg": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sakhalin-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sakha-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-saratov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-smolensk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-stavropol-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tuva": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tver-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-udmurtia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kaluga-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-lipetsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-magadan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ulyanovsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-vladimir-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-vologda-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-yaroslavl-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-voronezh-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-yamalo-nenets-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-altai-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ivanovo-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-jewish-autonomous-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kalmykia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kamchatka-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-karachay-cherkessia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kemerovo-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khabarovsk-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chukotka-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-dagestan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kaliningrad": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-orenburg-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-primorsky-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-bashkortostan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IND-puducherry": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-maharashtra": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-nagaland": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-lakshadweep": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-uttar-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-tamil-nadu": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-chhattisgarh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-gujarat": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-delhi": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-sikkim": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-tripura": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-west-bengal": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-odisha": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-bihar": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "IND-ladakh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-rajasthan": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-telangana": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-andhra-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-mizoram": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-arunachal-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-meghalaya": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-jharkhand": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-assam": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-manipur": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-karnataka": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-uttarakhand": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-dadra-and-nagar-haveli-and-daman-and-diu": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-madhya-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-goa": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-kerala": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-chandigarh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-andaman-and-nicobar-islands": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-himachal-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-jammu-and-kashmir": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-punjab": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-haryana": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hainan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-taiwan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guangxi-zhuang-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-fujian-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-yunnan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guizhou-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jiangxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hunan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-zhejiang-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shanghai-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-chongqing-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hubei-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-sichuan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-anhui-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jiangsu-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-henan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-tibet-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shandong-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-qinghai-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-ningxia-ningxia-hui-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shaanxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-tianjin-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shanxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-beijing-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-gansu-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hebei-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-liaoning-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jilin-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-xinjiang-uyghur-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-inner-mongolia-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-heilongjiang-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-macau-special-administrative-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hong-kong-special-administrative-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guangzhou-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ZAF-eastern-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-free-state": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-gauteng": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-kwazulu-natal": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-limpopo": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-mpumalanga": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-north-west": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-nothern-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-western-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "EGY-north-sinai-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-south-sinai-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-aswan-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-red-sea-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-matrouh-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-new-valley-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-alexandria-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-ismailia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-suez-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-gharbiyya-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-faiyum-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-beni-suef-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-minya-governate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-asyut-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-sohag-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-qena-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-luxor-governate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-giza-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-monufia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-beheira-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-cairo-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-qalyubia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-dakahlia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-damietta-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-kafr-el-sheikh-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-port-said-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-al-sharqia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ETH-addis-ababa": {
+      "score": 94,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "ETH-afar": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "ETH-amhara": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "digital"
+    },
+    "ETH-beneshangul-gumu": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "ETH-dire-dawa": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "ETH-gambela": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-hareri": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-oromia": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-snnpr": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "ETH-somali": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "ETH-tigray": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "IRN-mazandaran": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-north-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kerman": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-ilam": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-lorestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-markazi": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-chaharmahal-and-bakhtiari": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kermanshah": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-hamadan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-qazvin": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-gilan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-zanjan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-semnan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-isfahan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kohgiluyeh-and-boyer-ahmad": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kurdistan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-west-azerbaijan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-fars": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-bushehr": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-ardabil": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-golestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-razavi-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-south-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-sistan-and-baluchestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-qom": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-alborz": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-east-azerbaijan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-yazd": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-hormozgan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-khuzestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-tehran": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "ARE-abu-dhabi": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-ajman": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-dubai": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-fujairah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-ras-al-khaimah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-sharjah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-umm-al-quwain": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IDN-bali": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-west-nusa-tenggara": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-banten": {
+      "score": 84,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-central-java": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-west-java": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-central-kalimantan": {
+      "score": 80,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-kalimantan": {
+      "score": 57,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-west-kalimantan": {
+      "score": 61,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-central-sulawesi": {
+      "score": 74,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-gorontalo": {
+      "score": 75,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-sulawesi": {
+      "score": 57,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-sulawesi": {
+      "score": 59,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-southeast-sulawesi": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-sulawesi": {
+      "score": 82,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-aceh": {
+      "score": 79,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-bengkulu": {
+      "score": 88,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-jambi": {
+      "score": 63,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-lampung": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-riau": {
+      "score": 80,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-sumatra": {
+      "score": 73,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-sumatra": {
+      "score": 62,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-sumatra": {
+      "score": 72,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-nusa-tenggara": {
+      "score": 68,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-maluku": {
+      "score": 90,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-maluku": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-java": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-bangka-belitung-islands": {
+      "score": 68,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-riau-islands": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-papua": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-papua": {
+      "score": 90,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-kalimantan": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-north-kalimantan": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-special-region-of-yogyakarta": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-jakarta-special-capital-region": {
+      "score": 55,
+      "basis": "regional-survey",
+      "theme": "health"
+    }
+  },
+  "cells": [
+    [
+      56.354,
+      26.233,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.143,
+      26.111,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.284,
+      26.111,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.425,
+      26.111,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.073,
+      25.989,
+      "ARE",
+      "ARE-ras-al-khaimah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.213,
+      25.989,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.354,
+      25.989,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.498,
+      25.867,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.002,
+      25.867,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.143,
+      25.867,
+      "ARE",
+      "ARE-ras-al-khaimah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.284,
+      25.867,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.427,
+      25.745,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.568,
+      25.745,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.791,
+      25.745,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.932,
+      25.745,
+      "ARE",
+      "ARE-ras-al-khaimah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.073,
+      25.745,
+      "ARE",
+      "ARE-ras-al-khaimah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.213,
+      25.745,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.498,
+      25.623,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.721,
+      25.623,
+      "ARE",
+      "ARE-umm-al-quwain",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.862,
+      25.623,
+      "ARE",
+      "ARE-ras-al-khaimah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.002,
+      25.623,
+      "ARE",
+      "ARE-ras-al-khaimah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.143,
+      25.623,
+      "ARE",
+      "ARE-fujairah",
+      100,
+      "national-indicator"
+    ],
+    [
+      51.427,
+      25.501,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.568,
+      25.501,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.51,
+      25.501,
+      "ARE",
+      "ARE-sharjah",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.65,
+      25.501,
+      "ARE",
+      "ARE-umm-al-quwain",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.791,
+      25.501,
+      "ARE",
+      "ARE-umm-al-quwain",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.932,
+      25.501,
+      "ARE",
+      "ARE-ras-al-khaimah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.073,
+      25.501,
+      "ARE",
+      "ARE-fujairah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.213,
+      25.501,
+      "ARE",
+      "ARE-fujairah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.354,
+      25.501,
+      "ARE",
+      "ARE-fujairah",
+      100,
+      "national-indicator"
+    ],
+    [
+      51.498,
+      25.379,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.439,
+      25.379,
+      "ARE",
+      "ARE-sharjah",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.58,
+      25.379,
+      "ARE",
+      "ARE-sharjah",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.721,
+      25.379,
+      "ARE",
+      "ARE-sharjah",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.862,
+      25.379,
+      "ARE",
+      "ARE-umm-al-quwain",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.002,
+      25.379,
+      "ARE",
+      "ARE-fujairah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.143,
+      25.379,
+      "ARE",
+      "ARE-fujairah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.284,
+      25.379,
+      "ARE",
+      "ARE-fujairah",
+      100,
+      "national-indicator"
+    ],
+    [
+      51.427,
+      25.257,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.568,
+      25.257,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.228,
+      25.257,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.369,
+      25.257,
+      "ARE",
+      "ARE-dubai",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.51,
+      25.257,
+      "ARE",
+      "ARE-sharjah",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.65,
+      25.257,
+      "ARE",
+      "ARE-sharjah",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.791,
+      25.257,
+      "ARE",
+      "ARE-sharjah",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.932,
+      25.257,
+      "ARE",
+      "ARE-sharjah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.073,
+      25.257,
+      "ARE",
+      "ARE-fujairah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.213,
+      25.257,
+      "ARE",
+      "ARE-sharjah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.354,
+      25.257,
+      "ARE",
+      "ARE-fujairah",
+      100,
+      "national-indicator"
+    ],
+    [
+      51.498,
+      25.135,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.158,
+      25.135,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.298,
+      25.135,
+      "ARE",
+      "ARE-dubai",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.439,
+      25.135,
+      "ARE",
+      "ARE-dubai",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.58,
+      25.135,
+      "ARE",
+      "ARE-dubai",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.721,
+      25.135,
+      "ARE",
+      "ARE-sharjah",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.862,
+      25.135,
+      "ARE",
+      "ARE-sharjah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.002,
+      25.135,
+      "ARE",
+      "ARE-ras-al-khaimah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.143,
+      25.135,
+      "ARE",
+      "ARE-ras-al-khaimah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.284,
+      25.135,
+      "ARE",
+      "ARE-fujairah",
+      100,
+      "national-indicator"
+    ],
+    [
+      51.427,
+      25.013,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.947,
+      25.013,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.087,
+      25.013,
+      "ARE",
+      "ARE-dubai",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.228,
+      25.013,
+      "ARE",
+      "ARE-dubai",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.369,
+      25.013,
+      "ARE",
+      "ARE-dubai",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.51,
+      25.013,
+      "ARE",
+      "ARE-dubai",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.65,
+      25.013,
+      "ARE",
+      "ARE-dubai",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.791,
+      25.013,
+      "ARE",
+      "ARE-sharjah",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.932,
+      25.013,
+      "ARE",
+      "ARE-sharjah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.073,
+      25.013,
+      "ARE",
+      "ARE-ras-al-khaimah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.213,
+      25.013,
+      "ARE",
+      "ARE-fujairah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.354,
+      25.013,
+      "ARE",
+      "ARE-sharjah",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.876,
+      24.892,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.017,
+      24.892,
+      "ARE",
+      "ARE-dubai",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.158,
+      24.892,
+      "ARE",
+      "ARE-dubai",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.298,
+      24.892,
+      "ARE",
+      "ARE-dubai",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.439,
+      24.892,
+      "ARE",
+      "ARE-dubai",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.58,
+      24.892,
+      "ARE",
+      "ARE-dubai",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.721,
+      24.892,
+      "ARE",
+      "ARE-sharjah",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.862,
+      24.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.002,
+      24.892,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.143,
+      24.892,
+      "ARE",
+      "ARE-ras-al-khaimah",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.284,
+      24.892,
+      "ARE",
+      "ARE-fujairah",
+      100,
+      "national-indicator"
+    ],
+    [
+      51.427,
+      24.77,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.665,
+      24.77,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.806,
+      24.77,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.947,
+      24.77,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.087,
+      24.77,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.228,
+      24.77,
+      "ARE",
+      "ARE-dubai",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.369,
+      24.77,
+      "ARE",
+      "ARE-dubai",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.51,
+      24.77,
+      "ARE",
+      "ARE-dubai",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.65,
+      24.77,
+      "ARE",
+      "ARE-dubai",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.791,
+      24.77,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.932,
+      24.77,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.073,
+      24.77,
+      "ARE",
+      "ARE-ajman",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.213,
+      24.77,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.354,
+      24.77,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.495,
+      24.77,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.595,
+      24.648,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.735,
+      24.648,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.876,
+      24.648,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.017,
+      24.648,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.158,
+      24.648,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.298,
+      24.648,
+      "ARE",
+      "ARE-dubai",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.439,
+      24.648,
+      "ARE",
+      "ARE-dubai",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.58,
+      24.648,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.721,
+      24.648,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.862,
+      24.648,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.002,
+      24.648,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.143,
+      24.648,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.284,
+      24.648,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.425,
+      24.648,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.427,
+      24.526,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.524,
+      24.526,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.665,
+      24.526,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.806,
+      24.526,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.947,
+      24.526,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.087,
+      24.526,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.228,
+      24.526,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.369,
+      24.526,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.51,
+      24.526,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.65,
+      24.526,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.791,
+      24.526,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.932,
+      24.526,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.073,
+      24.526,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.213,
+      24.526,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.354,
+      24.526,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.495,
+      24.526,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.498,
+      24.404,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.313,
+      24.404,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.454,
+      24.404,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.595,
+      24.404,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.735,
+      24.404,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.876,
+      24.404,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.017,
+      24.404,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.158,
+      24.404,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.298,
+      24.404,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.439,
+      24.404,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.58,
+      24.404,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.721,
+      24.404,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.862,
+      24.404,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.002,
+      24.404,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.143,
+      24.404,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.284,
+      24.404,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.425,
+      24.404,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.427,
+      24.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.243,
+      24.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.384,
+      24.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.524,
+      24.282,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.665,
+      24.282,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.806,
+      24.282,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.947,
+      24.282,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.087,
+      24.282,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.228,
+      24.282,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.369,
+      24.282,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.51,
+      24.282,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.65,
+      24.282,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.791,
+      24.282,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.932,
+      24.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.073,
+      24.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.213,
+      24.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.354,
+      24.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.495,
+      24.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.498,
+      24.16,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.639,
+      24.16,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.624,
+      24.16,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.765,
+      24.16,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.905,
+      24.16,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.046,
+      24.16,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.75,
+      24.16,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.891,
+      24.16,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.032,
+      24.16,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.172,
+      24.16,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.313,
+      24.16,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.454,
+      24.16,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.595,
+      24.16,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.735,
+      24.16,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.876,
+      24.16,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.017,
+      24.16,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.158,
+      24.16,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.298,
+      24.16,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.439,
+      24.16,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.58,
+      24.16,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.721,
+      24.16,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.862,
+      24.16,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      56.002,
+      24.16,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.143,
+      24.16,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.284,
+      24.16,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.425,
+      24.16,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.427,
+      24.038,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.568,
+      24.038,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.709,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      51.991,
+      24.038,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.131,
+      24.038,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.272,
+      24.038,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.413,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.554,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.694,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.835,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.976,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.117,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.257,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.398,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.539,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.68,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.82,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.961,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.102,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.243,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.384,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.524,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.665,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.806,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.947,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.087,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.228,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.369,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.51,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.65,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.791,
+      24.038,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.932,
+      24.038,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.073,
+      24.038,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.213,
+      24.038,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.354,
+      24.038,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.495,
+      24.038,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.498,
+      23.916,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.639,
+      23.916,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.779,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      51.92,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.061,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.202,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.342,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.483,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.624,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.765,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.905,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.046,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.187,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.328,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.469,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.609,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.75,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.891,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.032,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.172,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.313,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.454,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.595,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.735,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.876,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.017,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.158,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.298,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.439,
+      23.916,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.58,
+      23.916,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.721,
+      23.916,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.862,
+      23.916,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.002,
+      23.916,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.143,
+      23.916,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.284,
+      23.916,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.425,
+      23.916,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.427,
+      23.794,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.568,
+      23.794,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.709,
+      23.794,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.85,
+      23.794,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.991,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.131,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.272,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.413,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.554,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.694,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.835,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.976,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.117,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.257,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.398,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.539,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.68,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.82,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.961,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.102,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.243,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.384,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.524,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.665,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.806,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.947,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.087,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.228,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.369,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.51,
+      23.794,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.65,
+      23.794,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.791,
+      23.794,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.932,
+      23.794,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.073,
+      23.794,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.213,
+      23.794,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.354,
+      23.794,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.495,
+      23.794,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.498,
+      23.673,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.639,
+      23.673,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.779,
+      23.673,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.92,
+      23.673,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.061,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.202,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.342,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.483,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.624,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.765,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.905,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.046,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.187,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.328,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.469,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.609,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.75,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.891,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.032,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.172,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.313,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.454,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.595,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.735,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.876,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.017,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.158,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.298,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.439,
+      23.673,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.58,
+      23.673,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.721,
+      23.673,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.862,
+      23.673,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.002,
+      23.673,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.143,
+      23.673,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.284,
+      23.673,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.425,
+      23.673,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.427,
+      23.551,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.568,
+      23.551,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.709,
+      23.551,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.85,
+      23.551,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.991,
+      23.551,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.131,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.272,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.413,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.554,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.694,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.835,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.976,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.117,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.257,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.398,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.539,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.68,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.82,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.961,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.102,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.243,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.384,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.524,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.665,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.806,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.947,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.087,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.228,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.369,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.51,
+      23.551,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.65,
+      23.551,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.791,
+      23.551,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.932,
+      23.551,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.073,
+      23.551,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.213,
+      23.551,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.354,
+      23.551,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.495,
+      23.551,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.498,
+      23.429,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.639,
+      23.429,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.779,
+      23.429,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.92,
+      23.429,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.061,
+      23.429,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.202,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.342,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.483,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.624,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.765,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.905,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.046,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.187,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.328,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.469,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.609,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.75,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.891,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.032,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.172,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.313,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.454,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.595,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.735,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.876,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.017,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.158,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.298,
+      23.429,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.439,
+      23.429,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.58,
+      23.429,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.721,
+      23.429,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.862,
+      23.429,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.002,
+      23.429,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.143,
+      23.429,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.284,
+      23.429,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.425,
+      23.429,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.427,
+      23.307,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.568,
+      23.307,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.709,
+      23.307,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.85,
+      23.307,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.991,
+      23.307,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.131,
+      23.307,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.272,
+      23.307,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.413,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.554,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.694,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.835,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.976,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.117,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.257,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.398,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.539,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.68,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.82,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.961,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.102,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.243,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.384,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.524,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.665,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.806,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.947,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.087,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.228,
+      23.307,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.369,
+      23.307,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.51,
+      23.307,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.65,
+      23.307,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.791,
+      23.307,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.932,
+      23.307,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.073,
+      23.307,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.213,
+      23.307,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.354,
+      23.307,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.495,
+      23.307,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.498,
+      23.185,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.639,
+      23.185,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.779,
+      23.185,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.92,
+      23.185,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.061,
+      23.185,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.202,
+      23.185,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.342,
+      23.185,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.483,
+      23.185,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.624,
+      23.185,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.765,
+      23.185,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.905,
+      23.185,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.046,
+      23.185,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.187,
+      23.185,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.328,
+      23.185,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.469,
+      23.185,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.609,
+      23.185,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.75,
+      23.185,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.891,
+      23.185,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.032,
+      23.185,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.172,
+      23.185,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.313,
+      23.185,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.454,
+      23.185,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.595,
+      23.185,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.735,
+      23.185,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.876,
+      23.185,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.017,
+      23.185,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.158,
+      23.185,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.298,
+      23.185,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.439,
+      23.185,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.58,
+      23.185,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.721,
+      23.185,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.862,
+      23.185,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.002,
+      23.185,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.143,
+      23.185,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.284,
+      23.185,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.425,
+      23.185,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.427,
+      23.063,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.568,
+      23.063,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.709,
+      23.063,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.85,
+      23.063,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.991,
+      23.063,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.131,
+      23.063,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.272,
+      23.063,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.413,
+      23.063,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.554,
+      23.063,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.694,
+      23.063,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.835,
+      23.063,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.976,
+      23.063,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.117,
+      23.063,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.257,
+      23.063,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.398,
+      23.063,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.539,
+      23.063,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.68,
+      23.063,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.82,
+      23.063,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.961,
+      23.063,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.102,
+      23.063,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.243,
+      23.063,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.384,
+      23.063,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.524,
+      23.063,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.665,
+      23.063,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.806,
+      23.063,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.947,
+      23.063,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.087,
+      23.063,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.228,
+      23.063,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.369,
+      23.063,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.51,
+      23.063,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.65,
+      23.063,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.791,
+      23.063,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.932,
+      23.063,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.073,
+      23.063,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.213,
+      23.063,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.354,
+      23.063,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.495,
+      23.063,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.498,
+      22.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.639,
+      22.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.779,
+      22.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.92,
+      22.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.061,
+      22.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.202,
+      22.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.342,
+      22.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.483,
+      22.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.624,
+      22.941,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.765,
+      22.941,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      52.905,
+      22.941,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.046,
+      22.941,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.187,
+      22.941,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.328,
+      22.941,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.469,
+      22.941,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.609,
+      22.941,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.75,
+      22.941,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.891,
+      22.941,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.032,
+      22.941,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.172,
+      22.941,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.313,
+      22.941,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.454,
+      22.941,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.595,
+      22.941,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.735,
+      22.941,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.876,
+      22.941,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.017,
+      22.941,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.158,
+      22.941,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.298,
+      22.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.439,
+      22.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.58,
+      22.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.721,
+      22.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.862,
+      22.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.002,
+      22.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.143,
+      22.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.284,
+      22.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.425,
+      22.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.427,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.568,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.709,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.85,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.991,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.131,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.272,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.413,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.554,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.694,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.835,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.976,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.117,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.257,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.398,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.539,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.68,
+      22.819,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.82,
+      22.819,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      53.961,
+      22.819,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.102,
+      22.819,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.243,
+      22.819,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.384,
+      22.819,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.524,
+      22.819,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.665,
+      22.819,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.806,
+      22.819,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.947,
+      22.819,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.087,
+      22.819,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.228,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.369,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.51,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.65,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.791,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.932,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.073,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.213,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.354,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.495,
+      22.819,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.498,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.639,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.779,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.92,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.061,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.202,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.342,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.483,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.624,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.765,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.905,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.046,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.187,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.328,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.469,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.609,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.75,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.891,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.032,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.172,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.313,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.454,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.595,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.735,
+      22.697,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      54.876,
+      22.697,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.017,
+      22.697,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.158,
+      22.697,
+      "ARE",
+      "ARE-abu-dhabi",
+      100,
+      "national-indicator"
+    ],
+    [
+      55.298,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.439,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.58,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.721,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.862,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.002,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.143,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.284,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.425,
+      22.697,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.427,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.568,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.709,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.85,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.991,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.131,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.272,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.413,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.554,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.694,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.835,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.976,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.117,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.257,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.398,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.539,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.68,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.82,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.961,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.102,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.243,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.384,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.524,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.665,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.806,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.947,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.087,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.228,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.369,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.51,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.65,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.791,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.932,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.073,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.213,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.354,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.495,
+      22.575,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "labels": [
+    {
+      "iso3": "ARE",
+      "name": "United Arab Emirates",
+      "x": 54.352766483516454,
+      "y": 23.91934340659343
+    }
+  ]
+}

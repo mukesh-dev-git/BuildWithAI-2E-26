@@ -1,0 +1,1168 @@
+[
+  {
+    "iso3": "BRA",
+    "iso2": "BR",
+    "name": "Brazil",
+    "joined": 2009,
+    "languages": [
+      "pt"
+    ],
+    "feedback_source": "falabr",
+    "regions": 27,
+    "requests12m": null,
+    "indicators": {
+      "electricity_pct": {
+        "value": 99.8,
+        "year": 2024
+      },
+      "gdp_pc": {
+        "value": 10713.2856869511,
+        "year": 2025
+      },
+      "gfcf_pct_gdp": {
+        "value": 16.8390252318469,
+        "year": 2025
+      },
+      "health_exp_gdp": {
+        "value": 9.73092747,
+        "year": 2023
+      },
+      "hospital_beds": {
+        "value": 2.52,
+        "year": 2021
+      },
+      "internet_pct": {
+        "value": 84.46347227,
+        "year": 2024
+      },
+      "literacy_pct": {
+        "value": 94.7399978637695,
+        "year": 2024
+      },
+      "lpi_infra": {
+        "value": 3.2,
+        "year": 2022
+      },
+      "physicians": {
+        "value": 2.357,
+        "year": 2023
+      },
+      "pm25": {
+        "value": 13.3827173243912,
+        "year": 2023
+      },
+      "population": {
+        "value": 212812405,
+        "year": 2025
+      },
+      "poverty_pct": {
+        "value": 3,
+        "year": 2024
+      },
+      "ppi_energy": {
+        "value": 5748120000,
+        "year": 2024
+      },
+      "ppi_ict": {
+        "value": 981610000,
+        "year": 2024
+      },
+      "ppi_transport": {
+        "value": 4262010000,
+        "year": 2024
+      },
+      "ppi_water": {
+        "value": 524580000,
+        "year": 2024
+      },
+      "renewable_pct": {
+        "value": 46.5,
+        "year": 2021
+      },
+      "rural_pct": {
+        "value": 11.8227003512102,
+        "year": 2025
+      },
+      "sanitation_pct": {
+        "value": 92.4012701604853,
+        "year": 2024
+      },
+      "secondary_enrol": {
+        "value": 104.144660949707,
+        "year": 2024
+      },
+      "u5_mortality": {
+        "value": 14.2,
+        "year": 2024
+      },
+      "unemployment_pct": {
+        "value": 5.97,
+        "year": 2025
+      },
+      "urban_pct": {
+        "value": 88.1772996487898,
+        "year": 2025
+      },
+      "water_pct": {
+        "value": 99.9999987323028,
+        "year": 2024
+      }
+    },
+    "gaps": {
+      "water": 3.799365553605952,
+      "energy": 0.20000000000000284,
+      "health": 16.000000000000004,
+      "education": 5.260002136230497,
+      "digital": 15.536527730000003,
+      "social": 12
+    }
+  },
+  {
+    "iso3": "RUS",
+    "iso2": "RU",
+    "name": "Russia",
+    "joined": 2009,
+    "languages": [
+      "ru"
+    ],
+    "feedback_source": null,
+    "regions": 83,
+    "requests12m": null,
+    "indicators": {
+      "electricity_pct": {
+        "value": 100,
+        "year": 2024
+      },
+      "gdp_pc": {
+        "value": 17546.609375,
+        "year": 2025
+      },
+      "gfcf_pct_gdp": {
+        "value": 23.0895938046192,
+        "year": 2025
+      },
+      "health_exp_gdp": {
+        "value": 7.04438496,
+        "year": 2023
+      },
+      "hospital_beds": {
+        "value": 6.81,
+        "year": 2023
+      },
+      "internet_pct": {
+        "value": 94.36495368,
+        "year": 2024
+      },
+      "literacy_pct": {
+        "value": 99.9300003051758,
+        "year": 2021
+      },
+      "lpi_infra": {
+        "value": 2.7,
+        "year": 2022
+      },
+      "physicians": {
+        "value": 5.111,
+        "year": 2022
+      },
+      "pm25": {
+        "value": 11.5661567768194,
+        "year": 2023
+      },
+      "population": {
+        "value": 143513328,
+        "year": 2025
+      },
+      "poverty_pct": {
+        "value": 0.1,
+        "year": 2023
+      },
+      "ppi_energy": {
+        "value": 101020000,
+        "year": 2021
+      },
+      "ppi_ict": {
+        "value": 283100000,
+        "year": 2000
+      },
+      "ppi_transport": {
+        "value": 109000000,
+        "year": 2021
+      },
+      "ppi_water": {
+        "value": 1200000000,
+        "year": 2015
+      },
+      "renewable_pct": {
+        "value": 3.5,
+        "year": 2021
+      },
+      "rural_pct": {
+        "value": 24.7493363391785,
+        "year": 2025
+      },
+      "sanitation_pct": {
+        "value": 92.2175878296841,
+        "year": 2024
+      },
+      "secondary_enrol": {
+        "value": 92.4840470838527,
+        "year": 2023
+      },
+      "u5_mortality": {
+        "value": 5.2,
+        "year": 2024
+      },
+      "unemployment_pct": {
+        "value": 2.133,
+        "year": 2025
+      },
+      "urban_pct": {
+        "value": 75.2506636608215,
+        "year": 2025
+      },
+      "water_pct": {
+        "value": 96.9002616074642,
+        "year": 2024
+      }
+    },
+    "gaps": {
+      "water": 5.441075281425846,
+      "energy": 0,
+      "health": 0,
+      "education": 0.06999969482420454,
+      "digital": 5.635046320000001,
+      "social": 0.4
+    }
+  },
+  {
+    "iso3": "IND",
+    "iso2": "IN",
+    "name": "India",
+    "joined": 2009,
+    "languages": [
+      "hi",
+      "en",
+      "bn",
+      "te",
+      "mr",
+      "ta"
+    ],
+    "feedback_source": null,
+    "regions": 36,
+    "requests12m": null,
+    "indicators": {
+      "electricity_pct": {
+        "value": 99.9,
+        "year": 2024
+      },
+      "gdp_pc": {
+        "value": 2702.47987141553,
+        "year": 2025
+      },
+      "gfcf_pct_gdp": {
+        "value": 31.6790977460161,
+        "year": 2025
+      },
+      "health_exp_gdp": {
+        "value": 3.33944035,
+        "year": 2023
+      },
+      "hospital_beds": {
+        "value": 1.59,
+        "year": 2021
+      },
+      "internet_pct": {
+        "value": 70,
+        "year": 2025
+      },
+      "literacy_pct": {
+        "value": 78.1625330351403,
+        "year": 2024
+      },
+      "lpi_infra": {
+        "value": 3.2,
+        "year": 2022
+      },
+      "physicians": {
+        "value": 0.723,
+        "year": 2020
+      },
+      "pm25": {
+        "value": 54.0522242217331,
+        "year": 2023
+      },
+      "population": {
+        "value": 1463865525,
+        "year": 2025
+      },
+      "poverty_pct": {
+        "value": 5.3,
+        "year": 2022
+      },
+      "ppi_energy": {
+        "value": 3424970000,
+        "year": 2024
+      },
+      "ppi_ict": {
+        "value": 1078450000,
+        "year": 2024
+      },
+      "ppi_transport": {
+        "value": 1162000000,
+        "year": 2024
+      },
+      "ppi_water": {
+        "value": 25000000,
+        "year": 2022
+      },
+      "renewable_pct": {
+        "value": 34.9,
+        "year": 2021
+      },
+      "rural_pct": {
+        "value": 64.310844227604,
+        "year": 2025
+      },
+      "sanitation_pct": {
+        "value": 83.380872478201,
+        "year": 2024
+      },
+      "secondary_enrol": {
+        "value": 79.594985086469,
+        "year": 2025
+      },
+      "u5_mortality": {
+        "value": 26.6,
+        "year": 2024
+      },
+      "unemployment_pct": {
+        "value": 4.219,
+        "year": 2025
+      },
+      "urban_pct": {
+        "value": 35.689155772396,
+        "year": 2025
+      },
+      "water_pct": {
+        "value": 95.7247373523918,
+        "year": 2024
+      }
+    },
+    "gaps": {
+      "water": 10.447195084703601,
+      "energy": 0.09999999999999432,
+      "health": 47,
+      "education": 21.8374669648597,
+      "digital": 30,
+      "social": 21.2
+    }
+  },
+  {
+    "iso3": "CHN",
+    "iso2": "CN",
+    "name": "China",
+    "joined": 2009,
+    "languages": [
+      "zh"
+    ],
+    "feedback_source": null,
+    "regions": 34,
+    "requests12m": null,
+    "indicators": {
+      "electricity_pct": {
+        "value": 100,
+        "year": 2024
+      },
+      "gdp_pc": {
+        "value": 13861.970224368,
+        "year": 2025
+      },
+      "gfcf_pct_gdp": {
+        "value": 39.6519325237885,
+        "year": 2024
+      },
+      "health_exp_gdp": {
+        "value": 5.94388866,
+        "year": 2023
+      },
+      "hospital_beds": {
+        "value": 5.63,
+        "year": 2023
+      },
+      "internet_pct": {
+        "value": 91.6,
+        "year": 2025
+      },
+      "literacy_pct": {
+        "value": 96.7399978637695,
+        "year": 2020
+      },
+      "lpi_infra": {
+        "value": 4,
+        "year": 2022
+      },
+      "physicians": {
+        "value": 3.112,
+        "year": 2022
+      },
+      "pm25": {
+        "value": 31.991575365069,
+        "year": 2023
+      },
+      "population": {
+        "value": 1406585000,
+        "year": 2025
+      },
+      "poverty_pct": {
+        "value": 0,
+        "year": 2022
+      },
+      "ppi_energy": {
+        "value": 36350050000,
+        "year": 2024
+      },
+      "ppi_ict": {
+        "value": 566210000,
+        "year": 2024
+      },
+      "ppi_transport": {
+        "value": 3329410000,
+        "year": 2024
+      },
+      "ppi_water": {
+        "value": 497340000,
+        "year": 2024
+      },
+      "renewable_pct": {
+        "value": 15.2,
+        "year": 2021
+      },
+      "rural_pct": {
+        "value": 33.6570089651728,
+        "year": 2025
+      },
+      "sanitation_pct": {
+        "value": 97.2718787578263,
+        "year": 2024
+      },
+      "secondary_enrol": {
+        "value": 92.2603063015232,
+        "year": 2012
+      },
+      "u5_mortality": {
+        "value": 5.7,
+        "year": 2024
+      },
+      "unemployment_pct": {
+        "value": 4.615,
+        "year": 2025
+      },
+      "urban_pct": {
+        "value": 66.3429910348272,
+        "year": 2025
+      },
+      "water_pct": {
+        "value": 96.1224151867516,
+        "year": 2024
+      }
+    },
+    "gaps": {
+      "water": 3.302853027711052,
+      "energy": 0,
+      "health": 0,
+      "education": 3.260002136230497,
+      "digital": 8.400000000000006,
+      "social": 0
+    }
+  },
+  {
+    "iso3": "ZAF",
+    "iso2": "ZA",
+    "name": "South Africa",
+    "joined": 2010,
+    "languages": [
+      "zu",
+      "xh",
+      "af",
+      "en"
+    ],
+    "feedback_source": null,
+    "regions": 9,
+    "requests12m": null,
+    "indicators": {
+      "electricity_pct": {
+        "value": 90.2,
+        "year": 2024
+      },
+      "gdp_pc": {
+        "value": 6597.71450918774,
+        "year": 2025
+      },
+      "gfcf_pct_gdp": {
+        "value": 13.878930737765,
+        "year": 2025
+      },
+      "health_exp_gdp": {
+        "value": 8.90966797,
+        "year": 2023
+      },
+      "hospital_beds": {
+        "value": 2.25,
+        "year": 2010
+      },
+      "internet_pct": {
+        "value": 78.35759735,
+        "year": 2024
+      },
+      "literacy_pct": {
+        "value": 91.1500015258789,
+        "year": 2024
+      },
+      "lpi_infra": {
+        "value": 3.6,
+        "year": 2022
+      },
+      "physicians": {
+        "value": 0.794,
+        "year": 2022
+      },
+      "pm25": {
+        "value": 27.7247110277789,
+        "year": 2023
+      },
+      "population": {
+        "value": 64747319,
+        "year": 2025
+      },
+      "poverty_pct": {
+        "value": 17.4,
+        "year": 2022
+      },
+      "ppi_energy": {
+        "value": 1791590000,
+        "year": 2024
+      },
+      "ppi_ict": {
+        "value": 300000000,
+        "year": 2024
+      },
+      "ppi_transport": {
+        "value": 13500000,
+        "year": 2019
+      },
+      "ppi_water": {
+        "value": 31300000,
+        "year": 2000
+      },
+      "renewable_pct": {
+        "value": 9.7,
+        "year": 2021
+      },
+      "rural_pct": {
+        "value": 36.1845988997478,
+        "year": 2025
+      },
+      "sanitation_pct": {
+        "value": 77.384521067613,
+        "year": 2024
+      },
+      "secondary_enrol": {
+        "value": 104.133480684239,
+        "year": 2023
+      },
+      "u5_mortality": {
+        "value": 35.1,
+        "year": 2024
+      },
+      "unemployment_pct": {
+        "value": 32.391,
+        "year": 2025
+      },
+      "urban_pct": {
+        "value": 63.8154011002522,
+        "year": 2025
+      },
+      "water_pct": {
+        "value": 90.1916801364739,
+        "year": 2024
+      }
+    },
+    "gaps": {
+      "water": 16.21189939795655,
+      "energy": 9.799999999999997,
+      "health": 25,
+      "education": 8.849998474121094,
+      "digital": 21.642402649999994,
+      "social": 69.6
+    }
+  },
+  {
+    "iso3": "EGY",
+    "iso2": "EG",
+    "name": "Egypt",
+    "joined": 2024,
+    "languages": [
+      "ar"
+    ],
+    "feedback_source": null,
+    "regions": 27,
+    "requests12m": null,
+    "indicators": {
+      "electricity_pct": {
+        "value": 100,
+        "year": 2024
+      },
+      "gdp_pc": {
+        "value": 3085.80712036204,
+        "year": 2025
+      },
+      "gfcf_pct_gdp": {
+        "value": 11.705318644479,
+        "year": 2025
+      },
+      "health_exp_gdp": {
+        "value": 4.88449335,
+        "year": 2023
+      },
+      "hospital_beds": {
+        "value": 1.06,
+        "year": 2021
+      },
+      "internet_pct": {
+        "value": 74.64839935,
+        "year": 2024
+      },
+      "literacy_pct": {
+        "value": 79.4531619498685,
+        "year": 2022
+      },
+      "lpi_infra": {
+        "value": 3,
+        "year": 2022
+      },
+      "physicians": {
+        "value": 0.671,
+        "year": 2020
+      },
+      "pm25": {
+        "value": 43.1460553382462,
+        "year": 2023
+      },
+      "population": {
+        "value": 118365995,
+        "year": 2025
+      },
+      "poverty_pct": {
+        "value": 1.4,
+        "year": 2021
+      },
+      "ppi_energy": {
+        "value": 173300000,
+        "year": 2024
+      },
+      "ppi_ict": {
+        "value": 71764000,
+        "year": 2023
+      },
+      "ppi_transport": {
+        "value": 1365000000,
+        "year": 2023
+      },
+      "ppi_water": {
+        "value": 48500000,
+        "year": 2021
+      },
+      "renewable_pct": {
+        "value": 6.1,
+        "year": 2021
+      },
+      "rural_pct": {
+        "value": 57.0956795074752,
+        "year": 2025
+      },
+      "sanitation_pct": {
+        "value": 97.086129419198,
+        "year": 2024
+      },
+      "secondary_enrol": {
+        "value": 84.8286031306453,
+        "year": 2024
+      },
+      "u5_mortality": {
+        "value": 22.4,
+        "year": 2024
+      },
+      "unemployment_pct": {
+        "value": 6.781,
+        "year": 2025
+      },
+      "urban_pct": {
+        "value": 42.9043204925248,
+        "year": 2025
+      },
+      "water_pct": {
+        "value": 97.2982426280194,
+        "year": 2024
+      }
+    },
+    "gaps": {
+      "water": 2.8078139763913015,
+      "energy": 0,
+      "health": 64.66666666666667,
+      "education": 20.546838050131498,
+      "digital": 25.351600649999995,
+      "social": 5.6
+    }
+  },
+  {
+    "iso3": "ETH",
+    "iso2": "ET",
+    "name": "Ethiopia",
+    "joined": 2024,
+    "languages": [
+      "am",
+      "om"
+    ],
+    "feedback_source": null,
+    "regions": 11,
+    "requests12m": null,
+    "indicators": {
+      "electricity_pct": {
+        "value": 56.6,
+        "year": 2024
+      },
+      "gdp_pc": {
+        "value": 932.729352775179,
+        "year": 2025
+      },
+      "gfcf_pct_gdp": {
+        "value": 20.1199721623161,
+        "year": 2025
+      },
+      "health_exp_gdp": {
+        "value": 2.80310345,
+        "year": 2023
+      },
+      "hospital_beds": {
+        "value": 0.33,
+        "year": 2016
+      },
+      "internet_pct": {
+        "value": 21.94129944,
+        "year": 2024
+      },
+      "literacy_pct": {
+        "value": 60.4599990844727,
+        "year": 2022
+      },
+      "lpi_infra": {
+        "value": 2.117674,
+        "year": 2016
+      },
+      "physicians": {
+        "value": 0.143,
+        "year": 2023
+      },
+      "pm25": {
+        "value": 23.8032820424199,
+        "year": 2023
+      },
+      "population": {
+        "value": 135472051,
+        "year": 2025
+      },
+      "poverty_pct": {
+        "value": 38.6,
+        "year": 2021
+      },
+      "ppi_energy": {
+        "value": 271000000,
+        "year": 2021
+      },
+      "ppi_ict": {
+        "value": 281685714.285714,
+        "year": 2023
+      },
+      "renewable_pct": {
+        "value": 90.6,
+        "year": 2021
+      },
+      "rural_pct": {
+        "value": 75.8903047911054,
+        "year": 2025
+      },
+      "sanitation_pct": {
+        "value": 10.3577188356734,
+        "year": 2024
+      },
+      "secondary_enrol": {
+        "value": 33.9114221981431,
+        "year": 2015
+      },
+      "u5_mortality": {
+        "value": 44.5,
+        "year": 2024
+      },
+      "unemployment_pct": {
+        "value": 3.323,
+        "year": 2025
+      },
+      "urban_pct": {
+        "value": 24.1096952088946,
+        "year": 2025
+      },
+      "water_pct": {
+        "value": 55.5960696159493,
+        "year": 2024
+      }
+    },
+    "gaps": {
+      "water": 67.02310577418865,
+      "energy": 43.4,
+      "health": 89,
+      "education": 39.5400009155273,
+      "digital": 78.05870056,
+      "social": 100
+    }
+  },
+  {
+    "iso3": "IRN",
+    "iso2": "IR",
+    "name": "Iran",
+    "joined": 2024,
+    "languages": [
+      "fa"
+    ],
+    "feedback_source": null,
+    "regions": 31,
+    "requests12m": null,
+    "indicators": {
+      "electricity_pct": {
+        "value": 100,
+        "year": 2024
+      },
+      "gdp_pc": {
+        "value": 3924.38017821898,
+        "year": 2025
+      },
+      "gfcf_pct_gdp": {
+        "value": 28.7981019157814,
+        "year": 2025
+      },
+      "health_exp_gdp": {
+        "value": 6.02542305,
+        "year": 2023
+      },
+      "hospital_beds": {
+        "value": 1.85,
+        "year": 2019
+      },
+      "internet_pct": {
+        "value": 85.3404007,
+        "year": 2024
+      },
+      "literacy_pct": {
+        "value": 88.9168161136597,
+        "year": 2023
+      },
+      "lpi_infra": {
+        "value": 2.4,
+        "year": 2022
+      },
+      "physicians": {
+        "value": 1.811,
+        "year": 2023
+      },
+      "pm25": {
+        "value": 40.2453897732326,
+        "year": 2023
+      },
+      "population": {
+        "value": 92417681,
+        "year": 2025
+      },
+      "poverty_pct": {
+        "value": 2.5,
+        "year": 2023
+      },
+      "ppi_energy": {
+        "value": 94500000,
+        "year": 2017
+      },
+      "ppi_ict": {
+        "value": 370000000,
+        "year": 2008
+      },
+      "ppi_transport": {
+        "value": 235000000,
+        "year": 2016
+      },
+      "renewable_pct": {
+        "value": 0.9,
+        "year": 2021
+      },
+      "rural_pct": {
+        "value": 22.6238469058249,
+        "year": 2025
+      },
+      "sanitation_pct": {
+        "value": 90.458288016159,
+        "year": 2024
+      },
+      "secondary_enrol": {
+        "value": 85.1469802856445,
+        "year": 2023
+      },
+      "u5_mortality": {
+        "value": 11.3,
+        "year": 2024
+      },
+      "unemployment_pct": {
+        "value": 8.301,
+        "year": 2025
+      },
+      "urban_pct": {
+        "value": 77.3761530941751,
+        "year": 2025
+      },
+      "water_pct": {
+        "value": 97.8520635920898,
+        "year": 2024
+      }
+    },
+    "gaps": {
+      "water": 5.844824195875596,
+      "energy": 0,
+      "health": 38.33333333333333,
+      "education": 11.083183886340294,
+      "digital": 14.659599299999996,
+      "social": 10
+    }
+  },
+  {
+    "iso3": "ARE",
+    "iso2": "AE",
+    "name": "United Arab Emirates",
+    "joined": 2024,
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "feedback_source": null,
+    "regions": 7,
+    "requests12m": null,
+    "indicators": {
+      "electricity_pct": {
+        "value": 100,
+        "year": 2024
+      },
+      "gdp_pc": {
+        "value": 50273.5126243239,
+        "year": 2024
+      },
+      "gfcf_pct_gdp": {
+        "value": 28.9130021992025,
+        "year": 2009
+      },
+      "health_exp_gdp": {
+        "value": 4.97095108,
+        "year": 2023
+      },
+      "hospital_beds": {
+        "value": 1.87,
+        "year": 2022
+      },
+      "internet_pct": {
+        "value": 100,
+        "year": 2024
+      },
+      "literacy_pct": {
+        "value": 98.8099975585938,
+        "year": 2024
+      },
+      "lpi_infra": {
+        "value": 4.1,
+        "year": 2022
+      },
+      "physicians": {
+        "value": 2.992,
+        "year": 2023
+      },
+      "pm25": {
+        "value": 57.1867315267375,
+        "year": 2023
+      },
+      "population": {
+        "value": 11513149,
+        "year": 2025
+      },
+      "poverty_pct": {
+        "value": 0,
+        "year": 2018
+      },
+      "ppi_energy": {
+        "value": 3802000000,
+        "year": 2022
+      },
+      "renewable_pct": {
+        "value": 1,
+        "year": 2021
+      },
+      "rural_pct": {
+        "value": 14.0382358675983,
+        "year": 2025
+      },
+      "sanitation_pct": {
+        "value": 99.0868783474854,
+        "year": 2024
+      },
+      "secondary_enrol": {
+        "value": 102.129724902444,
+        "year": 2024
+      },
+      "u5_mortality": {
+        "value": 4.8,
+        "year": 2024
+      },
+      "unemployment_pct": {
+        "value": 2.174,
+        "year": 2025
+      },
+      "urban_pct": {
+        "value": 85.9617641324017,
+        "year": 2025
+      },
+      "water_pct": {
+        "value": 100,
+        "year": 2024
+      }
+    },
+    "gaps": {
+      "water": 0.4565608262573022,
+      "energy": 0,
+      "health": 37.66666666666666,
+      "education": 1.1900024414061932,
+      "digital": 0,
+      "social": 0
+    }
+  },
+  {
+    "iso3": "IDN",
+    "iso2": "ID",
+    "name": "Indonesia",
+    "joined": 2025,
+    "languages": [
+      "id"
+    ],
+    "feedback_source": null,
+    "regions": 34,
+    "requests12m": null,
+    "indicators": {
+      "electricity_pct": {
+        "value": 99.9,
+        "year": 2024
+      },
+      "gdp_pc": {
+        "value": 5059.62596411213,
+        "year": 2025
+      },
+      "gfcf_pct_gdp": {
+        "value": 28.7670039932789,
+        "year": 2025
+      },
+      "health_exp_gdp": {
+        "value": 2.70239949,
+        "year": 2023
+      },
+      "hospital_beds": {
+        "value": 1.37,
+        "year": 2023
+      },
+      "internet_pct": {
+        "value": 72.78075544,
+        "year": 2024
+      },
+      "literacy_pct": {
+        "value": 96,
+        "year": 2020
+      },
+      "lpi_infra": {
+        "value": 2.9,
+        "year": 2022
+      },
+      "physicians": {
+        "value": 0.524,
+        "year": 2023
+      },
+      "pm25": {
+        "value": 20.8444642120249,
+        "year": 2023
+      },
+      "population": {
+        "value": 285721236,
+        "year": 2025
+      },
+      "poverty_pct": {
+        "value": 4,
+        "year": 2025
+      },
+      "ppi_energy": {
+        "value": 146000000,
+        "year": 2024
+      },
+      "ppi_ict": {
+        "value": 563800000,
+        "year": 2023
+      },
+      "ppi_transport": {
+        "value": 93300000,
+        "year": 2022
+      },
+      "ppi_water": {
+        "value": 989980000,
+        "year": 2023
+      },
+      "renewable_pct": {
+        "value": 20.2,
+        "year": 2021
+      },
+      "rural_pct": {
+        "value": 40.6070936030016,
+        "year": 2025
+      },
+      "sanitation_pct": {
+        "value": 88.2031685658499,
+        "year": 2024
+      },
+      "secondary_enrol": {
+        "value": 97.1701841816,
+        "year": 2025
+      },
+      "u5_mortality": {
+        "value": 17.7,
+        "year": 2024
+      },
+      "unemployment_pct": {
+        "value": 3.237,
+        "year": 2025
+      },
+      "urban_pct": {
+        "value": 59.3929063969984,
+        "year": 2025
+      },
+      "water_pct": {
+        "value": 89.008759557411,
+        "year": 2024
+      }
+    },
+    "gaps": {
+      "water": 11.394035938369555,
+      "energy": 0.09999999999999432,
+      "health": 54.33333333333332,
+      "education": 4,
+      "digital": 27.219244560000007,
+      "social": 16
+    }
+  }
+]

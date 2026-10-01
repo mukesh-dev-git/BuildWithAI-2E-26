@@ -1,0 +1,10146 @@
+{
+  "r": 0.2066574345893455,
+  "bounds": {
+    "lonMin": 24.29668513082131,
+    "lonMax": 37.293314869178694,
+    "latMin": 21.58668513082131,
+    "latMax": 32.04131486917869
+  },
+  "regionNames": {
+    "BRA-roraima": "Roraima",
+    "BRA-amapa": "Amapa",
+    "BRA-amazonas": "Amazonas",
+    "BRA-para": "Para",
+    "BRA-maranhao": "Maranhao",
+    "BRA-ceara": "Ceara",
+    "BRA-rio-grande-do-norte": "Rio Grande do Norte",
+    "BRA-paraiba": "Paraiba",
+    "BRA-piaui": "Piaui",
+    "BRA-pernambuco": "Pernambuco",
+    "BRA-alagoas": "Alagoas",
+    "BRA-acre": "Acre",
+    "BRA-rondonia": "Rondonia",
+    "BRA-sergipe": "Sergipe",
+    "BRA-tocantins": "Tocantins",
+    "BRA-bahia": "Bahia",
+    "BRA-mato-grosso": "Mato Grosso",
+    "BRA-goias": "Goias",
+    "BRA-distrito-federal": "Distrito Federal",
+    "BRA-minas-gerais": "Minas Gerais",
+    "BRA-espirito-santo": "Espirito Santo",
+    "BRA-mato-grosso-do-sul": "Mato Grosso do Sul",
+    "BRA-rio-de-janeiro": "Rio de Janeiro",
+    "BRA-sao-paulo": "Sao Paulo",
+    "BRA-parana": "Parana",
+    "BRA-santa-catarina": "Santa Catarina",
+    "BRA-rio-grande-do-sul": "Rio Grande do Sul",
+    "RUS-altai-krai": "Altai Krai",
+    "RUS-republic-of-mordovia": "Republic of Mordovia",
+    "RUS-tula-oblast": "Tula Oblast",
+    "RUS-kurgan-oblast": "Kurgan Oblast",
+    "RUS-ingushetia": "Ingushetia",
+    "RUS-khanty-mansiysk-autonomous-okrug-ugra": "Khanty-Mansiysk Autonomous Okrug – Ugra",
+    "RUS-kirov-oblast": "Kirov Oblast",
+    "RUS-komi-republic": "Komi Republic",
+    "RUS-kostroma-oblast": "Kostroma Oblast",
+    "RUS-krasnoyarsk-krai": "Krasnoyarsk Krai",
+    "RUS-zabaykalsky-krai": "Zabaykalsky Krai",
+    "RUS-sverdlovsk-oblast": "Sverdlovsk Oblast",
+    "RUS-volgograd-oblast": "Volgograd Oblast",
+    "RUS-irkutsk-oblast": "Irkutsk Oblast",
+    "RUS-perm-krai": "Perm Krai",
+    "RUS-pskov-oblast": "Pskov Oblast",
+    "RUS-rostov-oblast": "Rostov Oblast",
+    "RUS-ryazan-oblast": "Ryazan Oblast",
+    "RUS-adygea": "Adygea",
+    "RUS-samara-oblast": "Samara Oblast",
+    "RUS-khakassia": "Khakassia",
+    "RUS-tambov-oblast": "Tambov Oblast",
+    "RUS-tatarstan": "Tatarstan",
+    "RUS-tomsk-oblast": "Tomsk Oblast",
+    "RUS-nizhny-novgorod-oblast": "Nizhny Novgorod Oblast",
+    "RUS-republic-of-karelia": "Republic of Karelia",
+    "RUS-arkhangelsk-oblast": "Arkhangelsk Oblast",
+    "RUS-astrakhan-oblast": "Astrakhan Oblast",
+    "RUS-belgorod-oblast": "Belgorod Oblast",
+    "RUS-bryansk-oblast": "Bryansk Oblast",
+    "RUS-buryatia": "Buryatia",
+    "RUS-chechnya": "Chechnya",
+    "RUS-chelyabinsk-oblast": "Chelyabinsk Oblast",
+    "RUS-chuvashia": "Chuvashia",
+    "RUS-tyumen-oblast": "Tyumen Oblast",
+    "RUS-north-ossetia-alania": "North Ossetia–Alania",
+    "RUS-penza-oblast": "Penza Oblast",
+    "RUS-amur-oblast": "Amur Oblast",
+    "RUS-kabardino-balkaria": "Kabardino-Balkaria",
+    "RUS-krasnodar-krai": "Krasnodar Krai",
+    "RUS-kursk-oblast": "Kursk Oblast",
+    "RUS-leningrad-oblast": "Leningrad oblast",
+    "RUS-mari-el": "Mari El",
+    "RUS-moscow": "Moscow",
+    "RUS-moscow-oblast": "Moscow Oblast",
+    "RUS-murmansk-oblast": "Murmansk Oblast",
+    "RUS-nenets-autonomous-okrug": "Nenets Autonomous Okrug",
+    "RUS-novgorod-oblast": "Novgorod Oblast",
+    "RUS-novosibirsk-oblast": "Novosibirsk Oblast",
+    "RUS-omsk-oblast": "Omsk Oblast",
+    "RUS-oryol-oblast": "Oryol Oblast",
+    "RUS-saint-petersburg": "Saint Petersburg",
+    "RUS-sakhalin-oblast": "Sakhalin Oblast",
+    "RUS-sakha-republic": "Sakha Republic",
+    "RUS-saratov-oblast": "Saratov Oblast",
+    "RUS-smolensk-oblast": "Smolensk Oblast",
+    "RUS-stavropol-krai": "Stavropol Krai",
+    "RUS-tuva": "Tuva",
+    "RUS-tver-oblast": "Tver Oblast",
+    "RUS-udmurtia": "Udmurtia",
+    "RUS-kaluga-oblast": "Kaluga Oblast",
+    "RUS-lipetsk-oblast": "Lipetsk Oblast",
+    "RUS-magadan-oblast": "Magadan Oblast",
+    "RUS-ulyanovsk-oblast": "Ulyanovsk Oblast",
+    "RUS-vladimir-oblast": "Vladimir Oblast",
+    "RUS-vologda-oblast": "Vologda Oblast",
+    "RUS-yaroslavl-oblast": "Yaroslavl Oblast",
+    "RUS-voronezh-oblast": "Voronezh Oblast",
+    "RUS-yamalo-nenets-autonomous-okrug": "Yamalo-Nenets Autonomous Okrug",
+    "RUS-altai-republic": "Altai Republic",
+    "RUS-ivanovo-oblast": "Ivanovo Oblast",
+    "RUS-jewish-autonomous-oblast": "Jewish Autonomous Oblast",
+    "RUS-kalmykia": "Kalmykia",
+    "RUS-kamchatka-krai": "Kamchatka Krai",
+    "RUS-karachay-cherkessia": "Karachay-Cherkessia",
+    "RUS-kemerovo-oblast": "Kemerovo Oblast",
+    "RUS-khabarovsk-krai": "Khabarovsk Krai",
+    "RUS-chukotka-autonomous-okrug": "Chukotka Autonomous Okrug",
+    "RUS-dagestan": "Dagestan",
+    "RUS-kaliningrad": "Kaliningrad",
+    "RUS-orenburg-oblast": "Orenburg Oblast",
+    "RUS-primorsky-krai": "Primorsky Krai",
+    "RUS-bashkortostan": "Bashkortostan",
+    "IND-puducherry": "Puducherry",
+    "IND-maharashtra": "Mahārāshtra",
+    "IND-nagaland": "Nāgāland",
+    "IND-lakshadweep": "Lakshadweep",
+    "IND-uttar-pradesh": "Uttar Pradesh",
+    "IND-tamil-nadu": "Tamil Nādu",
+    "IND-chhattisgarh": "Chhattīsgarh",
+    "IND-gujarat": "Gujarāt",
+    "IND-delhi": "Delhi",
+    "IND-sikkim": "Sikkim",
+    "IND-tripura": "Tripura",
+    "IND-west-bengal": "West Bengal",
+    "IND-odisha": "Odisha",
+    "IND-bihar": "Bihār",
+    "IND-ladakh": "Ladākh",
+    "IND-rajasthan": "Rājasthān",
+    "IND-telangana": "Telangāna",
+    "IND-andhra-pradesh": "Andhra Pradesh",
+    "IND-mizoram": "Mizoram",
+    "IND-arunachal-pradesh": "Arunāchal Pradesh",
+    "IND-meghalaya": "Meghālaya",
+    "IND-jharkhand": "Jhārkhand",
+    "IND-assam": "Assam",
+    "IND-manipur": "Manipur",
+    "IND-karnataka": "Karnātaka",
+    "IND-uttarakhand": "Uttarākhand",
+    "IND-dadra-and-nagar-haveli-and-daman-and-diu": "Dādra and Nagar Haveli and Damān and Diu",
+    "IND-madhya-pradesh": "Madhya Pradesh",
+    "IND-goa": "Goa",
+    "IND-kerala": "Kerala",
+    "IND-chandigarh": "Chandīgarh",
+    "IND-andaman-and-nicobar-islands": "Andaman and Nicobar Islands",
+    "IND-himachal-pradesh": "Himāchal Pradesh",
+    "IND-jammu-and-kashmir": "Jammu and Kashmīr",
+    "IND-punjab": "Punjab",
+    "IND-haryana": "Haryāna",
+    "CHN-hainan-province": "Hainan Province",
+    "CHN-taiwan-province": "Taiwan Province",
+    "CHN-guangxi-zhuang-autonomous-region": "Guangxi Zhuang Autonomous Region",
+    "CHN-fujian-province": "Fujian Province",
+    "CHN-yunnan-province": "Yunnan Province",
+    "CHN-guizhou-province": "Guizhou Province",
+    "CHN-jiangxi-province": "Jiangxi Province",
+    "CHN-hunan-province": "Hunan Province",
+    "CHN-zhejiang-province": "Zhejiang Province",
+    "CHN-shanghai-municipality": "Shanghai Municipality",
+    "CHN-chongqing-municipality": "Chongqing Municipality",
+    "CHN-hubei-province": "Hubei Province",
+    "CHN-sichuan-province": "Sichuan Province",
+    "CHN-anhui-province": "Anhui Province",
+    "CHN-jiangsu-province": "Jiangsu Province",
+    "CHN-henan-province": "Henan Province",
+    "CHN-tibet-autonomous-region": "Tibet Autonomous Region",
+    "CHN-shandong-province": "Shandong Province",
+    "CHN-qinghai-province": "Qinghai Province",
+    "CHN-ningxia-ningxia-hui-autonomous-region": "Ningxia Ningxia Hui Autonomous Region",
+    "CHN-shaanxi-province": "Shaanxi Province",
+    "CHN-tianjin-municipality": "Tianjin Municipality",
+    "CHN-shanxi-province": "Shanxi Province",
+    "CHN-beijing-municipality": "Beijing Municipality",
+    "CHN-gansu-province": "Gansu Province",
+    "CHN-hebei-province": "Hebei Province",
+    "CHN-liaoning-province": "Liaoning Province",
+    "CHN-jilin-province": "Jilin Province",
+    "CHN-xinjiang-uyghur-autonomous-region": "Xinjiang Uyghur Autonomous Region",
+    "CHN-inner-mongolia-autonomous-region": "Inner Mongolia Autonomous Region",
+    "CHN-heilongjiang-province": "Heilongjiang Province",
+    "CHN-macau-special-administrative-region": "Macau Special Administrative Region",
+    "CHN-hong-kong-special-administrative-region": "Hong Kong Special Administrative Region",
+    "CHN-guangzhou-province": "Guangzhou Province",
+    "ZAF-eastern-cape": "Eastern Cape",
+    "ZAF-free-state": "Free State",
+    "ZAF-gauteng": "Gauteng",
+    "ZAF-kwazulu-natal": "KwaZulu-Natal",
+    "ZAF-limpopo": "Limpopo",
+    "ZAF-mpumalanga": "Mpumalanga",
+    "ZAF-north-west": "North West",
+    "ZAF-nothern-cape": "Nothern Cape",
+    "ZAF-western-cape": "Western Cape",
+    "EGY-north-sinai-governorate": "North Sinai Governorate",
+    "EGY-south-sinai-governorate": "South Sinai Governorate",
+    "EGY-aswan-governorate": "Aswan Governorate",
+    "EGY-red-sea-governorate": "Red Sea Governorate",
+    "EGY-matrouh-governorate": "Matrouh Governorate",
+    "EGY-new-valley-governorate": "New Valley Governorate",
+    "EGY-alexandria-governorate": "Alexandria Governorate",
+    "EGY-ismailia-governorate": "Ismailia Governorate",
+    "EGY-suez-governorate": "Suez Governorate",
+    "EGY-gharbiyya-governorate": "Gharbiyya Governorate",
+    "EGY-faiyum-governorate": "Faiyum Governorate",
+    "EGY-beni-suef-governorate": "Beni Suef Governorate",
+    "EGY-minya-governate": "Minya Governate",
+    "EGY-asyut-governorate": "Asyut Governorate",
+    "EGY-sohag-governorate": "Sohag Governorate",
+    "EGY-qena-governorate": "Qena Governorate",
+    "EGY-luxor-governate": "Luxor Governate",
+    "EGY-giza-governorate": "Giza Governorate",
+    "EGY-monufia-governorate": "Monufia Governorate",
+    "EGY-beheira-governorate": "Beheira Governorate",
+    "EGY-cairo-governorate": "Cairo Governorate",
+    "EGY-qalyubia-governorate": "Qalyubia Governorate",
+    "EGY-dakahlia-governorate": "Dakahlia Governorate",
+    "EGY-damietta-governorate": "Damietta Governorate",
+    "EGY-kafr-el-sheikh-governorate": "Kafr el-Sheikh Governorate",
+    "EGY-port-said-governorate": "Port Said Governorate",
+    "EGY-al-sharqia-governorate": "Al Sharqia Governorate",
+    "ETH-addis-ababa": "Addis Ababa",
+    "ETH-afar": "Afar",
+    "ETH-amhara": "Amhara",
+    "ETH-beneshangul-gumu": "Beneshangul Gumu",
+    "ETH-dire-dawa": "Dire Dawa",
+    "ETH-gambela": "Gambela",
+    "ETH-hareri": "Hareri",
+    "ETH-oromia": "Oromia",
+    "ETH-snnpr": "SNNPR",
+    "ETH-somali": "Somali",
+    "ETH-tigray": "Tigray",
+    "IRN-mazandaran": "Mazandaran",
+    "IRN-north-khorasan": "North Khorasan",
+    "IRN-kerman": "Kerman",
+    "IRN-ilam": "Ilam",
+    "IRN-lorestan": "Lorestan",
+    "IRN-markazi": "Markazi",
+    "IRN-chaharmahal-and-bakhtiari": "Chaharmahal and Bakhtiari",
+    "IRN-kermanshah": "Kermanshah",
+    "IRN-hamadan": "Hamadan",
+    "IRN-qazvin": "Qazvin",
+    "IRN-gilan": "Gilan",
+    "IRN-zanjan": "Zanjan",
+    "IRN-semnan": "Semnan",
+    "IRN-isfahan": "Isfahan",
+    "IRN-kohgiluyeh-and-boyer-ahmad": "Kohgiluyeh and Boyer-Ahmad",
+    "IRN-kurdistan": "Kurdistan",
+    "IRN-west-azerbaijan": "West Azerbaijan",
+    "IRN-fars": "Fars",
+    "IRN-bushehr": "Bushehr",
+    "IRN-ardabil": "Ardabil",
+    "IRN-golestan": "Golestan",
+    "IRN-razavi-khorasan": "Razavi Khorasan",
+    "IRN-south-khorasan": "South Khorasan",
+    "IRN-sistan-and-baluchestan": "Sistan and Baluchestan",
+    "IRN-qom": "Qom",
+    "IRN-alborz": "Alborz",
+    "IRN-east-azerbaijan": "East Azerbaijan",
+    "IRN-yazd": "Yazd",
+    "IRN-hormozgan": "Hormozgan",
+    "IRN-khuzestan": "Khuzestan",
+    "IRN-tehran": "Tehran",
+    "ARE-abu-dhabi": "Abu Dhabi",
+    "ARE-ajman": "Ajman",
+    "ARE-dubai": "Dubai",
+    "ARE-fujairah": "Fujairah",
+    "ARE-ras-al-khaimah": "Ras al-Khaimah",
+    "ARE-sharjah": "Sharjah",
+    "ARE-umm-al-quwain": "Umm al-Quwain",
+    "IDN-bali": "Bali",
+    "IDN-west-nusa-tenggara": "West Nusa Tenggara",
+    "IDN-banten": "Banten",
+    "IDN-central-java": "Central Java",
+    "IDN-west-java": "West Java",
+    "IDN-central-kalimantan": "Central Kalimantan",
+    "IDN-south-kalimantan": "South Kalimantan",
+    "IDN-west-kalimantan": "West Kalimantan",
+    "IDN-central-sulawesi": "Central Sulawesi",
+    "IDN-gorontalo": "Gorontalo",
+    "IDN-north-sulawesi": "North Sulawesi",
+    "IDN-south-sulawesi": "South Sulawesi",
+    "IDN-southeast-sulawesi": "Southeast Sulawesi",
+    "IDN-west-sulawesi": "West Sulawesi",
+    "IDN-aceh": "Aceh",
+    "IDN-bengkulu": "Bengkulu",
+    "IDN-jambi": "Jambi",
+    "IDN-lampung": "Lampung",
+    "IDN-riau": "Riau",
+    "IDN-west-sumatra": "West Sumatra",
+    "IDN-south-sumatra": "South Sumatra",
+    "IDN-north-sumatra": "North Sumatra",
+    "IDN-east-nusa-tenggara": "East Nusa Tenggara",
+    "IDN-maluku": "Maluku",
+    "IDN-north-maluku": "North Maluku",
+    "IDN-east-java": "East Java",
+    "IDN-bangka-belitung-islands": "Bangka-Belitung Islands",
+    "IDN-riau-islands": "Riau Islands",
+    "IDN-papua": "Papua",
+    "IDN-west-papua": "West Papua",
+    "IDN-east-kalimantan": "East Kalimantan",
+    "IDN-north-kalimantan": "North Kalimantan",
+    "IDN-special-region-of-yogyakarta": "Special Region of Yogyakarta",
+    "IDN-jakarta-special-capital-region": "Jakarta Special Capital Region"
+  },
+  "regionBest": {
+    "RUS-altai-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-republic-of-mordovia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tula-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kurgan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ingushetia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khanty-mansiysk-autonomous-okrug-ugra": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kirov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-komi-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kostroma-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-krasnoyarsk-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-zabaykalsky-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sverdlovsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-volgograd-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-irkutsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-perm-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-pskov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-rostov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ryazan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-adygea": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-samara-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khakassia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tambov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tatarstan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tomsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-nizhny-novgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-republic-of-karelia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-arkhangelsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-astrakhan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-belgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-bryansk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-buryatia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chechnya": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chelyabinsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chuvashia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tyumen-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-north-ossetia-alania": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-penza-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-amur-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kabardino-balkaria": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-krasnodar-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kursk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-leningrad-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-mari-el": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-moscow": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-moscow-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-murmansk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-nenets-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-novgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-novosibirsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-omsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-oryol-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-saint-petersburg": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sakhalin-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sakha-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-saratov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-smolensk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-stavropol-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tuva": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tver-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-udmurtia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kaluga-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-lipetsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-magadan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ulyanovsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-vladimir-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-vologda-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-yaroslavl-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-voronezh-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-yamalo-nenets-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-altai-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ivanovo-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-jewish-autonomous-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kalmykia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kamchatka-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-karachay-cherkessia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kemerovo-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khabarovsk-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chukotka-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-dagestan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kaliningrad": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-orenburg-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-primorsky-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-bashkortostan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IND-puducherry": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-maharashtra": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-nagaland": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-lakshadweep": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-uttar-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-tamil-nadu": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-chhattisgarh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-gujarat": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-delhi": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-sikkim": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-tripura": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-west-bengal": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-odisha": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-bihar": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "IND-ladakh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-rajasthan": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-telangana": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-andhra-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-mizoram": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-arunachal-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-meghalaya": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-jharkhand": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-assam": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-manipur": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-karnataka": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-uttarakhand": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-dadra-and-nagar-haveli-and-daman-and-diu": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-madhya-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-goa": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-kerala": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-chandigarh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-andaman-and-nicobar-islands": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-himachal-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-jammu-and-kashmir": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-punjab": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-haryana": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hainan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-taiwan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guangxi-zhuang-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-fujian-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-yunnan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guizhou-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jiangxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hunan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-zhejiang-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shanghai-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-chongqing-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hubei-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-sichuan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-anhui-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jiangsu-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-henan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-tibet-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shandong-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-qinghai-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-ningxia-ningxia-hui-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shaanxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-tianjin-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shanxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-beijing-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-gansu-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hebei-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-liaoning-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jilin-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-xinjiang-uyghur-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-inner-mongolia-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-heilongjiang-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-macau-special-administrative-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hong-kong-special-administrative-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guangzhou-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ZAF-eastern-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-free-state": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-gauteng": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-kwazulu-natal": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-limpopo": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-mpumalanga": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-north-west": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-nothern-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-western-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "EGY-north-sinai-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-south-sinai-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-aswan-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-red-sea-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-matrouh-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-new-valley-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-alexandria-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-ismailia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-suez-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-gharbiyya-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-faiyum-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-beni-suef-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-minya-governate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-asyut-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-sohag-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-qena-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-luxor-governate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-giza-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-monufia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-beheira-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-cairo-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-qalyubia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-dakahlia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-damietta-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-kafr-el-sheikh-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-port-said-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-al-sharqia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ETH-addis-ababa": {
+      "score": 94,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "ETH-afar": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "ETH-amhara": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "digital"
+    },
+    "ETH-beneshangul-gumu": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "ETH-dire-dawa": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "ETH-gambela": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-hareri": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-oromia": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-snnpr": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "ETH-somali": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "ETH-tigray": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "IRN-mazandaran": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-north-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kerman": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-ilam": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-lorestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-markazi": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-chaharmahal-and-bakhtiari": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kermanshah": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-hamadan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-qazvin": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-gilan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-zanjan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-semnan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-isfahan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kohgiluyeh-and-boyer-ahmad": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kurdistan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-west-azerbaijan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-fars": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-bushehr": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-ardabil": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-golestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-razavi-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-south-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-sistan-and-baluchestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-qom": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-alborz": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-east-azerbaijan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-yazd": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-hormozgan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-khuzestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-tehran": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "ARE-abu-dhabi": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-ajman": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-dubai": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-fujairah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-ras-al-khaimah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-sharjah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-umm-al-quwain": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IDN-bali": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-west-nusa-tenggara": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-banten": {
+      "score": 84,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-central-java": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-west-java": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-central-kalimantan": {
+      "score": 80,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-kalimantan": {
+      "score": 57,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-west-kalimantan": {
+      "score": 61,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-central-sulawesi": {
+      "score": 74,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-gorontalo": {
+      "score": 75,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-sulawesi": {
+      "score": 57,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-sulawesi": {
+      "score": 59,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-southeast-sulawesi": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-sulawesi": {
+      "score": 82,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-aceh": {
+      "score": 79,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-bengkulu": {
+      "score": 88,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-jambi": {
+      "score": 63,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-lampung": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-riau": {
+      "score": 80,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-sumatra": {
+      "score": 73,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-sumatra": {
+      "score": 62,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-sumatra": {
+      "score": 72,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-nusa-tenggara": {
+      "score": 68,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-maluku": {
+      "score": 90,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-maluku": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-java": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-bangka-belitung-islands": {
+      "score": 68,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-riau-islands": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-papua": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-papua": {
+      "score": 90,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-kalimantan": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-north-kalimantan": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-special-region-of-yogyakarta": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-jakarta-special-capital-region": {
+      "score": 55,
+      "basis": "regional-survey",
+      "theme": "health"
+    }
+  },
+  "cells": [
+    [
+      35.035,
+      32.041,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.393,
+      32.041,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.751,
+      32.041,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.109,
+      32.041,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.467,
+      32.041,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.825,
+      32.041,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.183,
+      32.041,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.476,
+      31.731,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.834,
+      31.731,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.856,
+      31.731,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.214,
+      31.731,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.572,
+      31.731,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.93,
+      31.731,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.288,
+      31.731,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.646,
+      31.731,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.004,
+      31.731,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.297,
+      31.421,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.655,
+      31.421,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.013,
+      31.421,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.371,
+      31.421,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.728,
+      31.421,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.086,
+      31.421,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.444,
+      31.421,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.802,
+      31.421,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.024,
+      31.421,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      30.382,
+      31.421,
+      "EGY",
+      "EGY-beheira-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.74,
+      31.421,
+      "EGY",
+      "EGY-kafr-el-sheikh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.098,
+      31.421,
+      "EGY",
+      "EGY-kafr-el-sheikh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.456,
+      31.421,
+      "EGY",
+      "EGY-dakahlia-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.813,
+      31.421,
+      "EGY",
+      "EGY-damietta-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.677,
+      31.421,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.035,
+      31.421,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.393,
+      31.421,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.751,
+      31.421,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.109,
+      31.421,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.467,
+      31.421,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.825,
+      31.421,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.183,
+      31.421,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.476,
+      31.111,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.834,
+      31.111,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.192,
+      31.111,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.549,
+      31.111,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.907,
+      31.111,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.265,
+      31.111,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.623,
+      31.111,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.981,
+      31.111,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.339,
+      31.111,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.697,
+      31.111,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.055,
+      31.111,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.845,
+      31.111,
+      "EGY",
+      "EGY-alexandria-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.203,
+      31.111,
+      "EGY",
+      "EGY-beheira-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.561,
+      31.111,
+      "EGY",
+      "EGY-beheira-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.919,
+      31.111,
+      "EGY",
+      "EGY-kafr-el-sheikh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.277,
+      31.111,
+      "EGY",
+      "EGY-kafr-el-sheikh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.634,
+      31.111,
+      "EGY",
+      "EGY-dakahlia-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.992,
+      31.111,
+      "EGY",
+      "EGY-dakahlia-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.35,
+      31.111,
+      "EGY",
+      "EGY-port-said-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.066,
+      31.111,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.782,
+      31.111,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.14,
+      31.111,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.498,
+      31.111,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.856,
+      31.111,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.214,
+      31.111,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.572,
+      31.111,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.93,
+      31.111,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.288,
+      31.111,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.646,
+      31.111,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.004,
+      31.111,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.297,
+      30.801,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.655,
+      30.801,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.013,
+      30.801,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.371,
+      30.801,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.728,
+      30.801,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.086,
+      30.801,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.444,
+      30.801,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.802,
+      30.801,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.16,
+      30.801,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.518,
+      30.801,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.876,
+      30.801,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.234,
+      30.801,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.592,
+      30.801,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.95,
+      30.801,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.308,
+      30.801,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.666,
+      30.801,
+      "EGY",
+      "EGY-alexandria-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.024,
+      30.801,
+      "EGY",
+      "EGY-beheira-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.382,
+      30.801,
+      "EGY",
+      "EGY-beheira-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.74,
+      30.801,
+      "EGY",
+      "EGY-beheira-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.098,
+      30.801,
+      "EGY",
+      "EGY-gharbiyya-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.456,
+      30.801,
+      "EGY",
+      "EGY-dakahlia-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.813,
+      30.801,
+      "EGY",
+      "EGY-al-sharqia-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.171,
+      30.801,
+      "EGY",
+      "EGY-al-sharqia-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.529,
+      30.801,
+      "EGY",
+      "EGY-ismailia-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.887,
+      30.801,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.245,
+      30.801,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.603,
+      30.801,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.961,
+      30.801,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.319,
+      30.801,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.677,
+      30.801,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.035,
+      30.801,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.393,
+      30.801,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.751,
+      30.801,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.109,
+      30.801,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.467,
+      30.801,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.825,
+      30.801,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.183,
+      30.801,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.476,
+      30.491,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.834,
+      30.491,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.192,
+      30.491,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.549,
+      30.491,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.907,
+      30.491,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.265,
+      30.491,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.623,
+      30.491,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.981,
+      30.491,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.339,
+      30.491,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.697,
+      30.491,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.055,
+      30.491,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.413,
+      30.491,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.771,
+      30.491,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.129,
+      30.491,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.487,
+      30.491,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.845,
+      30.491,
+      "EGY",
+      "EGY-beheira-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.203,
+      30.491,
+      "EGY",
+      "EGY-beheira-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.561,
+      30.491,
+      "EGY",
+      "EGY-beheira-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.919,
+      30.491,
+      "EGY",
+      "EGY-monufia-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.277,
+      30.491,
+      "EGY",
+      "EGY-qalyubia-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.634,
+      30.491,
+      "EGY",
+      "EGY-al-sharqia-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.992,
+      30.491,
+      "EGY",
+      "EGY-ismailia-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.35,
+      30.491,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.708,
+      30.491,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.066,
+      30.491,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.424,
+      30.491,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.782,
+      30.491,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.14,
+      30.491,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.498,
+      30.491,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.856,
+      30.491,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.214,
+      30.491,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.572,
+      30.491,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.93,
+      30.491,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.288,
+      30.491,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.646,
+      30.491,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.004,
+      30.491,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.297,
+      30.181,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.655,
+      30.181,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.013,
+      30.181,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.371,
+      30.181,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.728,
+      30.181,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.086,
+      30.181,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.444,
+      30.181,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.802,
+      30.181,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.16,
+      30.181,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.518,
+      30.181,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.876,
+      30.181,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.234,
+      30.181,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.592,
+      30.181,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.95,
+      30.181,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.308,
+      30.181,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.666,
+      30.181,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.024,
+      30.181,
+      "EGY",
+      "EGY-beheira-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.382,
+      30.181,
+      "EGY",
+      "EGY-beheira-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.74,
+      30.181,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.098,
+      30.181,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.456,
+      30.181,
+      "EGY",
+      "EGY-qalyubia-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.813,
+      30.181,
+      "EGY",
+      "EGY-cairo-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.171,
+      30.181,
+      "EGY",
+      "EGY-suez-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.529,
+      30.181,
+      "EGY",
+      "EGY-suez-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.887,
+      30.181,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.245,
+      30.181,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.603,
+      30.181,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.961,
+      30.181,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.319,
+      30.181,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.677,
+      30.181,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.035,
+      30.181,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.393,
+      30.181,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.751,
+      30.181,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.109,
+      30.181,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.467,
+      30.181,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.825,
+      30.181,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.183,
+      30.181,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.476,
+      29.871,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.834,
+      29.871,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.192,
+      29.871,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.549,
+      29.871,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.907,
+      29.871,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.265,
+      29.871,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.623,
+      29.871,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.981,
+      29.871,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.339,
+      29.871,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.697,
+      29.871,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.055,
+      29.871,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.413,
+      29.871,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.771,
+      29.871,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.129,
+      29.871,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.487,
+      29.871,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.845,
+      29.871,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.203,
+      29.871,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.561,
+      29.871,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      30.919,
+      29.871,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.277,
+      29.871,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.634,
+      29.871,
+      "EGY",
+      "EGY-cairo-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.992,
+      29.871,
+      "EGY",
+      "EGY-suez-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.35,
+      29.871,
+      "EGY",
+      "EGY-suez-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.708,
+      29.871,
+      "EGY",
+      "EGY-suez-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.066,
+      29.871,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.424,
+      29.871,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.782,
+      29.871,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.14,
+      29.871,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.498,
+      29.871,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.856,
+      29.871,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.214,
+      29.871,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.572,
+      29.871,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.93,
+      29.871,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.288,
+      29.871,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.646,
+      29.871,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.004,
+      29.871,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.297,
+      29.561,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.655,
+      29.561,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.013,
+      29.561,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.371,
+      29.561,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.728,
+      29.561,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.086,
+      29.561,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.444,
+      29.561,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.802,
+      29.561,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.16,
+      29.561,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.518,
+      29.561,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.876,
+      29.561,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.234,
+      29.561,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.592,
+      29.561,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.95,
+      29.561,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.308,
+      29.561,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.666,
+      29.561,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      30.024,
+      29.561,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      30.382,
+      29.561,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      30.74,
+      29.561,
+      "EGY",
+      "EGY-faiyum-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.098,
+      29.561,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.456,
+      29.561,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.813,
+      29.561,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.171,
+      29.561,
+      "EGY",
+      "EGY-suez-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.887,
+      29.561,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.245,
+      29.561,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.603,
+      29.561,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.961,
+      29.561,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.319,
+      29.561,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.677,
+      29.561,
+      "EGY",
+      "EGY-north-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.035,
+      29.561,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.393,
+      29.561,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.751,
+      29.561,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.109,
+      29.561,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.467,
+      29.561,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.825,
+      29.561,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.183,
+      29.561,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.476,
+      29.251,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.834,
+      29.251,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.192,
+      29.251,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.549,
+      29.251,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.907,
+      29.251,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.265,
+      29.251,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.623,
+      29.251,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.981,
+      29.251,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.339,
+      29.251,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.697,
+      29.251,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.055,
+      29.251,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.413,
+      29.251,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.771,
+      29.251,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.129,
+      29.251,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.487,
+      29.251,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      29.845,
+      29.251,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      30.203,
+      29.251,
+      "EGY",
+      "EGY-faiyum-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      30.561,
+      29.251,
+      "EGY",
+      "EGY-faiyum-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      30.919,
+      29.251,
+      "EGY",
+      "EGY-faiyum-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.277,
+      29.251,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.634,
+      29.251,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.992,
+      29.251,
+      "EGY",
+      "EGY-suez-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.35,
+      29.251,
+      "EGY",
+      "EGY-suez-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.066,
+      29.251,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.424,
+      29.251,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.782,
+      29.251,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.14,
+      29.251,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.498,
+      29.251,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.214,
+      29.251,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.572,
+      29.251,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.93,
+      29.251,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.288,
+      29.251,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.646,
+      29.251,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.004,
+      29.251,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.297,
+      28.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.655,
+      28.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.013,
+      28.941,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.371,
+      28.941,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.728,
+      28.941,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.086,
+      28.941,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.444,
+      28.941,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.802,
+      28.941,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.16,
+      28.941,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.518,
+      28.941,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.876,
+      28.941,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.234,
+      28.941,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.592,
+      28.941,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.95,
+      28.941,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      29.308,
+      28.941,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      29.666,
+      28.941,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      30.024,
+      28.941,
+      "EGY",
+      "EGY-beni-suef-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      30.382,
+      28.941,
+      "EGY",
+      "EGY-beni-suef-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      30.74,
+      28.941,
+      "EGY",
+      "EGY-beni-suef-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.098,
+      28.941,
+      "EGY",
+      "EGY-beni-suef-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.456,
+      28.941,
+      "EGY",
+      "EGY-beni-suef-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.813,
+      28.941,
+      "EGY",
+      "EGY-beni-suef-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.171,
+      28.941,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.529,
+      28.941,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.887,
+      28.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.245,
+      28.941,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.603,
+      28.941,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.961,
+      28.941,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.319,
+      28.941,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.035,
+      28.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.393,
+      28.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.751,
+      28.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.109,
+      28.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.467,
+      28.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.825,
+      28.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.183,
+      28.941,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.476,
+      28.631,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.834,
+      28.631,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.192,
+      28.631,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.549,
+      28.631,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.907,
+      28.631,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.265,
+      28.631,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.623,
+      28.631,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.981,
+      28.631,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.339,
+      28.631,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.697,
+      28.631,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.055,
+      28.631,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      28.413,
+      28.631,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      28.771,
+      28.631,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      29.129,
+      28.631,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      29.487,
+      28.631,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      29.845,
+      28.631,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      30.203,
+      28.631,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      30.561,
+      28.631,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      30.919,
+      28.631,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.277,
+      28.631,
+      "EGY",
+      "EGY-beni-suef-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.634,
+      28.631,
+      "EGY",
+      "EGY-beni-suef-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.992,
+      28.631,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.35,
+      28.631,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.708,
+      28.631,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.066,
+      28.631,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.424,
+      28.631,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.782,
+      28.631,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.14,
+      28.631,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.498,
+      28.631,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.856,
+      28.631,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.214,
+      28.631,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.572,
+      28.631,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.93,
+      28.631,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.288,
+      28.631,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.646,
+      28.631,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.004,
+      28.631,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.297,
+      28.321,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.655,
+      28.321,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.013,
+      28.321,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.371,
+      28.321,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.728,
+      28.321,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.086,
+      28.321,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.444,
+      28.321,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.802,
+      28.321,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.16,
+      28.321,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.518,
+      28.321,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.876,
+      28.321,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      28.234,
+      28.321,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      28.592,
+      28.321,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      28.95,
+      28.321,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      29.308,
+      28.321,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      29.666,
+      28.321,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      30.024,
+      28.321,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      30.382,
+      28.321,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      30.74,
+      28.321,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.098,
+      28.321,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.456,
+      28.321,
+      "EGY",
+      "EGY-beni-suef-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.813,
+      28.321,
+      "EGY",
+      "EGY-beni-suef-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.171,
+      28.321,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.529,
+      28.321,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.887,
+      28.321,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.245,
+      28.321,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.603,
+      28.321,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.961,
+      28.321,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.319,
+      28.321,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.035,
+      28.321,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.393,
+      28.321,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.751,
+      28.321,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.109,
+      28.321,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.467,
+      28.321,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.825,
+      28.321,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.183,
+      28.321,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.476,
+      28.011,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.834,
+      28.011,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.192,
+      28.011,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.549,
+      28.011,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.907,
+      28.011,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.265,
+      28.011,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.623,
+      28.011,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.981,
+      28.011,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.339,
+      28.011,
+      "EGY",
+      "EGY-matrouh-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.697,
+      28.011,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      28.055,
+      28.011,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      28.413,
+      28.011,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      28.771,
+      28.011,
+      "EGY",
+      "EGY-giza-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      29.129,
+      28.011,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      29.487,
+      28.011,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      29.845,
+      28.011,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      30.203,
+      28.011,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      30.561,
+      28.011,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      30.919,
+      28.011,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.277,
+      28.011,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.634,
+      28.011,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.992,
+      28.011,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.35,
+      28.011,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.708,
+      28.011,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.066,
+      28.011,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.424,
+      28.011,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.782,
+      28.011,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.14,
+      28.011,
+      "EGY",
+      "EGY-south-sinai-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.214,
+      28.011,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.572,
+      28.011,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.93,
+      28.011,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.288,
+      28.011,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.646,
+      28.011,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.004,
+      28.011,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.297,
+      27.702,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.655,
+      27.702,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.013,
+      27.702,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.371,
+      27.702,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.728,
+      27.702,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.086,
+      27.702,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.444,
+      27.702,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.802,
+      27.702,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.16,
+      27.702,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.518,
+      27.702,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.876,
+      27.702,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.234,
+      27.702,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.592,
+      27.702,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.95,
+      27.702,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.308,
+      27.702,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.666,
+      27.702,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.024,
+      27.702,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.382,
+      27.702,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.74,
+      27.702,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.098,
+      27.702,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.456,
+      27.702,
+      "EGY",
+      "EGY-minya-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.813,
+      27.702,
+      "EGY",
+      "EGY-asyut-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.171,
+      27.702,
+      "EGY",
+      "EGY-asyut-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.529,
+      27.702,
+      "EGY",
+      "EGY-asyut-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.887,
+      27.702,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.245,
+      27.702,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.961,
+      27.702,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.751,
+      27.702,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.109,
+      27.702,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.467,
+      27.702,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.825,
+      27.702,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.183,
+      27.702,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.476,
+      27.392,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.834,
+      27.392,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.192,
+      27.392,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.549,
+      27.392,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.907,
+      27.392,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.265,
+      27.392,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.623,
+      27.392,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.981,
+      27.392,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.339,
+      27.392,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.697,
+      27.392,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.055,
+      27.392,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.413,
+      27.392,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.771,
+      27.392,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.129,
+      27.392,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.487,
+      27.392,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.845,
+      27.392,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.203,
+      27.392,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.561,
+      27.392,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.919,
+      27.392,
+      "EGY",
+      "EGY-asyut-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.277,
+      27.392,
+      "EGY",
+      "EGY-asyut-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.634,
+      27.392,
+      "EGY",
+      "EGY-asyut-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.992,
+      27.392,
+      "EGY",
+      "EGY-asyut-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.35,
+      27.392,
+      "EGY",
+      "EGY-asyut-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.708,
+      27.392,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.066,
+      27.392,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.424,
+      27.392,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.93,
+      27.392,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.288,
+      27.392,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.646,
+      27.392,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.004,
+      27.392,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.297,
+      27.082,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.655,
+      27.082,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.013,
+      27.082,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.371,
+      27.082,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.728,
+      27.082,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.086,
+      27.082,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.444,
+      27.082,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.802,
+      27.082,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.16,
+      27.082,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.518,
+      27.082,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.876,
+      27.082,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.234,
+      27.082,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.592,
+      27.082,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.95,
+      27.082,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.308,
+      27.082,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.666,
+      27.082,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.024,
+      27.082,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.382,
+      27.082,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.74,
+      27.082,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.098,
+      27.082,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.456,
+      27.082,
+      "EGY",
+      "EGY-asyut-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.813,
+      27.082,
+      "EGY",
+      "EGY-asyut-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.171,
+      27.082,
+      "EGY",
+      "EGY-asyut-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.529,
+      27.082,
+      "EGY",
+      "EGY-sohag-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.887,
+      27.082,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.245,
+      27.082,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.603,
+      27.082,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      36.109,
+      27.082,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.467,
+      27.082,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.825,
+      27.082,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.183,
+      27.082,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.476,
+      26.772,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.834,
+      26.772,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.192,
+      26.772,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.549,
+      26.772,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.907,
+      26.772,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.265,
+      26.772,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.623,
+      26.772,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.981,
+      26.772,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.339,
+      26.772,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.697,
+      26.772,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.055,
+      26.772,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.413,
+      26.772,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.771,
+      26.772,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.129,
+      26.772,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.487,
+      26.772,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.845,
+      26.772,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.203,
+      26.772,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.561,
+      26.772,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.919,
+      26.772,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.277,
+      26.772,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.634,
+      26.772,
+      "EGY",
+      "EGY-sohag-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.992,
+      26.772,
+      "EGY",
+      "EGY-sohag-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.35,
+      26.772,
+      "EGY",
+      "EGY-sohag-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.708,
+      26.772,
+      "EGY",
+      "EGY-sohag-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.066,
+      26.772,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.424,
+      26.772,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.782,
+      26.772,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      36.288,
+      26.772,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.646,
+      26.772,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.004,
+      26.772,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.297,
+      26.462,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.655,
+      26.462,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.013,
+      26.462,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.371,
+      26.462,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.728,
+      26.462,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.086,
+      26.462,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.444,
+      26.462,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.802,
+      26.462,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.16,
+      26.462,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.518,
+      26.462,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.876,
+      26.462,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.234,
+      26.462,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.592,
+      26.462,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.95,
+      26.462,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.308,
+      26.462,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.666,
+      26.462,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.024,
+      26.462,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.382,
+      26.462,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.74,
+      26.462,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.098,
+      26.462,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.456,
+      26.462,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.813,
+      26.462,
+      "EGY",
+      "EGY-sohag-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.171,
+      26.462,
+      "EGY",
+      "EGY-sohag-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.529,
+      26.462,
+      "EGY",
+      "EGY-qena-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.887,
+      26.462,
+      "EGY",
+      "EGY-qena-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.245,
+      26.462,
+      "EGY",
+      "EGY-qena-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.603,
+      26.462,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.961,
+      26.462,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      36.467,
+      26.462,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.825,
+      26.462,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.183,
+      26.462,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.476,
+      26.152,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.834,
+      26.152,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.192,
+      26.152,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.549,
+      26.152,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.907,
+      26.152,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.265,
+      26.152,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.623,
+      26.152,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.981,
+      26.152,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.339,
+      26.152,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.697,
+      26.152,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.055,
+      26.152,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.413,
+      26.152,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.771,
+      26.152,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.129,
+      26.152,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.487,
+      26.152,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.845,
+      26.152,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.203,
+      26.152,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.561,
+      26.152,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.919,
+      26.152,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.277,
+      26.152,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.634,
+      26.152,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.992,
+      26.152,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.35,
+      26.152,
+      "EGY",
+      "EGY-qena-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.708,
+      26.152,
+      "EGY",
+      "EGY-qena-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.066,
+      26.152,
+      "EGY",
+      "EGY-qena-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.424,
+      26.152,
+      "EGY",
+      "EGY-qena-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.782,
+      26.152,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.14,
+      26.152,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      36.646,
+      26.152,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.004,
+      26.152,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.297,
+      25.842,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.655,
+      25.842,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.013,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.371,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.728,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.086,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.444,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.802,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.16,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.518,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.876,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.234,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.592,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.95,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.308,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.666,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.024,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.382,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.74,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.098,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.456,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.813,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.171,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.529,
+      25.842,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.887,
+      25.842,
+      "EGY",
+      "EGY-luxor-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.245,
+      25.842,
+      "EGY",
+      "EGY-qena-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.603,
+      25.842,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.961,
+      25.842,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.319,
+      25.842,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      36.825,
+      25.842,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.183,
+      25.842,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.476,
+      25.532,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.834,
+      25.532,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.192,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.549,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.907,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.265,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.623,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.981,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.339,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.697,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.055,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.413,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.771,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.129,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.487,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.845,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.203,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.561,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.919,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.277,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.634,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.992,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.35,
+      25.532,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.708,
+      25.532,
+      "EGY",
+      "EGY-luxor-governate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.066,
+      25.532,
+      "EGY",
+      "EGY-qena-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.424,
+      25.532,
+      "EGY",
+      "EGY-qena-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.782,
+      25.532,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.14,
+      25.532,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.498,
+      25.532,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      37.004,
+      25.532,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.297,
+      25.222,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.655,
+      25.222,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.013,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.371,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.728,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.086,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.444,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.802,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.16,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.518,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.876,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.234,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.592,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.95,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.308,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.666,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.024,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.382,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.74,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.098,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.456,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.813,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.171,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.529,
+      25.222,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.887,
+      25.222,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.245,
+      25.222,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.603,
+      25.222,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.961,
+      25.222,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.319,
+      25.222,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.677,
+      25.222,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      37.183,
+      25.222,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.476,
+      24.912,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.834,
+      24.912,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.192,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.549,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.907,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.265,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.623,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.981,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.339,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.697,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.055,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.413,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.771,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.129,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.487,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.845,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.203,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.561,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.919,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.277,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.634,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.992,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.35,
+      24.912,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.708,
+      24.912,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.066,
+      24.912,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.424,
+      24.912,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.782,
+      24.912,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.14,
+      24.912,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.498,
+      24.912,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.856,
+      24.912,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      24.297,
+      24.602,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.655,
+      24.602,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.013,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.371,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.728,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.086,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.444,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.802,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.16,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.518,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.876,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.234,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.592,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.95,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.308,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.666,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.024,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.382,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.74,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.098,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.456,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.813,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.171,
+      24.602,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.529,
+      24.602,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.887,
+      24.602,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.245,
+      24.602,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.603,
+      24.602,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.961,
+      24.602,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.319,
+      24.602,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.677,
+      24.602,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.035,
+      24.602,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      24.476,
+      24.292,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.834,
+      24.292,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.192,
+      24.292,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.549,
+      24.292,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.907,
+      24.292,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.265,
+      24.292,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.623,
+      24.292,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.981,
+      24.292,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.339,
+      24.292,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.697,
+      24.292,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.055,
+      24.292,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.413,
+      24.292,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.771,
+      24.292,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.129,
+      24.292,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.487,
+      24.292,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.845,
+      24.292,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.203,
+      24.292,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.561,
+      24.292,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.919,
+      24.292,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.277,
+      24.292,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.634,
+      24.292,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.992,
+      24.292,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.35,
+      24.292,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.708,
+      24.292,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.066,
+      24.292,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.424,
+      24.292,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.782,
+      24.292,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.14,
+      24.292,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.498,
+      24.292,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.856,
+      24.292,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.214,
+      24.292,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      24.297,
+      23.982,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.655,
+      23.982,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.013,
+      23.982,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.371,
+      23.982,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.728,
+      23.982,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.086,
+      23.982,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.444,
+      23.982,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.802,
+      23.982,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.16,
+      23.982,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.518,
+      23.982,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.876,
+      23.982,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.234,
+      23.982,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.592,
+      23.982,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.95,
+      23.982,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.308,
+      23.982,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.666,
+      23.982,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.024,
+      23.982,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.382,
+      23.982,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.74,
+      23.982,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.098,
+      23.982,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.456,
+      23.982,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.813,
+      23.982,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      32.171,
+      23.982,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.529,
+      23.982,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.887,
+      23.982,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.245,
+      23.982,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.603,
+      23.982,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.961,
+      23.982,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.319,
+      23.982,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.677,
+      23.982,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.035,
+      23.982,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.393,
+      23.982,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      24.476,
+      23.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.834,
+      23.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.192,
+      23.672,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.549,
+      23.672,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.907,
+      23.672,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.265,
+      23.672,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.623,
+      23.672,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.981,
+      23.672,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.339,
+      23.672,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.697,
+      23.672,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.055,
+      23.672,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.413,
+      23.672,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.771,
+      23.672,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.129,
+      23.672,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.487,
+      23.672,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.845,
+      23.672,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.203,
+      23.672,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.561,
+      23.672,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.919,
+      23.672,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.277,
+      23.672,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.634,
+      23.672,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.992,
+      23.672,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.35,
+      23.672,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.708,
+      23.672,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.066,
+      23.672,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.424,
+      23.672,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.782,
+      23.672,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.14,
+      23.672,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.498,
+      23.672,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.856,
+      23.672,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.214,
+      23.672,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      24.297,
+      23.362,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.655,
+      23.362,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.013,
+      23.362,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.371,
+      23.362,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.728,
+      23.362,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.086,
+      23.362,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.444,
+      23.362,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.802,
+      23.362,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.16,
+      23.362,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.518,
+      23.362,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.876,
+      23.362,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.234,
+      23.362,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.592,
+      23.362,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.95,
+      23.362,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.308,
+      23.362,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.666,
+      23.362,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.024,
+      23.362,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.382,
+      23.362,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.74,
+      23.362,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.098,
+      23.362,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.456,
+      23.362,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.813,
+      23.362,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.171,
+      23.362,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.529,
+      23.362,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.887,
+      23.362,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.245,
+      23.362,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.603,
+      23.362,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.961,
+      23.362,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.319,
+      23.362,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.677,
+      23.362,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.035,
+      23.362,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.393,
+      23.362,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      24.476,
+      23.052,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.834,
+      23.052,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.192,
+      23.052,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.549,
+      23.052,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.907,
+      23.052,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.265,
+      23.052,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.623,
+      23.052,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.981,
+      23.052,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.339,
+      23.052,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.697,
+      23.052,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.055,
+      23.052,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.413,
+      23.052,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.771,
+      23.052,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.129,
+      23.052,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.487,
+      23.052,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.845,
+      23.052,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.203,
+      23.052,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.561,
+      23.052,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.919,
+      23.052,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.277,
+      23.052,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.634,
+      23.052,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.992,
+      23.052,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.35,
+      23.052,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.708,
+      23.052,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.066,
+      23.052,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.424,
+      23.052,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.782,
+      23.052,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.14,
+      23.052,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.498,
+      23.052,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.856,
+      23.052,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.214,
+      23.052,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.572,
+      23.052,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      24.297,
+      22.742,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.655,
+      22.742,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.013,
+      22.742,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.371,
+      22.742,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.728,
+      22.742,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.086,
+      22.742,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.444,
+      22.742,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.802,
+      22.742,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.16,
+      22.742,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.518,
+      22.742,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.876,
+      22.742,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.234,
+      22.742,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.592,
+      22.742,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.95,
+      22.742,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.308,
+      22.742,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.666,
+      22.742,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.024,
+      22.742,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.382,
+      22.742,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.74,
+      22.742,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.098,
+      22.742,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.456,
+      22.742,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.813,
+      22.742,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.171,
+      22.742,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.529,
+      22.742,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.887,
+      22.742,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.245,
+      22.742,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.603,
+      22.742,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.961,
+      22.742,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.319,
+      22.742,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.677,
+      22.742,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.035,
+      22.742,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.393,
+      22.742,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.751,
+      22.742,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      24.476,
+      22.432,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.834,
+      22.432,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.192,
+      22.432,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.549,
+      22.432,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.907,
+      22.432,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.265,
+      22.432,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.623,
+      22.432,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.981,
+      22.432,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.339,
+      22.432,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.697,
+      22.432,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.055,
+      22.432,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.413,
+      22.432,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.771,
+      22.432,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.129,
+      22.432,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.487,
+      22.432,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.845,
+      22.432,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.203,
+      22.432,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.561,
+      22.432,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.919,
+      22.432,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.277,
+      22.432,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.634,
+      22.432,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      31.992,
+      22.432,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.35,
+      22.432,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.708,
+      22.432,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.066,
+      22.432,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.424,
+      22.432,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.782,
+      22.432,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.14,
+      22.432,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.498,
+      22.432,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.856,
+      22.432,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.214,
+      22.432,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.572,
+      22.432,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.93,
+      22.432,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      36.288,
+      22.432,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      24.297,
+      22.122,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.655,
+      22.122,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.013,
+      22.122,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.371,
+      22.122,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      25.728,
+      22.122,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.086,
+      22.122,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.444,
+      22.122,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      26.802,
+      22.122,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.16,
+      22.122,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.518,
+      22.122,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      27.876,
+      22.122,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.234,
+      22.122,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.592,
+      22.122,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      28.95,
+      22.122,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.308,
+      22.122,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      29.666,
+      22.122,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.024,
+      22.122,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.382,
+      22.122,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      30.74,
+      22.122,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.098,
+      22.122,
+      "EGY",
+      "EGY-new-valley-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      31.456,
+      22.122,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      31.813,
+      22.122,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.171,
+      22.122,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.529,
+      22.122,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      32.887,
+      22.122,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.245,
+      22.122,
+      "EGY",
+      "EGY-aswan-governorate",
+      87,
+      "regional-survey"
+    ],
+    [
+      33.603,
+      22.122,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      33.961,
+      22.122,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.319,
+      22.122,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      34.677,
+      22.122,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.035,
+      22.122,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.393,
+      22.122,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      35.751,
+      22.122,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      36.109,
+      22.122,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      36.467,
+      22.122,
+      "EGY",
+      "EGY-red-sea-governorate",
+      85,
+      "national-indicator"
+    ],
+    [
+      24.476,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.834,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.192,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.549,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.907,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.265,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.623,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.981,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.339,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.697,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.055,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.413,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.771,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.129,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.487,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.845,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      30.203,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      30.561,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      30.919,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      31.277,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      31.634,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      31.992,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.35,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.708,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.066,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.424,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.782,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.14,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.498,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.856,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.214,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.572,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.93,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.288,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.646,
+      21.812,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "labels": [
+    {
+      "iso3": "EGY",
+      "name": "Egypt",
+      "x": 29.85861818181812,
+      "y": 26.48306303030301
+    }
+  ]
+}

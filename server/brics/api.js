@@ -33,10 +33,14 @@ function memo(key, fn) {
   return cache.get(key);
 }
 
-const latestMonth = () => memo('latestMonth', () => getDb().prepare("SELECT MAX(month) m FROM demand_monthly WHERE source != 'platform'").get().m);
+const latestMonth = () => memo('latestMonth', () => {
+  const row = getDb().prepare("SELECT MAX(month) m FROM demand_monthly WHERE source != 'platform'").get();
+  return row?.m || '2025-01';
+});
 
 function monthsBack(month, n) {
-  const [y, m] = month.split('-').map(Number);
+  const mStr = month || '2025-01';
+  const [y, m] = mStr.split('-').map(Number);
   const d = new Date(Date.UTC(y, m - 1 - n, 1));
   return d.toISOString().slice(0, 7);
 }

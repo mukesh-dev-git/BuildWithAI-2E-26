@@ -1,0 +1,252 @@
+[
+  {
+    "iso3": "BRA",
+    "name": "Brazil",
+    "basis": "citizen-demand",
+    "top": [
+      {
+        "theme": "transport",
+        "label": "Transport & logistics",
+        "score": 40,
+        "regions": 0
+      },
+      {
+        "theme": "jobs",
+        "label": "Job opportunities",
+        "score": 40,
+        "regions": 0
+      },
+      {
+        "theme": "digital",
+        "label": "Digital connectivity",
+        "score": 39,
+        "regions": 0
+      }
+    ]
+  },
+  {
+    "iso3": "RUS",
+    "name": "Russia",
+    "basis": "national-indicator",
+    "top": [
+      {
+        "theme": "transport",
+        "label": "Transport & logistics",
+        "score": 65,
+        "regions": 0
+      },
+      {
+        "theme": "energy",
+        "label": "Clean energy",
+        "score": 47,
+        "regions": 0
+      },
+      {
+        "theme": "air",
+        "label": "Clean air",
+        "score": 15,
+        "regions": 0
+      }
+    ]
+  },
+  {
+    "iso3": "IND",
+    "name": "India",
+    "basis": "regional-survey",
+    "top": [
+      {
+        "theme": "education",
+        "label": "Education access",
+        "score": 100,
+        "regions": 31
+      },
+      {
+        "theme": "air",
+        "label": "Clean air",
+        "score": 100,
+        "regions": 0
+      },
+      {
+        "theme": "nutrition",
+        "label": "Food & nutrition",
+        "score": 100,
+        "regions": 36
+      }
+    ]
+  },
+  {
+    "iso3": "CHN",
+    "name": "China",
+    "basis": "national-indicator",
+    "top": [
+      {
+        "theme": "air",
+        "label": "Clean air",
+        "score": 60,
+        "regions": 0
+      },
+      {
+        "theme": "energy",
+        "label": "Clean energy",
+        "score": 35,
+        "regions": 0
+      },
+      {
+        "theme": "jobs",
+        "label": "Job opportunities",
+        "score": 31,
+        "regions": 0
+      }
+    ]
+  },
+  {
+    "iso3": "ZAF",
+    "name": "South Africa",
+    "basis": "regional-survey",
+    "top": [
+      {
+        "theme": "jobs",
+        "label": "Job opportunities",
+        "score": 100,
+        "regions": 0
+      },
+      {
+        "theme": "health",
+        "label": "Healthcare access",
+        "score": 95,
+        "regions": 9
+      },
+      {
+        "theme": "nutrition",
+        "label": "Food & nutrition",
+        "score": 86,
+        "regions": 9
+      }
+    ]
+  },
+  {
+    "iso3": "EGY",
+    "name": "Egypt",
+    "basis": "regional-survey",
+    "top": [
+      {
+        "theme": "education",
+        "label": "Education access",
+        "score": 87,
+        "regions": 25
+      },
+      {
+        "theme": "air",
+        "label": "Clean air",
+        "score": 85,
+        "regions": 0
+      },
+      {
+        "theme": "nutrition",
+        "label": "Food & nutrition",
+        "score": 66,
+        "regions": 25
+      }
+    ]
+  },
+  {
+    "iso3": "ETH",
+    "name": "Ethiopia",
+    "basis": "regional-survey",
+    "top": [
+      {
+        "theme": "water",
+        "label": "Water security",
+        "score": 100,
+        "regions": 11
+      },
+      {
+        "theme": "health",
+        "label": "Healthcare access",
+        "score": 100,
+        "regions": 11
+      },
+      {
+        "theme": "digital",
+        "label": "Digital connectivity",
+        "score": 100,
+        "regions": 10
+      }
+    ]
+  },
+  {
+    "iso3": "IRN",
+    "name": "Iran",
+    "basis": "national-indicator",
+    "top": [
+      {
+        "theme": "transport",
+        "label": "Transport & logistics",
+        "score": 80,
+        "regions": 0
+      },
+      {
+        "theme": "air",
+        "label": "Clean air",
+        "score": 78,
+        "regions": 0
+      },
+      {
+        "theme": "jobs",
+        "label": "Job opportunities",
+        "score": 55,
+        "regions": 0
+      }
+    ]
+  },
+  {
+    "iso3": "ARE",
+    "name": "United Arab Emirates",
+    "basis": "national-indicator",
+    "top": [
+      {
+        "theme": "air",
+        "label": "Clean air",
+        "score": 100,
+        "regions": 0
+      },
+      {
+        "theme": "energy",
+        "label": "Clean energy",
+        "score": 49,
+        "regions": 0
+      },
+      {
+        "theme": "jobs",
+        "label": "Job opportunities",
+        "score": 14,
+        "regions": 0
+      }
+    ]
+  },
+  {
+    "iso3": "IDN",
+    "name": "Indonesia",
+    "basis": "regional-survey",
+    "top": [
+      {
+        "theme": "health",
+        "label": "Healthcare access",
+        "score": 100,
+        "regions": 34
+      },
+      {
+        "theme": "water",
+        "label": "Water security",
+        "score": 88,
+        "regions": 26
+      },
+      {
+        "theme": "digital",
+        "label": "Digital connectivity",
+        "score": 65,
+        "regions": 16
+      }
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "worldbank",
+    "name": "World Development Indicators",
+    "publisher": "World Bank",
+    "url": "https://data.worldbank.org/",
+    "license": "CC BY 4.0",
+    "coverage": "10 BRICS members, 2000–latest",
+    "records": 4659,
+    "retrieved_at": "2026-09-30",
+    "notes": "Population, poverty, access to electricity/water/sanitation/internet, hospital beds, literacy, capital formation and PPI infrastructure investment."
+  },
+  {
+    "id": "geoboundaries",
+    "name": "geoBoundaries ADM1",
+    "publisher": "William & Mary geoLab",
+    "url": "https://www.geoboundaries.org/",
+    "license": "CC BY 4.0 (gbOpen)",
+    "coverage": "10 BRICS members, state/province level",
+    "records": 299,
+    "retrieved_at": "2026-09-30",
+    "notes": "First-level administrative boundaries, simplified for web display."
+  },
+  {
+    "id": "ibge",
+    "name": "Population estimates by state",
+    "publisher": "IBGE (Brazil)",
+    "url": "https://servicodados.ibge.gov.br/",
+    "license": "Open government data",
+    "coverage": "Brazil, 27 states",
+    "records": 27,
+    "retrieved_at": "2026-09-30",
+    "notes": "Used to normalise demand per 100k residents."
+  },
+  {
+    "id": "municipios",
+    "name": "Brazilian municipalities with coordinates",
+    "publisher": "kelvins/municipios-brasileiros (IBGE codes)",
+    "url": "https://github.com/kelvins/municipios-brasileiros",
+    "license": "MIT",
+    "coverage": "Brazil, all municipalities",
+    "records": 5571,
+    "retrieved_at": "2026-09-30",
+    "notes": "Places city-level demand hotspots on the map."
+  },
+  {
+    "id": "dhs",
+    "name": "DHS sub-national survey estimates",
+    "publisher": "The DHS Program (ICF / USAID)",
+    "url": "https://api.dhsprogram.com/",
+    "license": "Free public API; cite The DHS Program",
+    "coverage": "India NFHS-5 2019-21, Ethiopia 2019, Indonesia 2017, South Africa 2016, Egypt 2014 (regional groups)",
+    "records": 886,
+    "retrieved_at": "2026-09-30",
+    "notes": "State/province estimates of improved water, sanitation, electricity, vaccination, under-5 mortality, female literacy, stunting and mobile phones."
+  }
+]

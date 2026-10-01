@@ -1,0 +1,750 @@
+{
+  "goal": {
+    "id": "health",
+    "label": "Healthcare access",
+    "icon": "heart",
+    "color": "#ef4444",
+    "sector": "health",
+    "blurb": "Accessible primary health care and better child-health outcomes",
+    "headline": {
+      "key": "u5_mortality",
+      "label": "Under-5 mortality",
+      "unit": "per 1,000",
+      "better": "down"
+    }
+  },
+  "country": {
+    "iso3": "RUS",
+    "name": "Russia"
+  },
+  "milestones": [
+    {
+      "id": "need",
+      "label": "Need identified",
+      "status": "na",
+      "source": "data",
+      "evidence": "Need score 7, below the 25 priority line"
+    },
+    {
+      "id": "strategy",
+      "label": "Strategy approved",
+      "status": "not_started",
+      "source": "none",
+      "evidence": "No flagship programme on record"
+    },
+    {
+      "id": "funding",
+      "label": "Funding secured",
+      "status": "not_started",
+      "source": "none",
+      "evidence": "No open investment data for this goal. Update when funding is confirmed"
+    },
+    {
+      "id": "pilot",
+      "label": "Pilot launched",
+      "status": "not_started",
+      "source": "none",
+      "evidence": "Not reported yet"
+    },
+    {
+      "id": "full",
+      "label": "Full implementation",
+      "status": "not_started",
+      "source": "none",
+      "evidence": "Not reported yet"
+    },
+    {
+      "id": "impact",
+      "label": "Impact measured",
+      "status": "done",
+      "date": "2024",
+      "source": "data",
+      "evidence": "Under-5 mortality 10.4 → 5.2 (2010–2024). An outcome trend, not proof of attribution"
+    }
+  ],
+  "needScore": 7,
+  "inScope": false,
+  "progress": 0.16666666666666666,
+  "done": 1,
+  "state": "na",
+  "programme": null,
+  "regionalCount": 0,
+  "regions": [],
+  "regionsCovered": 0,
+  "regionsNeeding": 0,
+  "others": [
+    {
+      "iso3": "RUS",
+      "name": "Russia",
+      "needScore": 7,
+      "inScope": false,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "na",
+          "source": "data",
+          "evidence": "Need score 7, below the 25 priority line"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Under-5 mortality 10.4 → 5.2 (2010–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.16666666666666666,
+      "done": 1,
+      "state": "na",
+      "programme": null,
+      "regionalCount": 0
+    },
+    {
+      "iso3": "BRA",
+      "name": "Brazil",
+      "needScore": 28,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 28: under-5 mortality 14 per 1,000, 2 physicians per 1,000"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2013",
+          "source": "curated",
+          "evidence": "Mais Médicos (2013): doctors placed in underserved municipalities"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Under-5 mortality 16.7 → 14.2 (2013–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "in_progress",
+      "programme": "Mais Médicos (2013): doctors placed in underserved municipalities",
+      "regionalCount": 0
+    },
+    {
+      "iso3": "IND",
+      "name": "India",
+      "needScore": 98,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 98 (regional peak 98): under-5 mortality 27 per 1,000, 1 physicians per 1,000"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2018",
+          "source": "curated",
+          "evidence": "Ayushman Bharat (2018): health insurance plus primary health and wellness centres"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Under-5 mortality 36.9 → 26.6 (2018–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "in_progress",
+      "programme": "Ayushman Bharat (2018): health insurance plus primary health and wellness centres",
+      "regionalCount": 36
+    },
+    {
+      "iso3": "EGY",
+      "name": "Egypt",
+      "needScore": 67,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 67 (regional peak 49): under-5 mortality 22 per 1,000, 1 physicians per 1,000"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2018",
+          "source": "curated",
+          "evidence": "Universal Health Insurance law (2018): phased universal coverage"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Under-5 mortality 25.2 → 22.4 (2018–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "in_progress",
+      "programme": "Universal Health Insurance law (2018): phased universal coverage",
+      "regionalCount": 25
+    },
+    {
+      "iso3": "ETH",
+      "name": "Ethiopia",
+      "needScore": 100,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 100 (regional peak 100): under-5 mortality 45 per 1,000, 0 physicians per 1,000"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2003",
+          "source": "curated",
+          "evidence": "Health Extension Program (2003): community health extension workers"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Under-5 mortality 121.0 → 44.5 (2003–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "in_progress",
+      "programme": "Health Extension Program (2003): community health extension workers",
+      "regionalCount": 11
+    },
+    {
+      "iso3": "IRN",
+      "name": "Iran",
+      "needScore": 34,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 34: under-5 mortality 11 per 1,000, 2 physicians per 1,000"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2014",
+          "source": "curated",
+          "evidence": "Health Transformation Plan (2014): reducing out-of-pocket spending"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Under-5 mortality 16.1 → 11.3 (2014–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "in_progress",
+      "programme": "Health Transformation Plan (2014): reducing out-of-pocket spending",
+      "regionalCount": 0
+    },
+    {
+      "iso3": "IDN",
+      "name": "Indonesia",
+      "needScore": 100,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 100 (regional peak 100): under-5 mortality 18 per 1,000, 1 physicians per 1,000"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2014",
+          "source": "curated",
+          "evidence": "JKN (2014): national health insurance"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Under-5 mortality 27.3 → 17.7 (2014–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "in_progress",
+      "programme": "JKN (2014): national health insurance",
+      "regionalCount": 34
+    },
+    {
+      "iso3": "ZAF",
+      "name": "South Africa",
+      "needScore": 95,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 95 (regional peak 95): under-5 mortality 35 per 1,000, 1 physicians per 1,000"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Under-5 mortality 50.3 → 35.1 (2010–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.3333333333333333,
+      "done": 2,
+      "state": "in_progress",
+      "programme": null,
+      "regionalCount": 9
+    },
+    {
+      "iso3": "CHN",
+      "name": "China",
+      "needScore": 7,
+      "inScope": false,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "na",
+          "source": "data",
+          "evidence": "Need score 7, below the 25 priority line"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2016",
+          "source": "curated",
+          "evidence": "Healthy China 2030 (2016): national health strategy"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Under-5 mortality 10.0 → 5.7 (2016–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.3333333333333333,
+      "done": 2,
+      "state": "na",
+      "programme": "Healthy China 2030 (2016): national health strategy",
+      "regionalCount": 0
+    },
+    {
+      "iso3": "ARE",
+      "name": "United Arab Emirates",
+      "needScore": 6,
+      "inScope": false,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "na",
+          "source": "data",
+          "evidence": "Need score 6, below the 25 priority line"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Under-5 mortality 8.8 → 4.8 (2010–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.16666666666666666,
+      "done": 1,
+      "state": "na",
+      "programme": null,
+      "regionalCount": 0
+    }
+  ],
+  "learn": [
+    {
+      "iso3": "CHN",
+      "model": "Healthy China 2030 (2016)",
+      "programme": "Healthy China 2030 (2016): national health strategy",
+      "match": null
+    },
+    {
+      "iso3": "ARE",
+      "model": "Under-5 mortality improvement",
+      "programme": null,
+      "match": null
+    }
+  ],
+  "investments": [],
+  "outcome": [
+    {
+      "year": 2005,
+      "value": 13.9
+    },
+    {
+      "year": 2006,
+      "value": 12.8
+    },
+    {
+      "year": 2007,
+      "value": 12
+    },
+    {
+      "year": 2008,
+      "value": 11.3
+    },
+    {
+      "year": 2009,
+      "value": 10.7
+    },
+    {
+      "year": 2010,
+      "value": 10.4
+    },
+    {
+      "year": 2011,
+      "value": 10.2
+    },
+    {
+      "year": 2012,
+      "value": 9.9
+    },
+    {
+      "year": 2013,
+      "value": 9.5
+    },
+    {
+      "year": 2014,
+      "value": 8.9
+    },
+    {
+      "year": 2015,
+      "value": 8.2
+    },
+    {
+      "year": 2016,
+      "value": 7.5
+    },
+    {
+      "year": 2017,
+      "value": 6.9
+    },
+    {
+      "year": 2018,
+      "value": 6.4
+    },
+    {
+      "year": 2019,
+      "value": 6
+    },
+    {
+      "year": 2020,
+      "value": 5.7
+    },
+    {
+      "year": 2021,
+      "value": 5.5
+    },
+    {
+      "year": 2022,
+      "value": 5.4
+    },
+    {
+      "year": 2023,
+      "value": 5.3
+    },
+    {
+      "year": 2024,
+      "value": 5.2
+    }
+  ],
+  "lastUpdated": null,
+  "nextReview": null
+}

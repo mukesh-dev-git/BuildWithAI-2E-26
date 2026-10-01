@@ -1,0 +1,6157 @@
+{
+  "stages": [
+    [
+      "reviewed",
+      "Reviewed"
+    ],
+    [
+      "matched",
+      "Country matched"
+    ],
+    [
+      "funding",
+      "Funding identified"
+    ],
+    [
+      "pilot",
+      "Pilot approved"
+    ],
+    [
+      "implementation",
+      "Implementation started"
+    ],
+    [
+      "impact",
+      "Impact measured"
+    ]
+  ],
+  "types": {
+    "shared": {
+      "label": "Shared challenge",
+      "note": "Several members face the same problem"
+    },
+    "joint": {
+      "label": "Joint initiative",
+      "note": "Two members could pilot a solution together"
+    },
+    "transfer": {
+      "label": "Knowledge transfer",
+      "note": "Another member has relevant experience"
+    },
+    "national": {
+      "label": "National action",
+      "note": "For one member only"
+    },
+    "research": {
+      "label": "Research opportunity",
+      "note": "Shared problem no member has solved yet"
+    }
+  },
+  "kpis": {
+    "sharedPriorities": 8,
+    "countryPlans": 10,
+    "transferMatches": 26,
+    "transferLearners": 5,
+    "tracked": 64,
+    "inProgress": 0
+  },
+  "shared": [
+    {
+      "id": "shared:health",
+      "theme": "health",
+      "label": "Healthcare access",
+      "icon": "heart",
+      "color": "#ef4444",
+      "sector": "health",
+      "type": "shared",
+      "needCountries": [
+        "ETH",
+        "ZAF",
+        "IND",
+        "EGY",
+        "IDN"
+      ],
+      "mentorCountries": [
+        "CHN",
+        "RUS",
+        "ARE"
+      ],
+      "score": 88,
+      "components": {
+        "demand": 100,
+        "gap": 76,
+        "population": 88,
+        "mismatch": null
+      },
+      "why": "High regional need + infrastructure gaps",
+      "actions": [
+        "Exchange community and primary-care delivery models",
+        "Share telemedicine and mobile-clinic playbooks",
+        "Pool child-health outcome data for joint evaluation"
+      ],
+      "implementations": [
+        {
+          "iso3": "CHN",
+          "role": "mentor",
+          "status": "Mature model",
+          "text": "Healthy China 2030 (2016): national health strategy"
+        },
+        {
+          "iso3": "RUS",
+          "role": "mentor",
+          "status": "Mature model",
+          "text": "Under-5 mortality -5.2 since 2010"
+        },
+        {
+          "iso3": "ARE",
+          "role": "mentor",
+          "status": "Mature model",
+          "text": "Under-5 mortality -4.0 since 2010"
+        },
+        {
+          "iso3": "ETH",
+          "role": "need",
+          "status": "Active",
+          "text": "Health Extension Program (2003): community health extension workers"
+        },
+        {
+          "iso3": "ZAF",
+          "role": "need",
+          "status": "Needs support",
+          "text": "No flagship programme recorded; needs region-level adaptation"
+        },
+        {
+          "iso3": "IND",
+          "role": "need",
+          "status": "Active",
+          "text": "Ayushman Bharat (2018): health insurance plus primary health and wellness centres"
+        },
+        {
+          "iso3": "EGY",
+          "role": "need",
+          "status": "Active",
+          "text": "Universal Health Insurance law (2018): phased universal coverage"
+        },
+        {
+          "iso3": "IDN",
+          "role": "need",
+          "status": "Active",
+          "text": "JKN (2014): national health insurance"
+        }
+      ],
+      "populationShare": 0.5255819393415075,
+      "lifecycle": {}
+    },
+    {
+      "id": "shared:air",
+      "theme": "air",
+      "label": "Clean air",
+      "icon": "wind",
+      "color": "#14b8a6",
+      "sector": "environment",
+      "type": "shared",
+      "needCountries": [
+        "IND",
+        "ARE",
+        "EGY",
+        "IRN",
+        "CHN",
+        "ZAF"
+      ],
+      "mentorCountries": [
+        "RUS",
+        "BRA"
+      ],
+      "score": 87,
+      "components": {
+        "demand": null,
+        "gap": 79,
+        "population": 100,
+        "mismatch": null
+      },
+      "why": "Wide gaps + large population affected",
+      "actions": [
+        "Share air-quality monitoring networks and data standards",
+        "Compare city clean-air action plans",
+        "Joint research on pollution sources and health costs"
+      ],
+      "implementations": [
+        {
+          "iso3": "RUS",
+          "role": "mentor",
+          "status": "Mature model",
+          "text": "PM2.5 exposure -7.1 since 2010"
+        },
+        {
+          "iso3": "BRA",
+          "role": "mentor",
+          "status": "Mature model",
+          "text": "PM2.5 exposure -1.8 since 2010"
+        },
+        {
+          "iso3": "IND",
+          "role": "need",
+          "status": "Active",
+          "text": "National Clean Air Programme (2019)"
+        },
+        {
+          "iso3": "ARE",
+          "role": "need",
+          "status": "Needs support",
+          "text": "No flagship programme recorded; needs region-level adaptation"
+        },
+        {
+          "iso3": "EGY",
+          "role": "need",
+          "status": "Needs support",
+          "text": "No flagship programme recorded; needs region-level adaptation"
+        },
+        {
+          "iso3": "IRN",
+          "role": "need",
+          "status": "Needs support",
+          "text": "No flagship programme recorded; needs region-level adaptation"
+        },
+        {
+          "iso3": "CHN",
+          "role": "need",
+          "status": "Active",
+          "text": "Air Pollution Prevention and Control Action Plan (2013)"
+        },
+        {
+          "iso3": "ZAF",
+          "role": "need",
+          "status": "Needs support",
+          "text": "No flagship programme recorded; needs region-level adaptation"
+        }
+      ],
+      "populationShare": 0.8024100850847129,
+      "lifecycle": {}
+    },
+    {
+      "id": "shared:education",
+      "theme": "education",
+      "label": "Education access",
+      "icon": "graduation",
+      "color": "#eab308",
+      "sector": "education",
+      "type": "joint",
+      "needCountries": [
+        "ETH",
+        "IND"
+      ],
+      "mentorCountries": [
+        "BRA",
+        "IDN",
+        "CHN"
+      ],
+      "score": 82,
+      "components": {
+        "demand": 100,
+        "gap": 74,
+        "population": 68,
+        "mismatch": null
+      },
+      "why": "High regional need + infrastructure gaps",
+      "actions": [
+        "Exchange school-financing and teacher-deployment models",
+        "Share foundational literacy programmes",
+        "Joint evaluation of learning outcomes"
+      ],
+      "implementations": [
+        {
+          "iso3": "BRA",
+          "role": "mentor",
+          "status": "Mature model",
+          "text": "FUNDEB (2007): basic education financing fund"
+        },
+        {
+          "iso3": "IDN",
+          "role": "mentor",
+          "status": "Mature model",
+          "text": "Adult literacy +3.7 since 2010"
+        },
+        {
+          "iso3": "CHN",
+          "role": "mentor",
+          "status": "Mature model",
+          "text": "Adult literacy +1.6 since 2010"
+        },
+        {
+          "iso3": "ETH",
+          "role": "need",
+          "status": "Active",
+          "text": "GEQIP (2008): general education quality improvement"
+        },
+        {
+          "iso3": "IND",
+          "role": "need",
+          "status": "Active",
+          "text": "Samagra Shiksha (2018): integrated school education scheme"
+        }
+      ],
+      "populationShare": 0.4064376143012701,
+      "lifecycle": {}
+    },
+    {
+      "id": "shared:water",
+      "theme": "water",
+      "label": "Water security",
+      "icon": "droplet",
+      "color": "#3b82f6",
+      "sector": "water",
+      "type": "transfer",
+      "needCountries": [
+        "ETH"
+      ],
+      "mentorCountries": [
+        "CHN",
+        "BRA",
+        "IRN"
+      ],
+      "score": 81,
+      "components": {
+        "demand": 100,
+        "gap": 100,
+        "population": 6,
+        "mismatch": 100
+      },
+      "why": "High regional need + infrastructure gaps",
+      "actions": [
+        "Share water-monitoring and leakage-detection practices",
+        "Compare drought-management and reuse models",
+        "Launch a BRICS water resilience knowledge exchange"
+      ],
+      "implementations": [
+        {
+          "iso3": "CHN",
+          "role": "mentor",
+          "status": "Mature model",
+          "text": "Basic drinking water +7.7 since 2010"
+        },
+        {
+          "iso3": "BRA",
+          "role": "mentor",
+          "status": "Mature model",
+          "text": "Água para Todos (2011): cisterns and water systems for the semi-arid north-east"
+        },
+        {
+          "iso3": "IRN",
+          "role": "mentor",
+          "status": "Mature model",
+          "text": "Basic drinking water +1.8 since 2010"
+        },
+        {
+          "iso3": "ETH",
+          "role": "need",
+          "status": "Active",
+          "text": "One WASH National Programme (2013): integrated water, sanitation and hygiene"
+        }
+      ],
+      "populationShare": 0.034427339192923456,
+      "lifecycle": {}
+    },
+    {
+      "id": "shared:digital",
+      "theme": "digital",
+      "label": "Digital connectivity",
+      "icon": "wifi",
+      "color": "#8b5cf6",
+      "sector": "digital",
+      "type": "shared",
+      "needCountries": [
+        "ETH",
+        "IND",
+        "IDN",
+        "EGY",
+        "ZAF"
+      ],
+      "mentorCountries": [
+        "CHN",
+        "RUS",
+        "ARE"
+      ],
+      "score": 71,
+      "components": {
+        "demand": 100,
+        "gap": 72,
+        "population": 88,
+        "mismatch": 8
+      },
+      "why": "High regional need + infrastructure gaps",
+      "actions": [
+        "Share rural broadband and backbone financing models",
+        "Exchange digital public infrastructure (ID, payments, e-services) designs",
+        "Joint programme on last-mile connectivity"
+      ],
+      "implementations": [
+        {
+          "iso3": "CHN",
+          "role": "mentor",
+          "status": "Mature model",
+          "text": "Broadband China (2013): national broadband strategy"
+        },
+        {
+          "iso3": "RUS",
+          "role": "mentor",
+          "status": "Mature model",
+          "text": "Digital Economy national programme (2019)"
+        },
+        {
+          "iso3": "ARE",
+          "role": "mentor",
+          "status": "Mature model",
+          "text": "Internet users +32.0 since 2010"
+        },
+        {
+          "iso3": "ETH",
+          "role": "need",
+          "status": "Needs support",
+          "text": "No flagship programme recorded; needs region-level adaptation"
+        },
+        {
+          "iso3": "IND",
+          "role": "need",
+          "status": "Active",
+          "text": "BharatNet (2011) and Digital India (2015): village broadband and e-services"
+        },
+        {
+          "iso3": "IDN",
+          "role": "need",
+          "status": "Active",
+          "text": "Palapa Ring (2015): national fibre backbone to remote islands"
+        },
+        {
+          "iso3": "EGY",
+          "role": "need",
+          "status": "Needs support",
+          "text": "No flagship programme recorded; needs region-level adaptation"
+        },
+        {
+          "iso3": "ZAF",
+          "role": "need",
+          "status": "Active",
+          "text": "SA Connect (2013): national broadband policy"
+        }
+      ],
+      "populationShare": 0.5255819393415075,
+      "lifecycle": {}
+    },
+    {
+      "id": "shared:energy",
+      "theme": "energy",
+      "label": "Clean energy",
+      "icon": "leaf",
+      "color": "#22c55e",
+      "sector": "energy",
+      "type": "research",
+      "needCountries": [
+        "ZAF",
+        "ETH",
+        "IRN",
+        "ARE",
+        "RUS"
+      ],
+      "mentorCountries": [],
+      "score": 55,
+      "components": {
+        "demand": 100,
+        "gap": 49,
+        "population": 19,
+        "mismatch": 32
+      },
+      "why": "High regional need + persistent gaps",
+      "actions": [
+        "Share renewable procurement and auction designs",
+        "Exchange off-grid and mini-grid electrification models",
+        "Joint research on grid integration of renewables"
+      ],
+      "implementations": [
+        {
+          "iso3": "ZAF",
+          "role": "need",
+          "status": "Active",
+          "text": "REIPPPP (2011): competitive renewable energy procurement"
+        },
+        {
+          "iso3": "ETH",
+          "role": "need",
+          "status": "Active",
+          "text": "National Electrification Program (2017): grid and off-grid access"
+        },
+        {
+          "iso3": "IRN",
+          "role": "need",
+          "status": "Needs support",
+          "text": "No flagship programme recorded; needs region-level adaptation"
+        },
+        {
+          "iso3": "ARE",
+          "role": "need",
+          "status": "Active",
+          "text": "UAE Energy Strategy 2050 (2017): clean energy targets"
+        },
+        {
+          "iso3": "RUS",
+          "role": "need",
+          "status": "Needs support",
+          "text": "No flagship programme recorded; needs region-level adaptation"
+        }
+      ],
+      "populationShare": 0.11376416027507243,
+      "lifecycle": {}
+    },
+    {
+      "id": "shared:transport",
+      "theme": "transport",
+      "label": "Transport & logistics",
+      "icon": "bus",
+      "color": "#f97316",
+      "sector": "transport",
+      "type": "shared",
+      "needCountries": [
+        "ETH",
+        "IRN",
+        "RUS",
+        "IDN",
+        "EGY"
+      ],
+      "mentorCountries": [
+        "CHN",
+        "ARE",
+        "ZAF"
+      ],
+      "score": 45,
+      "components": {
+        "demand": null,
+        "gap": 69,
+        "population": 33,
+        "mismatch": 21
+      },
+      "why": "Infrastructure gaps",
+      "actions": [
+        "Compare rural road and logistics corridor programmes",
+        "Share public-transport and freight modernisation practices",
+        "Joint benchmarking of infrastructure quality"
+      ],
+      "implementations": [
+        {
+          "iso3": "CHN",
+          "role": "mentor",
+          "status": "Mature model",
+          "text": "Infrastructure quality (LPI) +0.5 since 2010"
+        },
+        {
+          "iso3": "ARE",
+          "role": "mentor",
+          "status": "Mature model",
+          "text": "Infrastructure quality (LPI) +0.3 since 2010"
+        },
+        {
+          "iso3": "ZAF",
+          "role": "mentor",
+          "status": "Mature model",
+          "text": "Infrastructure quality (LPI) +0.2 since 2010"
+        },
+        {
+          "iso3": "ETH",
+          "role": "need",
+          "status": "Active",
+          "text": "Universal Rural Road Access Program (2011)"
+        },
+        {
+          "iso3": "IRN",
+          "role": "need",
+          "status": "Needs support",
+          "text": "No flagship programme recorded; needs region-level adaptation"
+        },
+        {
+          "iso3": "RUS",
+          "role": "need",
+          "status": "Active",
+          "text": "Safe and Quality Roads national project (2017)"
+        },
+        {
+          "iso3": "IDN",
+          "role": "need",
+          "status": "Needs support",
+          "text": "No flagship programme recorded; needs region-level adaptation"
+        },
+        {
+          "iso3": "EGY",
+          "role": "need",
+          "status": "Needs support",
+          "text": "No flagship programme recorded; needs region-level adaptation"
+        }
+      ],
+      "populationShare": 0.19707435660714928,
+      "lifecycle": {}
+    },
+    {
+      "id": "shared:jobs",
+      "theme": "jobs",
+      "label": "Job opportunities",
+      "icon": "briefcase",
+      "color": "#ec4899",
+      "sector": "social",
+      "type": "shared",
+      "needCountries": [
+        "ZAF",
+        "IRN",
+        "EGY"
+      ],
+      "mentorCountries": [
+        "RUS",
+        "IDN",
+        "ARE"
+      ],
+      "score": 45,
+      "components": {
+        "demand": null,
+        "gap": 67,
+        "population": 12,
+        "mismatch": null
+      },
+      "why": "Wide gaps",
+      "actions": [
+        "Compare public employment and skills programmes",
+        "Share labour-market information systems",
+        "Joint youth-employment pilots"
+      ],
+      "implementations": [
+        {
+          "iso3": "RUS",
+          "role": "mentor",
+          "status": "Mature model",
+          "text": "Unemployment -5.3 since 2010"
+        },
+        {
+          "iso3": "IDN",
+          "role": "mentor",
+          "status": "Mature model",
+          "text": "Unemployment -2.4 since 2010"
+        },
+        {
+          "iso3": "ARE",
+          "role": "mentor",
+          "status": "Mature model",
+          "text": "Unemployment -0.6 since 2010"
+        },
+        {
+          "iso3": "ZAF",
+          "role": "need",
+          "status": "Active",
+          "text": "Expanded Public Works Programme (2004)"
+        },
+        {
+          "iso3": "IRN",
+          "role": "need",
+          "status": "Needs support",
+          "text": "No flagship programme recorded; needs region-level adaptation"
+        },
+        {
+          "iso3": "EGY",
+          "role": "need",
+          "status": "Needs support",
+          "text": "No flagship programme recorded; needs region-level adaptation"
+        }
+      ],
+      "populationShare": 0.0700203396420764,
+      "lifecycle": {}
+    }
+  ],
+  "transfers": [
+    {
+      "id": "transfer:CHN:ETH:water",
+      "theme": "water",
+      "label": "Water security",
+      "icon": "droplet",
+      "color": "#3b82f6",
+      "from": "CHN",
+      "to": "ETH",
+      "need": 100,
+      "model": "Basic drinking water improvement",
+      "match": {
+        "problem": "Medium",
+        "problemNote": "China's trajectory doesn't pass through Ethiopia's current level",
+        "context": "Low",
+        "contextNote": "Rural population differs by 42 points",
+        "income": "Low",
+        "incomeNote": "GDP per capita differs 14.9×",
+        "maturity": "Medium",
+        "evidence": "Available: basic drinking water +7.7 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:BRA:ETH:water",
+      "theme": "water",
+      "label": "Water security",
+      "icon": "droplet",
+      "color": "#3b82f6",
+      "from": "BRA",
+      "to": "ETH",
+      "need": 100,
+      "model": "Água para Todos (2011)",
+      "match": {
+        "problem": "Medium",
+        "problemNote": "Brazil's trajectory doesn't pass through Ethiopia's current level",
+        "context": "Low",
+        "contextNote": "Rural population differs by 64 points",
+        "income": "Low",
+        "incomeNote": "GDP per capita differs 11.5×",
+        "maturity": "High",
+        "evidence": "Available: basic drinking water +3.5 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:CHN:ETH:digital",
+      "theme": "digital",
+      "label": "Digital connectivity",
+      "icon": "wifi",
+      "color": "#8b5cf6",
+      "from": "CHN",
+      "to": "ETH",
+      "need": 100,
+      "model": "Broadband China (2013)",
+      "match": {
+        "problem": "High",
+        "problemNote": "China was at Ethiopia's current level (21.9) in 2008",
+        "context": "Low",
+        "contextNote": "Rural population differs by 42 points",
+        "income": "Low",
+        "incomeNote": "GDP per capita differs 14.9×",
+        "maturity": "High",
+        "evidence": "Available: internet users +57.3 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:RUS:ETH:digital",
+      "theme": "digital",
+      "label": "Digital connectivity",
+      "icon": "wifi",
+      "color": "#8b5cf6",
+      "from": "RUS",
+      "to": "ETH",
+      "need": 100,
+      "model": "Digital Economy national programme (2019)",
+      "match": {
+        "problem": "High",
+        "problemNote": "Russia was at Ethiopia's current level (21.9) in 2007",
+        "context": "Low",
+        "contextNote": "Rural population differs by 51 points",
+        "income": "Low",
+        "incomeNote": "GDP per capita differs 18.8×",
+        "maturity": "High",
+        "evidence": "Available: internet users +45.4 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:RUS:ZAF:jobs",
+      "theme": "jobs",
+      "label": "Job opportunities",
+      "icon": "briefcase",
+      "color": "#ec4899",
+      "from": "RUS",
+      "to": "ZAF",
+      "need": 100,
+      "model": "Unemployment improvement",
+      "match": {
+        "problem": "Medium",
+        "problemNote": "Russia's trajectory doesn't pass through South Africa's current level",
+        "context": "High",
+        "contextNote": "Rural population differs by 11 points",
+        "income": "Medium",
+        "incomeNote": "GDP per capita differs 2.7×",
+        "maturity": "Medium",
+        "evidence": "Available: unemployment -5.3 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:IDN:ZAF:jobs",
+      "theme": "jobs",
+      "label": "Job opportunities",
+      "icon": "briefcase",
+      "color": "#ec4899",
+      "from": "IDN",
+      "to": "ZAF",
+      "need": 100,
+      "model": "Unemployment improvement",
+      "match": {
+        "problem": "Medium",
+        "problemNote": "Indonesia's trajectory doesn't pass through South Africa's current level",
+        "context": "High",
+        "contextNote": "Rural population differs by 4 points",
+        "income": "High",
+        "incomeNote": "GDP per capita differs 1.3×",
+        "maturity": "Medium",
+        "evidence": "Available: unemployment -2.4 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:RUS:IND:air",
+      "theme": "air",
+      "label": "Clean air",
+      "icon": "wind",
+      "color": "#14b8a6",
+      "from": "RUS",
+      "to": "IND",
+      "need": 100,
+      "model": "PM2.5 exposure improvement",
+      "match": {
+        "problem": "Medium",
+        "problemNote": "Russia's trajectory doesn't pass through India's current level",
+        "context": "Low",
+        "contextNote": "Rural population differs by 40 points",
+        "income": "Low",
+        "incomeNote": "GDP per capita differs 6.5×",
+        "maturity": "Medium",
+        "evidence": "Available: pm2.5 exposure -7.1 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:RUS:ARE:air",
+      "theme": "air",
+      "label": "Clean air",
+      "icon": "wind",
+      "color": "#14b8a6",
+      "from": "RUS",
+      "to": "ARE",
+      "need": 100,
+      "model": "PM2.5 exposure improvement",
+      "match": {
+        "problem": "Medium",
+        "problemNote": "Russia's trajectory doesn't pass through United Arab Emirates's current level",
+        "context": "High",
+        "contextNote": "Rural population differs by 11 points",
+        "income": "Medium",
+        "incomeNote": "GDP per capita differs 2.9×",
+        "maturity": "Medium",
+        "evidence": "Available: pm2.5 exposure -7.1 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:BRA:IND:air",
+      "theme": "air",
+      "label": "Clean air",
+      "icon": "wind",
+      "color": "#14b8a6",
+      "from": "BRA",
+      "to": "IND",
+      "need": 100,
+      "model": "PM2.5 exposure improvement",
+      "match": {
+        "problem": "Medium",
+        "problemNote": "Brazil's trajectory doesn't pass through India's current level",
+        "context": "Low",
+        "contextNote": "Rural population differs by 52 points",
+        "income": "Medium",
+        "incomeNote": "GDP per capita differs 4.0×",
+        "maturity": "Medium",
+        "evidence": "Available: pm2.5 exposure -1.8 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:BRA:ARE:air",
+      "theme": "air",
+      "label": "Clean air",
+      "icon": "wind",
+      "color": "#14b8a6",
+      "from": "BRA",
+      "to": "ARE",
+      "need": 100,
+      "model": "PM2.5 exposure improvement",
+      "match": {
+        "problem": "Medium",
+        "problemNote": "Brazil's trajectory doesn't pass through United Arab Emirates's current level",
+        "context": "High",
+        "contextNote": "Rural population differs by 2 points",
+        "income": "Low",
+        "incomeNote": "GDP per capita differs 4.7×",
+        "maturity": "Medium",
+        "evidence": "Available: pm2.5 exposure -1.8 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:BRA:ETH:education",
+      "theme": "education",
+      "label": "Education access",
+      "icon": "graduation",
+      "color": "#eab308",
+      "from": "BRA",
+      "to": "ETH",
+      "need": 99.42500114440912,
+      "model": "FUNDEB (2007)",
+      "match": {
+        "problem": "Medium",
+        "problemNote": "Brazil's trajectory doesn't pass through Ethiopia's current level",
+        "context": "Low",
+        "contextNote": "Rural population differs by 64 points",
+        "income": "Low",
+        "incomeNote": "GDP per capita differs 11.5×",
+        "maturity": "High",
+        "evidence": "Available: adult literacy +4.4 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:IDN:ETH:education",
+      "theme": "education",
+      "label": "Education access",
+      "icon": "graduation",
+      "color": "#eab308",
+      "from": "IDN",
+      "to": "ETH",
+      "need": 99.42500114440912,
+      "model": "Adult literacy improvement",
+      "match": {
+        "problem": "Medium",
+        "problemNote": "Indonesia's trajectory doesn't pass through Ethiopia's current level",
+        "context": "Low",
+        "contextNote": "Rural population differs by 35 points",
+        "income": "Low",
+        "incomeNote": "GDP per capita differs 5.4×",
+        "maturity": "Medium",
+        "evidence": "Available: adult literacy +3.7 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:CHN:ETH:health",
+      "theme": "health",
+      "label": "Healthcare access",
+      "icon": "heart",
+      "color": "#ef4444",
+      "from": "CHN",
+      "to": "ETH",
+      "need": 97.61666666666667,
+      "model": "Healthy China 2030 (2016)",
+      "match": {
+        "problem": "Medium",
+        "problemNote": "China's trajectory doesn't pass through Ethiopia's current level",
+        "context": "Low",
+        "contextNote": "Rural population differs by 42 points",
+        "income": "Low",
+        "incomeNote": "GDP per capita differs 14.9×",
+        "maturity": "High",
+        "evidence": "Available: under-5 mortality -10.0 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:RUS:ETH:health",
+      "theme": "health",
+      "label": "Healthcare access",
+      "icon": "heart",
+      "color": "#ef4444",
+      "from": "RUS",
+      "to": "ETH",
+      "need": 97.61666666666667,
+      "model": "Under-5 mortality improvement",
+      "match": {
+        "problem": "Medium",
+        "problemNote": "Russia's trajectory doesn't pass through Ethiopia's current level",
+        "context": "Low",
+        "contextNote": "Rural population differs by 51 points",
+        "income": "Low",
+        "incomeNote": "GDP per capita differs 18.8×",
+        "maturity": "Medium",
+        "evidence": "Available: under-5 mortality -5.2 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:CHN:ETH:transport",
+      "theme": "transport",
+      "label": "Transport & logistics",
+      "icon": "bus",
+      "color": "#f97316",
+      "from": "CHN",
+      "to": "ETH",
+      "need": 94.1163,
+      "model": "Infrastructure quality (LPI) improvement",
+      "match": {
+        "problem": "High",
+        "problemNote": "China was at Ethiopia's current level (2.1) in 2007",
+        "context": "Low",
+        "contextNote": "Rural population differs by 42 points",
+        "income": "Low",
+        "incomeNote": "GDP per capita differs 14.9×",
+        "maturity": "Medium",
+        "evidence": "Available: infrastructure quality (lpi) +0.5 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:ARE:ETH:transport",
+      "theme": "transport",
+      "label": "Transport & logistics",
+      "icon": "bus",
+      "color": "#f97316",
+      "from": "ARE",
+      "to": "ETH",
+      "need": 94.1163,
+      "model": "Infrastructure quality (LPI) improvement",
+      "match": {
+        "problem": "High",
+        "problemNote": "United Arab Emirates was at Ethiopia's current level (2.1) in 2014",
+        "context": "Low",
+        "contextNote": "Rural population differs by 62 points",
+        "income": "Low",
+        "incomeNote": "GDP per capita differs 53.9×",
+        "maturity": "Medium",
+        "evidence": "Available: infrastructure quality (lpi) +0.3 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:CHN:ZAF:health",
+      "theme": "health",
+      "label": "Healthcare access",
+      "icon": "heart",
+      "color": "#ef4444",
+      "from": "CHN",
+      "to": "ZAF",
+      "need": 80.64166666666667,
+      "model": "Healthy China 2030 (2016)",
+      "match": {
+        "problem": "High",
+        "problemNote": "China was at South Africa's current level (35.1) in 2001",
+        "context": "High",
+        "contextNote": "Rural population differs by 3 points",
+        "income": "Medium",
+        "incomeNote": "GDP per capita differs 2.1×",
+        "maturity": "High",
+        "evidence": "Available: under-5 mortality -10.0 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:RUS:ZAF:health",
+      "theme": "health",
+      "label": "Healthcare access",
+      "icon": "heart",
+      "color": "#ef4444",
+      "from": "RUS",
+      "to": "ZAF",
+      "need": 80.64166666666667,
+      "model": "Under-5 mortality improvement",
+      "match": {
+        "problem": "Medium",
+        "problemNote": "Russia's trajectory doesn't pass through South Africa's current level",
+        "context": "High",
+        "contextNote": "Rural population differs by 11 points",
+        "income": "Medium",
+        "incomeNote": "GDP per capita differs 2.7×",
+        "maturity": "Medium",
+        "evidence": "Available: under-5 mortality -5.2 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:CHN:IRN:transport",
+      "theme": "transport",
+      "label": "Transport & logistics",
+      "icon": "bus",
+      "color": "#f97316",
+      "from": "CHN",
+      "to": "IRN",
+      "need": 80,
+      "model": "Infrastructure quality (LPI) improvement",
+      "match": {
+        "problem": "High",
+        "problemNote": "China was at Iran's current level (2.4) in 2007",
+        "context": "High",
+        "contextNote": "Rural population differs by 11 points",
+        "income": "Medium",
+        "incomeNote": "GDP per capita differs 3.5×",
+        "maturity": "Medium",
+        "evidence": "Available: infrastructure quality (lpi) +0.5 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:ARE:IRN:transport",
+      "theme": "transport",
+      "label": "Transport & logistics",
+      "icon": "bus",
+      "color": "#f97316",
+      "from": "ARE",
+      "to": "IRN",
+      "need": 80,
+      "model": "Infrastructure quality (LPI) improvement",
+      "match": {
+        "problem": "High",
+        "problemNote": "United Arab Emirates was at Iran's current level (2.4) in 2014",
+        "context": "High",
+        "contextNote": "Rural population differs by 9 points",
+        "income": "Low",
+        "incomeNote": "GDP per capita differs 12.8×",
+        "maturity": "Medium",
+        "evidence": "Available: infrastructure quality (lpi) +0.3 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:CHN:IND:digital",
+      "theme": "digital",
+      "label": "Digital connectivity",
+      "icon": "wifi",
+      "color": "#8b5cf6",
+      "from": "CHN",
+      "to": "IND",
+      "need": 75,
+      "model": "Broadband China (2013)",
+      "match": {
+        "problem": "High",
+        "problemNote": "China was at India's current level (70.0) in 2020",
+        "context": "Low",
+        "contextNote": "Rural population differs by 31 points",
+        "income": "Low",
+        "incomeNote": "GDP per capita differs 5.1×",
+        "maturity": "High",
+        "evidence": "Available: internet users +57.3 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:RUS:IND:digital",
+      "theme": "digital",
+      "label": "Digital connectivity",
+      "icon": "wifi",
+      "color": "#8b5cf6",
+      "from": "RUS",
+      "to": "IND",
+      "need": 75,
+      "model": "Digital Economy national programme (2019)",
+      "match": {
+        "problem": "High",
+        "problemNote": "Russia was at India's current level (70.0) in 2015",
+        "context": "Low",
+        "contextNote": "Rural population differs by 40 points",
+        "income": "Low",
+        "incomeNote": "GDP per capita differs 6.5×",
+        "maturity": "High",
+        "evidence": "Available: internet users +45.4 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:RUS:IRN:jobs",
+      "theme": "jobs",
+      "label": "Job opportunities",
+      "icon": "briefcase",
+      "color": "#ec4899",
+      "from": "RUS",
+      "to": "IRN",
+      "need": 55.34,
+      "model": "Unemployment improvement",
+      "match": {
+        "problem": "High",
+        "problemNote": "Russia was at Iran's current level (8.3) in 2009",
+        "context": "High",
+        "contextNote": "Rural population differs by 2 points",
+        "income": "Low",
+        "incomeNote": "GDP per capita differs 4.5×",
+        "maturity": "Medium",
+        "evidence": "Available: unemployment -5.3 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:IDN:IRN:jobs",
+      "theme": "jobs",
+      "label": "Job opportunities",
+      "icon": "briefcase",
+      "color": "#ec4899",
+      "from": "IDN",
+      "to": "IRN",
+      "need": 55.34,
+      "model": "Unemployment improvement",
+      "match": {
+        "problem": "High",
+        "problemNote": "Indonesia was at Iran's current level (8.3) in 2007",
+        "context": "Medium",
+        "contextNote": "Rural population differs by 18 points",
+        "income": "High",
+        "incomeNote": "GDP per capita differs 1.3×",
+        "maturity": "Medium",
+        "evidence": "Available: unemployment -2.4 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:BRA:IND:education",
+      "theme": "education",
+      "label": "Education access",
+      "icon": "graduation",
+      "color": "#eab308",
+      "from": "BRA",
+      "to": "IND",
+      "need": 47.70184861960563,
+      "model": "FUNDEB (2007)",
+      "match": {
+        "problem": "Medium",
+        "problemNote": "Brazil's trajectory doesn't pass through India's current level",
+        "context": "Low",
+        "contextNote": "Rural population differs by 52 points",
+        "income": "Medium",
+        "incomeNote": "GDP per capita differs 4.0×",
+        "maturity": "High",
+        "evidence": "Available: adult literacy +4.4 since 2010"
+      },
+      "lifecycle": {}
+    },
+    {
+      "id": "transfer:IDN:IND:education",
+      "theme": "education",
+      "label": "Education access",
+      "icon": "graduation",
+      "color": "#eab308",
+      "from": "IDN",
+      "to": "IND",
+      "need": 47.70184861960563,
+      "model": "Adult literacy improvement",
+      "match": {
+        "problem": "Medium",
+        "problemNote": "Indonesia's trajectory doesn't pass through India's current level",
+        "context": "Medium",
+        "contextNote": "Rural population differs by 24 points",
+        "income": "High",
+        "incomeNote": "GDP per capita differs 1.9×",
+        "maturity": "Medium",
+        "evidence": "Available: adult literacy +3.7 since 2010"
+      },
+      "lifecycle": {}
+    }
+  ],
+  "plans": [
+    {
+      "iso3": "BRA",
+      "name": "Brazil",
+      "top": [
+        {
+          "id": "country:BRA:transport",
+          "iso3": "BRA",
+          "theme": "transport",
+          "label": "Transport & logistics",
+          "icon": "bus",
+          "color": "#f97316",
+          "type": "national",
+          "score": 40,
+          "action": "Upgrade road and logistics infrastructure on the weakest corridors",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 40,
+            "nationalText": "logistics infrastructure score 3.2 of 5",
+            "investment": 29009120000,
+            "trend": {
+              "change": 0.10000000000000009,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "PAC growth acceleration programme (2007): infrastructure investment",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Infrastructure quality (LPI) improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Infrastructure quality (LPI) improvement"
+            },
+            {
+              "iso3": "ZAF",
+              "model": "Infrastructure quality (LPI) improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:BRA:jobs",
+          "iso3": "BRA",
+          "theme": "jobs",
+          "label": "Job opportunities",
+          "icon": "briefcase",
+          "color": "#ec4899",
+          "type": "national",
+          "score": 40,
+          "action": "Scale employment and skills programmes for the highest-unemployment groups",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 40,
+            "nationalText": "6% unemployment",
+            "investment": null,
+            "trend": {
+              "change": -2.45,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Unemployment improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:BRA:digital",
+          "iso3": "BRA",
+          "theme": "digital",
+          "label": "Digital connectivity",
+          "icon": "wifi",
+          "color": "#8b5cf6",
+          "type": "national",
+          "score": 39,
+          "action": "Extend last-mile connectivity and assisted access to online services",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 39,
+            "nationalText": "84% of people online",
+            "investment": 1754610000,
+            "trend": {
+              "change": 43.81347227,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Programa Nacional de Banda Larga (2010): national broadband plan",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Broadband China (2013)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Digital Economy national programme (2019)"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Internet users improvement"
+            }
+          ],
+          "lifecycle": {}
+        }
+      ],
+      "all": [
+        {
+          "id": "country:BRA:transport",
+          "iso3": "BRA",
+          "theme": "transport",
+          "label": "Transport & logistics",
+          "icon": "bus",
+          "color": "#f97316",
+          "type": "national",
+          "score": 40,
+          "action": "Upgrade road and logistics infrastructure on the weakest corridors",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 40,
+            "nationalText": "logistics infrastructure score 3.2 of 5",
+            "investment": 29009120000,
+            "trend": {
+              "change": 0.10000000000000009,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "PAC growth acceleration programme (2007): infrastructure investment",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Infrastructure quality (LPI) improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Infrastructure quality (LPI) improvement"
+            },
+            {
+              "iso3": "ZAF",
+              "model": "Infrastructure quality (LPI) improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:BRA:jobs",
+          "iso3": "BRA",
+          "theme": "jobs",
+          "label": "Job opportunities",
+          "icon": "briefcase",
+          "color": "#ec4899",
+          "type": "national",
+          "score": 40,
+          "action": "Scale employment and skills programmes for the highest-unemployment groups",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 40,
+            "nationalText": "6% unemployment",
+            "investment": null,
+            "trend": {
+              "change": -2.45,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Unemployment improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:BRA:digital",
+          "iso3": "BRA",
+          "theme": "digital",
+          "label": "Digital connectivity",
+          "icon": "wifi",
+          "color": "#8b5cf6",
+          "type": "national",
+          "score": 39,
+          "action": "Extend last-mile connectivity and assisted access to online services",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 39,
+            "nationalText": "84% of people online",
+            "investment": 1754610000,
+            "trend": {
+              "change": 43.81347227,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Programa Nacional de Banda Larga (2010): national broadband plan",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Broadband China (2013)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Digital Economy national programme (2019)"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Internet users improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:BRA:health",
+          "iso3": "BRA",
+          "theme": "health",
+          "label": "Healthcare access",
+          "icon": "heart",
+          "color": "#ef4444",
+          "type": "national",
+          "score": 28,
+          "action": "Expand primary-care access and child-health services where outcomes lag",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 28,
+            "nationalText": "under-5 mortality 14 per 1,000, 2 physicians per 1,000",
+            "investment": null,
+            "trend": {
+              "change": -4.400000000000002,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Mais Médicos (2013): doctors placed in underserved municipalities",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Healthy China 2030 (2016)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Under-5 mortality improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Under-5 mortality improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:BRA:air",
+          "iso3": "BRA",
+          "theme": "air",
+          "label": "Clean air",
+          "icon": "wind",
+          "color": "#14b8a6",
+          "type": "national",
+          "score": 19,
+          "action": "Deploy air-quality monitoring and act on the largest pollution sources",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 19,
+            "nationalText": "PM2.5 exposure 13 µg/m³ (WHO guideline: 5)",
+            "investment": null,
+            "trend": {
+              "change": -1.7768693825436,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "PM2.5 exposure improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:BRA:water",
+          "iso3": "BRA",
+          "theme": "water",
+          "label": "Water security",
+          "icon": "droplet",
+          "color": "#3b82f6",
+          "type": "national",
+          "score": 9,
+          "action": "Prioritise water-distribution upgrades, sanitation coverage and leakage monitoring",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 9,
+            "nationalText": "100% basic water, 92% basic sanitation",
+            "investment": 8159100000,
+            "trend": {
+              "change": 3.5290186410095004,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Água para Todos (2011): cisterns and water systems for the semi-arid north-east",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Basic drinking water improvement"
+            },
+            {
+              "iso3": "IRN",
+              "model": "Basic drinking water improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:BRA:education",
+          "iso3": "BRA",
+          "theme": "education",
+          "label": "Education access",
+          "icon": "graduation",
+          "color": "#eab308",
+          "type": "national",
+          "score": 7,
+          "action": "Target literacy and secondary-school completion in lagging regions",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 7,
+            "nationalText": "95% adult literacy, 104% secondary enrolment",
+            "investment": null,
+            "trend": {
+              "change": 4.360000610351506,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "FUNDEB (2007): basic education financing fund",
+          "learnFrom": [
+            {
+              "iso3": "IDN",
+              "model": "Adult literacy improvement"
+            },
+            {
+              "iso3": "CHN",
+              "model": "Adult literacy improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:BRA:energy",
+          "iso3": "BRA",
+          "theme": "energy",
+          "label": "Clean energy",
+          "icon": "leaf",
+          "color": "#22c55e",
+          "type": "national",
+          "score": 4,
+          "action": "Close electricity-access gaps and accelerate renewable capacity",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 4,
+            "nationalText": "100% electricity access, 47% renewable energy",
+            "investment": 66360880000,
+            "trend": {
+              "change": -0.29999999999999716,
+              "since": 2010,
+              "improving": false
+            }
+          },
+          "programme": "Luz para Todos (2003): rural electrification",
+          "learnFrom": [],
+          "lifecycle": {}
+        }
+      ]
+    },
+    {
+      "iso3": "RUS",
+      "name": "Russia",
+      "top": [
+        {
+          "id": "country:RUS:transport",
+          "iso3": "RUS",
+          "theme": "transport",
+          "label": "Transport & logistics",
+          "icon": "bus",
+          "color": "#f97316",
+          "type": "national",
+          "score": 65,
+          "action": "Upgrade road and logistics infrastructure on the weakest corridors",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 65,
+            "nationalText": "logistics infrastructure score 2.7 of 5",
+            "investment": 8131580000,
+            "trend": {
+              "change": 0.3200000000000003,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Safe and Quality Roads national project (2017)",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Infrastructure quality (LPI) improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Infrastructure quality (LPI) improvement"
+            },
+            {
+              "iso3": "ZAF",
+              "model": "Infrastructure quality (LPI) improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:RUS:energy",
+          "iso3": "RUS",
+          "theme": "energy",
+          "label": "Clean energy",
+          "icon": "leaf",
+          "color": "#22c55e",
+          "type": "national",
+          "score": 47,
+          "action": "Close electricity-access gaps and accelerate renewable capacity",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 47,
+            "nationalText": "100% electricity access, 4% renewable energy",
+            "investment": 2095710000,
+            "trend": {
+              "change": 0.20000000000000018,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:RUS:air",
+          "iso3": "RUS",
+          "theme": "air",
+          "label": "Clean air",
+          "icon": "wind",
+          "color": "#14b8a6",
+          "type": "national",
+          "score": 15,
+          "action": "Deploy air-quality monitoring and act on the largest pollution sources",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 15,
+            "nationalText": "PM2.5 exposure 12 µg/m³ (WHO guideline: 5)",
+            "investment": null,
+            "trend": {
+              "change": -7.074791392171301,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "BRA",
+              "model": "PM2.5 exposure improvement"
+            }
+          ],
+          "lifecycle": {}
+        }
+      ],
+      "all": [
+        {
+          "id": "country:RUS:transport",
+          "iso3": "RUS",
+          "theme": "transport",
+          "label": "Transport & logistics",
+          "icon": "bus",
+          "color": "#f97316",
+          "type": "national",
+          "score": 65,
+          "action": "Upgrade road and logistics infrastructure on the weakest corridors",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 65,
+            "nationalText": "logistics infrastructure score 2.7 of 5",
+            "investment": 8131580000,
+            "trend": {
+              "change": 0.3200000000000003,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Safe and Quality Roads national project (2017)",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Infrastructure quality (LPI) improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Infrastructure quality (LPI) improvement"
+            },
+            {
+              "iso3": "ZAF",
+              "model": "Infrastructure quality (LPI) improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:RUS:energy",
+          "iso3": "RUS",
+          "theme": "energy",
+          "label": "Clean energy",
+          "icon": "leaf",
+          "color": "#22c55e",
+          "type": "national",
+          "score": 47,
+          "action": "Close electricity-access gaps and accelerate renewable capacity",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 47,
+            "nationalText": "100% electricity access, 4% renewable energy",
+            "investment": 2095710000,
+            "trend": {
+              "change": 0.20000000000000018,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:RUS:air",
+          "iso3": "RUS",
+          "theme": "air",
+          "label": "Clean air",
+          "icon": "wind",
+          "color": "#14b8a6",
+          "type": "national",
+          "score": 15,
+          "action": "Deploy air-quality monitoring and act on the largest pollution sources",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 15,
+            "nationalText": "PM2.5 exposure 12 µg/m³ (WHO guideline: 5)",
+            "investment": null,
+            "trend": {
+              "change": -7.074791392171301,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "BRA",
+              "model": "PM2.5 exposure improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:RUS:water",
+          "iso3": "RUS",
+          "theme": "water",
+          "label": "Water security",
+          "icon": "droplet",
+          "color": "#3b82f6",
+          "type": "national",
+          "score": 14,
+          "action": "Prioritise water-distribution upgrades, sanitation coverage and leakage monitoring",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 14,
+            "nationalText": "97% basic water, 92% basic sanitation",
+            "investment": null,
+            "trend": {
+              "change": 0.3463988210260993,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Clean Water federal project (2019): modernising municipal water supply",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Basic drinking water improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "Água para Todos (2011)"
+            },
+            {
+              "iso3": "IRN",
+              "model": "Basic drinking water improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:RUS:digital",
+          "iso3": "RUS",
+          "theme": "digital",
+          "label": "Digital connectivity",
+          "icon": "wifi",
+          "color": "#8b5cf6",
+          "type": "national",
+          "score": 14,
+          "action": "Extend last-mile connectivity and assisted access to online services",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 14,
+            "nationalText": "94% of people online",
+            "investment": null,
+            "trend": {
+              "change": 45.36495368,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Digital Economy national programme (2019)",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Broadband China (2013)"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Internet users improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:RUS:jobs",
+          "iso3": "RUS",
+          "theme": "jobs",
+          "label": "Job opportunities",
+          "icon": "briefcase",
+          "color": "#ec4899",
+          "type": "national",
+          "score": 14,
+          "action": "Scale employment and skills programmes for the highest-unemployment groups",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 14,
+            "nationalText": "2% unemployment",
+            "investment": null,
+            "trend": {
+              "change": -5.274,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "IDN",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Unemployment improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:RUS:education",
+          "iso3": "RUS",
+          "theme": "education",
+          "label": "Education access",
+          "icon": "graduation",
+          "color": "#eab308",
+          "type": "national",
+          "score": 8,
+          "action": "Target literacy and secondary-school completion in lagging regions",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 8,
+            "nationalText": "100% adult literacy, 92% secondary enrolment",
+            "investment": null,
+            "trend": {
+              "change": 0.25,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "BRA",
+              "model": "FUNDEB (2007)"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Adult literacy improvement"
+            },
+            {
+              "iso3": "CHN",
+              "model": "Adult literacy improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:RUS:health",
+          "iso3": "RUS",
+          "theme": "health",
+          "label": "Healthcare access",
+          "icon": "heart",
+          "color": "#ef4444",
+          "type": "national",
+          "score": 7,
+          "action": "Expand primary-care access and child-health services where outcomes lag",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 7,
+            "nationalText": "under-5 mortality 5 per 1,000, 5 physicians per 1,000",
+            "investment": null,
+            "trend": {
+              "change": -5.2,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Healthy China 2030 (2016)"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Under-5 mortality improvement"
+            }
+          ],
+          "lifecycle": {}
+        }
+      ]
+    },
+    {
+      "iso3": "IND",
+      "name": "India",
+      "top": [
+        {
+          "id": "country:IND:education",
+          "iso3": "IND",
+          "theme": "education",
+          "label": "Education access",
+          "icon": "graduation",
+          "color": "#eab308",
+          "type": "national",
+          "score": 100,
+          "action": "Target literacy and secondary-school completion in lagging regions",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 31,
+            "regionsMeasured": 36,
+            "pilotRegions": [
+              {
+                "name": "Bihār",
+                "score": 100,
+                "detail": "55% female literacy"
+              },
+              {
+                "name": "Jhārkhand",
+                "score": 96,
+                "detail": "62% female literacy"
+              },
+              {
+                "name": "Rājasthān",
+                "score": 88,
+                "detail": "65% female literacy"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 48,
+            "nationalText": "78% adult literacy, 80% secondary enrolment",
+            "investment": null,
+            "trend": {
+              "change": 9.836715734303297,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Samagra Shiksha (2018): integrated school education scheme",
+          "learnFrom": [
+            {
+              "iso3": "BRA",
+              "model": "FUNDEB (2007)"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Adult literacy improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IND:air",
+          "iso3": "IND",
+          "theme": "air",
+          "label": "Clean air",
+          "icon": "wind",
+          "color": "#14b8a6",
+          "type": "national",
+          "score": 100,
+          "action": "Deploy air-quality monitoring and act on the largest pollution sources",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 100,
+            "nationalText": "PM2.5 exposure 54 µg/m³ (WHO guideline: 5)",
+            "investment": null,
+            "trend": {
+              "change": 2.333404176035195,
+              "since": 2010,
+              "improving": false
+            }
+          },
+          "programme": "National Clean Air Programme (2019)",
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "PM2.5 exposure improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "PM2.5 exposure improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IND:health",
+          "iso3": "IND",
+          "theme": "health",
+          "label": "Healthcare access",
+          "icon": "heart",
+          "color": "#ef4444",
+          "type": "national",
+          "score": 98,
+          "action": "Expand primary-care access and child-health services where outcomes lag",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 36,
+            "regionsMeasured": 36,
+            "pilotRegions": [
+              {
+                "name": "Uttar Pradesh",
+                "score": 98,
+                "detail": "under-5 mortality 58 per 1,000, 7% basic vaccination"
+              },
+              {
+                "name": "Bihār",
+                "score": 98,
+                "detail": "under-5 mortality 57 per 1,000, 6% basic vaccination"
+              },
+              {
+                "name": "Madhya Pradesh",
+                "score": 93,
+                "detail": "under-5 mortality 51 per 1,000, 5% basic vaccination"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 71,
+            "nationalText": "under-5 mortality 27 per 1,000, 1 physicians per 1,000",
+            "investment": null,
+            "trend": {
+              "change": -31.5,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Ayushman Bharat (2018): health insurance plus primary health and wellness centres",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Healthy China 2030 (2016)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Under-5 mortality improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Under-5 mortality improvement"
+            }
+          ],
+          "lifecycle": {}
+        }
+      ],
+      "all": [
+        {
+          "id": "country:IND:education",
+          "iso3": "IND",
+          "theme": "education",
+          "label": "Education access",
+          "icon": "graduation",
+          "color": "#eab308",
+          "type": "national",
+          "score": 100,
+          "action": "Target literacy and secondary-school completion in lagging regions",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 31,
+            "regionsMeasured": 36,
+            "pilotRegions": [
+              {
+                "name": "Bihār",
+                "score": 100,
+                "detail": "55% female literacy"
+              },
+              {
+                "name": "Jhārkhand",
+                "score": 96,
+                "detail": "62% female literacy"
+              },
+              {
+                "name": "Rājasthān",
+                "score": 88,
+                "detail": "65% female literacy"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 48,
+            "nationalText": "78% adult literacy, 80% secondary enrolment",
+            "investment": null,
+            "trend": {
+              "change": 9.836715734303297,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Samagra Shiksha (2018): integrated school education scheme",
+          "learnFrom": [
+            {
+              "iso3": "BRA",
+              "model": "FUNDEB (2007)"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Adult literacy improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IND:air",
+          "iso3": "IND",
+          "theme": "air",
+          "label": "Clean air",
+          "icon": "wind",
+          "color": "#14b8a6",
+          "type": "national",
+          "score": 100,
+          "action": "Deploy air-quality monitoring and act on the largest pollution sources",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 100,
+            "nationalText": "PM2.5 exposure 54 µg/m³ (WHO guideline: 5)",
+            "investment": null,
+            "trend": {
+              "change": 2.333404176035195,
+              "since": 2010,
+              "improving": false
+            }
+          },
+          "programme": "National Clean Air Programme (2019)",
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "PM2.5 exposure improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "PM2.5 exposure improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IND:health",
+          "iso3": "IND",
+          "theme": "health",
+          "label": "Healthcare access",
+          "icon": "heart",
+          "color": "#ef4444",
+          "type": "national",
+          "score": 98,
+          "action": "Expand primary-care access and child-health services where outcomes lag",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 36,
+            "regionsMeasured": 36,
+            "pilotRegions": [
+              {
+                "name": "Uttar Pradesh",
+                "score": 98,
+                "detail": "under-5 mortality 58 per 1,000, 7% basic vaccination"
+              },
+              {
+                "name": "Bihār",
+                "score": 98,
+                "detail": "under-5 mortality 57 per 1,000, 6% basic vaccination"
+              },
+              {
+                "name": "Madhya Pradesh",
+                "score": 93,
+                "detail": "under-5 mortality 51 per 1,000, 5% basic vaccination"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 71,
+            "nationalText": "under-5 mortality 27 per 1,000, 1 physicians per 1,000",
+            "investment": null,
+            "trend": {
+              "change": -31.5,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Ayushman Bharat (2018): health insurance plus primary health and wellness centres",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Healthy China 2030 (2016)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Under-5 mortality improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Under-5 mortality improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IND:digital",
+          "iso3": "IND",
+          "theme": "digital",
+          "label": "Digital connectivity",
+          "icon": "wifi",
+          "color": "#8b5cf6",
+          "type": "national",
+          "score": 75,
+          "action": "Extend last-mile connectivity and assisted access to online services",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 4,
+            "regionsMeasured": 36,
+            "pilotRegions": [
+              {
+                "name": "Chhattīsgarh",
+                "score": 36,
+                "detail": "86% of households own a mobile phone"
+              },
+              {
+                "name": "Meghālaya",
+                "score": 31,
+                "detail": "87% of households own a mobile phone"
+              },
+              {
+                "name": "Odisha",
+                "score": 29,
+                "detail": "88% of households own a mobile phone"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 75,
+            "nationalText": "70% of people online",
+            "investment": 1465690000,
+            "trend": {
+              "change": 62.5,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "BharatNet (2011) and Digital India (2015): village broadband and e-services",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Broadband China (2013)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Digital Economy national programme (2019)"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IND:water",
+          "iso3": "IND",
+          "theme": "water",
+          "label": "Water security",
+          "icon": "droplet",
+          "color": "#3b82f6",
+          "type": "national",
+          "score": 64,
+          "action": "Prioritise water-distribution upgrades, sanitation coverage and leakage monitoring",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 18,
+            "regionsMeasured": 36,
+            "pilotRegions": [
+              {
+                "name": "Jhārkhand",
+                "score": 64,
+                "detail": "87% improved water, 62% improved sanitation"
+              },
+              {
+                "name": "Ladākh",
+                "score": 63,
+                "detail": "89% improved water, 43% improved sanitation"
+              },
+              {
+                "name": "Odisha",
+                "score": 55,
+                "detail": "91% improved water, 65% improved sanitation"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 26,
+            "nationalText": "96% basic water, 83% basic sanitation",
+            "investment": 937430000,
+            "trend": {
+              "change": 9.399820680044698,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Jal Jeevan Mission (2019): piped tap water to every rural household",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Basic drinking water improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "Água para Todos (2011)"
+            },
+            {
+              "iso3": "IRN",
+              "model": "Basic drinking water improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IND:transport",
+          "iso3": "IND",
+          "theme": "transport",
+          "label": "Transport & logistics",
+          "icon": "bus",
+          "color": "#f97316",
+          "type": "national",
+          "score": 40,
+          "action": "Upgrade road and logistics infrastructure on the weakest corridors",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 40,
+            "nationalText": "logistics infrastructure score 3.2 of 5",
+            "investment": 39021350000,
+            "trend": {
+              "change": 0.29000000000000004,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "PMGSY (2000): all-weather rural road connectivity",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Infrastructure quality (LPI) improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Infrastructure quality (LPI) improvement"
+            },
+            {
+              "iso3": "ZAF",
+              "model": "Infrastructure quality (LPI) improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IND:jobs",
+          "iso3": "IND",
+          "theme": "jobs",
+          "label": "Job opportunities",
+          "icon": "briefcase",
+          "color": "#ec4899",
+          "type": "national",
+          "score": 28,
+          "action": "Scale employment and skills programmes for the highest-unemployment groups",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 28,
+            "nationalText": "4% unemployment",
+            "investment": null,
+            "trend": {
+              "change": -3.412,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "MGNREGA (2005): guaranteed rural wage employment",
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Unemployment improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IND:energy",
+          "iso3": "IND",
+          "theme": "energy",
+          "label": "Clean energy",
+          "icon": "leaf",
+          "color": "#22c55e",
+          "type": "national",
+          "score": 26,
+          "action": "Close electricity-access gaps and accelerate renewable capacity",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 1,
+            "regionsMeasured": 36,
+            "pilotRegions": [
+              {
+                "name": "Uttar Pradesh",
+                "score": 26,
+                "detail": "90% of households with electricity"
+              },
+              {
+                "name": "Meghālaya",
+                "score": 20,
+                "detail": "92% of households with electricity"
+              },
+              {
+                "name": "Assam",
+                "score": 18,
+                "detail": "93% of households with electricity"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 15,
+            "nationalText": "100% electricity access, 35% renewable energy",
+            "investment": 21427990000,
+            "trend": {
+              "change": -1.3000000000000043,
+              "since": 2010,
+              "improving": false
+            }
+          },
+          "programme": "Saubhagya (2017): household electrification",
+          "learnFrom": [],
+          "lifecycle": {}
+        }
+      ]
+    },
+    {
+      "iso3": "CHN",
+      "name": "China",
+      "top": [
+        {
+          "id": "country:CHN:air",
+          "iso3": "CHN",
+          "theme": "air",
+          "label": "Clean air",
+          "icon": "wind",
+          "color": "#14b8a6",
+          "type": "national",
+          "score": 60,
+          "action": "Deploy air-quality monitoring and act on the largest pollution sources",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 60,
+            "nationalText": "PM2.5 exposure 32 µg/m³ (WHO guideline: 5)",
+            "investment": null,
+            "trend": {
+              "change": -16.958825497024502,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Air Pollution Prevention and Control Action Plan (2013)",
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "PM2.5 exposure improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "PM2.5 exposure improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:CHN:energy",
+          "iso3": "CHN",
+          "theme": "energy",
+          "label": "Clean energy",
+          "icon": "leaf",
+          "color": "#22c55e",
+          "type": "national",
+          "score": 35,
+          "action": "Close electricity-access gaps and accelerate renewable capacity",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 35,
+            "nationalText": "100% electricity access, 15% renewable energy",
+            "investment": 83044661000,
+            "trend": {
+              "change": 2.8999999999999986,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:CHN:jobs",
+          "iso3": "CHN",
+          "theme": "jobs",
+          "label": "Job opportunities",
+          "icon": "briefcase",
+          "color": "#ec4899",
+          "type": "national",
+          "score": 31,
+          "action": "Scale employment and skills programmes for the highest-unemployment groups",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 31,
+            "nationalText": "5% unemployment",
+            "investment": null,
+            "trend": {
+              "change": 0.08499999999999996,
+              "since": 2010,
+              "improving": false
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Unemployment improvement"
+            }
+          ],
+          "lifecycle": {}
+        }
+      ],
+      "all": [
+        {
+          "id": "country:CHN:air",
+          "iso3": "CHN",
+          "theme": "air",
+          "label": "Clean air",
+          "icon": "wind",
+          "color": "#14b8a6",
+          "type": "national",
+          "score": 60,
+          "action": "Deploy air-quality monitoring and act on the largest pollution sources",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 60,
+            "nationalText": "PM2.5 exposure 32 µg/m³ (WHO guideline: 5)",
+            "investment": null,
+            "trend": {
+              "change": -16.958825497024502,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Air Pollution Prevention and Control Action Plan (2013)",
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "PM2.5 exposure improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "PM2.5 exposure improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:CHN:energy",
+          "iso3": "CHN",
+          "theme": "energy",
+          "label": "Clean energy",
+          "icon": "leaf",
+          "color": "#22c55e",
+          "type": "national",
+          "score": 35,
+          "action": "Close electricity-access gaps and accelerate renewable capacity",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 35,
+            "nationalText": "100% electricity access, 15% renewable energy",
+            "investment": 83044661000,
+            "trend": {
+              "change": 2.8999999999999986,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:CHN:jobs",
+          "iso3": "CHN",
+          "theme": "jobs",
+          "label": "Job opportunities",
+          "icon": "briefcase",
+          "color": "#ec4899",
+          "type": "national",
+          "score": 31,
+          "action": "Scale employment and skills programmes for the highest-unemployment groups",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 31,
+            "nationalText": "5% unemployment",
+            "investment": null,
+            "trend": {
+              "change": 0.08499999999999996,
+              "since": 2010,
+              "improving": false
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Unemployment improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:CHN:digital",
+          "iso3": "CHN",
+          "theme": "digital",
+          "label": "Digital connectivity",
+          "icon": "wifi",
+          "color": "#8b5cf6",
+          "type": "national",
+          "score": 21,
+          "action": "Extend last-mile connectivity and assisted access to online services",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 21,
+            "nationalText": "92% of people online",
+            "investment": 2235200000,
+            "trend": {
+              "change": 57.3,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Broadband China (2013): national broadband strategy",
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "Digital Economy national programme (2019)"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Internet users improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:CHN:education",
+          "iso3": "CHN",
+          "theme": "education",
+          "label": "Education access",
+          "icon": "graduation",
+          "color": "#eab308",
+          "type": "national",
+          "score": 12,
+          "action": "Target literacy and secondary-school completion in lagging regions",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 12,
+            "nationalText": "97% adult literacy, 92% secondary enrolment",
+            "investment": null,
+            "trend": {
+              "change": 1.6199951171875,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "BRA",
+              "model": "FUNDEB (2007)"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Adult literacy improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:CHN:water",
+          "iso3": "CHN",
+          "theme": "water",
+          "label": "Water security",
+          "icon": "droplet",
+          "color": "#3b82f6",
+          "type": "national",
+          "score": 8,
+          "action": "Prioritise water-distribution upgrades, sanitation coverage and leakage monitoring",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 8,
+            "nationalText": "96% basic water, 97% basic sanitation",
+            "investment": 15100790000,
+            "trend": {
+              "change": 7.728603286536696,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "BRA",
+              "model": "Água para Todos (2011)"
+            },
+            {
+              "iso3": "IRN",
+              "model": "Basic drinking water improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:CHN:health",
+          "iso3": "CHN",
+          "theme": "health",
+          "label": "Healthcare access",
+          "icon": "heart",
+          "color": "#ef4444",
+          "type": "national",
+          "score": 7,
+          "action": "Expand primary-care access and child-health services where outcomes lag",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 7,
+            "nationalText": "under-5 mortality 6 per 1,000, 3 physicians per 1,000",
+            "investment": null,
+            "trend": {
+              "change": -10,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Healthy China 2030 (2016): national health strategy",
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "Under-5 mortality improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Under-5 mortality improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:CHN:transport",
+          "iso3": "CHN",
+          "theme": "transport",
+          "label": "Transport & logistics",
+          "icon": "bus",
+          "color": "#f97316",
+          "type": "national",
+          "score": 0,
+          "action": "Upgrade road and logistics infrastructure on the weakest corridors",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 0,
+            "nationalText": "logistics infrastructure score 4.0 of 5",
+            "investment": 104575030000,
+            "trend": {
+              "change": 0.45999999999999996,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "ARE",
+              "model": "Infrastructure quality (LPI) improvement"
+            },
+            {
+              "iso3": "ZAF",
+              "model": "Infrastructure quality (LPI) improvement"
+            }
+          ],
+          "lifecycle": {}
+        }
+      ]
+    },
+    {
+      "iso3": "ZAF",
+      "name": "South Africa",
+      "top": [
+        {
+          "id": "country:ZAF:jobs",
+          "iso3": "ZAF",
+          "theme": "jobs",
+          "label": "Job opportunities",
+          "icon": "briefcase",
+          "color": "#ec4899",
+          "type": "national",
+          "score": 100,
+          "action": "Scale employment and skills programmes for the highest-unemployment groups",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 100,
+            "nationalText": "32% unemployment",
+            "investment": null,
+            "trend": {
+              "change": 7.707999999999998,
+              "since": 2010,
+              "improving": false
+            }
+          },
+          "programme": "Expanded Public Works Programme (2004)",
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Unemployment improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ZAF:health",
+          "iso3": "ZAF",
+          "theme": "health",
+          "label": "Healthcare access",
+          "icon": "heart",
+          "color": "#ef4444",
+          "type": "national",
+          "score": 95,
+          "action": "Expand primary-care access and child-health services where outcomes lag",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 9,
+            "regionsMeasured": 9,
+            "pilotRegions": [
+              {
+                "name": "Mpumalanga",
+                "score": 95,
+                "detail": "under-5 mortality 70 per 1,000, 56% basic vaccination"
+              },
+              {
+                "name": "North West",
+                "score": 94,
+                "detail": "under-5 mortality 65 per 1,000, 56% basic vaccination"
+              },
+              {
+                "name": "Gauteng",
+                "score": 86,
+                "detail": "under-5 mortality 46 per 1,000, 52% basic vaccination"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 81,
+            "nationalText": "under-5 mortality 35 per 1,000, 1 physicians per 1,000",
+            "investment": null,
+            "trend": {
+              "change": -15.199999999999996,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Healthy China 2030 (2016)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Under-5 mortality improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ZAF:digital",
+          "iso3": "ZAF",
+          "theme": "digital",
+          "label": "Digital connectivity",
+          "icon": "wifi",
+          "color": "#8b5cf6",
+          "type": "national",
+          "score": 54,
+          "action": "Extend last-mile connectivity and assisted access to online services",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 0,
+            "regionsMeasured": 9,
+            "pilotRegions": [
+              {
+                "name": "Nothern Cape",
+                "score": 22,
+                "detail": "91% of households own a mobile phone"
+              },
+              {
+                "name": "Eastern Cape",
+                "score": 15,
+                "detail": "94% of households own a mobile phone"
+              },
+              {
+                "name": "Free State",
+                "score": 15,
+                "detail": "94% of households own a mobile phone"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 54,
+            "nationalText": "78% of people online",
+            "investment": 762270000,
+            "trend": {
+              "change": 54.357597350000006,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "SA Connect (2013): national broadband policy",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Broadband China (2013)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Digital Economy national programme (2019)"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Internet users improvement"
+            }
+          ],
+          "lifecycle": {}
+        }
+      ],
+      "all": [
+        {
+          "id": "country:ZAF:jobs",
+          "iso3": "ZAF",
+          "theme": "jobs",
+          "label": "Job opportunities",
+          "icon": "briefcase",
+          "color": "#ec4899",
+          "type": "national",
+          "score": 100,
+          "action": "Scale employment and skills programmes for the highest-unemployment groups",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 100,
+            "nationalText": "32% unemployment",
+            "investment": null,
+            "trend": {
+              "change": 7.707999999999998,
+              "since": 2010,
+              "improving": false
+            }
+          },
+          "programme": "Expanded Public Works Programme (2004)",
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Unemployment improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ZAF:health",
+          "iso3": "ZAF",
+          "theme": "health",
+          "label": "Healthcare access",
+          "icon": "heart",
+          "color": "#ef4444",
+          "type": "national",
+          "score": 95,
+          "action": "Expand primary-care access and child-health services where outcomes lag",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 9,
+            "regionsMeasured": 9,
+            "pilotRegions": [
+              {
+                "name": "Mpumalanga",
+                "score": 95,
+                "detail": "under-5 mortality 70 per 1,000, 56% basic vaccination"
+              },
+              {
+                "name": "North West",
+                "score": 94,
+                "detail": "under-5 mortality 65 per 1,000, 56% basic vaccination"
+              },
+              {
+                "name": "Gauteng",
+                "score": 86,
+                "detail": "under-5 mortality 46 per 1,000, 52% basic vaccination"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 81,
+            "nationalText": "under-5 mortality 35 per 1,000, 1 physicians per 1,000",
+            "investment": null,
+            "trend": {
+              "change": -15.199999999999996,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Healthy China 2030 (2016)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Under-5 mortality improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ZAF:digital",
+          "iso3": "ZAF",
+          "theme": "digital",
+          "label": "Digital connectivity",
+          "icon": "wifi",
+          "color": "#8b5cf6",
+          "type": "national",
+          "score": 54,
+          "action": "Extend last-mile connectivity and assisted access to online services",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 0,
+            "regionsMeasured": 9,
+            "pilotRegions": [
+              {
+                "name": "Nothern Cape",
+                "score": 22,
+                "detail": "91% of households own a mobile phone"
+              },
+              {
+                "name": "Eastern Cape",
+                "score": 15,
+                "detail": "94% of households own a mobile phone"
+              },
+              {
+                "name": "Free State",
+                "score": 15,
+                "detail": "94% of households own a mobile phone"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 54,
+            "nationalText": "78% of people online",
+            "investment": 762270000,
+            "trend": {
+              "change": 54.357597350000006,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "SA Connect (2013): national broadband policy",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Broadband China (2013)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Digital Economy national programme (2019)"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Internet users improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ZAF:energy",
+          "iso3": "ZAF",
+          "theme": "energy",
+          "label": "Clean energy",
+          "icon": "leaf",
+          "color": "#22c55e",
+          "type": "national",
+          "score": 53,
+          "action": "Close electricity-access gaps and accelerate renewable capacity",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 4,
+            "regionsMeasured": 9,
+            "pilotRegions": [
+              {
+                "name": "Mpumalanga",
+                "score": 47,
+                "detail": "81% of households with electricity"
+              },
+              {
+                "name": "Eastern Cape",
+                "score": 45,
+                "detail": "82% of households with electricity"
+              },
+              {
+                "name": "Gauteng",
+                "score": 29,
+                "detail": "89% of households with electricity"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 53,
+            "nationalText": "90% electricity access, 10% renewable energy",
+            "investment": 10267770000,
+            "trend": {
+              "change": 0.29999999999999893,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "REIPPPP (2011): competitive renewable energy procurement",
+          "learnFrom": [],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ZAF:air",
+          "iso3": "ZAF",
+          "theme": "air",
+          "label": "Clean air",
+          "icon": "wind",
+          "color": "#14b8a6",
+          "type": "national",
+          "score": 50,
+          "action": "Deploy air-quality monitoring and act on the largest pollution sources",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 50,
+            "nationalText": "PM2.5 exposure 28 µg/m³ (WHO guideline: 5)",
+            "investment": null,
+            "trend": {
+              "change": -5.071215824132604,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "PM2.5 exposure improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "PM2.5 exposure improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ZAF:water",
+          "iso3": "ZAF",
+          "theme": "water",
+          "label": "Water security",
+          "icon": "droplet",
+          "color": "#3b82f6",
+          "type": "national",
+          "score": 41,
+          "action": "Prioritise water-distribution upgrades, sanitation coverage and leakage monitoring",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 1,
+            "regionsMeasured": 9,
+            "pilotRegions": [
+              {
+                "name": "Eastern Cape",
+                "score": 35,
+                "detail": "79% improved water, 93% improved sanitation"
+              },
+              {
+                "name": "Mpumalanga",
+                "score": 17,
+                "detail": "97% improved water, 90% improved sanitation"
+              },
+              {
+                "name": "KwaZulu-Natal",
+                "score": 14,
+                "detail": "93% improved water, 96% improved sanitation"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 41,
+            "nationalText": "90% basic water, 77% basic sanitation",
+            "investment": null,
+            "trend": {
+              "change": -0.6032191898726893,
+              "since": 2010,
+              "improving": false
+            }
+          },
+          "programme": "Free Basic Water policy (2001): free lifeline water allowance per household",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Basic drinking water improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "Água para Todos (2011)"
+            },
+            {
+              "iso3": "IRN",
+              "model": "Basic drinking water improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ZAF:transport",
+          "iso3": "ZAF",
+          "theme": "transport",
+          "label": "Transport & logistics",
+          "icon": "bus",
+          "color": "#f97316",
+          "type": "national",
+          "score": 20,
+          "action": "Upgrade road and logistics infrastructure on the weakest corridors",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 20,
+            "nationalText": "logistics infrastructure score 3.6 of 5",
+            "investment": 13500000,
+            "trend": {
+              "change": 0.18000000000000016,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Infrastructure quality (LPI) improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Infrastructure quality (LPI) improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ZAF:education",
+          "iso3": "ZAF",
+          "theme": "education",
+          "label": "Education access",
+          "icon": "graduation",
+          "color": "#eab308",
+          "type": "national",
+          "score": 16,
+          "action": "Target literacy and secondary-school completion in lagging regions",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 0,
+            "regionsMeasured": 9,
+            "pilotRegions": [
+              {
+                "name": "North West",
+                "score": 16,
+                "detail": "94% female literacy"
+              },
+              {
+                "name": "Mpumalanga",
+                "score": 13,
+                "detail": "95% female literacy"
+              },
+              {
+                "name": "Eastern Cape",
+                "score": 12,
+                "detail": "95% female literacy"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 11,
+            "nationalText": "91% adult literacy, 104% secondary enrolment",
+            "investment": null,
+            "trend": {
+              "change": -1.729995727539091,
+              "since": 2010,
+              "improving": false
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "BRA",
+              "model": "FUNDEB (2007)"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Adult literacy improvement"
+            },
+            {
+              "iso3": "CHN",
+              "model": "Adult literacy improvement"
+            }
+          ],
+          "lifecycle": {}
+        }
+      ]
+    },
+    {
+      "iso3": "EGY",
+      "name": "Egypt",
+      "top": [
+        {
+          "id": "country:EGY:education",
+          "iso3": "EGY",
+          "theme": "education",
+          "label": "Education access",
+          "icon": "graduation",
+          "color": "#eab308",
+          "type": "national",
+          "score": 87,
+          "action": "Target literacy and secondary-school completion in lagging regions",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 25,
+            "regionsMeasured": 25,
+            "pilotRegions": [
+              {
+                "name": "Aswan Governorate",
+                "score": 87,
+                "detail": "65% female literacy"
+              },
+              {
+                "name": "Faiyum Governorate",
+                "score": 87,
+                "detail": "65% female literacy"
+              },
+              {
+                "name": "Beni Suef Governorate",
+                "score": 87,
+                "detail": "65% female literacy"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 41,
+            "nationalText": "79% adult literacy, 85% secondary enrolment",
+            "investment": null,
+            "trend": {
+              "change": 7.4031588981107035,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Education 2.0 (2018): curriculum and assessment reform",
+          "learnFrom": [
+            {
+              "iso3": "BRA",
+              "model": "FUNDEB (2007)"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Adult literacy improvement"
+            },
+            {
+              "iso3": "CHN",
+              "model": "Adult literacy improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:EGY:air",
+          "iso3": "EGY",
+          "theme": "air",
+          "label": "Clean air",
+          "icon": "wind",
+          "color": "#14b8a6",
+          "type": "national",
+          "score": 85,
+          "action": "Deploy air-quality monitoring and act on the largest pollution sources",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 85,
+            "nationalText": "PM2.5 exposure 43 µg/m³ (WHO guideline: 5)",
+            "investment": null,
+            "trend": {
+              "change": -3.180233741000201,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "PM2.5 exposure improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "PM2.5 exposure improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:EGY:health",
+          "iso3": "EGY",
+          "theme": "health",
+          "label": "Healthcare access",
+          "icon": "heart",
+          "color": "#ef4444",
+          "type": "national",
+          "score": 67,
+          "action": "Expand primary-care access and child-health services where outcomes lag",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 25,
+            "regionsMeasured": 25,
+            "pilotRegions": [
+              {
+                "name": "Aswan Governorate",
+                "score": 49,
+                "detail": "under-5 mortality 38 per 1,000, 82% basic vaccination"
+              },
+              {
+                "name": "Faiyum Governorate",
+                "score": 49,
+                "detail": "under-5 mortality 38 per 1,000, 82% basic vaccination"
+              },
+              {
+                "name": "Beni Suef Governorate",
+                "score": 49,
+                "detail": "under-5 mortality 38 per 1,000, 82% basic vaccination"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 67,
+            "nationalText": "under-5 mortality 22 per 1,000, 1 physicians per 1,000",
+            "investment": null,
+            "trend": {
+              "change": -8.100000000000001,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Universal Health Insurance law (2018): phased universal coverage",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Healthy China 2030 (2016)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Under-5 mortality improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Under-5 mortality improvement"
+            }
+          ],
+          "lifecycle": {}
+        }
+      ],
+      "all": [
+        {
+          "id": "country:EGY:education",
+          "iso3": "EGY",
+          "theme": "education",
+          "label": "Education access",
+          "icon": "graduation",
+          "color": "#eab308",
+          "type": "national",
+          "score": 87,
+          "action": "Target literacy and secondary-school completion in lagging regions",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 25,
+            "regionsMeasured": 25,
+            "pilotRegions": [
+              {
+                "name": "Aswan Governorate",
+                "score": 87,
+                "detail": "65% female literacy"
+              },
+              {
+                "name": "Faiyum Governorate",
+                "score": 87,
+                "detail": "65% female literacy"
+              },
+              {
+                "name": "Beni Suef Governorate",
+                "score": 87,
+                "detail": "65% female literacy"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 41,
+            "nationalText": "79% adult literacy, 85% secondary enrolment",
+            "investment": null,
+            "trend": {
+              "change": 7.4031588981107035,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Education 2.0 (2018): curriculum and assessment reform",
+          "learnFrom": [
+            {
+              "iso3": "BRA",
+              "model": "FUNDEB (2007)"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Adult literacy improvement"
+            },
+            {
+              "iso3": "CHN",
+              "model": "Adult literacy improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:EGY:air",
+          "iso3": "EGY",
+          "theme": "air",
+          "label": "Clean air",
+          "icon": "wind",
+          "color": "#14b8a6",
+          "type": "national",
+          "score": 85,
+          "action": "Deploy air-quality monitoring and act on the largest pollution sources",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 85,
+            "nationalText": "PM2.5 exposure 43 µg/m³ (WHO guideline: 5)",
+            "investment": null,
+            "trend": {
+              "change": -3.180233741000201,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "PM2.5 exposure improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "PM2.5 exposure improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:EGY:health",
+          "iso3": "EGY",
+          "theme": "health",
+          "label": "Healthcare access",
+          "icon": "heart",
+          "color": "#ef4444",
+          "type": "national",
+          "score": 67,
+          "action": "Expand primary-care access and child-health services where outcomes lag",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 25,
+            "regionsMeasured": 25,
+            "pilotRegions": [
+              {
+                "name": "Aswan Governorate",
+                "score": 49,
+                "detail": "under-5 mortality 38 per 1,000, 82% basic vaccination"
+              },
+              {
+                "name": "Faiyum Governorate",
+                "score": 49,
+                "detail": "under-5 mortality 38 per 1,000, 82% basic vaccination"
+              },
+              {
+                "name": "Beni Suef Governorate",
+                "score": 49,
+                "detail": "under-5 mortality 38 per 1,000, 82% basic vaccination"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 67,
+            "nationalText": "under-5 mortality 22 per 1,000, 1 physicians per 1,000",
+            "investment": null,
+            "trend": {
+              "change": -8.100000000000001,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Universal Health Insurance law (2018): phased universal coverage",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Healthy China 2030 (2016)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Under-5 mortality improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Under-5 mortality improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:EGY:digital",
+          "iso3": "EGY",
+          "theme": "digital",
+          "label": "Digital connectivity",
+          "icon": "wifi",
+          "color": "#8b5cf6",
+          "type": "national",
+          "score": 63,
+          "action": "Extend last-mile connectivity and assisted access to online services",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 9,
+            "regionsMeasured": 25,
+            "pilotRegions": [
+              {
+                "name": "Aswan Governorate",
+                "score": 27,
+                "detail": "89% of households own a mobile phone"
+              },
+              {
+                "name": "Faiyum Governorate",
+                "score": 27,
+                "detail": "89% of households own a mobile phone"
+              },
+              {
+                "name": "Beni Suef Governorate",
+                "score": 27,
+                "detail": "89% of households own a mobile phone"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 63,
+            "nationalText": "75% of people online",
+            "investment": 71764000,
+            "trend": {
+              "change": 53.048399350000004,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Broadband China (2013)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Digital Economy national programme (2019)"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Internet users improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:EGY:transport",
+          "iso3": "EGY",
+          "theme": "transport",
+          "label": "Transport & logistics",
+          "icon": "bus",
+          "color": "#f97316",
+          "type": "national",
+          "score": 50,
+          "action": "Upgrade road and logistics infrastructure on the weakest corridors",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 50,
+            "nationalText": "logistics infrastructure score 3.0 of 5",
+            "investment": 7031850000,
+            "trend": {
+              "change": 0.7799999999999998,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Infrastructure quality (LPI) improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Infrastructure quality (LPI) improvement"
+            },
+            {
+              "iso3": "ZAF",
+              "model": "Infrastructure quality (LPI) improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:EGY:jobs",
+          "iso3": "EGY",
+          "theme": "jobs",
+          "label": "Job opportunities",
+          "icon": "briefcase",
+          "color": "#ec4899",
+          "type": "national",
+          "score": 45,
+          "action": "Scale employment and skills programmes for the highest-unemployment groups",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 45,
+            "nationalText": "7% unemployment",
+            "investment": null,
+            "trend": {
+              "change": -1.976,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Unemployment improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:EGY:energy",
+          "iso3": "EGY",
+          "theme": "energy",
+          "label": "Clean energy",
+          "icon": "leaf",
+          "color": "#22c55e",
+          "type": "national",
+          "score": 44,
+          "action": "Close electricity-access gaps and accelerate renewable capacity",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 0,
+            "regionsMeasured": 25,
+            "pilotRegions": [
+              {
+                "name": "Aswan Governorate",
+                "score": 1,
+                "detail": "100% of households with electricity"
+              },
+              {
+                "name": "Faiyum Governorate",
+                "score": 1,
+                "detail": "100% of households with electricity"
+              },
+              {
+                "name": "Beni Suef Governorate",
+                "score": 1,
+                "detail": "100% of households with electricity"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 44,
+            "nationalText": "100% electricity access, 6% renewable energy",
+            "investment": 4922730000,
+            "trend": {
+              "change": 0.6999999999999993,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Benban Solar Park (2019): utility-scale solar",
+          "learnFrom": [],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:EGY:water",
+          "iso3": "EGY",
+          "theme": "water",
+          "label": "Water security",
+          "icon": "droplet",
+          "color": "#3b82f6",
+          "type": "national",
+          "score": 13,
+          "action": "Prioritise water-distribution upgrades, sanitation coverage and leakage monitoring",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 0,
+            "regionsMeasured": 25,
+            "pilotRegions": [
+              {
+                "name": "Red Sea Governorate",
+                "score": 13,
+                "detail": "90% improved water, 99% improved sanitation"
+              },
+              {
+                "name": "Matrouh Governorate",
+                "score": 13,
+                "detail": "90% improved water, 99% improved sanitation"
+              },
+              {
+                "name": "New Valley Governorate",
+                "score": 13,
+                "detail": "90% improved water, 99% improved sanitation"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 7,
+            "nationalText": "97% basic water, 97% basic sanitation",
+            "investment": 48500000,
+            "trend": {
+              "change": -0.9866165318911015,
+              "since": 2010,
+              "improving": false
+            }
+          },
+          "programme": "Hayah Karima / Decent Life (2019): rural infrastructure upgrade incl. water and sewage",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Basic drinking water improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "Água para Todos (2011)"
+            },
+            {
+              "iso3": "IRN",
+              "model": "Basic drinking water improvement"
+            }
+          ],
+          "lifecycle": {}
+        }
+      ]
+    },
+    {
+      "iso3": "ETH",
+      "name": "Ethiopia",
+      "top": [
+        {
+          "id": "country:ETH:water",
+          "iso3": "ETH",
+          "theme": "water",
+          "label": "Water security",
+          "icon": "droplet",
+          "color": "#3b82f6",
+          "type": "national",
+          "score": 100,
+          "action": "Prioritise water-distribution upgrades, sanitation coverage and leakage monitoring",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 11,
+            "regionsMeasured": 11,
+            "pilotRegions": [
+              {
+                "name": "Afar",
+                "score": 100,
+                "detail": "54% improved water, 19% improved sanitation"
+              },
+              {
+                "name": "Somali",
+                "score": 100,
+                "detail": "49% improved water, 27% improved sanitation"
+              },
+              {
+                "name": "Oromia",
+                "score": 94,
+                "detail": "65% improved water, 14% improved sanitation"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 100,
+            "nationalText": "56% basic water, 10% basic sanitation",
+            "investment": null,
+            "trend": {
+              "change": 21.412379875325897,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "One WASH National Programme (2013): integrated water, sanitation and hygiene",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Basic drinking water improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "Água para Todos (2011)"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ETH:health",
+          "iso3": "ETH",
+          "theme": "health",
+          "label": "Healthcare access",
+          "icon": "heart",
+          "color": "#ef4444",
+          "type": "national",
+          "score": 100,
+          "action": "Expand primary-care access and child-health services where outcomes lag",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 11,
+            "regionsMeasured": 11,
+            "pilotRegions": [
+              {
+                "name": "Gambela",
+                "score": 100,
+                "detail": "under-5 mortality 86 per 1,000, 40% basic vaccination"
+              },
+              {
+                "name": "Hareri",
+                "score": 100,
+                "detail": "under-5 mortality 64 per 1,000, 45% basic vaccination"
+              },
+              {
+                "name": "Oromia",
+                "score": 100,
+                "detail": "under-5 mortality 72 per 1,000, 29% basic vaccination"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 98,
+            "nationalText": "under-5 mortality 45 per 1,000, 0 physicians per 1,000",
+            "investment": null,
+            "trend": {
+              "change": -38.2,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Health Extension Program (2003): community health extension workers",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Healthy China 2030 (2016)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Under-5 mortality improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ETH:digital",
+          "iso3": "ETH",
+          "theme": "digital",
+          "label": "Digital connectivity",
+          "icon": "wifi",
+          "color": "#8b5cf6",
+          "type": "national",
+          "score": 100,
+          "action": "Extend last-mile connectivity and assisted access to online services",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 10,
+            "regionsMeasured": 11,
+            "pilotRegions": [
+              {
+                "name": "Amhara",
+                "score": 100,
+                "detail": "59% of households own a mobile phone"
+              },
+              {
+                "name": "SNNPR",
+                "score": 95,
+                "detail": "62% of households own a mobile phone"
+              },
+              {
+                "name": "Beneshangul Gumu",
+                "score": 87,
+                "detail": "65% of households own a mobile phone"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 100,
+            "nationalText": "22% of people online",
+            "investment": 281685714.285714,
+            "trend": {
+              "change": 21.19129944,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Broadband China (2013)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Digital Economy national programme (2019)"
+            }
+          ],
+          "lifecycle": {}
+        }
+      ],
+      "all": [
+        {
+          "id": "country:ETH:water",
+          "iso3": "ETH",
+          "theme": "water",
+          "label": "Water security",
+          "icon": "droplet",
+          "color": "#3b82f6",
+          "type": "national",
+          "score": 100,
+          "action": "Prioritise water-distribution upgrades, sanitation coverage and leakage monitoring",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 11,
+            "regionsMeasured": 11,
+            "pilotRegions": [
+              {
+                "name": "Afar",
+                "score": 100,
+                "detail": "54% improved water, 19% improved sanitation"
+              },
+              {
+                "name": "Somali",
+                "score": 100,
+                "detail": "49% improved water, 27% improved sanitation"
+              },
+              {
+                "name": "Oromia",
+                "score": 94,
+                "detail": "65% improved water, 14% improved sanitation"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 100,
+            "nationalText": "56% basic water, 10% basic sanitation",
+            "investment": null,
+            "trend": {
+              "change": 21.412379875325897,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "One WASH National Programme (2013): integrated water, sanitation and hygiene",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Basic drinking water improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "Água para Todos (2011)"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ETH:health",
+          "iso3": "ETH",
+          "theme": "health",
+          "label": "Healthcare access",
+          "icon": "heart",
+          "color": "#ef4444",
+          "type": "national",
+          "score": 100,
+          "action": "Expand primary-care access and child-health services where outcomes lag",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 11,
+            "regionsMeasured": 11,
+            "pilotRegions": [
+              {
+                "name": "Gambela",
+                "score": 100,
+                "detail": "under-5 mortality 86 per 1,000, 40% basic vaccination"
+              },
+              {
+                "name": "Hareri",
+                "score": 100,
+                "detail": "under-5 mortality 64 per 1,000, 45% basic vaccination"
+              },
+              {
+                "name": "Oromia",
+                "score": 100,
+                "detail": "under-5 mortality 72 per 1,000, 29% basic vaccination"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 98,
+            "nationalText": "under-5 mortality 45 per 1,000, 0 physicians per 1,000",
+            "investment": null,
+            "trend": {
+              "change": -38.2,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Health Extension Program (2003): community health extension workers",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Healthy China 2030 (2016)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Under-5 mortality improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ETH:digital",
+          "iso3": "ETH",
+          "theme": "digital",
+          "label": "Digital connectivity",
+          "icon": "wifi",
+          "color": "#8b5cf6",
+          "type": "national",
+          "score": 100,
+          "action": "Extend last-mile connectivity and assisted access to online services",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 10,
+            "regionsMeasured": 11,
+            "pilotRegions": [
+              {
+                "name": "Amhara",
+                "score": 100,
+                "detail": "59% of households own a mobile phone"
+              },
+              {
+                "name": "SNNPR",
+                "score": 95,
+                "detail": "62% of households own a mobile phone"
+              },
+              {
+                "name": "Beneshangul Gumu",
+                "score": 87,
+                "detail": "65% of households own a mobile phone"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 100,
+            "nationalText": "22% of people online",
+            "investment": 281685714.285714,
+            "trend": {
+              "change": 21.19129944,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Broadband China (2013)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Digital Economy national programme (2019)"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ETH:energy",
+          "iso3": "ETH",
+          "theme": "energy",
+          "label": "Clean energy",
+          "icon": "leaf",
+          "color": "#22c55e",
+          "type": "national",
+          "score": 100,
+          "action": "Close electricity-access gaps and accelerate renewable capacity",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 10,
+            "regionsMeasured": 11,
+            "pilotRegions": [
+              {
+                "name": "Afar",
+                "score": 100,
+                "detail": "29% of households with electricity"
+              },
+              {
+                "name": "Amhara",
+                "score": 100,
+                "detail": "31% of households with electricity"
+              },
+              {
+                "name": "Beneshangul Gumu",
+                "score": 100,
+                "detail": "22% of households with electricity"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 50,
+            "nationalText": "57% electricity access, 91% renewable energy",
+            "investment": 271000000,
+            "trend": {
+              "change": -3.5,
+              "since": 2010,
+              "improving": false
+            }
+          },
+          "programme": "National Electrification Program (2017): grid and off-grid access",
+          "learnFrom": [],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ETH:education",
+          "iso3": "ETH",
+          "theme": "education",
+          "label": "Education access",
+          "icon": "graduation",
+          "color": "#eab308",
+          "type": "national",
+          "score": 100,
+          "action": "Target literacy and secondary-school completion in lagging regions",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 11,
+            "regionsMeasured": 11,
+            "pilotRegions": [
+              {
+                "name": "Afar",
+                "score": 100,
+                "detail": "20% female literacy"
+              },
+              {
+                "name": "Amhara",
+                "score": 100,
+                "detail": "50% female literacy"
+              },
+              {
+                "name": "Beneshangul Gumu",
+                "score": 100,
+                "detail": "46% female literacy"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 99,
+            "nationalText": "60% adult literacy, 34% secondary enrolment",
+            "investment": null,
+            "trend": {
+              "change": 12.105026449617299,
+              "since": 2013,
+              "improving": true
+            }
+          },
+          "programme": "GEQIP (2008): general education quality improvement",
+          "learnFrom": [
+            {
+              "iso3": "BRA",
+              "model": "FUNDEB (2007)"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Adult literacy improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ETH:transport",
+          "iso3": "ETH",
+          "theme": "transport",
+          "label": "Transport & logistics",
+          "icon": "bus",
+          "color": "#f97316",
+          "type": "national",
+          "score": 94,
+          "action": "Upgrade road and logistics infrastructure on the weakest corridors",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 94,
+            "nationalText": "logistics infrastructure score 2.1 of 5",
+            "investment": null,
+            "trend": {
+              "change": 0.34767400000000004,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Universal Rural Road Access Program (2011)",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Infrastructure quality (LPI) improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Infrastructure quality (LPI) improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ETH:air",
+          "iso3": "ETH",
+          "theme": "air",
+          "label": "Clean air",
+          "icon": "wind",
+          "color": "#14b8a6",
+          "type": "national",
+          "score": 42,
+          "action": "Deploy air-quality monitoring and act on the largest pollution sources",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 42,
+            "nationalText": "PM2.5 exposure 24 µg/m³ (WHO guideline: 5)",
+            "investment": null,
+            "trend": {
+              "change": -0.36362698032509755,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "PM2.5 exposure improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "PM2.5 exposure improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ETH:jobs",
+          "iso3": "ETH",
+          "theme": "jobs",
+          "label": "Job opportunities",
+          "icon": "briefcase",
+          "color": "#ec4899",
+          "type": "national",
+          "score": 22,
+          "action": "Scale employment and skills programmes for the highest-unemployment groups",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 22,
+            "nationalText": "3% unemployment",
+            "investment": null,
+            "trend": {
+              "change": 1.028,
+              "since": 2010,
+              "improving": false
+            }
+          },
+          "programme": "Productive Safety Net Programme (2005): public works for food-insecure households",
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Unemployment improvement"
+            }
+          ],
+          "lifecycle": {}
+        }
+      ]
+    },
+    {
+      "iso3": "IRN",
+      "name": "Iran",
+      "top": [
+        {
+          "id": "country:IRN:transport",
+          "iso3": "IRN",
+          "theme": "transport",
+          "label": "Transport & logistics",
+          "icon": "bus",
+          "color": "#f97316",
+          "type": "national",
+          "score": 80,
+          "action": "Upgrade road and logistics infrastructure on the weakest corridors",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 80,
+            "nationalText": "logistics infrastructure score 2.4 of 5",
+            "investment": 235000000,
+            "trend": {
+              "change": 0.040000000000000036,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Infrastructure quality (LPI) improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Infrastructure quality (LPI) improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IRN:air",
+          "iso3": "IRN",
+          "theme": "air",
+          "label": "Clean air",
+          "icon": "wind",
+          "color": "#14b8a6",
+          "type": "national",
+          "score": 78,
+          "action": "Deploy air-quality monitoring and act on the largest pollution sources",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 78,
+            "nationalText": "PM2.5 exposure 40 µg/m³ (WHO guideline: 5)",
+            "investment": null,
+            "trend": {
+              "change": -3.0382857635894,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "PM2.5 exposure improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "PM2.5 exposure improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IRN:jobs",
+          "iso3": "IRN",
+          "theme": "jobs",
+          "label": "Job opportunities",
+          "icon": "briefcase",
+          "color": "#ec4899",
+          "type": "national",
+          "score": 55,
+          "action": "Scale employment and skills programmes for the highest-unemployment groups",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 55,
+            "nationalText": "8% unemployment",
+            "investment": null,
+            "trend": {
+              "change": -5.378,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Unemployment improvement"
+            }
+          ],
+          "lifecycle": {}
+        }
+      ],
+      "all": [
+        {
+          "id": "country:IRN:transport",
+          "iso3": "IRN",
+          "theme": "transport",
+          "label": "Transport & logistics",
+          "icon": "bus",
+          "color": "#f97316",
+          "type": "national",
+          "score": 80,
+          "action": "Upgrade road and logistics infrastructure on the weakest corridors",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 80,
+            "nationalText": "logistics infrastructure score 2.4 of 5",
+            "investment": 235000000,
+            "trend": {
+              "change": 0.040000000000000036,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Infrastructure quality (LPI) improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Infrastructure quality (LPI) improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IRN:air",
+          "iso3": "IRN",
+          "theme": "air",
+          "label": "Clean air",
+          "icon": "wind",
+          "color": "#14b8a6",
+          "type": "national",
+          "score": 78,
+          "action": "Deploy air-quality monitoring and act on the largest pollution sources",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 78,
+            "nationalText": "PM2.5 exposure 40 µg/m³ (WHO guideline: 5)",
+            "investment": null,
+            "trend": {
+              "change": -3.0382857635894,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "PM2.5 exposure improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "PM2.5 exposure improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IRN:jobs",
+          "iso3": "IRN",
+          "theme": "jobs",
+          "label": "Job opportunities",
+          "icon": "briefcase",
+          "color": "#ec4899",
+          "type": "national",
+          "score": 55,
+          "action": "Scale employment and skills programmes for the highest-unemployment groups",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 55,
+            "nationalText": "8% unemployment",
+            "investment": null,
+            "trend": {
+              "change": -5.378,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Unemployment improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IRN:energy",
+          "iso3": "IRN",
+          "theme": "energy",
+          "label": "Clean energy",
+          "icon": "leaf",
+          "color": "#22c55e",
+          "type": "national",
+          "score": 49,
+          "action": "Close electricity-access gaps and accelerate renewable capacity",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 49,
+            "nationalText": "100% electricity access, 1% renewable energy",
+            "investment": 94500000,
+            "trend": {
+              "change": 0,
+              "since": 2010,
+              "improving": false
+            }
+          },
+          "programme": null,
+          "learnFrom": [],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IRN:digital",
+          "iso3": "IRN",
+          "theme": "digital",
+          "label": "Digital connectivity",
+          "icon": "wifi",
+          "color": "#8b5cf6",
+          "type": "national",
+          "score": 37,
+          "action": "Extend last-mile connectivity and assisted access to online services",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 37,
+            "nationalText": "85% of people online",
+            "investment": null,
+            "trend": {
+              "change": 69.4404007,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Broadband China (2013)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Digital Economy national programme (2019)"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Internet users improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IRN:health",
+          "iso3": "IRN",
+          "theme": "health",
+          "label": "Healthcare access",
+          "icon": "heart",
+          "color": "#ef4444",
+          "type": "national",
+          "score": 34,
+          "action": "Expand primary-care access and child-health services where outcomes lag",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 34,
+            "nationalText": "under-5 mortality 11 per 1,000, 2 physicians per 1,000",
+            "investment": null,
+            "trend": {
+              "change": -8,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Health Transformation Plan (2014): reducing out-of-pocket spending",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Healthy China 2030 (2016)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Under-5 mortality improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Under-5 mortality improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IRN:education",
+          "iso3": "IRN",
+          "theme": "education",
+          "label": "Education access",
+          "icon": "graduation",
+          "color": "#eab308",
+          "type": "national",
+          "score": 29,
+          "action": "Target literacy and secondary-school completion in lagging regions",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 29,
+            "nationalText": "89% adult literacy, 85% secondary enrolment",
+            "investment": null,
+            "trend": {
+              "change": 5.252147877875913,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "BRA",
+              "model": "FUNDEB (2007)"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Adult literacy improvement"
+            },
+            {
+              "iso3": "CHN",
+              "model": "Adult literacy improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IRN:water",
+          "iso3": "IRN",
+          "theme": "water",
+          "label": "Water security",
+          "icon": "droplet",
+          "color": "#3b82f6",
+          "type": "national",
+          "score": 15,
+          "action": "Prioritise water-distribution upgrades, sanitation coverage and leakage monitoring",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 15,
+            "nationalText": "98% basic water, 90% basic sanitation",
+            "investment": null,
+            "trend": {
+              "change": 1.8302354058625099,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Basic drinking water improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "Água para Todos (2011)"
+            }
+          ],
+          "lifecycle": {}
+        }
+      ]
+    },
+    {
+      "iso3": "ARE",
+      "name": "United Arab Emirates",
+      "top": [
+        {
+          "id": "country:ARE:air",
+          "iso3": "ARE",
+          "theme": "air",
+          "label": "Clean air",
+          "icon": "wind",
+          "color": "#14b8a6",
+          "type": "national",
+          "score": 100,
+          "action": "Deploy air-quality monitoring and act on the largest pollution sources",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 100,
+            "nationalText": "PM2.5 exposure 57 µg/m³ (WHO guideline: 5)",
+            "investment": null,
+            "trend": {
+              "change": 1.6497169354740038,
+              "since": 2010,
+              "improving": false
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "PM2.5 exposure improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "PM2.5 exposure improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ARE:energy",
+          "iso3": "ARE",
+          "theme": "energy",
+          "label": "Clean energy",
+          "icon": "leaf",
+          "color": "#22c55e",
+          "type": "national",
+          "score": 49,
+          "action": "Close electricity-access gaps and accelerate renewable capacity",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 49,
+            "nationalText": "100% electricity access, 1% renewable energy",
+            "investment": 3802000000,
+            "trend": {
+              "change": 0.9,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "UAE Energy Strategy 2050 (2017): clean energy targets",
+          "learnFrom": [],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ARE:jobs",
+          "iso3": "ARE",
+          "theme": "jobs",
+          "label": "Job opportunities",
+          "icon": "briefcase",
+          "color": "#ec4899",
+          "type": "national",
+          "score": 14,
+          "action": "Scale employment and skills programmes for the highest-unemployment groups",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 14,
+            "nationalText": "2% unemployment",
+            "investment": null,
+            "trend": {
+              "change": -0.6240000000000001,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Unemployment improvement"
+            }
+          ],
+          "lifecycle": {}
+        }
+      ],
+      "all": [
+        {
+          "id": "country:ARE:air",
+          "iso3": "ARE",
+          "theme": "air",
+          "label": "Clean air",
+          "icon": "wind",
+          "color": "#14b8a6",
+          "type": "national",
+          "score": 100,
+          "action": "Deploy air-quality monitoring and act on the largest pollution sources",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 100,
+            "nationalText": "PM2.5 exposure 57 µg/m³ (WHO guideline: 5)",
+            "investment": null,
+            "trend": {
+              "change": 1.6497169354740038,
+              "since": 2010,
+              "improving": false
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "PM2.5 exposure improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "PM2.5 exposure improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ARE:energy",
+          "iso3": "ARE",
+          "theme": "energy",
+          "label": "Clean energy",
+          "icon": "leaf",
+          "color": "#22c55e",
+          "type": "national",
+          "score": 49,
+          "action": "Close electricity-access gaps and accelerate renewable capacity",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 49,
+            "nationalText": "100% electricity access, 1% renewable energy",
+            "investment": 3802000000,
+            "trend": {
+              "change": 0.9,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "UAE Energy Strategy 2050 (2017): clean energy targets",
+          "learnFrom": [],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ARE:jobs",
+          "iso3": "ARE",
+          "theme": "jobs",
+          "label": "Job opportunities",
+          "icon": "briefcase",
+          "color": "#ec4899",
+          "type": "national",
+          "score": 14,
+          "action": "Scale employment and skills programmes for the highest-unemployment groups",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 14,
+            "nationalText": "2% unemployment",
+            "investment": null,
+            "trend": {
+              "change": -0.6240000000000001,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Unemployment improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ARE:health",
+          "iso3": "ARE",
+          "theme": "health",
+          "label": "Healthcare access",
+          "icon": "heart",
+          "color": "#ef4444",
+          "type": "national",
+          "score": 6,
+          "action": "Expand primary-care access and child-health services where outcomes lag",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 6,
+            "nationalText": "under-5 mortality 5 per 1,000, 3 physicians per 1,000",
+            "investment": null,
+            "trend": {
+              "change": -4.000000000000001,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Healthy China 2030 (2016)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Under-5 mortality improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ARE:water",
+          "iso3": "ARE",
+          "theme": "water",
+          "label": "Water security",
+          "icon": "droplet",
+          "color": "#3b82f6",
+          "type": "national",
+          "score": 1,
+          "action": "Prioritise water-distribution upgrades, sanitation coverage and leakage monitoring",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 1,
+            "nationalText": "100% basic water, 99% basic sanitation",
+            "investment": null,
+            "trend": {
+              "change": 0.189205812371398,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Basic drinking water improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "Água para Todos (2011)"
+            },
+            {
+              "iso3": "IRN",
+              "model": "Basic drinking water improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ARE:education",
+          "iso3": "ARE",
+          "theme": "education",
+          "label": "Education access",
+          "icon": "graduation",
+          "color": "#eab308",
+          "type": "national",
+          "score": 1,
+          "action": "Target literacy and secondary-school completion in lagging regions",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 1,
+            "nationalText": "99% adult literacy, 102% secondary enrolment",
+            "investment": null,
+            "trend": {
+              "change": 1.0299987792969034,
+              "since": 2019,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "BRA",
+              "model": "FUNDEB (2007)"
+            },
+            {
+              "iso3": "IDN",
+              "model": "Adult literacy improvement"
+            },
+            {
+              "iso3": "CHN",
+              "model": "Adult literacy improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ARE:digital",
+          "iso3": "ARE",
+          "theme": "digital",
+          "label": "Digital connectivity",
+          "icon": "wifi",
+          "color": "#8b5cf6",
+          "type": "national",
+          "score": 0,
+          "action": "Extend last-mile connectivity and assisted access to online services",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 0,
+            "nationalText": "100% of people online",
+            "investment": null,
+            "trend": {
+              "change": 32,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Broadband China (2013)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Digital Economy national programme (2019)"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:ARE:transport",
+          "iso3": "ARE",
+          "theme": "transport",
+          "label": "Transport & logistics",
+          "icon": "bus",
+          "color": "#f97316",
+          "type": "national",
+          "score": 0,
+          "action": "Upgrade road and logistics infrastructure on the weakest corridors",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 0,
+            "nationalText": "logistics infrastructure score 4.1 of 5",
+            "investment": null,
+            "trend": {
+              "change": 0.2899999999999996,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Infrastructure quality (LPI) improvement"
+            },
+            {
+              "iso3": "ZAF",
+              "model": "Infrastructure quality (LPI) improvement"
+            }
+          ],
+          "lifecycle": {}
+        }
+      ]
+    },
+    {
+      "iso3": "IDN",
+      "name": "Indonesia",
+      "top": [
+        {
+          "id": "country:IDN:health",
+          "iso3": "IDN",
+          "theme": "health",
+          "label": "Healthcare access",
+          "icon": "heart",
+          "color": "#ef4444",
+          "type": "national",
+          "score": 100,
+          "action": "Expand primary-care access and child-health services where outcomes lag",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 34,
+            "regionsMeasured": 34,
+            "pilotRegions": [
+              {
+                "name": "North Maluku",
+                "score": 100,
+                "detail": "under-5 mortality 68 per 1,000, 43% basic vaccination"
+              },
+              {
+                "name": "Papua",
+                "score": 100,
+                "detail": "under-5 mortality 80 per 1,000, 50% basic vaccination"
+              },
+              {
+                "name": "Maluku",
+                "score": 90,
+                "detail": "under-5 mortality 52 per 1,000, 53% basic vaccination"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 63,
+            "nationalText": "under-5 mortality 18 per 1,000, 1 physicians per 1,000",
+            "investment": null,
+            "trend": {
+              "change": -14.900000000000002,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "JKN (2014): national health insurance",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Healthy China 2030 (2016)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Under-5 mortality improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Under-5 mortality improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IDN:water",
+          "iso3": "IDN",
+          "theme": "water",
+          "label": "Water security",
+          "icon": "droplet",
+          "color": "#3b82f6",
+          "type": "national",
+          "score": 88,
+          "action": "Prioritise water-distribution upgrades, sanitation coverage and leakage monitoring",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 26,
+            "regionsMeasured": 34,
+            "pilotRegions": [
+              {
+                "name": "Bengkulu",
+                "score": 88,
+                "detail": "69% improved water, 43% improved sanitation"
+              },
+              {
+                "name": "Central Kalimantan",
+                "score": 75,
+                "detail": "71% improved water, 69% improved sanitation"
+              },
+              {
+                "name": "West Sumatra",
+                "score": 69,
+                "detail": "83% improved water, 62% improved sanitation"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 28,
+            "nationalText": "89% basic water, 88% basic sanitation",
+            "investment": 1660920000,
+            "trend": {
+              "change": 3.842574485554792,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "PAMSIMAS (2008): community-based rural water supply and sanitation",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Basic drinking water improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "Água para Todos (2011)"
+            },
+            {
+              "iso3": "IRN",
+              "model": "Basic drinking water improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IDN:digital",
+          "iso3": "IDN",
+          "theme": "digital",
+          "label": "Digital connectivity",
+          "icon": "wifi",
+          "color": "#8b5cf6",
+          "type": "national",
+          "score": 68,
+          "action": "Extend last-mile connectivity and assisted access to online services",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 16,
+            "regionsMeasured": 34,
+            "pilotRegions": [
+              {
+                "name": "Papua",
+                "score": 65,
+                "detail": "74% of households own a mobile phone"
+              },
+              {
+                "name": "East Nusa Tenggara",
+                "score": 54,
+                "detail": "78% of households own a mobile phone"
+              },
+              {
+                "name": "West Kalimantan",
+                "score": 43,
+                "detail": "83% of households own a mobile phone"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 68,
+            "nationalText": "73% of people online",
+            "investment": 1153090000,
+            "trend": {
+              "change": 61.86075543999999,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Palapa Ring (2015): national fibre backbone to remote islands",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Broadband China (2013)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Digital Economy national programme (2019)"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Internet users improvement"
+            }
+          ],
+          "lifecycle": {}
+        }
+      ],
+      "all": [
+        {
+          "id": "country:IDN:health",
+          "iso3": "IDN",
+          "theme": "health",
+          "label": "Healthcare access",
+          "icon": "heart",
+          "color": "#ef4444",
+          "type": "national",
+          "score": 100,
+          "action": "Expand primary-care access and child-health services where outcomes lag",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 34,
+            "regionsMeasured": 34,
+            "pilotRegions": [
+              {
+                "name": "North Maluku",
+                "score": 100,
+                "detail": "under-5 mortality 68 per 1,000, 43% basic vaccination"
+              },
+              {
+                "name": "Papua",
+                "score": 100,
+                "detail": "under-5 mortality 80 per 1,000, 50% basic vaccination"
+              },
+              {
+                "name": "Maluku",
+                "score": 90,
+                "detail": "under-5 mortality 52 per 1,000, 53% basic vaccination"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 63,
+            "nationalText": "under-5 mortality 18 per 1,000, 1 physicians per 1,000",
+            "investment": null,
+            "trend": {
+              "change": -14.900000000000002,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "JKN (2014): national health insurance",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Healthy China 2030 (2016)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Under-5 mortality improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Under-5 mortality improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IDN:water",
+          "iso3": "IDN",
+          "theme": "water",
+          "label": "Water security",
+          "icon": "droplet",
+          "color": "#3b82f6",
+          "type": "national",
+          "score": 88,
+          "action": "Prioritise water-distribution upgrades, sanitation coverage and leakage monitoring",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 26,
+            "regionsMeasured": 34,
+            "pilotRegions": [
+              {
+                "name": "Bengkulu",
+                "score": 88,
+                "detail": "69% improved water, 43% improved sanitation"
+              },
+              {
+                "name": "Central Kalimantan",
+                "score": 75,
+                "detail": "71% improved water, 69% improved sanitation"
+              },
+              {
+                "name": "West Sumatra",
+                "score": 69,
+                "detail": "83% improved water, 62% improved sanitation"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 28,
+            "nationalText": "89% basic water, 88% basic sanitation",
+            "investment": 1660920000,
+            "trend": {
+              "change": 3.842574485554792,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "PAMSIMAS (2008): community-based rural water supply and sanitation",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Basic drinking water improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "Água para Todos (2011)"
+            },
+            {
+              "iso3": "IRN",
+              "model": "Basic drinking water improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IDN:digital",
+          "iso3": "IDN",
+          "theme": "digital",
+          "label": "Digital connectivity",
+          "icon": "wifi",
+          "color": "#8b5cf6",
+          "type": "national",
+          "score": 68,
+          "action": "Extend last-mile connectivity and assisted access to online services",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 16,
+            "regionsMeasured": 34,
+            "pilotRegions": [
+              {
+                "name": "Papua",
+                "score": 65,
+                "detail": "74% of households own a mobile phone"
+              },
+              {
+                "name": "East Nusa Tenggara",
+                "score": 54,
+                "detail": "78% of households own a mobile phone"
+              },
+              {
+                "name": "West Kalimantan",
+                "score": 43,
+                "detail": "83% of households own a mobile phone"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 68,
+            "nationalText": "73% of people online",
+            "investment": 1153090000,
+            "trend": {
+              "change": 61.86075543999999,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": "Palapa Ring (2015): national fibre backbone to remote islands",
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Broadband China (2013)"
+            },
+            {
+              "iso3": "RUS",
+              "model": "Digital Economy national programme (2019)"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Internet users improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IDN:energy",
+          "iso3": "IDN",
+          "theme": "energy",
+          "label": "Clean energy",
+          "icon": "leaf",
+          "color": "#22c55e",
+          "type": "national",
+          "score": 62,
+          "action": "Close electricity-access gaps and accelerate renewable capacity",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 2,
+            "regionsMeasured": 34,
+            "pilotRegions": [
+              {
+                "name": "East Nusa Tenggara",
+                "score": 62,
+                "detail": "75% of households with electricity"
+              },
+              {
+                "name": "Papua",
+                "score": 44,
+                "detail": "82% of households with electricity"
+              },
+              {
+                "name": "Maluku",
+                "score": 22,
+                "detail": "91% of households with electricity"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 30,
+            "nationalText": "100% electricity access, 20% renewable energy",
+            "investment": 21067900000,
+            "trend": {
+              "change": -15.8,
+              "since": 2010,
+              "improving": false
+            }
+          },
+          "programme": null,
+          "learnFrom": [],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IDN:education",
+          "iso3": "IDN",
+          "theme": "education",
+          "label": "Education access",
+          "icon": "graduation",
+          "color": "#eab308",
+          "type": "national",
+          "score": 56,
+          "action": "Target literacy and secondary-school completion in lagging regions",
+          "evidence": {
+            "basis": "regional-survey",
+            "regionsAffected": 2,
+            "regionsMeasured": 34,
+            "pilotRegions": [
+              {
+                "name": "Papua",
+                "score": 56,
+                "detail": "78% female literacy"
+              },
+              {
+                "name": "East Nusa Tenggara",
+                "score": 28,
+                "detail": "89% female literacy"
+              },
+              {
+                "name": "West Nusa Tenggara",
+                "score": 20,
+                "detail": "92% female literacy"
+              }
+            ],
+            "requests12m": null,
+            "nationalScore": 8,
+            "nationalText": "96% adult literacy, 97% secondary enrolment",
+            "investment": null,
+            "trend": {
+              "change": 3.6800003051757955,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "BRA",
+              "model": "FUNDEB (2007)"
+            },
+            {
+              "iso3": "CHN",
+              "model": "Adult literacy improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IDN:transport",
+          "iso3": "IDN",
+          "theme": "transport",
+          "label": "Transport & logistics",
+          "icon": "bus",
+          "color": "#f97316",
+          "type": "national",
+          "score": 55,
+          "action": "Upgrade road and logistics infrastructure on the weakest corridors",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 55,
+            "nationalText": "logistics infrastructure score 2.9 of 5",
+            "investment": 16196020000,
+            "trend": {
+              "change": 0.3599999999999999,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "CHN",
+              "model": "Infrastructure quality (LPI) improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Infrastructure quality (LPI) improvement"
+            },
+            {
+              "iso3": "ZAF",
+              "model": "Infrastructure quality (LPI) improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IDN:air",
+          "iso3": "IDN",
+          "theme": "air",
+          "label": "Clean air",
+          "icon": "wind",
+          "color": "#14b8a6",
+          "type": "national",
+          "score": 35,
+          "action": "Deploy air-quality monitoring and act on the largest pollution sources",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 35,
+            "nationalText": "PM2.5 exposure 21 µg/m³ (WHO guideline: 5)",
+            "investment": null,
+            "trend": {
+              "change": 2.0234818961729992,
+              "since": 2010,
+              "improving": false
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "PM2.5 exposure improvement"
+            },
+            {
+              "iso3": "BRA",
+              "model": "PM2.5 exposure improvement"
+            }
+          ],
+          "lifecycle": {}
+        },
+        {
+          "id": "country:IDN:jobs",
+          "iso3": "IDN",
+          "theme": "jobs",
+          "label": "Job opportunities",
+          "icon": "briefcase",
+          "color": "#ec4899",
+          "type": "national",
+          "score": 22,
+          "action": "Scale employment and skills programmes for the highest-unemployment groups",
+          "evidence": {
+            "basis": "national-indicator",
+            "regionsAffected": 0,
+            "regionsMeasured": 0,
+            "pilotRegions": [],
+            "requests12m": null,
+            "nationalScore": 22,
+            "nationalText": "3% unemployment",
+            "investment": null,
+            "trend": {
+              "change": -2.377,
+              "since": 2010,
+              "improving": true
+            }
+          },
+          "programme": null,
+          "learnFrom": [
+            {
+              "iso3": "RUS",
+              "model": "Unemployment improvement"
+            },
+            {
+              "iso3": "ARE",
+              "model": "Unemployment improvement"
+            }
+          ],
+          "lifecycle": {}
+        }
+      ]
+    }
+  ],
+  "tracker": [],
+  "confidence": [
+    {
+      "id": "feedback",
+      "label": "Citizen & regional data",
+      "value": 0.25
+    },
+    {
+      "id": "infra",
+      "label": "Infrastructure indicators",
+      "value": 0.9333333333333333
+    },
+    {
+      "id": "investment",
+      "label": "Public investment data",
+      "value": 0.725
+    },
+    {
+      "id": "demo",
+      "label": "Demographic data",
+      "value": 0.9833333333333333
+    }
+  ]
+}
