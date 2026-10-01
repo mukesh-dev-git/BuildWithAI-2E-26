@@ -1,0 +1,11954 @@
+{
+  "r": 1.1561150465387662,
+  "bounds": {
+    "lonMin": 17.491769906922467,
+    "lonMax": 182.31223009307755,
+    "latMin": 38.87376990692247,
+    "latMax": 84.16823009307753
+  },
+  "regionNames": {
+    "BRA-roraima": "Roraima",
+    "BRA-amapa": "Amapa",
+    "BRA-amazonas": "Amazonas",
+    "BRA-para": "Para",
+    "BRA-maranhao": "Maranhao",
+    "BRA-ceara": "Ceara",
+    "BRA-rio-grande-do-norte": "Rio Grande do Norte",
+    "BRA-paraiba": "Paraiba",
+    "BRA-piaui": "Piaui",
+    "BRA-pernambuco": "Pernambuco",
+    "BRA-alagoas": "Alagoas",
+    "BRA-acre": "Acre",
+    "BRA-rondonia": "Rondonia",
+    "BRA-sergipe": "Sergipe",
+    "BRA-tocantins": "Tocantins",
+    "BRA-bahia": "Bahia",
+    "BRA-mato-grosso": "Mato Grosso",
+    "BRA-goias": "Goias",
+    "BRA-distrito-federal": "Distrito Federal",
+    "BRA-minas-gerais": "Minas Gerais",
+    "BRA-espirito-santo": "Espirito Santo",
+    "BRA-mato-grosso-do-sul": "Mato Grosso do Sul",
+    "BRA-rio-de-janeiro": "Rio de Janeiro",
+    "BRA-sao-paulo": "Sao Paulo",
+    "BRA-parana": "Parana",
+    "BRA-santa-catarina": "Santa Catarina",
+    "BRA-rio-grande-do-sul": "Rio Grande do Sul",
+    "RUS-altai-krai": "Altai Krai",
+    "RUS-republic-of-mordovia": "Republic of Mordovia",
+    "RUS-tula-oblast": "Tula Oblast",
+    "RUS-kurgan-oblast": "Kurgan Oblast",
+    "RUS-ingushetia": "Ingushetia",
+    "RUS-khanty-mansiysk-autonomous-okrug-ugra": "Khanty-Mansiysk Autonomous Okrug – Ugra",
+    "RUS-kirov-oblast": "Kirov Oblast",
+    "RUS-komi-republic": "Komi Republic",
+    "RUS-kostroma-oblast": "Kostroma Oblast",
+    "RUS-krasnoyarsk-krai": "Krasnoyarsk Krai",
+    "RUS-zabaykalsky-krai": "Zabaykalsky Krai",
+    "RUS-sverdlovsk-oblast": "Sverdlovsk Oblast",
+    "RUS-volgograd-oblast": "Volgograd Oblast",
+    "RUS-irkutsk-oblast": "Irkutsk Oblast",
+    "RUS-perm-krai": "Perm Krai",
+    "RUS-pskov-oblast": "Pskov Oblast",
+    "RUS-rostov-oblast": "Rostov Oblast",
+    "RUS-ryazan-oblast": "Ryazan Oblast",
+    "RUS-adygea": "Adygea",
+    "RUS-samara-oblast": "Samara Oblast",
+    "RUS-khakassia": "Khakassia",
+    "RUS-tambov-oblast": "Tambov Oblast",
+    "RUS-tatarstan": "Tatarstan",
+    "RUS-tomsk-oblast": "Tomsk Oblast",
+    "RUS-nizhny-novgorod-oblast": "Nizhny Novgorod Oblast",
+    "RUS-republic-of-karelia": "Republic of Karelia",
+    "RUS-arkhangelsk-oblast": "Arkhangelsk Oblast",
+    "RUS-astrakhan-oblast": "Astrakhan Oblast",
+    "RUS-belgorod-oblast": "Belgorod Oblast",
+    "RUS-bryansk-oblast": "Bryansk Oblast",
+    "RUS-buryatia": "Buryatia",
+    "RUS-chechnya": "Chechnya",
+    "RUS-chelyabinsk-oblast": "Chelyabinsk Oblast",
+    "RUS-chuvashia": "Chuvashia",
+    "RUS-tyumen-oblast": "Tyumen Oblast",
+    "RUS-north-ossetia-alania": "North Ossetia–Alania",
+    "RUS-penza-oblast": "Penza Oblast",
+    "RUS-amur-oblast": "Amur Oblast",
+    "RUS-kabardino-balkaria": "Kabardino-Balkaria",
+    "RUS-krasnodar-krai": "Krasnodar Krai",
+    "RUS-kursk-oblast": "Kursk Oblast",
+    "RUS-leningrad-oblast": "Leningrad oblast",
+    "RUS-mari-el": "Mari El",
+    "RUS-moscow": "Moscow",
+    "RUS-moscow-oblast": "Moscow Oblast",
+    "RUS-murmansk-oblast": "Murmansk Oblast",
+    "RUS-nenets-autonomous-okrug": "Nenets Autonomous Okrug",
+    "RUS-novgorod-oblast": "Novgorod Oblast",
+    "RUS-novosibirsk-oblast": "Novosibirsk Oblast",
+    "RUS-omsk-oblast": "Omsk Oblast",
+    "RUS-oryol-oblast": "Oryol Oblast",
+    "RUS-saint-petersburg": "Saint Petersburg",
+    "RUS-sakhalin-oblast": "Sakhalin Oblast",
+    "RUS-sakha-republic": "Sakha Republic",
+    "RUS-saratov-oblast": "Saratov Oblast",
+    "RUS-smolensk-oblast": "Smolensk Oblast",
+    "RUS-stavropol-krai": "Stavropol Krai",
+    "RUS-tuva": "Tuva",
+    "RUS-tver-oblast": "Tver Oblast",
+    "RUS-udmurtia": "Udmurtia",
+    "RUS-kaluga-oblast": "Kaluga Oblast",
+    "RUS-lipetsk-oblast": "Lipetsk Oblast",
+    "RUS-magadan-oblast": "Magadan Oblast",
+    "RUS-ulyanovsk-oblast": "Ulyanovsk Oblast",
+    "RUS-vladimir-oblast": "Vladimir Oblast",
+    "RUS-vologda-oblast": "Vologda Oblast",
+    "RUS-yaroslavl-oblast": "Yaroslavl Oblast",
+    "RUS-voronezh-oblast": "Voronezh Oblast",
+    "RUS-yamalo-nenets-autonomous-okrug": "Yamalo-Nenets Autonomous Okrug",
+    "RUS-altai-republic": "Altai Republic",
+    "RUS-ivanovo-oblast": "Ivanovo Oblast",
+    "RUS-jewish-autonomous-oblast": "Jewish Autonomous Oblast",
+    "RUS-kalmykia": "Kalmykia",
+    "RUS-kamchatka-krai": "Kamchatka Krai",
+    "RUS-karachay-cherkessia": "Karachay-Cherkessia",
+    "RUS-kemerovo-oblast": "Kemerovo Oblast",
+    "RUS-khabarovsk-krai": "Khabarovsk Krai",
+    "RUS-chukotka-autonomous-okrug": "Chukotka Autonomous Okrug",
+    "RUS-dagestan": "Dagestan",
+    "RUS-kaliningrad": "Kaliningrad",
+    "RUS-orenburg-oblast": "Orenburg Oblast",
+    "RUS-primorsky-krai": "Primorsky Krai",
+    "RUS-bashkortostan": "Bashkortostan",
+    "IND-puducherry": "Puducherry",
+    "IND-maharashtra": "Mahārāshtra",
+    "IND-nagaland": "Nāgāland",
+    "IND-lakshadweep": "Lakshadweep",
+    "IND-uttar-pradesh": "Uttar Pradesh",
+    "IND-tamil-nadu": "Tamil Nādu",
+    "IND-chhattisgarh": "Chhattīsgarh",
+    "IND-gujarat": "Gujarāt",
+    "IND-delhi": "Delhi",
+    "IND-sikkim": "Sikkim",
+    "IND-tripura": "Tripura",
+    "IND-west-bengal": "West Bengal",
+    "IND-odisha": "Odisha",
+    "IND-bihar": "Bihār",
+    "IND-ladakh": "Ladākh",
+    "IND-rajasthan": "Rājasthān",
+    "IND-telangana": "Telangāna",
+    "IND-andhra-pradesh": "Andhra Pradesh",
+    "IND-mizoram": "Mizoram",
+    "IND-arunachal-pradesh": "Arunāchal Pradesh",
+    "IND-meghalaya": "Meghālaya",
+    "IND-jharkhand": "Jhārkhand",
+    "IND-assam": "Assam",
+    "IND-manipur": "Manipur",
+    "IND-karnataka": "Karnātaka",
+    "IND-uttarakhand": "Uttarākhand",
+    "IND-dadra-and-nagar-haveli-and-daman-and-diu": "Dādra and Nagar Haveli and Damān and Diu",
+    "IND-madhya-pradesh": "Madhya Pradesh",
+    "IND-goa": "Goa",
+    "IND-kerala": "Kerala",
+    "IND-chandigarh": "Chandīgarh",
+    "IND-andaman-and-nicobar-islands": "Andaman and Nicobar Islands",
+    "IND-himachal-pradesh": "Himāchal Pradesh",
+    "IND-jammu-and-kashmir": "Jammu and Kashmīr",
+    "IND-punjab": "Punjab",
+    "IND-haryana": "Haryāna",
+    "CHN-hainan-province": "Hainan Province",
+    "CHN-taiwan-province": "Taiwan Province",
+    "CHN-guangxi-zhuang-autonomous-region": "Guangxi Zhuang Autonomous Region",
+    "CHN-fujian-province": "Fujian Province",
+    "CHN-yunnan-province": "Yunnan Province",
+    "CHN-guizhou-province": "Guizhou Province",
+    "CHN-jiangxi-province": "Jiangxi Province",
+    "CHN-hunan-province": "Hunan Province",
+    "CHN-zhejiang-province": "Zhejiang Province",
+    "CHN-shanghai-municipality": "Shanghai Municipality",
+    "CHN-chongqing-municipality": "Chongqing Municipality",
+    "CHN-hubei-province": "Hubei Province",
+    "CHN-sichuan-province": "Sichuan Province",
+    "CHN-anhui-province": "Anhui Province",
+    "CHN-jiangsu-province": "Jiangsu Province",
+    "CHN-henan-province": "Henan Province",
+    "CHN-tibet-autonomous-region": "Tibet Autonomous Region",
+    "CHN-shandong-province": "Shandong Province",
+    "CHN-qinghai-province": "Qinghai Province",
+    "CHN-ningxia-ningxia-hui-autonomous-region": "Ningxia Ningxia Hui Autonomous Region",
+    "CHN-shaanxi-province": "Shaanxi Province",
+    "CHN-tianjin-municipality": "Tianjin Municipality",
+    "CHN-shanxi-province": "Shanxi Province",
+    "CHN-beijing-municipality": "Beijing Municipality",
+    "CHN-gansu-province": "Gansu Province",
+    "CHN-hebei-province": "Hebei Province",
+    "CHN-liaoning-province": "Liaoning Province",
+    "CHN-jilin-province": "Jilin Province",
+    "CHN-xinjiang-uyghur-autonomous-region": "Xinjiang Uyghur Autonomous Region",
+    "CHN-inner-mongolia-autonomous-region": "Inner Mongolia Autonomous Region",
+    "CHN-heilongjiang-province": "Heilongjiang Province",
+    "CHN-macau-special-administrative-region": "Macau Special Administrative Region",
+    "CHN-hong-kong-special-administrative-region": "Hong Kong Special Administrative Region",
+    "CHN-guangzhou-province": "Guangzhou Province",
+    "ZAF-eastern-cape": "Eastern Cape",
+    "ZAF-free-state": "Free State",
+    "ZAF-gauteng": "Gauteng",
+    "ZAF-kwazulu-natal": "KwaZulu-Natal",
+    "ZAF-limpopo": "Limpopo",
+    "ZAF-mpumalanga": "Mpumalanga",
+    "ZAF-north-west": "North West",
+    "ZAF-nothern-cape": "Nothern Cape",
+    "ZAF-western-cape": "Western Cape",
+    "EGY-north-sinai-governorate": "North Sinai Governorate",
+    "EGY-south-sinai-governorate": "South Sinai Governorate",
+    "EGY-aswan-governorate": "Aswan Governorate",
+    "EGY-red-sea-governorate": "Red Sea Governorate",
+    "EGY-matrouh-governorate": "Matrouh Governorate",
+    "EGY-new-valley-governorate": "New Valley Governorate",
+    "EGY-alexandria-governorate": "Alexandria Governorate",
+    "EGY-ismailia-governorate": "Ismailia Governorate",
+    "EGY-suez-governorate": "Suez Governorate",
+    "EGY-gharbiyya-governorate": "Gharbiyya Governorate",
+    "EGY-faiyum-governorate": "Faiyum Governorate",
+    "EGY-beni-suef-governorate": "Beni Suef Governorate",
+    "EGY-minya-governate": "Minya Governate",
+    "EGY-asyut-governorate": "Asyut Governorate",
+    "EGY-sohag-governorate": "Sohag Governorate",
+    "EGY-qena-governorate": "Qena Governorate",
+    "EGY-luxor-governate": "Luxor Governate",
+    "EGY-giza-governorate": "Giza Governorate",
+    "EGY-monufia-governorate": "Monufia Governorate",
+    "EGY-beheira-governorate": "Beheira Governorate",
+    "EGY-cairo-governorate": "Cairo Governorate",
+    "EGY-qalyubia-governorate": "Qalyubia Governorate",
+    "EGY-dakahlia-governorate": "Dakahlia Governorate",
+    "EGY-damietta-governorate": "Damietta Governorate",
+    "EGY-kafr-el-sheikh-governorate": "Kafr el-Sheikh Governorate",
+    "EGY-port-said-governorate": "Port Said Governorate",
+    "EGY-al-sharqia-governorate": "Al Sharqia Governorate",
+    "ETH-addis-ababa": "Addis Ababa",
+    "ETH-afar": "Afar",
+    "ETH-amhara": "Amhara",
+    "ETH-beneshangul-gumu": "Beneshangul Gumu",
+    "ETH-dire-dawa": "Dire Dawa",
+    "ETH-gambela": "Gambela",
+    "ETH-hareri": "Hareri",
+    "ETH-oromia": "Oromia",
+    "ETH-snnpr": "SNNPR",
+    "ETH-somali": "Somali",
+    "ETH-tigray": "Tigray",
+    "IRN-mazandaran": "Mazandaran",
+    "IRN-north-khorasan": "North Khorasan",
+    "IRN-kerman": "Kerman",
+    "IRN-ilam": "Ilam",
+    "IRN-lorestan": "Lorestan",
+    "IRN-markazi": "Markazi",
+    "IRN-chaharmahal-and-bakhtiari": "Chaharmahal and Bakhtiari",
+    "IRN-kermanshah": "Kermanshah",
+    "IRN-hamadan": "Hamadan",
+    "IRN-qazvin": "Qazvin",
+    "IRN-gilan": "Gilan",
+    "IRN-zanjan": "Zanjan",
+    "IRN-semnan": "Semnan",
+    "IRN-isfahan": "Isfahan",
+    "IRN-kohgiluyeh-and-boyer-ahmad": "Kohgiluyeh and Boyer-Ahmad",
+    "IRN-kurdistan": "Kurdistan",
+    "IRN-west-azerbaijan": "West Azerbaijan",
+    "IRN-fars": "Fars",
+    "IRN-bushehr": "Bushehr",
+    "IRN-ardabil": "Ardabil",
+    "IRN-golestan": "Golestan",
+    "IRN-razavi-khorasan": "Razavi Khorasan",
+    "IRN-south-khorasan": "South Khorasan",
+    "IRN-sistan-and-baluchestan": "Sistan and Baluchestan",
+    "IRN-qom": "Qom",
+    "IRN-alborz": "Alborz",
+    "IRN-east-azerbaijan": "East Azerbaijan",
+    "IRN-yazd": "Yazd",
+    "IRN-hormozgan": "Hormozgan",
+    "IRN-khuzestan": "Khuzestan",
+    "IRN-tehran": "Tehran",
+    "ARE-abu-dhabi": "Abu Dhabi",
+    "ARE-ajman": "Ajman",
+    "ARE-dubai": "Dubai",
+    "ARE-fujairah": "Fujairah",
+    "ARE-ras-al-khaimah": "Ras al-Khaimah",
+    "ARE-sharjah": "Sharjah",
+    "ARE-umm-al-quwain": "Umm al-Quwain",
+    "IDN-bali": "Bali",
+    "IDN-west-nusa-tenggara": "West Nusa Tenggara",
+    "IDN-banten": "Banten",
+    "IDN-central-java": "Central Java",
+    "IDN-west-java": "West Java",
+    "IDN-central-kalimantan": "Central Kalimantan",
+    "IDN-south-kalimantan": "South Kalimantan",
+    "IDN-west-kalimantan": "West Kalimantan",
+    "IDN-central-sulawesi": "Central Sulawesi",
+    "IDN-gorontalo": "Gorontalo",
+    "IDN-north-sulawesi": "North Sulawesi",
+    "IDN-south-sulawesi": "South Sulawesi",
+    "IDN-southeast-sulawesi": "Southeast Sulawesi",
+    "IDN-west-sulawesi": "West Sulawesi",
+    "IDN-aceh": "Aceh",
+    "IDN-bengkulu": "Bengkulu",
+    "IDN-jambi": "Jambi",
+    "IDN-lampung": "Lampung",
+    "IDN-riau": "Riau",
+    "IDN-west-sumatra": "West Sumatra",
+    "IDN-south-sumatra": "South Sumatra",
+    "IDN-north-sumatra": "North Sumatra",
+    "IDN-east-nusa-tenggara": "East Nusa Tenggara",
+    "IDN-maluku": "Maluku",
+    "IDN-north-maluku": "North Maluku",
+    "IDN-east-java": "East Java",
+    "IDN-bangka-belitung-islands": "Bangka-Belitung Islands",
+    "IDN-riau-islands": "Riau Islands",
+    "IDN-papua": "Papua",
+    "IDN-west-papua": "West Papua",
+    "IDN-east-kalimantan": "East Kalimantan",
+    "IDN-north-kalimantan": "North Kalimantan",
+    "IDN-special-region-of-yogyakarta": "Special Region of Yogyakarta",
+    "IDN-jakarta-special-capital-region": "Jakarta Special Capital Region"
+  },
+  "regionBest": {
+    "RUS-altai-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-republic-of-mordovia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tula-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kurgan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ingushetia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khanty-mansiysk-autonomous-okrug-ugra": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kirov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-komi-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kostroma-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-krasnoyarsk-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-zabaykalsky-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sverdlovsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-volgograd-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-irkutsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-perm-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-pskov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-rostov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ryazan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-adygea": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-samara-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khakassia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tambov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tatarstan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tomsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-nizhny-novgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-republic-of-karelia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-arkhangelsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-astrakhan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-belgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-bryansk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-buryatia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chechnya": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chelyabinsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chuvashia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tyumen-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-north-ossetia-alania": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-penza-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-amur-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kabardino-balkaria": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-krasnodar-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kursk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-leningrad-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-mari-el": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-moscow": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-moscow-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-murmansk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-nenets-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-novgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-novosibirsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-omsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-oryol-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-saint-petersburg": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sakhalin-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sakha-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-saratov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-smolensk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-stavropol-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tuva": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tver-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-udmurtia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kaluga-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-lipetsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-magadan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ulyanovsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-vladimir-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-vologda-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-yaroslavl-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-voronezh-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-yamalo-nenets-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-altai-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ivanovo-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-jewish-autonomous-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kalmykia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kamchatka-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-karachay-cherkessia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kemerovo-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khabarovsk-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chukotka-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-dagestan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kaliningrad": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-orenburg-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-primorsky-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-bashkortostan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IND-puducherry": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-maharashtra": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-nagaland": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-lakshadweep": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-uttar-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-tamil-nadu": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-chhattisgarh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-gujarat": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-delhi": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-sikkim": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-tripura": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-west-bengal": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-odisha": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-bihar": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "IND-ladakh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-rajasthan": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-telangana": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-andhra-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-mizoram": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-arunachal-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-meghalaya": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-jharkhand": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-assam": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-manipur": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-karnataka": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-uttarakhand": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-dadra-and-nagar-haveli-and-daman-and-diu": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-madhya-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-goa": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-kerala": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-chandigarh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-andaman-and-nicobar-islands": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-himachal-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-jammu-and-kashmir": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-punjab": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-haryana": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hainan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-taiwan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guangxi-zhuang-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-fujian-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-yunnan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guizhou-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jiangxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hunan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-zhejiang-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shanghai-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-chongqing-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hubei-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-sichuan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-anhui-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jiangsu-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-henan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-tibet-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shandong-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-qinghai-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-ningxia-ningxia-hui-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shaanxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-tianjin-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shanxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-beijing-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-gansu-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hebei-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-liaoning-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jilin-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-xinjiang-uyghur-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-inner-mongolia-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-heilongjiang-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-macau-special-administrative-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hong-kong-special-administrative-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guangzhou-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ZAF-eastern-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-free-state": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-gauteng": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-kwazulu-natal": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-limpopo": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-mpumalanga": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-north-west": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-nothern-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-western-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "EGY-north-sinai-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-south-sinai-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-aswan-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-red-sea-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-matrouh-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-new-valley-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-alexandria-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-ismailia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-suez-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-gharbiyya-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-faiyum-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-beni-suef-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-minya-governate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-asyut-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-sohag-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-qena-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-luxor-governate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-giza-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-monufia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-beheira-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-cairo-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-qalyubia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-dakahlia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-damietta-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-kafr-el-sheikh-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-port-said-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-al-sharqia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ETH-addis-ababa": {
+      "score": 94,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "ETH-afar": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "ETH-amhara": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "digital"
+    },
+    "ETH-beneshangul-gumu": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "ETH-dire-dawa": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "ETH-gambela": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-hareri": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-oromia": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-snnpr": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "ETH-somali": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "ETH-tigray": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "IRN-mazandaran": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-north-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kerman": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-ilam": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-lorestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-markazi": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-chaharmahal-and-bakhtiari": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kermanshah": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-hamadan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-qazvin": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-gilan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-zanjan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-semnan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-isfahan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kohgiluyeh-and-boyer-ahmad": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kurdistan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-west-azerbaijan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-fars": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-bushehr": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-ardabil": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-golestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-razavi-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-south-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-sistan-and-baluchestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-qom": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-alborz": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-east-azerbaijan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-yazd": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-hormozgan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-khuzestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-tehran": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "ARE-abu-dhabi": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-ajman": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-dubai": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-fujairah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-ras-al-khaimah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-sharjah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-umm-al-quwain": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IDN-bali": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-west-nusa-tenggara": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-banten": {
+      "score": 84,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-central-java": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-west-java": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-central-kalimantan": {
+      "score": 80,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-kalimantan": {
+      "score": 57,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-west-kalimantan": {
+      "score": 61,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-central-sulawesi": {
+      "score": 74,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-gorontalo": {
+      "score": 75,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-sulawesi": {
+      "score": 57,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-sulawesi": {
+      "score": 59,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-southeast-sulawesi": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-sulawesi": {
+      "score": 82,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-aceh": {
+      "score": 79,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-bengkulu": {
+      "score": 88,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-jambi": {
+      "score": 63,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-lampung": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-riau": {
+      "score": 80,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-sumatra": {
+      "score": 73,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-sumatra": {
+      "score": 62,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-sumatra": {
+      "score": 72,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-nusa-tenggara": {
+      "score": 68,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-maluku": {
+      "score": 90,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-maluku": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-java": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-bangka-belitung-islands": {
+      "score": 68,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-riau-islands": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-papua": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-papua": {
+      "score": 90,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-kalimantan": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-north-kalimantan": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-special-region-of-yogyakarta": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-jakarta-special-capital-region": {
+      "score": 55,
+      "basis": "regional-survey",
+      "theme": "health"
+    }
+  },
+  "cells": [
+    [
+      47.529,
+      80.7,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      49.531,
+      80.7,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      51.533,
+      80.7,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      59.543,
+      80.7,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      61.546,
+      80.7,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      63.548,
+      80.7,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      93.585,
+      80.7,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      95.587,
+      80.7,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      97.59,
+      80.7,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      18.493,
+      78.966,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.495,
+      78.966,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.589,
+      78.966,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      98.591,
+      78.966,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      102.596,
+      78.966,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      89.58,
+      77.232,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      103.597,
+      77.232,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      58.542,
+      75.497,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      60.544,
+      75.497,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      62.547,
+      75.497,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      90.581,
+      75.497,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      92.584,
+      75.497,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      94.586,
+      75.497,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      96.589,
+      75.497,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      98.591,
+      75.497,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      100.593,
+      75.497,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      102.596,
+      75.497,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      104.598,
+      75.497,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      106.601,
+      75.497,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      108.603,
+      75.497,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      110.606,
+      75.497,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      112.608,
+      75.497,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      138.64,
+      75.497,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      140.642,
+      75.497,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      142.645,
+      75.497,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      144.647,
+      75.497,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      146.65,
+      75.497,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      55.538,
+      73.763,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      57.541,
+      73.763,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      81.57,
+      73.763,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      83.573,
+      73.763,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      85.575,
+      73.763,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      87.578,
+      73.763,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      89.58,
+      73.763,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      91.582,
+      73.763,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      93.585,
+      73.763,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      95.587,
+      73.763,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      97.59,
+      73.763,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      99.592,
+      73.763,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      101.595,
+      73.763,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      103.597,
+      73.763,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      105.6,
+      73.763,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      107.602,
+      73.763,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      109.604,
+      73.763,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      111.607,
+      73.763,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      141.644,
+      73.763,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      52.535,
+      72.029,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      54.537,
+      72.029,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      70.557,
+      72.029,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      72.559,
+      72.029,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      76.564,
+      72.029,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      78.566,
+      72.029,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      80.569,
+      72.029,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      82.571,
+      72.029,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      84.574,
+      72.029,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      86.576,
+      72.029,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      88.579,
+      72.029,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      90.581,
+      72.029,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      92.584,
+      72.029,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      94.586,
+      72.029,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      96.589,
+      72.029,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      98.591,
+      72.029,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      100.593,
+      72.029,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      102.596,
+      72.029,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      104.598,
+      72.029,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      106.601,
+      72.029,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      108.603,
+      72.029,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      110.606,
+      72.029,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      112.608,
+      72.029,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      114.611,
+      72.029,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      116.613,
+      72.029,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      118.615,
+      72.029,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      120.618,
+      72.029,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      122.62,
+      72.029,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      124.623,
+      72.029,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      126.625,
+      72.029,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      140.642,
+      72.029,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      142.645,
+      72.029,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      144.647,
+      72.029,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      146.65,
+      72.029,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      148.652,
+      72.029,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      23.499,
+      70.295,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.502,
+      70.295,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.504,
+      70.295,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.506,
+      70.295,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.553,
+      70.295,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      69.555,
+      70.295,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      71.558,
+      70.295,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      75.563,
+      70.295,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      77.565,
+      70.295,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      79.568,
+      70.295,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      81.57,
+      70.295,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      83.573,
+      70.295,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      85.575,
+      70.295,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      87.578,
+      70.295,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      89.58,
+      70.295,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      91.582,
+      70.295,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      93.585,
+      70.295,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      95.587,
+      70.295,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      97.59,
+      70.295,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      99.592,
+      70.295,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      101.595,
+      70.295,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      103.597,
+      70.295,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      105.6,
+      70.295,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      107.602,
+      70.295,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      109.604,
+      70.295,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      111.607,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      113.609,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      115.612,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      117.614,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      119.617,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      121.619,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      123.622,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      125.624,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      127.627,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      129.629,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      131.631,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      133.634,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      135.636,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      137.639,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      139.641,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      141.644,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      143.646,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      145.649,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      147.651,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      149.653,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      151.656,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      153.658,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      155.661,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      157.663,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      159.666,
+      70.295,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      18.493,
+      68.561,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.495,
+      68.561,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.498,
+      68.561,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.5,
+      68.561,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.503,
+      68.561,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.505,
+      68.561,
+      "RUS",
+      "RUS-murmansk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      30.508,
+      68.561,
+      "RUS",
+      "RUS-murmansk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      32.51,
+      68.561,
+      "RUS",
+      "RUS-murmansk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      34.513,
+      68.561,
+      "RUS",
+      "RUS-murmansk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      36.515,
+      68.561,
+      "RUS",
+      "RUS-murmansk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      52.535,
+      68.561,
+      "RUS",
+      "RUS-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      56.54,
+      68.561,
+      "RUS",
+      "RUS-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      58.542,
+      68.561,
+      "RUS",
+      "RUS-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      60.544,
+      68.561,
+      "RUS",
+      "RUS-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      62.547,
+      68.561,
+      "RUS",
+      "RUS-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      64.549,
+      68.561,
+      "RUS",
+      "RUS-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      66.552,
+      68.561,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      70.557,
+      68.561,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      72.559,
+      68.561,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      74.562,
+      68.561,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      76.564,
+      68.561,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      78.566,
+      68.561,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      80.569,
+      68.561,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      82.571,
+      68.561,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      84.574,
+      68.561,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      86.576,
+      68.561,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      88.579,
+      68.561,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      90.581,
+      68.561,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      92.584,
+      68.561,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      94.586,
+      68.561,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      96.589,
+      68.561,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      98.591,
+      68.561,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      100.593,
+      68.561,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      102.596,
+      68.561,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      104.598,
+      68.561,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      106.601,
+      68.561,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      108.603,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      110.606,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      112.608,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      114.611,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      116.613,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      118.615,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      120.618,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      122.62,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      124.623,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      126.625,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      128.628,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      130.63,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      132.633,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      134.635,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      136.638,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      138.64,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      140.642,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      142.645,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      144.647,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      146.65,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      148.652,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      150.655,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      152.657,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      154.66,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      156.662,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      158.664,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      160.667,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      162.669,
+      68.561,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      164.672,
+      68.561,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      166.674,
+      68.561,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      168.677,
+      68.561,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      170.679,
+      68.561,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      172.682,
+      68.561,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      174.684,
+      68.561,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      176.687,
+      68.561,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      178.689,
+      68.561,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      17.492,
+      66.827,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.494,
+      66.827,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.497,
+      66.827,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.499,
+      66.827,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.502,
+      66.827,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.504,
+      66.827,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.506,
+      66.827,
+      "RUS",
+      "RUS-murmansk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      31.509,
+      66.827,
+      "RUS",
+      "RUS-murmansk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      33.511,
+      66.827,
+      "RUS",
+      "RUS-murmansk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      35.514,
+      66.827,
+      "RUS",
+      "RUS-murmansk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      37.516,
+      66.827,
+      "RUS",
+      "RUS-murmansk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      39.519,
+      66.827,
+      "RUS",
+      "RUS-murmansk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      45.526,
+      66.827,
+      "RUS",
+      "RUS-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      47.529,
+      66.827,
+      "RUS",
+      "RUS-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      49.531,
+      66.827,
+      "RUS",
+      "RUS-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      51.533,
+      66.827,
+      "RUS",
+      "RUS-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      53.536,
+      66.827,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      55.538,
+      66.827,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      57.541,
+      66.827,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      59.543,
+      66.827,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      61.546,
+      66.827,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      63.548,
+      66.827,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      65.551,
+      66.827,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      67.553,
+      66.827,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      69.555,
+      66.827,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      71.558,
+      66.827,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.56,
+      66.827,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      75.563,
+      66.827,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      77.565,
+      66.827,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      79.568,
+      66.827,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      81.57,
+      66.827,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      83.573,
+      66.827,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      85.575,
+      66.827,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      87.578,
+      66.827,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      89.58,
+      66.827,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      91.582,
+      66.827,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      93.585,
+      66.827,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      95.587,
+      66.827,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      97.59,
+      66.827,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      99.592,
+      66.827,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      101.595,
+      66.827,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      103.597,
+      66.827,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      105.6,
+      66.827,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      107.602,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      109.604,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      111.607,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      113.609,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      115.612,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      117.614,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      119.617,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      121.619,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      123.622,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      125.624,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      127.627,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      129.629,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      131.631,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      133.634,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      135.636,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      137.639,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      139.641,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      141.644,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      143.646,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      145.649,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      147.651,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      149.653,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      151.656,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      153.658,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      155.661,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      157.663,
+      66.827,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      159.666,
+      66.827,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      161.668,
+      66.827,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      163.671,
+      66.827,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      165.673,
+      66.827,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      167.676,
+      66.827,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      169.678,
+      66.827,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      171.68,
+      66.827,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      173.683,
+      66.827,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      175.685,
+      66.827,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      177.688,
+      66.827,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      179.69,
+      66.827,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      18.493,
+      65.092,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.495,
+      65.092,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.503,
+      65.092,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.505,
+      65.092,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      30.508,
+      65.092,
+      "RUS",
+      "RUS-republic-of-karelia",
+      65,
+      "national-indicator"
+    ],
+    [
+      32.51,
+      65.092,
+      "RUS",
+      "RUS-republic-of-karelia",
+      65,
+      "national-indicator"
+    ],
+    [
+      34.513,
+      65.092,
+      "RUS",
+      "RUS-republic-of-karelia",
+      65,
+      "national-indicator"
+    ],
+    [
+      40.52,
+      65.092,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      42.522,
+      65.092,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      44.525,
+      65.092,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      46.527,
+      65.092,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      48.53,
+      65.092,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      50.532,
+      65.092,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      52.535,
+      65.092,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      54.537,
+      65.092,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      56.54,
+      65.092,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      58.542,
+      65.092,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      60.544,
+      65.092,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      62.547,
+      65.092,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      64.549,
+      65.092,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      66.552,
+      65.092,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      68.554,
+      65.092,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      70.557,
+      65.092,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      72.559,
+      65.092,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      74.562,
+      65.092,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      76.564,
+      65.092,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      78.566,
+      65.092,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      80.569,
+      65.092,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      82.571,
+      65.092,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      84.574,
+      65.092,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      86.576,
+      65.092,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      88.579,
+      65.092,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      90.581,
+      65.092,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      92.584,
+      65.092,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      94.586,
+      65.092,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      96.589,
+      65.092,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      98.591,
+      65.092,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      100.593,
+      65.092,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      102.596,
+      65.092,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      104.598,
+      65.092,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      106.601,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      108.603,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      110.606,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      112.608,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      114.611,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      116.613,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      118.615,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      120.618,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      122.62,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      124.623,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      126.625,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      128.628,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      130.63,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      132.633,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      134.635,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      136.638,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      138.64,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      140.642,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      142.645,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      144.647,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      146.65,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      148.652,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      150.655,
+      65.092,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      152.657,
+      65.092,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      154.66,
+      65.092,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      156.662,
+      65.092,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      158.664,
+      65.092,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      160.667,
+      65.092,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      162.669,
+      65.092,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      164.672,
+      65.092,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      166.674,
+      65.092,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      168.677,
+      65.092,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      170.679,
+      65.092,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      172.682,
+      65.092,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      174.684,
+      65.092,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      176.687,
+      65.092,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      178.689,
+      65.092,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      17.492,
+      63.358,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.499,
+      63.358,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.502,
+      63.358,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.504,
+      63.358,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.506,
+      63.358,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      31.509,
+      63.358,
+      "RUS",
+      "RUS-republic-of-karelia",
+      65,
+      "national-indicator"
+    ],
+    [
+      33.511,
+      63.358,
+      "RUS",
+      "RUS-republic-of-karelia",
+      65,
+      "national-indicator"
+    ],
+    [
+      35.514,
+      63.358,
+      "RUS",
+      "RUS-republic-of-karelia",
+      65,
+      "national-indicator"
+    ],
+    [
+      37.516,
+      63.358,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      39.519,
+      63.358,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      41.521,
+      63.358,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      43.524,
+      63.358,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      45.526,
+      63.358,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      47.529,
+      63.358,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      49.531,
+      63.358,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      51.533,
+      63.358,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      53.536,
+      63.358,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      55.538,
+      63.358,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      57.541,
+      63.358,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      59.543,
+      63.358,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      61.546,
+      63.358,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      63.548,
+      63.358,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      65.551,
+      63.358,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      67.553,
+      63.358,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      69.555,
+      63.358,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      71.558,
+      63.358,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      73.56,
+      63.358,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      75.563,
+      63.358,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      77.565,
+      63.358,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      79.568,
+      63.358,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      81.57,
+      63.358,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      83.573,
+      63.358,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      85.575,
+      63.358,
+      "RUS",
+      "RUS-yamalo-nenets-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      87.578,
+      63.358,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      89.58,
+      63.358,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      91.582,
+      63.358,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      93.585,
+      63.358,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      95.587,
+      63.358,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      97.59,
+      63.358,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      99.592,
+      63.358,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      101.595,
+      63.358,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      103.597,
+      63.358,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      105.6,
+      63.358,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      107.602,
+      63.358,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      109.604,
+      63.358,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      111.607,
+      63.358,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      113.609,
+      63.358,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      115.612,
+      63.358,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      117.614,
+      63.358,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      119.617,
+      63.358,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      121.619,
+      63.358,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      123.622,
+      63.358,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      125.624,
+      63.358,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      127.627,
+      63.358,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      129.629,
+      63.358,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      131.631,
+      63.358,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      133.634,
+      63.358,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      135.636,
+      63.358,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      137.639,
+      63.358,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      139.641,
+      63.358,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      141.644,
+      63.358,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      143.646,
+      63.358,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      145.649,
+      63.358,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      147.651,
+      63.358,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      149.653,
+      63.358,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      151.656,
+      63.358,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      153.658,
+      63.358,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      155.661,
+      63.358,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      157.663,
+      63.358,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      159.666,
+      63.358,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      161.668,
+      63.358,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      163.671,
+      63.358,
+      "RUS",
+      "RUS-kamchatka-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      165.673,
+      63.358,
+      "RUS",
+      "RUS-kamchatka-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      167.676,
+      63.358,
+      "RUS",
+      "RUS-kamchatka-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      169.678,
+      63.358,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      171.68,
+      63.358,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      173.683,
+      63.358,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      175.685,
+      63.358,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      177.688,
+      63.358,
+      "RUS",
+      "RUS-chukotka-autonomous-okrug",
+      65,
+      "national-indicator"
+    ],
+    [
+      22.498,
+      61.624,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.5,
+      61.624,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.503,
+      61.624,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.505,
+      61.624,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      30.508,
+      61.624,
+      "RUS",
+      "RUS-republic-of-karelia",
+      65,
+      "national-indicator"
+    ],
+    [
+      32.51,
+      61.624,
+      "RUS",
+      "RUS-republic-of-karelia",
+      65,
+      "national-indicator"
+    ],
+    [
+      34.513,
+      61.624,
+      "RUS",
+      "RUS-republic-of-karelia",
+      65,
+      "national-indicator"
+    ],
+    [
+      36.515,
+      61.624,
+      "RUS",
+      "RUS-republic-of-karelia",
+      65,
+      "national-indicator"
+    ],
+    [
+      38.517,
+      61.624,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      40.52,
+      61.624,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      42.522,
+      61.624,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      44.525,
+      61.624,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      46.527,
+      61.624,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      48.53,
+      61.624,
+      "RUS",
+      "RUS-arkhangelsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      50.532,
+      61.624,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      52.535,
+      61.624,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      54.537,
+      61.624,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      56.54,
+      61.624,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      58.542,
+      61.624,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      60.544,
+      61.624,
+      "RUS",
+      "RUS-sverdlovsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      62.547,
+      61.624,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      64.549,
+      61.624,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      66.552,
+      61.624,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      68.554,
+      61.624,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      70.557,
+      61.624,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      72.559,
+      61.624,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      74.562,
+      61.624,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      76.564,
+      61.624,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      78.566,
+      61.624,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      80.569,
+      61.624,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      82.571,
+      61.624,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      84.574,
+      61.624,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      86.576,
+      61.624,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      88.579,
+      61.624,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      90.581,
+      61.624,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      92.584,
+      61.624,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      94.586,
+      61.624,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      96.589,
+      61.624,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      98.591,
+      61.624,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      100.593,
+      61.624,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      102.596,
+      61.624,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      104.598,
+      61.624,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      106.601,
+      61.624,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      108.603,
+      61.624,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      110.606,
+      61.624,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      112.608,
+      61.624,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      114.611,
+      61.624,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      116.613,
+      61.624,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      118.615,
+      61.624,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      120.618,
+      61.624,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      122.62,
+      61.624,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      124.623,
+      61.624,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      126.625,
+      61.624,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      128.628,
+      61.624,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      130.63,
+      61.624,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      132.633,
+      61.624,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      134.635,
+      61.624,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      136.638,
+      61.624,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      138.64,
+      61.624,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      140.642,
+      61.624,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      142.645,
+      61.624,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      144.647,
+      61.624,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      146.65,
+      61.624,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      148.652,
+      61.624,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      150.655,
+      61.624,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      152.657,
+      61.624,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      154.66,
+      61.624,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      156.662,
+      61.624,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      160.667,
+      61.624,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      164.672,
+      61.624,
+      "RUS",
+      "RUS-kamchatka-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      166.674,
+      61.624,
+      "RUS",
+      "RUS-kamchatka-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      168.677,
+      61.624,
+      "RUS",
+      "RUS-kamchatka-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      170.679,
+      61.624,
+      "RUS",
+      "RUS-kamchatka-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      172.682,
+      61.624,
+      "RUS",
+      "RUS-kamchatka-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      17.492,
+      59.89,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.506,
+      59.89,
+      "RUS",
+      "RUS-saint-petersburg",
+      65,
+      "national-indicator"
+    ],
+    [
+      31.509,
+      59.89,
+      "RUS",
+      "RUS-leningrad-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      33.511,
+      59.89,
+      "RUS",
+      "RUS-leningrad-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      35.514,
+      59.89,
+      "RUS",
+      "RUS-vologda-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      37.516,
+      59.89,
+      "RUS",
+      "RUS-vologda-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      39.519,
+      59.89,
+      "RUS",
+      "RUS-vologda-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      41.521,
+      59.89,
+      "RUS",
+      "RUS-vologda-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      43.524,
+      59.89,
+      "RUS",
+      "RUS-vologda-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      45.526,
+      59.89,
+      "RUS",
+      "RUS-vologda-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      47.529,
+      59.89,
+      "RUS",
+      "RUS-kirov-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      49.531,
+      59.89,
+      "RUS",
+      "RUS-komi-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      51.533,
+      59.89,
+      "RUS",
+      "RUS-kirov-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      53.536,
+      59.89,
+      "RUS",
+      "RUS-kirov-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      55.538,
+      59.89,
+      "RUS",
+      "RUS-perm-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      57.541,
+      59.89,
+      "RUS",
+      "RUS-perm-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      59.543,
+      59.89,
+      "RUS",
+      "RUS-sverdlovsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      61.546,
+      59.89,
+      "RUS",
+      "RUS-sverdlovsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      63.548,
+      59.89,
+      "RUS",
+      "RUS-sverdlovsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      65.551,
+      59.89,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      67.553,
+      59.89,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      69.555,
+      59.89,
+      "RUS",
+      "RUS-tyumen-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      71.558,
+      59.89,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      73.56,
+      59.89,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      75.563,
+      59.89,
+      "RUS",
+      "RUS-khanty-mansiysk-autonomous-okrug-ugra",
+      65,
+      "national-indicator"
+    ],
+    [
+      77.565,
+      59.89,
+      "RUS",
+      "RUS-tomsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      79.568,
+      59.89,
+      "RUS",
+      "RUS-tomsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      81.57,
+      59.89,
+      "RUS",
+      "RUS-tomsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      83.573,
+      59.89,
+      "RUS",
+      "RUS-tomsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      85.575,
+      59.89,
+      "RUS",
+      "RUS-tomsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      87.578,
+      59.89,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      89.58,
+      59.89,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      91.582,
+      59.89,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      93.585,
+      59.89,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      95.587,
+      59.89,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      97.59,
+      59.89,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      99.592,
+      59.89,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      101.595,
+      59.89,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      103.597,
+      59.89,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      105.6,
+      59.89,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      107.602,
+      59.89,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      109.604,
+      59.89,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      111.607,
+      59.89,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      113.609,
+      59.89,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      115.612,
+      59.89,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      117.614,
+      59.89,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      119.617,
+      59.89,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      121.619,
+      59.89,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      123.622,
+      59.89,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      125.624,
+      59.89,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      127.627,
+      59.89,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      129.629,
+      59.89,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      131.631,
+      59.89,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      133.634,
+      59.89,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      135.636,
+      59.89,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      137.639,
+      59.89,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      139.641,
+      59.89,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      141.644,
+      59.89,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      143.646,
+      59.89,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      145.649,
+      59.89,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      147.651,
+      59.89,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      149.653,
+      59.89,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      151.656,
+      59.89,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      153.658,
+      59.89,
+      "RUS",
+      "RUS-magadan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      161.668,
+      59.89,
+      "RUS",
+      "RUS-kamchatka-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      163.671,
+      59.89,
+      "RUS",
+      "RUS-kamchatka-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      24.5,
+      58.156,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.503,
+      58.156,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.505,
+      58.156,
+      "RUS",
+      "RUS-pskov-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      30.508,
+      58.156,
+      "RUS",
+      "RUS-novgorod-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      32.51,
+      58.156,
+      "RUS",
+      "RUS-novgorod-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      34.513,
+      58.156,
+      "RUS",
+      "RUS-novgorod-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      36.515,
+      58.156,
+      "RUS",
+      "RUS-tver-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      38.517,
+      58.156,
+      "RUS",
+      "RUS-yaroslavl-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      40.52,
+      58.156,
+      "RUS",
+      "RUS-yaroslavl-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      42.522,
+      58.156,
+      "RUS",
+      "RUS-kostroma-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      44.525,
+      58.156,
+      "RUS",
+      "RUS-kostroma-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      46.527,
+      58.156,
+      "RUS",
+      "RUS-kirov-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      48.53,
+      58.156,
+      "RUS",
+      "RUS-kirov-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      50.532,
+      58.156,
+      "RUS",
+      "RUS-kirov-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      52.535,
+      58.156,
+      "RUS",
+      "RUS-udmurtia",
+      65,
+      "national-indicator"
+    ],
+    [
+      54.537,
+      58.156,
+      "RUS",
+      "RUS-perm-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      56.54,
+      58.156,
+      "RUS",
+      "RUS-perm-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      58.542,
+      58.156,
+      "RUS",
+      "RUS-perm-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      60.544,
+      58.156,
+      "RUS",
+      "RUS-sverdlovsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      62.547,
+      58.156,
+      "RUS",
+      "RUS-sverdlovsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      64.549,
+      58.156,
+      "RUS",
+      "RUS-sverdlovsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      66.552,
+      58.156,
+      "RUS",
+      "RUS-tyumen-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      68.554,
+      58.156,
+      "RUS",
+      "RUS-tyumen-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      70.557,
+      58.156,
+      "RUS",
+      "RUS-tyumen-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      72.559,
+      58.156,
+      "RUS",
+      "RUS-tyumen-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      74.562,
+      58.156,
+      "RUS",
+      "RUS-omsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      76.564,
+      58.156,
+      "RUS",
+      "RUS-tomsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      78.566,
+      58.156,
+      "RUS",
+      "RUS-tomsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      80.569,
+      58.156,
+      "RUS",
+      "RUS-tomsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      82.571,
+      58.156,
+      "RUS",
+      "RUS-tomsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      84.574,
+      58.156,
+      "RUS",
+      "RUS-tomsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      86.576,
+      58.156,
+      "RUS",
+      "RUS-tomsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      88.579,
+      58.156,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      90.581,
+      58.156,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      92.584,
+      58.156,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      94.586,
+      58.156,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      96.589,
+      58.156,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      98.591,
+      58.156,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      100.593,
+      58.156,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      102.596,
+      58.156,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      104.598,
+      58.156,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      106.601,
+      58.156,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      108.603,
+      58.156,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      110.606,
+      58.156,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      112.608,
+      58.156,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      114.611,
+      58.156,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      116.613,
+      58.156,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      118.615,
+      58.156,
+      "RUS",
+      "RUS-zabaykalsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      120.618,
+      58.156,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      122.62,
+      58.156,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      124.623,
+      58.156,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      126.625,
+      58.156,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      128.628,
+      58.156,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      130.63,
+      58.156,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      132.633,
+      58.156,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      134.635,
+      58.156,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      136.638,
+      58.156,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      138.64,
+      58.156,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      140.642,
+      58.156,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      158.664,
+      58.156,
+      "RUS",
+      "RUS-kamchatka-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      160.667,
+      58.156,
+      "RUS",
+      "RUS-kamchatka-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      21.497,
+      56.421,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.499,
+      56.421,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.502,
+      56.421,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.504,
+      56.421,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.506,
+      56.421,
+      "RUS",
+      "RUS-pskov-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      31.509,
+      56.421,
+      "RUS",
+      "RUS-tver-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      33.511,
+      56.421,
+      "RUS",
+      "RUS-tver-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      35.514,
+      56.421,
+      "RUS",
+      "RUS-tver-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      37.516,
+      56.421,
+      "RUS",
+      "RUS-moscow",
+      65,
+      "national-indicator"
+    ],
+    [
+      39.519,
+      56.421,
+      "RUS",
+      "RUS-vladimir-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      41.521,
+      56.421,
+      "RUS",
+      "RUS-ivanovo-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      43.524,
+      56.421,
+      "RUS",
+      "RUS-nizhny-novgorod-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      45.526,
+      56.421,
+      "RUS",
+      "RUS-nizhny-novgorod-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      47.529,
+      56.421,
+      "RUS",
+      "RUS-mari-el",
+      65,
+      "national-indicator"
+    ],
+    [
+      49.531,
+      56.421,
+      "RUS",
+      "RUS-tatarstan",
+      65,
+      "national-indicator"
+    ],
+    [
+      51.533,
+      56.421,
+      "RUS",
+      "RUS-udmurtia",
+      65,
+      "national-indicator"
+    ],
+    [
+      53.536,
+      56.421,
+      "RUS",
+      "RUS-udmurtia",
+      65,
+      "national-indicator"
+    ],
+    [
+      55.538,
+      56.421,
+      "RUS",
+      "RUS-perm-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      57.541,
+      56.421,
+      "RUS",
+      "RUS-sverdlovsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      59.543,
+      56.421,
+      "RUS",
+      "RUS-sverdlovsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      61.546,
+      56.421,
+      "RUS",
+      "RUS-sverdlovsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      63.548,
+      56.421,
+      "RUS",
+      "RUS-kurgan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      65.551,
+      56.421,
+      "RUS",
+      "RUS-tyumen-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      67.553,
+      56.421,
+      "RUS",
+      "RUS-tyumen-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      69.555,
+      56.421,
+      "RUS",
+      "RUS-tyumen-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      71.558,
+      56.421,
+      "RUS",
+      "RUS-omsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      73.56,
+      56.421,
+      "RUS",
+      "RUS-omsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      75.563,
+      56.421,
+      "RUS",
+      "RUS-omsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      77.565,
+      56.421,
+      "RUS",
+      "RUS-novosibirsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      79.568,
+      56.421,
+      "RUS",
+      "RUS-novosibirsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      81.57,
+      56.421,
+      "RUS",
+      "RUS-tomsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      83.573,
+      56.421,
+      "RUS",
+      "RUS-tomsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      85.575,
+      56.421,
+      "RUS",
+      "RUS-tomsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      87.578,
+      56.421,
+      "RUS",
+      "RUS-kemerovo-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      89.58,
+      56.421,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      91.582,
+      56.421,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      93.585,
+      56.421,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      95.587,
+      56.421,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      97.59,
+      56.421,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      99.592,
+      56.421,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      101.595,
+      56.421,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      103.597,
+      56.421,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      105.6,
+      56.421,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      107.602,
+      56.421,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      109.604,
+      56.421,
+      "RUS",
+      "RUS-buryatia",
+      65,
+      "national-indicator"
+    ],
+    [
+      111.607,
+      56.421,
+      "RUS",
+      "RUS-buryatia",
+      65,
+      "national-indicator"
+    ],
+    [
+      113.609,
+      56.421,
+      "RUS",
+      "RUS-buryatia",
+      65,
+      "national-indicator"
+    ],
+    [
+      115.612,
+      56.421,
+      "RUS",
+      "RUS-buryatia",
+      65,
+      "national-indicator"
+    ],
+    [
+      117.614,
+      56.421,
+      "RUS",
+      "RUS-zabaykalsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      119.617,
+      56.421,
+      "RUS",
+      "RUS-zabaykalsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      121.619,
+      56.421,
+      "RUS",
+      "RUS-amur-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      123.622,
+      56.421,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      125.624,
+      56.421,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      127.627,
+      56.421,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      129.629,
+      56.421,
+      "RUS",
+      "RUS-sakha-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      131.631,
+      56.421,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      133.634,
+      56.421,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      135.636,
+      56.421,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      137.639,
+      56.421,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      157.663,
+      56.421,
+      "RUS",
+      "RUS-kamchatka-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      159.666,
+      56.421,
+      "RUS",
+      "RUS-kamchatka-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      161.668,
+      56.421,
+      "RUS",
+      "RUS-kamchatka-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      18.493,
+      54.687,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.495,
+      54.687,
+      "RUS",
+      "RUS-kaliningrad",
+      65,
+      "national-indicator"
+    ],
+    [
+      22.498,
+      54.687,
+      "RUS",
+      "RUS-kaliningrad",
+      65,
+      "national-indicator"
+    ],
+    [
+      24.5,
+      54.687,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.503,
+      54.687,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.505,
+      54.687,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      30.508,
+      54.687,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.51,
+      54.687,
+      "RUS",
+      "RUS-smolensk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      34.513,
+      54.687,
+      "RUS",
+      "RUS-smolensk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      36.515,
+      54.687,
+      "RUS",
+      "RUS-kaluga-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      38.517,
+      54.687,
+      "RUS",
+      "RUS-moscow-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      40.52,
+      54.687,
+      "RUS",
+      "RUS-ryazan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      42.522,
+      54.687,
+      "RUS",
+      "RUS-ryazan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      44.525,
+      54.687,
+      "RUS",
+      "RUS-republic-of-mordovia",
+      65,
+      "national-indicator"
+    ],
+    [
+      46.527,
+      54.687,
+      "RUS",
+      "RUS-chuvashia",
+      65,
+      "national-indicator"
+    ],
+    [
+      48.53,
+      54.687,
+      "RUS",
+      "RUS-tatarstan",
+      65,
+      "national-indicator"
+    ],
+    [
+      50.532,
+      54.687,
+      "RUS",
+      "RUS-tatarstan",
+      65,
+      "national-indicator"
+    ],
+    [
+      52.535,
+      54.687,
+      "RUS",
+      "RUS-tatarstan",
+      65,
+      "national-indicator"
+    ],
+    [
+      54.537,
+      54.687,
+      "RUS",
+      "RUS-bashkortostan",
+      65,
+      "national-indicator"
+    ],
+    [
+      56.54,
+      54.687,
+      "RUS",
+      "RUS-bashkortostan",
+      65,
+      "national-indicator"
+    ],
+    [
+      58.542,
+      54.687,
+      "RUS",
+      "RUS-chelyabinsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      60.544,
+      54.687,
+      "RUS",
+      "RUS-chelyabinsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      62.547,
+      54.687,
+      "RUS",
+      "RUS-kurgan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      64.549,
+      54.687,
+      "RUS",
+      "RUS-kurgan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      66.552,
+      54.687,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      68.554,
+      54.687,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.557,
+      54.687,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      72.559,
+      54.687,
+      "RUS",
+      "RUS-omsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      74.562,
+      54.687,
+      "RUS",
+      "RUS-omsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      76.564,
+      54.687,
+      "RUS",
+      "RUS-novosibirsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      78.566,
+      54.687,
+      "RUS",
+      "RUS-novosibirsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      80.569,
+      54.687,
+      "RUS",
+      "RUS-novosibirsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      82.571,
+      54.687,
+      "RUS",
+      "RUS-novosibirsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      84.574,
+      54.687,
+      "RUS",
+      "RUS-novosibirsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      86.576,
+      54.687,
+      "RUS",
+      "RUS-kemerovo-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      88.579,
+      54.687,
+      "RUS",
+      "RUS-kemerovo-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      90.581,
+      54.687,
+      "RUS",
+      "RUS-khakassia",
+      65,
+      "national-indicator"
+    ],
+    [
+      92.584,
+      54.687,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      94.586,
+      54.687,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      96.589,
+      54.687,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      98.591,
+      54.687,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      100.593,
+      54.687,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      102.596,
+      54.687,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      104.598,
+      54.687,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      106.601,
+      54.687,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      108.603,
+      54.687,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      110.606,
+      54.687,
+      "RUS",
+      "RUS-buryatia",
+      65,
+      "national-indicator"
+    ],
+    [
+      112.608,
+      54.687,
+      "RUS",
+      "RUS-buryatia",
+      65,
+      "national-indicator"
+    ],
+    [
+      114.611,
+      54.687,
+      "RUS",
+      "RUS-buryatia",
+      65,
+      "national-indicator"
+    ],
+    [
+      116.613,
+      54.687,
+      "RUS",
+      "RUS-buryatia",
+      65,
+      "national-indicator"
+    ],
+    [
+      118.615,
+      54.687,
+      "RUS",
+      "RUS-zabaykalsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      120.618,
+      54.687,
+      "RUS",
+      "RUS-zabaykalsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      122.62,
+      54.687,
+      "RUS",
+      "RUS-amur-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      124.623,
+      54.687,
+      "RUS",
+      "RUS-amur-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      126.625,
+      54.687,
+      "RUS",
+      "RUS-amur-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      128.628,
+      54.687,
+      "RUS",
+      "RUS-amur-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      130.63,
+      54.687,
+      "RUS",
+      "RUS-amur-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      132.633,
+      54.687,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      134.635,
+      54.687,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      156.662,
+      54.687,
+      "RUS",
+      "RUS-kamchatka-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      158.664,
+      54.687,
+      "RUS",
+      "RUS-kamchatka-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      160.667,
+      54.687,
+      "RUS",
+      "RUS-kamchatka-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      17.492,
+      52.953,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.494,
+      52.953,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.497,
+      52.953,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.499,
+      52.953,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.502,
+      52.953,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.504,
+      52.953,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.506,
+      52.953,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      31.509,
+      52.953,
+      "RUS",
+      "RUS-bryansk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      33.511,
+      52.953,
+      "RUS",
+      "RUS-bryansk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      35.514,
+      52.953,
+      "RUS",
+      "RUS-oryol-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      37.516,
+      52.953,
+      "RUS",
+      "RUS-tula-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      39.519,
+      52.953,
+      "RUS",
+      "RUS-lipetsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      41.521,
+      52.953,
+      "RUS",
+      "RUS-tambov-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      43.524,
+      52.953,
+      "RUS",
+      "RUS-penza-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      45.526,
+      52.953,
+      "RUS",
+      "RUS-penza-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      47.529,
+      52.953,
+      "RUS",
+      "RUS-ulyanovsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      49.531,
+      52.953,
+      "RUS",
+      "RUS-samara-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      51.533,
+      52.953,
+      "RUS",
+      "RUS-samara-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      53.536,
+      52.953,
+      "RUS",
+      "RUS-orenburg-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      55.538,
+      52.953,
+      "RUS",
+      "RUS-bashkortostan",
+      65,
+      "national-indicator"
+    ],
+    [
+      57.541,
+      52.953,
+      "RUS",
+      "RUS-bashkortostan",
+      65,
+      "national-indicator"
+    ],
+    [
+      59.543,
+      52.953,
+      "RUS",
+      "RUS-chelyabinsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      61.546,
+      52.953,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      63.548,
+      52.953,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      65.551,
+      52.953,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.553,
+      52.953,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.555,
+      52.953,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      71.558,
+      52.953,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.56,
+      52.953,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      75.563,
+      52.953,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      77.565,
+      52.953,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      79.568,
+      52.953,
+      "RUS",
+      "RUS-altai-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      81.57,
+      52.953,
+      "RUS",
+      "RUS-altai-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      83.573,
+      52.953,
+      "RUS",
+      "RUS-altai-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      85.575,
+      52.953,
+      "RUS",
+      "RUS-altai-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      87.578,
+      52.953,
+      "RUS",
+      "RUS-kemerovo-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      89.58,
+      52.953,
+      "RUS",
+      "RUS-khakassia",
+      65,
+      "national-indicator"
+    ],
+    [
+      91.582,
+      52.953,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      93.585,
+      52.953,
+      "RUS",
+      "RUS-krasnoyarsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      95.587,
+      52.953,
+      "RUS",
+      "RUS-tuva",
+      65,
+      "national-indicator"
+    ],
+    [
+      97.59,
+      52.953,
+      "RUS",
+      "RUS-tuva",
+      65,
+      "national-indicator"
+    ],
+    [
+      99.592,
+      52.953,
+      "RUS",
+      "RUS-buryatia",
+      65,
+      "national-indicator"
+    ],
+    [
+      101.595,
+      52.953,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      103.597,
+      52.953,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      105.6,
+      52.953,
+      "RUS",
+      "RUS-irkutsk-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      107.602,
+      52.953,
+      "RUS",
+      "RUS-buryatia",
+      65,
+      "national-indicator"
+    ],
+    [
+      109.604,
+      52.953,
+      "RUS",
+      "RUS-buryatia",
+      65,
+      "national-indicator"
+    ],
+    [
+      111.607,
+      52.953,
+      "RUS",
+      "RUS-buryatia",
+      65,
+      "national-indicator"
+    ],
+    [
+      113.609,
+      52.953,
+      "RUS",
+      "RUS-buryatia",
+      65,
+      "national-indicator"
+    ],
+    [
+      115.612,
+      52.953,
+      "RUS",
+      "RUS-zabaykalsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      117.614,
+      52.953,
+      "RUS",
+      "RUS-zabaykalsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      119.617,
+      52.953,
+      "RUS",
+      "RUS-zabaykalsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      121.619,
+      52.953,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      123.622,
+      52.953,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      125.624,
+      52.953,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      127.627,
+      52.953,
+      "RUS",
+      "RUS-amur-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      129.629,
+      52.953,
+      "RUS",
+      "RUS-amur-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      131.631,
+      52.953,
+      "RUS",
+      "RUS-amur-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      133.634,
+      52.953,
+      "RUS",
+      "RUS-amur-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      135.636,
+      52.953,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      137.639,
+      52.953,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      139.641,
+      52.953,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      157.663,
+      52.953,
+      "RUS",
+      "RUS-kamchatka-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      18.493,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.495,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.498,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.5,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.503,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.505,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      30.508,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.51,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.513,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.515,
+      51.219,
+      "RUS",
+      "RUS-belgorod-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      38.517,
+      51.219,
+      "RUS",
+      "RUS-voronezh-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      40.52,
+      51.219,
+      "RUS",
+      "RUS-voronezh-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      42.522,
+      51.219,
+      "RUS",
+      "RUS-voronezh-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      44.525,
+      51.219,
+      "RUS",
+      "RUS-saratov-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      46.527,
+      51.219,
+      "RUS",
+      "RUS-saratov-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      48.53,
+      51.219,
+      "RUS",
+      "RUS-saratov-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      50.532,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.535,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.537,
+      51.219,
+      "RUS",
+      "RUS-orenburg-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      56.54,
+      51.219,
+      "RUS",
+      "RUS-orenburg-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      58.542,
+      51.219,
+      "RUS",
+      "RUS-orenburg-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      60.544,
+      51.219,
+      "RUS",
+      "RUS-orenburg-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      62.547,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      64.549,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      66.552,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      68.554,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.557,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      72.559,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      74.562,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      76.564,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      78.566,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      80.569,
+      51.219,
+      "RUS",
+      "RUS-altai-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      82.571,
+      51.219,
+      "RUS",
+      "RUS-altai-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      84.574,
+      51.219,
+      "RUS",
+      "RUS-altai-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      86.576,
+      51.219,
+      "RUS",
+      "RUS-altai-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      88.579,
+      51.219,
+      "RUS",
+      "RUS-altai-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      90.581,
+      51.219,
+      "RUS",
+      "RUS-tuva",
+      65,
+      "national-indicator"
+    ],
+    [
+      92.584,
+      51.219,
+      "RUS",
+      "RUS-tuva",
+      65,
+      "national-indicator"
+    ],
+    [
+      94.586,
+      51.219,
+      "RUS",
+      "RUS-tuva",
+      65,
+      "national-indicator"
+    ],
+    [
+      96.589,
+      51.219,
+      "RUS",
+      "RUS-tuva",
+      65,
+      "national-indicator"
+    ],
+    [
+      98.591,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      100.593,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      102.596,
+      51.219,
+      "RUS",
+      "RUS-buryatia",
+      65,
+      "national-indicator"
+    ],
+    [
+      104.598,
+      51.219,
+      "RUS",
+      "RUS-buryatia",
+      65,
+      "national-indicator"
+    ],
+    [
+      106.601,
+      51.219,
+      "RUS",
+      "RUS-buryatia",
+      65,
+      "national-indicator"
+    ],
+    [
+      108.603,
+      51.219,
+      "RUS",
+      "RUS-zabaykalsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      110.606,
+      51.219,
+      "RUS",
+      "RUS-zabaykalsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      112.608,
+      51.219,
+      "RUS",
+      "RUS-zabaykalsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      114.611,
+      51.219,
+      "RUS",
+      "RUS-zabaykalsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      116.613,
+      51.219,
+      "RUS",
+      "RUS-zabaykalsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      118.615,
+      51.219,
+      "RUS",
+      "RUS-zabaykalsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      120.618,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      122.62,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      124.623,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      126.625,
+      51.219,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      128.628,
+      51.219,
+      "RUS",
+      "RUS-amur-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      130.63,
+      51.219,
+      "RUS",
+      "RUS-amur-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      132.633,
+      51.219,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      134.635,
+      51.219,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      136.638,
+      51.219,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      138.64,
+      51.219,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      140.642,
+      51.219,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      142.645,
+      51.219,
+      "RUS",
+      "RUS-sakhalin-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      156.662,
+      51.219,
+      "RUS",
+      "RUS-kamchatka-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      17.492,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.494,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.497,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.499,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.502,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.504,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.506,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      31.509,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.511,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.514,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.516,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      39.519,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      41.521,
+      49.485,
+      "RUS",
+      "RUS-rostov-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      43.524,
+      49.485,
+      "RUS",
+      "RUS-volgograd-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      45.526,
+      49.485,
+      "RUS",
+      "RUS-volgograd-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      47.529,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      49.531,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      51.533,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      53.536,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.538,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      57.541,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      59.543,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      61.546,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      63.548,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      65.551,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.553,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.555,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      71.558,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.56,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      75.563,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      77.565,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      79.568,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      81.57,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      83.573,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      85.575,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      87.578,
+      49.485,
+      "RUS",
+      "RUS-altai-republic",
+      65,
+      "national-indicator"
+    ],
+    [
+      89.58,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      91.582,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      93.585,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.587,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.59,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      99.592,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      101.595,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      103.597,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      105.6,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      107.602,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      109.604,
+      49.485,
+      "RUS",
+      "RUS-zabaykalsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      111.607,
+      49.485,
+      "RUS",
+      "RUS-zabaykalsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      113.609,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      115.612,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      117.614,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      119.617,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      121.619,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      123.622,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      125.624,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      127.627,
+      49.485,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      129.629,
+      49.485,
+      "RUS",
+      "RUS-amur-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      131.631,
+      49.485,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      133.634,
+      49.485,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      135.636,
+      49.485,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      137.639,
+      49.485,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      139.641,
+      49.485,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      143.646,
+      49.485,
+      "RUS",
+      "RUS-sakhalin-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      18.493,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.495,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.498,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.5,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.503,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.505,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      30.508,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.51,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.513,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.515,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      38.517,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      40.52,
+      47.751,
+      "RUS",
+      "RUS-rostov-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      42.522,
+      47.751,
+      "RUS",
+      "RUS-rostov-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      44.525,
+      47.751,
+      "RUS",
+      "RUS-kalmykia",
+      65,
+      "national-indicator"
+    ],
+    [
+      46.527,
+      47.751,
+      "RUS",
+      "RUS-astrakhan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      48.53,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      50.532,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.535,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.537,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.54,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      58.542,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      60.544,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      62.547,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      64.549,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      66.552,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      68.554,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.557,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      72.559,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      74.562,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      76.564,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      78.566,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      80.569,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      82.571,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      84.574,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      86.576,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      88.579,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      90.581,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      92.584,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      94.586,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.589,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      98.591,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      100.593,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      102.596,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      104.598,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      106.601,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      108.603,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      110.606,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      112.608,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      114.611,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      116.613,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      118.615,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      120.618,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      122.62,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      124.623,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      126.625,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      128.628,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      130.63,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      132.633,
+      47.751,
+      "RUS",
+      "RUS-jewish-autonomous-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      134.635,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      136.638,
+      47.751,
+      "RUS",
+      "RUS-khabarovsk-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      138.64,
+      47.751,
+      "RUS",
+      "RUS-primorsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      142.645,
+      47.751,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.492,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.494,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.497,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.499,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.502,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.504,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.506,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.511,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      39.519,
+      46.016,
+      "RUS",
+      "RUS-krasnodar-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      41.521,
+      46.016,
+      "RUS",
+      "RUS-rostov-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      43.524,
+      46.016,
+      "RUS",
+      "RUS-kalmykia",
+      65,
+      "national-indicator"
+    ],
+    [
+      45.526,
+      46.016,
+      "RUS",
+      "RUS-kalmykia",
+      65,
+      "national-indicator"
+    ],
+    [
+      47.529,
+      46.016,
+      "RUS",
+      "RUS-astrakhan-oblast",
+      65,
+      "national-indicator"
+    ],
+    [
+      53.536,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.538,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      57.541,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      59.543,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      61.546,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      63.548,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      65.551,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.553,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.555,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      71.558,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.56,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      75.563,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      77.565,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      79.568,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      81.57,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      83.573,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      85.575,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      87.578,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      89.58,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      91.582,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      93.585,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.587,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.59,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      99.592,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      101.595,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      103.597,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      105.6,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      107.602,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      109.604,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      111.607,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      113.609,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      115.612,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      117.614,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      119.617,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      121.619,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      123.622,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      125.624,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      127.627,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      129.629,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      131.631,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      133.634,
+      46.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      135.636,
+      46.016,
+      "RUS",
+      "RUS-primorsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      137.639,
+      46.016,
+      "RUS",
+      "RUS-primorsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      18.493,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.495,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.498,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.5,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.503,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.505,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      40.52,
+      44.282,
+      "RUS",
+      "RUS-adygea",
+      65,
+      "national-indicator"
+    ],
+    [
+      42.522,
+      44.282,
+      "RUS",
+      "RUS-karachay-cherkessia",
+      65,
+      "national-indicator"
+    ],
+    [
+      44.525,
+      44.282,
+      "RUS",
+      "RUS-stavropol-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      46.527,
+      44.282,
+      "RUS",
+      "RUS-dagestan",
+      65,
+      "national-indicator"
+    ],
+    [
+      50.532,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      52.535,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.537,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.54,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      58.542,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      60.544,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      62.547,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      64.549,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      66.552,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      68.554,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.557,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      72.559,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      74.562,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      76.564,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      78.566,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      80.569,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      82.571,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      84.574,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      86.576,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      88.579,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      90.581,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      92.584,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      94.586,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.589,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      98.591,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      100.593,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      102.596,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      104.598,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      106.601,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      108.603,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      110.606,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      112.608,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      114.611,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      116.613,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      118.615,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      120.618,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      122.62,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      124.623,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      126.625,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      128.628,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      130.63,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      132.633,
+      44.282,
+      "RUS",
+      "RUS-primorsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      134.635,
+      44.282,
+      "RUS",
+      "RUS-primorsky-krai",
+      65,
+      "national-indicator"
+    ],
+    [
+      142.645,
+      44.282,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.494,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.497,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.499,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.502,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.504,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      41.521,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.524,
+      42.548,
+      "RUS",
+      "RUS-kabardino-balkaria",
+      65,
+      "national-indicator"
+    ],
+    [
+      45.526,
+      42.548,
+      "RUS",
+      "RUS-ingushetia",
+      65,
+      "national-indicator"
+    ],
+    [
+      47.529,
+      42.548,
+      "RUS",
+      "RUS-dagestan",
+      65,
+      "national-indicator"
+    ],
+    [
+      53.536,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.538,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      57.541,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      59.543,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      61.546,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      63.548,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      65.551,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.553,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.555,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      71.558,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.56,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      75.563,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      77.565,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      79.568,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      81.57,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      83.573,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      85.575,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      87.578,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      89.58,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      91.582,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      93.585,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.587,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.59,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      99.592,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      101.595,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      103.597,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      105.6,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      107.602,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      109.604,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      111.607,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      113.609,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      115.612,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      117.614,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      119.617,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      121.619,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      123.622,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      125.624,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      127.627,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      129.629,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      143.646,
+      42.548,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.495,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.498,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.503,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      30.508,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.51,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.513,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.515,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      38.517,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      40.52,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      42.522,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.525,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.527,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.53,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      54.537,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      56.54,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      58.542,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      60.544,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      62.547,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      64.549,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      66.552,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      68.554,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      70.557,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      72.559,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      74.562,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      76.564,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      78.566,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      80.569,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      82.571,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      84.574,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      86.576,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      88.579,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      90.581,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      92.584,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      94.586,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.589,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      98.591,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      100.593,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      102.596,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      104.598,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      106.601,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      108.603,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      110.606,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      112.608,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      114.611,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      116.613,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      118.615,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      120.618,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      122.62,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      124.623,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      126.625,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      128.628,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      140.642,
+      40.814,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.497,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.504,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.506,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      31.509,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.511,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.514,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.516,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      39.519,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      41.521,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.524,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.526,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.529,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      55.538,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      57.541,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      59.543,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      61.546,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      63.548,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      65.551,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      67.553,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      69.555,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      71.558,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      73.56,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      75.563,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      77.565,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      79.568,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      81.57,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      83.573,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      85.575,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      87.578,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      89.58,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      91.582,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      93.585,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.587,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.59,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      99.592,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      101.595,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      103.597,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      105.6,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      107.602,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      109.604,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      111.607,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      113.609,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      115.612,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      117.614,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      121.619,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      125.624,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      127.627,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      141.644,
+      39.08,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "labels": [
+    {
+      "iso3": "RUS",
+      "name": "Russia",
+      "x": 98.39527651966623,
+      "y": 62.06632419547098
+    }
+  ]
+}

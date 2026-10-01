@@ -1,0 +1,159 @@
+{
+  "window": {
+    "from": "2024-02",
+    "to": "2025-01",
+    "months": 12
+  },
+  "kpis": {
+    "requests": 0,
+    "requestsPrev": 0,
+    "resolvedPct": null,
+    "avgDays": null,
+    "regionsWithDemand": 0,
+    "allTimeRecords": 0,
+    "hotspots": 6,
+    "countriesWithFeedback": 1,
+    "countries": 10
+  },
+  "trend": [],
+  "bySector": [],
+  "byType": [],
+  "topRecommendations": [
+    {
+      "id": "ZAF:social",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "South Africa (national)",
+      "iso3": "ZAF",
+      "sector": "social",
+      "sectorLabel": "Social Services & Jobs",
+      "score": 70,
+      "infraGap": 69.6,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 1
+      }
+    },
+    {
+      "id": "EGY:health",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Egypt (national)",
+      "iso3": "EGY",
+      "sector": "health",
+      "sectorLabel": "Health",
+      "score": 70,
+      "infraGap": 64.7,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 1
+      }
+    },
+    {
+      "id": "ETH:water",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Ethiopia (national)",
+      "iso3": "ETH",
+      "sector": "water",
+      "sectorLabel": "Water & Sanitation",
+      "score": 70,
+      "infraGap": 67,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 1
+      }
+    },
+    {
+      "id": "ETH:health",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Ethiopia (national)",
+      "iso3": "ETH",
+      "sector": "health",
+      "sectorLabel": "Health",
+      "score": 70,
+      "infraGap": 89,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 1
+      }
+    },
+    {
+      "id": "ETH:digital",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Ethiopia (national)",
+      "iso3": "ETH",
+      "sector": "digital",
+      "sectorLabel": "Digital & Telecom",
+      "score": 70,
+      "infraGap": 78.1,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 1
+      }
+    },
+    {
+      "id": "ETH:social",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Ethiopia (national)",
+      "iso3": "ETH",
+      "sector": "social",
+      "sectorLabel": "Social Services & Jobs",
+      "score": 70,
+      "infraGap": 100,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 1
+      }
+    },
+    {
+      "id": "IDN:health",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Indonesia (national)",
+      "iso3": "IDN",
+      "sector": "health",
+      "sectorLabel": "Health",
+      "score": 63,
+      "infraGap": 54.3,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.906
+      }
+    },
+    {
+      "id": "IND:health",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "India (national)",
+      "iso3": "IND",
+      "sector": "health",
+      "sectorLabel": "Health",
+      "score": 55,
+      "infraGap": 47,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.783
+      }
+    }
+  ]
+}

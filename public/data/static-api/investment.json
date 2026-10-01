@@ -1,0 +1,3447 @@
+{
+  "ppi": [
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2000,
+      "value": 1374500000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2000,
+      "value": 1558500000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_transport",
+      "year": 2000,
+      "value": 368300000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2000,
+      "value": 96400000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_transport",
+      "year": 2000,
+      "value": 109400000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_transport",
+      "year": 2000,
+      "value": 3700000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2000,
+      "value": 7984790000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2000,
+      "value": 846800000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2000,
+      "value": 1953780000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_energy",
+      "year": 2000,
+      "value": 15900000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2000,
+      "value": 711280000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2000,
+      "value": 72400000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_water",
+      "year": 2000,
+      "value": 31300000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_ict",
+      "year": 2000,
+      "value": 5653000000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_ict",
+      "year": 2000,
+      "value": 283100000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2001,
+      "value": 932200000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2001,
+      "value": 642230000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_transport",
+      "year": 2001,
+      "value": 270000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2001,
+      "value": 350800000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_transport",
+      "year": 2001,
+      "value": 484000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2001,
+      "value": 3858690000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2001,
+      "value": 997130000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_energy",
+      "year": 2001,
+      "value": 678000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2001,
+      "value": 240000000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_energy",
+      "year": 2001,
+      "value": 850000000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_energy",
+      "year": 2001,
+      "value": 28400000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2001,
+      "value": 26930000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2001,
+      "value": 242260000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_water",
+      "year": 2001,
+      "value": 36700000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_water",
+      "year": 2001,
+      "value": 2100000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_ict",
+      "year": 2001,
+      "value": 3000000000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_ict",
+      "year": 2001,
+      "value": 325000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_ict",
+      "year": 2001,
+      "value": 1248500000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2002,
+      "value": 181000000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2002,
+      "value": 1787110000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2002,
+      "value": 719170000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2002,
+      "value": 3840810000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2002,
+      "value": 1351330000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_energy",
+      "year": 2002,
+      "value": 187600000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2002,
+      "value": 390320000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_energy",
+      "year": 2002,
+      "value": 14000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2002,
+      "value": 207460000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2002,
+      "value": 917650000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_ict",
+      "year": 2002,
+      "value": 1430000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2003,
+      "value": 172900000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2003,
+      "value": 4054650000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2003,
+      "value": 579140000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_transport",
+      "year": 2003,
+      "value": 17000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2003,
+      "value": 3571840000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2003,
+      "value": 4678850000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_energy",
+      "year": 2003,
+      "value": 829000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2003,
+      "value": 913170000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_energy",
+      "year": 2003,
+      "value": 600000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2003,
+      "value": 48200000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2003,
+      "value": 662200000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_water",
+      "year": 2003,
+      "value": 323600000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2004,
+      "value": 433600000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2004,
+      "value": 782580000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_transport",
+      "year": 2004,
+      "value": 97000000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_transport",
+      "year": 2004,
+      "value": 159200000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2004,
+      "value": 1141400000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2004,
+      "value": 1876140000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2004,
+      "value": 1390490000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_energy",
+      "year": 2004,
+      "value": 158000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2004,
+      "value": 4256470000
+    },
+    {
+      "iso3": "IRN",
+      "key": "ppi_energy",
+      "year": 2004,
+      "value": 650000000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_energy",
+      "year": 2004,
+      "value": 9000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2004,
+      "value": 255330000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2004,
+      "value": 603380000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_water",
+      "year": 2004,
+      "value": 8100000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_water",
+      "year": 2004,
+      "value": 110750000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_water",
+      "year": 2004,
+      "value": 240780000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2005,
+      "value": 713400000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2005,
+      "value": 6628900000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_transport",
+      "year": 2005,
+      "value": 86200000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2005,
+      "value": 1526510000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2005,
+      "value": 4020590000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2005,
+      "value": 1678120000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_energy",
+      "year": 2005,
+      "value": 32000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2005,
+      "value": 943130000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_energy",
+      "year": 2005,
+      "value": 3000000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_energy",
+      "year": 2005,
+      "value": 7000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2005,
+      "value": 3164000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2005,
+      "value": 1007319000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_water",
+      "year": 2005,
+      "value": 340300000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_ict",
+      "year": 2005,
+      "value": 892000000
+    },
+    {
+      "iso3": "IRN",
+      "key": "ppi_ict",
+      "year": 2005,
+      "value": 350000000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_ict",
+      "year": 2005,
+      "value": 15000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2006,
+      "value": 653600000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2006,
+      "value": 8351010000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_transport",
+      "year": 2006,
+      "value": 372000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2006,
+      "value": 10028470000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_transport",
+      "year": 2006,
+      "value": 144000000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_transport",
+      "year": 2006,
+      "value": 3483000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2006,
+      "value": 5770600000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2006,
+      "value": 1197580000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_energy",
+      "year": 2006,
+      "value": 662000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2006,
+      "value": 5500800000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_energy",
+      "year": 2006,
+      "value": 459000000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_energy",
+      "year": 2006,
+      "value": 9900000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2006,
+      "value": 382600000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2006,
+      "value": 604261030
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_water",
+      "year": 2006,
+      "value": 20200000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_water",
+      "year": 2006,
+      "value": 698700000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2007,
+      "value": 3914700000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2007,
+      "value": 4494380000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_transport",
+      "year": 2007,
+      "value": 730000000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_transport",
+      "year": 2007,
+      "value": 518600000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2007,
+      "value": 3924920000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_transport",
+      "year": 2007,
+      "value": 23000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2007,
+      "value": 8300900000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2007,
+      "value": 2214040000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_energy",
+      "year": 2007,
+      "value": 469000000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_energy",
+      "year": 2007,
+      "value": 423200000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2007,
+      "value": 10236450000
+    },
+    {
+      "iso3": "IRN",
+      "key": "ppi_energy",
+      "year": 2007,
+      "value": 158200000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_energy",
+      "year": 2007,
+      "value": 13624200000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2007,
+      "value": 140570000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2007,
+      "value": 1901875470
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_water",
+      "year": 2007,
+      "value": 142250000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_water",
+      "year": 2007,
+      "value": 174000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2008,
+      "value": 10556600000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2008,
+      "value": 436750000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_transport",
+      "year": 2008,
+      "value": 640000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2008,
+      "value": 5254040000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_transport",
+      "year": 2008,
+      "value": 24000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2008,
+      "value": 9216900000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2008,
+      "value": 678770000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_energy",
+      "year": 2008,
+      "value": 2885200000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2008,
+      "value": 12889380000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_energy",
+      "year": 2008,
+      "value": 13161970000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2008,
+      "value": 828400000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2008,
+      "value": 973613580
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_water",
+      "year": 2008,
+      "value": 75900000
+    },
+    {
+      "iso3": "IRN",
+      "key": "ppi_ict",
+      "year": 2008,
+      "value": 370000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2009,
+      "value": 9202700000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2009,
+      "value": 2512870000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_transport",
+      "year": 2009,
+      "value": 220000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2009,
+      "value": 4871750000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2009,
+      "value": 23538510000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2009,
+      "value": 2992000000
+    },
+    {
+      "iso3": "ETH",
+      "key": "ppi_energy",
+      "year": 2009,
+      "value": 4000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2009,
+      "value": 24503850000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_energy",
+      "year": 2009,
+      "value": 1484320000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2009,
+      "value": 14800000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2009,
+      "value": 512430000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_water",
+      "year": 2009,
+      "value": 23530000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2010,
+      "value": 3805100000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2010,
+      "value": 15494800000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_transport",
+      "year": 2010,
+      "value": 4595900000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2010,
+      "value": 11690000000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2010,
+      "value": 421470000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_energy",
+      "year": 2010,
+      "value": 314700000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_energy",
+      "year": 2010,
+      "value": 2300000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2010,
+      "value": 34474510000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_energy",
+      "year": 2010,
+      "value": 5981920000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_energy",
+      "year": 2010,
+      "value": 6000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2010,
+      "value": 230400000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2010,
+      "value": 639700000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_water",
+      "year": 2010,
+      "value": 475000000
+    },
+    {
+      "iso3": "ETH",
+      "key": "ppi_ict",
+      "year": 2010,
+      "value": 0
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2011,
+      "value": 6425500000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2011,
+      "value": 1095370000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2011,
+      "value": 17667500000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_transport",
+      "year": 2011,
+      "value": 4284600000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_transport",
+      "year": 2011,
+      "value": 48500000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2011,
+      "value": 16763300000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2011,
+      "value": 2671140000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_energy",
+      "year": 2011,
+      "value": 366000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2011,
+      "value": 22038050000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_energy",
+      "year": 2011,
+      "value": 5255570000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2011,
+      "value": 127500000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2011,
+      "value": 591630000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_ict",
+      "year": 2011,
+      "value": 1512900000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2012,
+      "value": 22147300000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2012,
+      "value": 1879400000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_transport",
+      "year": 2012,
+      "value": 2662000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2012,
+      "value": 22034800000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_transport",
+      "year": 2012,
+      "value": 3983900000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2012,
+      "value": 30227530000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2012,
+      "value": 3182820000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_energy",
+      "year": 2012,
+      "value": 276000000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_energy",
+      "year": 2012,
+      "value": 1901000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2012,
+      "value": 9246100000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_energy",
+      "year": 2012,
+      "value": 464677000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_energy",
+      "year": 2012,
+      "value": 5648610000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2012,
+      "value": 4572800000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2012,
+      "value": 273960000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_water",
+      "year": 2012,
+      "value": 15000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_water",
+      "year": 2012,
+      "value": 115600000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_water",
+      "year": 2012,
+      "value": 100000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2013,
+      "value": 10968100000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2013,
+      "value": 4475760000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2013,
+      "value": 5136400000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_transport",
+      "year": 2013,
+      "value": 3100000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2013,
+      "value": 10075420000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2013,
+      "value": 3691600000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_energy",
+      "year": 2013,
+      "value": 1936700000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2013,
+      "value": 3104900000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_energy",
+      "year": 2013,
+      "value": 480000000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_energy",
+      "year": 2013,
+      "value": 3941690000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2013,
+      "value": 2947100000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2013,
+      "value": 169340000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_water",
+      "year": 2013,
+      "value": 140000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_water",
+      "year": 2013,
+      "value": 135100000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2014,
+      "value": 33749230000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2014,
+      "value": 5009410000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2014,
+      "value": 2931650000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2014,
+      "value": 10077600000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2014,
+      "value": 1647500000
+    },
+    {
+      "iso3": "ETH",
+      "key": "ppi_energy",
+      "year": 2014,
+      "value": 120000000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_energy",
+      "year": 2014,
+      "value": 1690500000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2014,
+      "value": 2816630000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_energy",
+      "year": 2014,
+      "value": 723100000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_energy",
+      "year": 2014,
+      "value": 87000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2014,
+      "value": 1786800000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2014,
+      "value": 352820000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2015,
+      "value": 1752800000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2015,
+      "value": 2913740000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2015,
+      "value": 2047220000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_transport",
+      "year": 2015,
+      "value": 1822200000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2015,
+      "value": 5805180000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2015,
+      "value": 3186650000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_energy",
+      "year": 2015,
+      "value": 191000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2015,
+      "value": 2086940000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_energy",
+      "year": 2015,
+      "value": 282000000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_energy",
+      "year": 2015,
+      "value": 4035440000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2015,
+      "value": 1726700000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2015,
+      "value": 774050000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_water",
+      "year": 2015,
+      "value": 18500000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_water",
+      "year": 2015,
+      "value": 1200000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2016,
+      "value": 896100000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2016,
+      "value": 3469630000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_transport",
+      "year": 2016,
+      "value": 462000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2016,
+      "value": 2623120000
+    },
+    {
+      "iso3": "IRN",
+      "key": "ppi_transport",
+      "year": 2016,
+      "value": 235000000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_transport",
+      "year": 2016,
+      "value": 79400000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2016,
+      "value": 14598300000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2016,
+      "value": 3386891000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_energy",
+      "year": 2016,
+      "value": 106000000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_energy",
+      "year": 2016,
+      "value": 8068800000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2016,
+      "value": 1686930000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_energy",
+      "year": 2016,
+      "value": 207010000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_energy",
+      "year": 2016,
+      "value": 779400000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2016,
+      "value": 222700000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2016,
+      "value": 950170000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_ict",
+      "year": 2016,
+      "value": 204000000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_ict",
+      "year": 2016,
+      "value": 229820000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2017,
+      "value": 549600000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2017,
+      "value": 12587440000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_transport",
+      "year": 2017,
+      "value": 498000000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_transport",
+      "year": 2017,
+      "value": 6000000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2017,
+      "value": 3482900000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_transport",
+      "year": 2017,
+      "value": 2037000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2017,
+      "value": 6515000000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2017,
+      "value": 2950270000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_energy",
+      "year": 2017,
+      "value": 2400030000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_energy",
+      "year": 2017,
+      "value": 8839500000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2017,
+      "value": 1311630000
+    },
+    {
+      "iso3": "IRN",
+      "key": "ppi_energy",
+      "year": 2017,
+      "value": 94500000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_energy",
+      "year": 2017,
+      "value": 161000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2017,
+      "value": 218600000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2017,
+      "value": 1426080000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_water",
+      "year": 2017,
+      "value": 157200000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_water",
+      "year": 2017,
+      "value": 50880000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_ict",
+      "year": 2017,
+      "value": 385290000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2018,
+      "value": 1048300000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2018,
+      "value": 25964800000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_transport",
+      "year": 2018,
+      "value": 2903430000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2018,
+      "value": 6607520000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_transport",
+      "year": 2018,
+      "value": 1622700000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2018,
+      "value": 4953540000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2018,
+      "value": 265510000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_energy",
+      "year": 2018,
+      "value": 3425100000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2018,
+      "value": 1639510000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_energy",
+      "year": 2018,
+      "value": 487420000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_energy",
+      "year": 2018,
+      "value": 4347230000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2018,
+      "value": 1400000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2018,
+      "value": 1627080000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_water",
+      "year": 2018,
+      "value": 314620000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_water",
+      "year": 2018,
+      "value": 583300000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_ict",
+      "year": 2018,
+      "value": 68000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2019,
+      "value": 2763010000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2019,
+      "value": 19815500000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_transport",
+      "year": 2019,
+      "value": 150000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2019,
+      "value": 6469840000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_transport",
+      "year": 2019,
+      "value": 3357770000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_transport",
+      "year": 2019,
+      "value": 13500000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2019,
+      "value": 14946570000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2019,
+      "value": 9710000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_energy",
+      "year": 2019,
+      "value": 335000000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_energy",
+      "year": 2019,
+      "value": 290000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2019,
+      "value": 856350000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_energy",
+      "year": 2019,
+      "value": 652310000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2019,
+      "value": 504380000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2019,
+      "value": 3326340000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_water",
+      "year": 2019,
+      "value": 82380000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2020,
+      "value": 282160000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2020,
+      "value": 2788890000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_transport",
+      "year": 2020,
+      "value": 5018850000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2020,
+      "value": 2050710000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_transport",
+      "year": 2020,
+      "value": 925710000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2020,
+      "value": 6242530000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2020,
+      "value": 838180000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2020,
+      "value": 3303310000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_energy",
+      "year": 2020,
+      "value": 486950000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2020,
+      "value": 1240630000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2020,
+      "value": 2312270000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_ict",
+      "year": 2020,
+      "value": 470000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2021,
+      "value": 3963030000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2021,
+      "value": 6504820000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_transport",
+      "year": 2021,
+      "value": 6737290000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2021,
+      "value": 5733600000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_transport",
+      "year": 2021,
+      "value": 109000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2021,
+      "value": 3270180000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2021,
+      "value": 264410000
+    },
+    {
+      "iso3": "ETH",
+      "key": "ppi_energy",
+      "year": 2021,
+      "value": 271000000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_energy",
+      "year": 2021,
+      "value": 150000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2021,
+      "value": 1621240000
+    },
+    {
+      "iso3": "RUS",
+      "key": "ppi_energy",
+      "year": 2021,
+      "value": 101020000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_energy",
+      "year": 2021,
+      "value": 826300000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2021,
+      "value": 1323000000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2021,
+      "value": 3738370000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_water",
+      "year": 2021,
+      "value": 48500000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_water",
+      "year": 2021,
+      "value": 278250000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2022,
+      "value": 11473760000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2022,
+      "value": 28433590000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_transport",
+      "year": 2022,
+      "value": 93300000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2022,
+      "value": 9271640000
+    },
+    {
+      "iso3": "ARE",
+      "key": "ppi_energy",
+      "year": 2022,
+      "value": 3802000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2022,
+      "value": 6031570000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2022,
+      "value": 563400000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_energy",
+      "year": 2022,
+      "value": 1039000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2022,
+      "value": 1568900000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_energy",
+      "year": 2022,
+      "value": 1513030000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2022,
+      "value": 3836810000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2022,
+      "value": 937080000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_water",
+      "year": 2022,
+      "value": 116740000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_water",
+      "year": 2022,
+      "value": 25000000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_ict",
+      "year": 2022,
+      "value": 1668990000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_ict",
+      "year": 2022,
+      "value": 198450000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2023,
+      "value": 3771150000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2023,
+      "value": 1680950000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_transport",
+      "year": 2023,
+      "value": 1365000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2023,
+      "value": 1620020000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2023,
+      "value": 4055070000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2023,
+      "value": 38416240000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_energy",
+      "year": 2023,
+      "value": 869400000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_energy",
+      "year": 2023,
+      "value": 148500000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2023,
+      "value": 6015150000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_energy",
+      "year": 2023,
+      "value": 1010220000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2023,
+      "value": 287000000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2023,
+      "value": 286060000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_water",
+      "year": 2023,
+      "value": 989980000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_ict",
+      "year": 2023,
+      "value": 235000000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_ict",
+      "year": 2023,
+      "value": 71764000
+    },
+    {
+      "iso3": "ETH",
+      "key": "ppi_ict",
+      "year": 2023,
+      "value": 281685714.285714
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_ict",
+      "year": 2023,
+      "value": 563800000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_ict",
+      "year": 2023,
+      "value": 387240000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_ict",
+      "year": 2023,
+      "value": 34000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_transport",
+      "year": 2024,
+      "value": 4262010000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_transport",
+      "year": 2024,
+      "value": 3329410000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_transport",
+      "year": 2024,
+      "value": 1162000000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_energy",
+      "year": 2024,
+      "value": 5748120000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_energy",
+      "year": 2024,
+      "value": 36350050000
+    },
+    {
+      "iso3": "EGY",
+      "key": "ppi_energy",
+      "year": 2024,
+      "value": 173300000
+    },
+    {
+      "iso3": "IDN",
+      "key": "ppi_energy",
+      "year": 2024,
+      "value": 146000000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_energy",
+      "year": 2024,
+      "value": 3424970000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_energy",
+      "year": 2024,
+      "value": 1791590000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_water",
+      "year": 2024,
+      "value": 524580000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_water",
+      "year": 2024,
+      "value": 497340000
+    },
+    {
+      "iso3": "BRA",
+      "key": "ppi_ict",
+      "year": 2024,
+      "value": 981610000
+    },
+    {
+      "iso3": "CHN",
+      "key": "ppi_ict",
+      "year": 2024,
+      "value": 566210000
+    },
+    {
+      "iso3": "IND",
+      "key": "ppi_ict",
+      "year": 2024,
+      "value": 1078450000
+    },
+    {
+      "iso3": "ZAF",
+      "key": "ppi_ict",
+      "year": 2024,
+      "value": 300000000
+    }
+  ],
+  "gfcf": [
+    {
+      "iso3": "BRA",
+      "year": 2000,
+      "value": 18.30448803112
+    },
+    {
+      "iso3": "CHN",
+      "year": 2000,
+      "value": 32.6471790154044
+    },
+    {
+      "iso3": "EGY",
+      "year": 2000,
+      "value": 18.9499558953249
+    },
+    {
+      "iso3": "IDN",
+      "year": 2000,
+      "value": 19.8508544472002
+    },
+    {
+      "iso3": "IND",
+      "year": 2000,
+      "value": 26.0217848451461
+    },
+    {
+      "iso3": "IRN",
+      "year": 2000,
+      "value": 31.305453924537
+    },
+    {
+      "iso3": "RUS",
+      "year": 2000,
+      "value": 16.863668858428
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2000,
+      "value": 14.3870549981056
+    },
+    {
+      "iso3": "ARE",
+      "year": 2001,
+      "value": 20.9781040294057
+    },
+    {
+      "iso3": "BRA",
+      "year": 2001,
+      "value": 18.4180865009209
+    },
+    {
+      "iso3": "CHN",
+      "year": 2001,
+      "value": 33.4598817910203
+    },
+    {
+      "iso3": "EGY",
+      "year": 2001,
+      "value": 17.7256202955116
+    },
+    {
+      "iso3": "IDN",
+      "year": 2001,
+      "value": 19.6726582041666
+    },
+    {
+      "iso3": "IND",
+      "year": 2001,
+      "value": 29.9323096392457
+    },
+    {
+      "iso3": "IRN",
+      "year": 2001,
+      "value": 35.7993975403846
+    },
+    {
+      "iso3": "RUS",
+      "year": 2001,
+      "value": 18.888404270754
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2001,
+      "value": 14.3633064576751
+    },
+    {
+      "iso3": "ARE",
+      "year": 2002,
+      "value": 21.071438593503
+    },
+    {
+      "iso3": "BRA",
+      "year": 2002,
+      "value": 17.9262508238054
+    },
+    {
+      "iso3": "CHN",
+      "year": 2002,
+      "value": 34.9878641071948
+    },
+    {
+      "iso3": "EGY",
+      "year": 2002,
+      "value": 17.8147268408551
+    },
+    {
+      "iso3": "IDN",
+      "year": 2002,
+      "value": 19.4291640497973
+    },
+    {
+      "iso3": "IND",
+      "year": 2002,
+      "value": 28.3325248092936
+    },
+    {
+      "iso3": "IRN",
+      "year": 2002,
+      "value": 33.2457832607485
+    },
+    {
+      "iso3": "RUS",
+      "year": 2002,
+      "value": 17.9059138543927
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2002,
+      "value": 14.0272853046852
+    },
+    {
+      "iso3": "ARE",
+      "year": 2003,
+      "value": 20.7914566161251
+    },
+    {
+      "iso3": "BRA",
+      "year": 2003,
+      "value": 16.6047591535688
+    },
+    {
+      "iso3": "CHN",
+      "year": 2003,
+      "value": 38.0846809344133
+    },
+    {
+      "iso3": "EGY",
+      "year": 2003,
+      "value": 16.311377245509
+    },
+    {
+      "iso3": "IDN",
+      "year": 2003,
+      "value": 19.5060592212863
+    },
+    {
+      "iso3": "IND",
+      "year": 2003,
+      "value": 28.3348257062433
+    },
+    {
+      "iso3": "IRN",
+      "year": 2003,
+      "value": 32.6580827002697
+    },
+    {
+      "iso3": "RUS",
+      "year": 2003,
+      "value": 18.4150283883312
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2003,
+      "value": 14.65691258189
+    },
+    {
+      "iso3": "ARE",
+      "year": 2004,
+      "value": 18.6841309281584
+    },
+    {
+      "iso3": "BRA",
+      "year": 2004,
+      "value": 17.3202333242533
+    },
+    {
+      "iso3": "CHN",
+      "year": 2004,
+      "value": 39.3505370582361
+    },
+    {
+      "iso3": "EGY",
+      "year": 2004,
+      "value": 16.4022254275706
+    },
+    {
+      "iso3": "IDN",
+      "year": 2004,
+      "value": 22.4486169728353
+    },
+    {
+      "iso3": "IND",
+      "year": 2004,
+      "value": 30.7081414238993
+    },
+    {
+      "iso3": "IRN",
+      "year": 2004,
+      "value": 31.2381754864806
+    },
+    {
+      "iso3": "RUS",
+      "year": 2004,
+      "value": 18.3852992882938
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2004,
+      "value": 15.1672389589002
+    },
+    {
+      "iso3": "ARE",
+      "year": 2005,
+      "value": 18.3791279796083
+    },
+    {
+      "iso3": "BRA",
+      "year": 2005,
+      "value": 17.0561834613227
+    },
+    {
+      "iso3": "CHN",
+      "year": 2005,
+      "value": 39.2703289759488
+    },
+    {
+      "iso3": "EGY",
+      "year": 2005,
+      "value": 17.9201485608171
+    },
+    {
+      "iso3": "IDN",
+      "year": 2005,
+      "value": 23.6405117707791
+    },
+    {
+      "iso3": "IND",
+      "year": 2005,
+      "value": 32.7553370362813
+    },
+    {
+      "iso3": "IRN",
+      "year": 2005,
+      "value": 28.5571687717077
+    },
+    {
+      "iso3": "RUS",
+      "year": 2005,
+      "value": 17.7553986041778
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2005,
+      "value": 15.8783049029154
+    },
+    {
+      "iso3": "ARE",
+      "year": 2006,
+      "value": 17.5782119110158
+    },
+    {
+      "iso3": "BRA",
+      "year": 2006,
+      "value": 17.2102995750103
+    },
+    {
+      "iso3": "CHN",
+      "year": 2006,
+      "value": 38.5215726233992
+    },
+    {
+      "iso3": "EGY",
+      "year": 2006,
+      "value": 18.7307754573418
+    },
+    {
+      "iso3": "IDN",
+      "year": 2006,
+      "value": 24.1309915286004
+    },
+    {
+      "iso3": "IND",
+      "year": 2006,
+      "value": 33.5848915769349
+    },
+    {
+      "iso3": "IRN",
+      "year": 2006,
+      "value": 27.2470961461286
+    },
+    {
+      "iso3": "RUS",
+      "year": 2006,
+      "value": 18.5034095135383
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2006,
+      "value": 17.365539559823
+    },
+    {
+      "iso3": "ARE",
+      "year": 2007,
+      "value": 23.5730251169477
+    },
+    {
+      "iso3": "BRA",
+      "year": 2007,
+      "value": 17.9957613410672
+    },
+    {
+      "iso3": "CHN",
+      "year": 2007,
+      "value": 37.6709873123357
+    },
+    {
+      "iso3": "EGY",
+      "year": 2007,
+      "value": 20.8512352309345
+    },
+    {
+      "iso3": "IDN",
+      "year": 2007,
+      "value": 24.9469436430223
+    },
+    {
+      "iso3": "IND",
+      "year": 2007,
+      "value": 35.8128781215224
+    },
+    {
+      "iso3": "IRN",
+      "year": 2007,
+      "value": 28.3421240021292
+    },
+    {
+      "iso3": "RUS",
+      "year": 2007,
+      "value": 20.9952544478165
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2007,
+      "value": 19.0216163054292
+    },
+    {
+      "iso3": "ARE",
+      "year": 2008,
+      "value": 22.3738986038094
+    },
+    {
+      "iso3": "BRA",
+      "year": 2008,
+      "value": 19.3853295551661
+    },
+    {
+      "iso3": "CHN",
+      "year": 2008,
+      "value": 38.8030814219879
+    },
+    {
+      "iso3": "EGY",
+      "year": 2008,
+      "value": 22.2780569514238
+    },
+    {
+      "iso3": "IDN",
+      "year": 2008,
+      "value": 27.6985912220923
+    },
+    {
+      "iso3": "IND",
+      "year": 2008,
+      "value": 34.7179593535669
+    },
+    {
+      "iso3": "IRN",
+      "year": 2008,
+      "value": 31.9226930495385
+    },
+    {
+      "iso3": "RUS",
+      "year": 2008,
+      "value": 22.2904610725417
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2008,
+      "value": 21.6148222161088
+    },
+    {
+      "iso3": "ARE",
+      "year": 2009,
+      "value": 28.9130021992025
+    },
+    {
+      "iso3": "BRA",
+      "year": 2009,
+      "value": 19.1019580373901
+    },
+    {
+      "iso3": "CHN",
+      "year": 2009,
+      "value": 43.4097668520056
+    },
+    {
+      "iso3": "EGY",
+      "year": 2009,
+      "value": 18.9119170984456
+    },
+    {
+      "iso3": "IDN",
+      "year": 2009,
+      "value": 31.1147665576043
+    },
+    {
+      "iso3": "IND",
+      "year": 2009,
+      "value": 33.9516269299674
+    },
+    {
+      "iso3": "IRN",
+      "year": 2009,
+      "value": 30.8548963891343
+    },
+    {
+      "iso3": "RUS",
+      "year": 2009,
+      "value": 21.9951347028483
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2009,
+      "value": 19.4908649747967
+    },
+    {
+      "iso3": "BRA",
+      "year": 2010,
+      "value": 20.5346736513576
+    },
+    {
+      "iso3": "CHN",
+      "year": 2010,
+      "value": 43.5201821905755
+    },
+    {
+      "iso3": "EGY",
+      "year": 2010,
+      "value": 19.2110061329355
+    },
+    {
+      "iso3": "IDN",
+      "year": 2010,
+      "value": 30.999408825566
+    },
+    {
+      "iso3": "IND",
+      "year": 2010,
+      "value": 33.2300146665612
+    },
+    {
+      "iso3": "IRN",
+      "year": 2010,
+      "value": 27.3528333188133
+    },
+    {
+      "iso3": "RUS",
+      "year": 2010,
+      "value": 21.6253843085054
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2010,
+      "value": 17.5616357245929
+    },
+    {
+      "iso3": "BRA",
+      "year": 2011,
+      "value": 20.6089642088056
+    },
+    {
+      "iso3": "CHN",
+      "year": 2011,
+      "value": 43.515390928039
+    },
+    {
+      "iso3": "EGY",
+      "year": 2011,
+      "value": 16.7092115819415
+    },
+    {
+      "iso3": "ETH",
+      "year": 2011,
+      "value": 32.1076664694521
+    },
+    {
+      "iso3": "IDN",
+      "year": 2011,
+      "value": 31.3074540365725
+    },
+    {
+      "iso3": "IND",
+      "year": 2011,
+      "value": 34.3134166469557
+    },
+    {
+      "iso3": "IRN",
+      "year": 2011,
+      "value": 29.0537287312461
+    },
+    {
+      "iso3": "RUS",
+      "year": 2011,
+      "value": 21.3216555211764
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2011,
+      "value": 17.8093691839418
+    },
+    {
+      "iso3": "BRA",
+      "year": 2012,
+      "value": 20.7167127703742
+    },
+    {
+      "iso3": "CHN",
+      "year": 2012,
+      "value": 43.8737076505916
+    },
+    {
+      "iso3": "EGY",
+      "year": 2012,
+      "value": 14.6951692840509
+    },
+    {
+      "iso3": "ETH",
+      "year": 2012,
+      "value": 37.0979619673542
+    },
+    {
+      "iso3": "IDN",
+      "year": 2012,
+      "value": 32.7196280650271
+    },
+    {
+      "iso3": "IND",
+      "year": 2012,
+      "value": 33.4369343256634
+    },
+    {
+      "iso3": "IRN",
+      "year": 2012,
+      "value": 30.0539654282953
+    },
+    {
+      "iso3": "RUS",
+      "year": 2012,
+      "value": 21.5611849041311
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2012,
+      "value": 17.934933446749
+    },
+    {
+      "iso3": "BRA",
+      "year": 2013,
+      "value": 20.9119218718301
+    },
+    {
+      "iso3": "CHN",
+      "year": 2013,
+      "value": 44.0755431365052
+    },
+    {
+      "iso3": "EGY",
+      "year": 2013,
+      "value": 12.9864545259084
+    },
+    {
+      "iso3": "ETH",
+      "year": 2013,
+      "value": 34.0811183155872
+    },
+    {
+      "iso3": "IDN",
+      "year": 2013,
+      "value": 31.9657795676889
+    },
+    {
+      "iso3": "IND",
+      "year": 2013,
+      "value": 31.2958008477695
+    },
+    {
+      "iso3": "IRN",
+      "year": 2013,
+      "value": 27.4456063692711
+    },
+    {
+      "iso3": "RUS",
+      "year": 2013,
+      "value": 21.9401882834583
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2013,
+      "value": 18.5787122077315
+    },
+    {
+      "iso3": "BRA",
+      "year": 2014,
+      "value": 19.8730289050629
+    },
+    {
+      "iso3": "CHN",
+      "year": 2014,
+      "value": 43.3803473680085
+    },
+    {
+      "iso3": "EGY",
+      "year": 2014,
+      "value": 12.4460093896714
+    },
+    {
+      "iso3": "ETH",
+      "year": 2014,
+      "value": 37.9937253037378
+    },
+    {
+      "iso3": "IDN",
+      "year": 2014,
+      "value": 32.5167414405102
+    },
+    {
+      "iso3": "IND",
+      "year": 2014,
+      "value": 30.0802370588503
+    },
+    {
+      "iso3": "IRN",
+      "year": 2014,
+      "value": 28.5708133962533
+    },
+    {
+      "iso3": "RUS",
+      "year": 2014,
+      "value": 21.4171833480957
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2014,
+      "value": 18.301198735847
+    },
+    {
+      "iso3": "BRA",
+      "year": 2015,
+      "value": 17.8358070500755
+    },
+    {
+      "iso3": "CHN",
+      "year": 2015,
+      "value": 41.6166710438192
+    },
+    {
+      "iso3": "EGY",
+      "year": 2015,
+      "value": 13.6544048447154
+    },
+    {
+      "iso3": "ETH",
+      "year": 2015,
+      "value": 40.6712729848122
+    },
+    {
+      "iso3": "IDN",
+      "year": 2015,
+      "value": 32.8119265823923
+    },
+    {
+      "iso3": "IND",
+      "year": 2015,
+      "value": 28.7331441287317
+    },
+    {
+      "iso3": "IRN",
+      "year": 2015,
+      "value": 25.3650139045346
+    },
+    {
+      "iso3": "RUS",
+      "year": 2015,
+      "value": 20.6115488028269
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2015,
+      "value": 18.0089532852253
+    },
+    {
+      "iso3": "BRA",
+      "year": 2016,
+      "value": 15.5243273233005
+    },
+    {
+      "iso3": "CHN",
+      "year": 2016,
+      "value": 41.0805800894123
+    },
+    {
+      "iso3": "EGY",
+      "year": 2016,
+      "value": 14.4681479294309
+    },
+    {
+      "iso3": "ETH",
+      "year": 2016,
+      "value": 37.3487629699646
+    },
+    {
+      "iso3": "IDN",
+      "year": 2016,
+      "value": 32.5777314966023
+    },
+    {
+      "iso3": "IND",
+      "year": 2016,
+      "value": 28.1884378846659
+    },
+    {
+      "iso3": "IRN",
+      "year": 2016,
+      "value": 23.8160452139627
+    },
+    {
+      "iso3": "RUS",
+      "year": 2016,
+      "value": 21.8812816748252
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2016,
+      "value": 17.4415036155936
+    },
+    {
+      "iso3": "BRA",
+      "year": 2017,
+      "value": 14.5589865169328
+    },
+    {
+      "iso3": "CHN",
+      "year": 2017,
+      "value": 41.4184897995936
+    },
+    {
+      "iso3": "EGY",
+      "year": 2017,
+      "value": 16.3133564922454
+    },
+    {
+      "iso3": "ETH",
+      "year": 2017,
+      "value": 38.4439871569806
+    },
+    {
+      "iso3": "IDN",
+      "year": 2017,
+      "value": 32.1606388642645
+    },
+    {
+      "iso3": "IND",
+      "year": 2017,
+      "value": 28.1778136155632
+    },
+    {
+      "iso3": "IRN",
+      "year": 2017,
+      "value": 23.9743818926917
+    },
+    {
+      "iso3": "RUS",
+      "year": 2017,
+      "value": 21.9821391240723
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2017,
+      "value": 16.3988051798909
+    },
+    {
+      "iso3": "BRA",
+      "year": 2018,
+      "value": 15.0969119555859
+    },
+    {
+      "iso3": "CHN",
+      "year": 2018,
+      "value": 42.3803760237203
+    },
+    {
+      "iso3": "EGY",
+      "year": 2018,
+      "value": 18.4089837555184
+    },
+    {
+      "iso3": "ETH",
+      "year": 2018,
+      "value": 34.1629551124182
+    },
+    {
+      "iso3": "IDN",
+      "year": 2018,
+      "value": 32.2884970895694
+    },
+    {
+      "iso3": "IND",
+      "year": 2018,
+      "value": 29.4630681512508
+    },
+    {
+      "iso3": "IRN",
+      "year": 2018,
+      "value": 24.532164274228
+    },
+    {
+      "iso3": "RUS",
+      "year": 2018,
+      "value": 20.6544857247667
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2018,
+      "value": 15.9221674828456
+    },
+    {
+      "iso3": "BRA",
+      "year": 2019,
+      "value": 15.4711697448233
+    },
+    {
+      "iso3": "CHN",
+      "year": 2019,
+      "value": 42.2503490502374
+    },
+    {
+      "iso3": "EGY",
+      "year": 2019,
+      "value": 18.7723373838456
+    },
+    {
+      "iso3": "ETH",
+      "year": 2019,
+      "value": 35.2639756233364
+    },
+    {
+      "iso3": "IDN",
+      "year": 2019,
+      "value": 32.3468845518546
+    },
+    {
+      "iso3": "IND",
+      "year": 2019,
+      "value": 28.4545443348195
+    },
+    {
+      "iso3": "IRN",
+      "year": 2019,
+      "value": 25.2446130741474
+    },
+    {
+      "iso3": "RUS",
+      "year": 2019,
+      "value": 20.9023404249496
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2019,
+      "value": 15.4689896600747
+    },
+    {
+      "iso3": "BRA",
+      "year": 2020,
+      "value": 16.5610215626482
+    },
+    {
+      "iso3": "CHN",
+      "year": 2020,
+      "value": 41.8494114609444
+    },
+    {
+      "iso3": "EGY",
+      "year": 2020,
+      "value": 16.958684133537
+    },
+    {
+      "iso3": "ETH",
+      "year": 2020,
+      "value": 30.5789686598282
+    },
+    {
+      "iso3": "IDN",
+      "year": 2020,
+      "value": 31.7097564518015
+    },
+    {
+      "iso3": "IND",
+      "year": 2020,
+      "value": 27.3243213738562
+    },
+    {
+      "iso3": "IRN",
+      "year": 2020,
+      "value": 30.2595538130002
+    },
+    {
+      "iso3": "RUS",
+      "year": 2020,
+      "value": 21.5599197830911
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2020,
+      "value": 13.7983605384555
+    },
+    {
+      "iso3": "BRA",
+      "year": 2021,
+      "value": 17.9178490532598
+    },
+    {
+      "iso3": "CHN",
+      "year": 2021,
+      "value": 41.3521203793076
+    },
+    {
+      "iso3": "EGY",
+      "year": 2021,
+      "value": 16.285212588735
+    },
+    {
+      "iso3": "ETH",
+      "year": 2021,
+      "value": 28.0252954109535
+    },
+    {
+      "iso3": "IDN",
+      "year": 2021,
+      "value": 30.7941950585175
+    },
+    {
+      "iso3": "IND",
+      "year": 2021,
+      "value": 29.5780345158487
+    },
+    {
+      "iso3": "IRN",
+      "year": 2021,
+      "value": 28.6230276385093
+    },
+    {
+      "iso3": "RUS",
+      "year": 2021,
+      "value": 19.3152892296388
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2021,
+      "value": 13.1098786287254
+    },
+    {
+      "iso3": "BRA",
+      "year": 2022,
+      "value": 17.8004023928911
+    },
+    {
+      "iso3": "CHN",
+      "year": 2022,
+      "value": 41.2329317275585
+    },
+    {
+      "iso3": "EGY",
+      "year": 2022,
+      "value": 18.0439910742748
+    },
+    {
+      "iso3": "ETH",
+      "year": 2022,
+      "value": 25.3422268262091
+    },
+    {
+      "iso3": "IDN",
+      "year": 2022,
+      "value": 29.0848755291885
+    },
+    {
+      "iso3": "IND",
+      "year": 2022,
+      "value": 32.3670520604315
+    },
+    {
+      "iso3": "IRN",
+      "year": 2022,
+      "value": 26.6441870058752
+    },
+    {
+      "iso3": "RUS",
+      "year": 2022,
+      "value": 20.1194392199084
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2022,
+      "value": 14.182485143945
+    },
+    {
+      "iso3": "BRA",
+      "year": 2023,
+      "value": 16.410975108624
+    },
+    {
+      "iso3": "CHN",
+      "year": 2023,
+      "value": 40.4544347218594
+    },
+    {
+      "iso3": "EGY",
+      "year": 2023,
+      "value": 15.1318510349174
+    },
+    {
+      "iso3": "ETH",
+      "year": 2023,
+      "value": 22.1694039604305
+    },
+    {
+      "iso3": "IDN",
+      "year": 2023,
+      "value": 29.1527172525437
+    },
+    {
+      "iso3": "IND",
+      "year": 2023,
+      "value": 31.8996031813541
+    },
+    {
+      "iso3": "IRN",
+      "year": 2023,
+      "value": 27.4163221884552
+    },
+    {
+      "iso3": "RUS",
+      "year": 2023,
+      "value": 22.1046335030538
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2023,
+      "value": 14.9347126554344
+    },
+    {
+      "iso3": "BRA",
+      "year": 2024,
+      "value": 16.9093613197373
+    },
+    {
+      "iso3": "CHN",
+      "year": 2024,
+      "value": 39.6519325237885
+    },
+    {
+      "iso3": "EGY",
+      "year": 2024,
+      "value": 11.6981379076204
+    },
+    {
+      "iso3": "ETH",
+      "year": 2024,
+      "value": 20.5754723151817
+    },
+    {
+      "iso3": "IDN",
+      "year": 2024,
+      "value": 29.1455504170466
+    },
+    {
+      "iso3": "IND",
+      "year": 2024,
+      "value": 31.6434415327216
+    },
+    {
+      "iso3": "IRN",
+      "year": 2024,
+      "value": 28.1071602327718
+    },
+    {
+      "iso3": "RUS",
+      "year": 2024,
+      "value": 22.4336678847527
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2024,
+      "value": 14.5217362279274
+    },
+    {
+      "iso3": "BRA",
+      "year": 2025,
+      "value": 16.8390252318469
+    },
+    {
+      "iso3": "EGY",
+      "year": 2025,
+      "value": 11.705318644479
+    },
+    {
+      "iso3": "ETH",
+      "year": 2025,
+      "value": 20.1199721623161
+    },
+    {
+      "iso3": "IDN",
+      "year": 2025,
+      "value": 28.7670039932789
+    },
+    {
+      "iso3": "IND",
+      "year": 2025,
+      "value": 31.6790977460161
+    },
+    {
+      "iso3": "IRN",
+      "year": 2025,
+      "value": 28.7981019157814
+    },
+    {
+      "iso3": "RUS",
+      "year": 2025,
+      "value": 23.0895938046192
+    },
+    {
+      "iso3": "ZAF",
+      "year": 2025,
+      "value": 13.878930737765
+    }
+  ],
+  "alignment": [
+    {
+      "iso3": "BRA",
+      "name": "Brazil",
+      "sectors": [
+        {
+          "sector": "transport",
+          "demandShare": 0,
+          "investmentShare": 0.40953177692897763,
+          "requests": 0,
+          "investmentUsd": 23752110000
+        },
+        {
+          "sector": "energy",
+          "demandShare": 0,
+          "investmentShare": 0.4370388327501831,
+          "requests": 0,
+          "investmentUsd": 25347470000
+        },
+        {
+          "sector": "water",
+          "demandShare": 0,
+          "investmentShare": 0.12434901008151804,
+          "requests": 0,
+          "investmentUsd": 7212020000
+        },
+        {
+          "sector": "digital",
+          "demandShare": 0,
+          "investmentShare": 0.02908038023932118,
+          "requests": 0,
+          "investmentUsd": 1686610000
+        }
+      ]
+    }
+  ]
+}

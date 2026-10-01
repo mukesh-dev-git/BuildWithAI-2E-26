@@ -1,0 +1,938 @@
+{
+  "goal": {
+    "id": "education",
+    "label": "Education access",
+    "icon": "graduation",
+    "color": "#eab308",
+    "sector": "education",
+    "blurb": "Literacy and secondary schooling for every region",
+    "headline": {
+      "key": "literacy_pct",
+      "label": "Adult literacy",
+      "unit": "%",
+      "better": "up"
+    }
+  },
+  "milestones": [
+    {
+      "id": "need",
+      "label": "Need identified",
+      "auto": "World Bank / regional need score"
+    },
+    {
+      "id": "strategy",
+      "label": "Strategy approved",
+      "auto": "Flagship programme on record"
+    },
+    {
+      "id": "funding",
+      "label": "Funding secured",
+      "auto": "Infrastructure investment (World Bank PPI)"
+    },
+    {
+      "id": "pilot",
+      "label": "Pilot launched",
+      "auto": null
+    },
+    {
+      "id": "full",
+      "label": "Full implementation",
+      "auto": null
+    },
+    {
+      "id": "impact",
+      "label": "Impact measured",
+      "auto": "Headline indicator improved since the programme began"
+    }
+  ],
+  "countries": [
+    {
+      "iso3": "IND",
+      "name": "India",
+      "needScore": 100,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 100 (regional peak 100): 78% adult literacy, 80% secondary enrolment"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2018",
+          "source": "curated",
+          "evidence": "Samagra Shiksha (2018): integrated school education scheme"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Adult literacy 73.7 → 78.2 (2018–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "in_progress",
+      "programme": "Samagra Shiksha (2018): integrated school education scheme",
+      "regionalCount": 36
+    },
+    {
+      "iso3": "ETH",
+      "name": "Ethiopia",
+      "needScore": 100,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 100 (regional peak 100): 60% adult literacy, 34% secondary enrolment"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2008",
+          "source": "curated",
+          "evidence": "GEQIP (2008): general education quality improvement"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2022",
+          "source": "data",
+          "evidence": "Adult literacy 48.4 → 60.5 (2013–2022). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.5,
+      "done": 3,
+      "state": "in_progress",
+      "programme": "GEQIP (2008): general education quality improvement",
+      "regionalCount": 11
+    },
+    {
+      "iso3": "EGY",
+      "name": "Egypt",
+      "needScore": 87,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 87 (regional peak 87): 79% adult literacy, 85% secondary enrolment"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2018",
+          "source": "curated",
+          "evidence": "Education 2.0 (2018): curriculum and assessment reform"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "not_started",
+          "source": "data",
+          "evidence": "Adult literacy has not improved since 2018"
+        }
+      ],
+      "progress": 0.3333333333333333,
+      "done": 2,
+      "state": "in_progress",
+      "programme": "Education 2.0 (2018): curriculum and assessment reform",
+      "regionalCount": 25
+    },
+    {
+      "iso3": "IDN",
+      "name": "Indonesia",
+      "needScore": 56,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 56 (regional peak 56): 96% adult literacy, 97% secondary enrolment"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2020",
+          "source": "data",
+          "evidence": "Adult literacy 92.3 → 96.0 (2010–2020). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.3333333333333333,
+      "done": 2,
+      "state": "in_progress",
+      "programme": null,
+      "regionalCount": 34
+    },
+    {
+      "iso3": "IRN",
+      "name": "Iran",
+      "needScore": 29,
+      "inScope": true,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "done",
+          "date": "2025",
+          "source": "data",
+          "evidence": "Need score 29: 89% adult literacy, 85% secondary enrolment"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2023",
+          "source": "data",
+          "evidence": "Adult literacy 83.7 → 88.9 (2010–2023). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.3333333333333333,
+      "done": 2,
+      "state": "in_progress",
+      "programme": null,
+      "regionalCount": 0
+    },
+    {
+      "iso3": "BRA",
+      "name": "Brazil",
+      "needScore": 7,
+      "inScope": false,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "na",
+          "source": "data",
+          "evidence": "Need score 7, below the 25 priority line"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "done",
+          "date": "2007",
+          "source": "curated",
+          "evidence": "FUNDEB (2007): basic education financing fund"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Adult literacy 90.0 → 94.7 (2007–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.3333333333333333,
+      "done": 2,
+      "state": "na",
+      "programme": "FUNDEB (2007): basic education financing fund",
+      "regionalCount": 0
+    },
+    {
+      "iso3": "CHN",
+      "name": "China",
+      "needScore": 12,
+      "inScope": false,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "na",
+          "source": "data",
+          "evidence": "Need score 12, below the 25 priority line"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2020",
+          "source": "data",
+          "evidence": "Adult literacy 95.1 → 96.7 (2010–2020). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.16666666666666666,
+      "done": 1,
+      "state": "na",
+      "programme": null,
+      "regionalCount": 0
+    },
+    {
+      "iso3": "RUS",
+      "name": "Russia",
+      "needScore": 8,
+      "inScope": false,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "na",
+          "source": "data",
+          "evidence": "Need score 8, below the 25 priority line"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2021",
+          "source": "data",
+          "evidence": "Adult literacy 99.7 → 99.9 (2010–2021). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.16666666666666666,
+      "done": 1,
+      "state": "na",
+      "programme": null,
+      "regionalCount": 0
+    },
+    {
+      "iso3": "ARE",
+      "name": "United Arab Emirates",
+      "needScore": 1,
+      "inScope": false,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "na",
+          "source": "data",
+          "evidence": "Need score 1, below the 25 priority line"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "done",
+          "date": "2024",
+          "source": "data",
+          "evidence": "Adult literacy 97.8 → 98.8 (2019–2024). An outcome trend, not proof of attribution"
+        }
+      ],
+      "progress": 0.16666666666666666,
+      "done": 1,
+      "state": "na",
+      "programme": null,
+      "regionalCount": 0
+    },
+    {
+      "iso3": "ZAF",
+      "name": "South Africa",
+      "needScore": 16,
+      "inScope": false,
+      "milestones": [
+        {
+          "id": "need",
+          "label": "Need identified",
+          "status": "na",
+          "source": "data",
+          "evidence": "Need score 16, below the 25 priority line"
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy approved",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No flagship programme on record"
+        },
+        {
+          "id": "funding",
+          "label": "Funding secured",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "No open investment data for this goal. Update when funding is confirmed"
+        },
+        {
+          "id": "pilot",
+          "label": "Pilot launched",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "full",
+          "label": "Full implementation",
+          "status": "not_started",
+          "source": "none",
+          "evidence": "Not reported yet"
+        },
+        {
+          "id": "impact",
+          "label": "Impact measured",
+          "status": "not_started",
+          "source": "data",
+          "evidence": "Adult literacy has not improved since 2010"
+        }
+      ],
+      "progress": 0,
+      "done": 0,
+      "state": "na",
+      "programme": null,
+      "regionalCount": 9
+    }
+  ],
+  "kpis": {
+    "inScope": 5,
+    "completed": 0,
+    "inProgress": 5,
+    "notStarted": 0,
+    "regionsCovered": 69
+  },
+  "pipeline": [
+    {
+      "id": "energy",
+      "label": "Clean energy",
+      "icon": "leaf",
+      "color": "#22c55e",
+      "sector": "energy",
+      "blurb": "Universal electricity access with a growing renewable share",
+      "headline": {
+        "key": "renewable_pct",
+        "label": "Renewable share of energy",
+        "unit": "%",
+        "better": "up"
+      },
+      "inScope": [
+        "RUS",
+        "IND",
+        "CHN",
+        "ZAF",
+        "EGY",
+        "ETH",
+        "IRN",
+        "ARE",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.5185185185185185
+    },
+    {
+      "id": "air",
+      "label": "Clean air",
+      "icon": "wind",
+      "color": "#14b8a6",
+      "sector": "environment",
+      "blurb": "Cleaner air within WHO guideline levels",
+      "headline": {
+        "key": "pm25",
+        "label": "PM2.5 exposure",
+        "unit": "µg/m³",
+        "better": "down"
+      },
+      "inScope": [
+        "IND",
+        "CHN",
+        "ZAF",
+        "EGY",
+        "ETH",
+        "IRN",
+        "ARE",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.31249999999999994
+    },
+    {
+      "id": "health",
+      "label": "Healthcare access",
+      "icon": "heart",
+      "color": "#ef4444",
+      "sector": "health",
+      "blurb": "Accessible primary health care and better child-health outcomes",
+      "headline": {
+        "key": "u5_mortality",
+        "label": "Under-5 mortality",
+        "unit": "per 1,000",
+        "better": "down"
+      },
+      "inScope": [
+        "BRA",
+        "IND",
+        "ZAF",
+        "EGY",
+        "ETH",
+        "IRN",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.47619047619047616
+    },
+    {
+      "id": "digital",
+      "label": "Digital connectivity",
+      "icon": "wifi",
+      "color": "#8b5cf6",
+      "sector": "digital",
+      "blurb": "Affordable connectivity and access to online public services",
+      "headline": {
+        "key": "internet_pct",
+        "label": "Internet users",
+        "unit": "%",
+        "better": "up"
+      },
+      "inScope": [
+        "BRA",
+        "IND",
+        "ZAF",
+        "EGY",
+        "ETH",
+        "IRN",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.5714285714285714
+    },
+    {
+      "id": "transport",
+      "label": "Transport & logistics",
+      "icon": "bus",
+      "color": "#f97316",
+      "sector": "transport",
+      "blurb": "Reliable roads, logistics and public transport",
+      "headline": {
+        "key": "lpi_infra",
+        "label": "Infrastructure quality (LPI)",
+        "unit": "1–5",
+        "better": "up"
+      },
+      "inScope": [
+        "BRA",
+        "RUS",
+        "IND",
+        "EGY",
+        "ETH",
+        "IRN",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.5238095238095238
+    },
+    {
+      "id": "jobs",
+      "label": "Job opportunities",
+      "icon": "briefcase",
+      "color": "#ec4899",
+      "sector": "social",
+      "blurb": "More and better jobs, especially for young people",
+      "headline": {
+        "key": "unemployment_pct",
+        "label": "Unemployment",
+        "unit": "%",
+        "better": "down"
+      },
+      "inScope": [
+        "BRA",
+        "IND",
+        "CHN",
+        "ZAF",
+        "EGY",
+        "IRN"
+      ],
+      "total": 10,
+      "avgProgress": 0.3333333333333333
+    },
+    {
+      "id": "education",
+      "label": "Education access",
+      "icon": "graduation",
+      "color": "#eab308",
+      "sector": "education",
+      "blurb": "Literacy and secondary schooling for every region",
+      "headline": {
+        "key": "literacy_pct",
+        "label": "Adult literacy",
+        "unit": "%",
+        "better": "up"
+      },
+      "inScope": [
+        "IND",
+        "EGY",
+        "ETH",
+        "IRN",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.39999999999999997
+    },
+    {
+      "id": "water",
+      "label": "Water security",
+      "icon": "droplet",
+      "color": "#3b82f6",
+      "sector": "water",
+      "blurb": "Safe, sustainable and resilient water and sanitation for all",
+      "headline": {
+        "key": "water_pct",
+        "label": "Basic drinking water",
+        "unit": "%",
+        "better": "up"
+      },
+      "inScope": [
+        "IND",
+        "ZAF",
+        "ETH",
+        "IDN"
+      ],
+      "total": 10,
+      "avgProgress": 0.5833333333333333
+    }
+  ],
+  "lastUpdate": null,
+  "goals": [
+    {
+      "id": "water",
+      "label": "Water security",
+      "icon": "droplet",
+      "color": "#3b82f6",
+      "sector": "water",
+      "blurb": "Safe, sustainable and resilient water and sanitation for all",
+      "headline": {
+        "key": "water_pct",
+        "label": "Basic drinking water",
+        "unit": "%",
+        "better": "up"
+      }
+    },
+    {
+      "id": "health",
+      "label": "Healthcare access",
+      "icon": "heart",
+      "color": "#ef4444",
+      "sector": "health",
+      "blurb": "Accessible primary health care and better child-health outcomes",
+      "headline": {
+        "key": "u5_mortality",
+        "label": "Under-5 mortality",
+        "unit": "per 1,000",
+        "better": "down"
+      }
+    },
+    {
+      "id": "digital",
+      "label": "Digital connectivity",
+      "icon": "wifi",
+      "color": "#8b5cf6",
+      "sector": "digital",
+      "blurb": "Affordable connectivity and access to online public services",
+      "headline": {
+        "key": "internet_pct",
+        "label": "Internet users",
+        "unit": "%",
+        "better": "up"
+      }
+    },
+    {
+      "id": "transport",
+      "label": "Transport & logistics",
+      "icon": "bus",
+      "color": "#f97316",
+      "sector": "transport",
+      "blurb": "Reliable roads, logistics and public transport",
+      "headline": {
+        "key": "lpi_infra",
+        "label": "Infrastructure quality (LPI)",
+        "unit": "1–5",
+        "better": "up"
+      }
+    },
+    {
+      "id": "energy",
+      "label": "Clean energy",
+      "icon": "leaf",
+      "color": "#22c55e",
+      "sector": "energy",
+      "blurb": "Universal electricity access with a growing renewable share",
+      "headline": {
+        "key": "renewable_pct",
+        "label": "Renewable share of energy",
+        "unit": "%",
+        "better": "up"
+      }
+    },
+    {
+      "id": "education",
+      "label": "Education access",
+      "icon": "graduation",
+      "color": "#eab308",
+      "sector": "education",
+      "blurb": "Literacy and secondary schooling for every region",
+      "headline": {
+        "key": "literacy_pct",
+        "label": "Adult literacy",
+        "unit": "%",
+        "better": "up"
+      }
+    },
+    {
+      "id": "jobs",
+      "label": "Job opportunities",
+      "icon": "briefcase",
+      "color": "#ec4899",
+      "sector": "social",
+      "blurb": "More and better jobs, especially for young people",
+      "headline": {
+        "key": "unemployment_pct",
+        "label": "Unemployment",
+        "unit": "%",
+        "better": "down"
+      }
+    },
+    {
+      "id": "air",
+      "label": "Clean air",
+      "icon": "wind",
+      "color": "#14b8a6",
+      "sector": "environment",
+      "blurb": "Cleaner air within WHO guideline levels",
+      "headline": {
+        "key": "pm25",
+        "label": "PM2.5 exposure",
+        "unit": "µg/m³",
+        "better": "down"
+      }
+    }
+  ]
+}

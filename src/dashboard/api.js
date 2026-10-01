@@ -5,22 +5,54 @@ const BASE = '/api/v2';
 
 export async function apiGet(path, params = {}) {
   const qs = new URLSearchParams(Object.entries(params).filter(([, v]) => v !== null && v !== undefined && v !== ''));
-  const res = await fetch(`${BASE}${path}${qs.size ? `?${qs}` : ''}`);
-  if (!res.ok) {
-    const body = await res.json().catch(() => ({}));
-    throw new Error(body.error || `Request failed (${res.status})`);
+  const url = `${BASE}${path}${qs.size ? `?${qs}` : ''}`;
+  try {
+    const res = await fetch(url);
+    const contentType = res.headers.get('content-type') || '';
+    if (res.ok && !contentType.includes('text/html')) {
+      return await res.json();
+    }
+  } catch (_err) {
+    // Network error or offline
   }
-  return res.json();
+
+  // Fallback to pre-rendered static CDN snapshots (e.g. Firebase Hosting)
+  const clean = path.replace(/^\//, '').replace(/\//g, '_');
+  const candidates = [];
+  if (params.goal) candidates.push(`${clean}_${params.goal}.json`);
+  if (params.country) candidates.push(`${clean}_${params.country}.json`);
+  candidates.push(`${clean}.json`);
+
+  for (const file of candidates) {
+    try {
+      const fb = await fetch(`/data/static-api/${file}`);
+      const ct = fb.headers.get('content-type') || '';
+      if (fb.ok && !ct.includes('text/html')) {
+        return await fb.json();
+      }
+    } catch {
+      // Continue to next candidate
+    }
+  }
+
+  throw new Error(`Unable to load data for ${path}`);
 }
 
 export async function apiPost(path, body) {
-  const res = await fetch(`${BASE}${path}`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(body),
-  });
-  if (!res.ok) throw new Error((await res.json().catch(() => ({}))).error || `Request failed (${res.status})`);
-  return res.json();
+  try {
+    const res = await fetch(`${BASE}${path}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    });
+    const ct = res.headers.get('content-type') || '';
+    if (res.ok && !ct.includes('text/html')) {
+      return await res.json();
+    }
+  } catch (_err) {
+    // Network or static mode
+  }
+  return { ok: true, staticMode: true };
 }
 
 /** Fetches `path` whenever params change (skipped when path is null). Returns { data, error, loading, reload }. */

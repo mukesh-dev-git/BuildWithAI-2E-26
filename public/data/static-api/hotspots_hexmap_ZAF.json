@@ -1,0 +1,9234 @@
+{
+  "r": 0.28006582322777934,
+  "bounds": {
+    "lonMin": 15.891868353544442,
+    "lonMax": 33.50513164645556,
+    "latMin": -35.39313164645556,
+    "latMax": -21.57886835354444
+  },
+  "regionNames": {
+    "BRA-roraima": "Roraima",
+    "BRA-amapa": "Amapa",
+    "BRA-amazonas": "Amazonas",
+    "BRA-para": "Para",
+    "BRA-maranhao": "Maranhao",
+    "BRA-ceara": "Ceara",
+    "BRA-rio-grande-do-norte": "Rio Grande do Norte",
+    "BRA-paraiba": "Paraiba",
+    "BRA-piaui": "Piaui",
+    "BRA-pernambuco": "Pernambuco",
+    "BRA-alagoas": "Alagoas",
+    "BRA-acre": "Acre",
+    "BRA-rondonia": "Rondonia",
+    "BRA-sergipe": "Sergipe",
+    "BRA-tocantins": "Tocantins",
+    "BRA-bahia": "Bahia",
+    "BRA-mato-grosso": "Mato Grosso",
+    "BRA-goias": "Goias",
+    "BRA-distrito-federal": "Distrito Federal",
+    "BRA-minas-gerais": "Minas Gerais",
+    "BRA-espirito-santo": "Espirito Santo",
+    "BRA-mato-grosso-do-sul": "Mato Grosso do Sul",
+    "BRA-rio-de-janeiro": "Rio de Janeiro",
+    "BRA-sao-paulo": "Sao Paulo",
+    "BRA-parana": "Parana",
+    "BRA-santa-catarina": "Santa Catarina",
+    "BRA-rio-grande-do-sul": "Rio Grande do Sul",
+    "RUS-altai-krai": "Altai Krai",
+    "RUS-republic-of-mordovia": "Republic of Mordovia",
+    "RUS-tula-oblast": "Tula Oblast",
+    "RUS-kurgan-oblast": "Kurgan Oblast",
+    "RUS-ingushetia": "Ingushetia",
+    "RUS-khanty-mansiysk-autonomous-okrug-ugra": "Khanty-Mansiysk Autonomous Okrug – Ugra",
+    "RUS-kirov-oblast": "Kirov Oblast",
+    "RUS-komi-republic": "Komi Republic",
+    "RUS-kostroma-oblast": "Kostroma Oblast",
+    "RUS-krasnoyarsk-krai": "Krasnoyarsk Krai",
+    "RUS-zabaykalsky-krai": "Zabaykalsky Krai",
+    "RUS-sverdlovsk-oblast": "Sverdlovsk Oblast",
+    "RUS-volgograd-oblast": "Volgograd Oblast",
+    "RUS-irkutsk-oblast": "Irkutsk Oblast",
+    "RUS-perm-krai": "Perm Krai",
+    "RUS-pskov-oblast": "Pskov Oblast",
+    "RUS-rostov-oblast": "Rostov Oblast",
+    "RUS-ryazan-oblast": "Ryazan Oblast",
+    "RUS-adygea": "Adygea",
+    "RUS-samara-oblast": "Samara Oblast",
+    "RUS-khakassia": "Khakassia",
+    "RUS-tambov-oblast": "Tambov Oblast",
+    "RUS-tatarstan": "Tatarstan",
+    "RUS-tomsk-oblast": "Tomsk Oblast",
+    "RUS-nizhny-novgorod-oblast": "Nizhny Novgorod Oblast",
+    "RUS-republic-of-karelia": "Republic of Karelia",
+    "RUS-arkhangelsk-oblast": "Arkhangelsk Oblast",
+    "RUS-astrakhan-oblast": "Astrakhan Oblast",
+    "RUS-belgorod-oblast": "Belgorod Oblast",
+    "RUS-bryansk-oblast": "Bryansk Oblast",
+    "RUS-buryatia": "Buryatia",
+    "RUS-chechnya": "Chechnya",
+    "RUS-chelyabinsk-oblast": "Chelyabinsk Oblast",
+    "RUS-chuvashia": "Chuvashia",
+    "RUS-tyumen-oblast": "Tyumen Oblast",
+    "RUS-north-ossetia-alania": "North Ossetia–Alania",
+    "RUS-penza-oblast": "Penza Oblast",
+    "RUS-amur-oblast": "Amur Oblast",
+    "RUS-kabardino-balkaria": "Kabardino-Balkaria",
+    "RUS-krasnodar-krai": "Krasnodar Krai",
+    "RUS-kursk-oblast": "Kursk Oblast",
+    "RUS-leningrad-oblast": "Leningrad oblast",
+    "RUS-mari-el": "Mari El",
+    "RUS-moscow": "Moscow",
+    "RUS-moscow-oblast": "Moscow Oblast",
+    "RUS-murmansk-oblast": "Murmansk Oblast",
+    "RUS-nenets-autonomous-okrug": "Nenets Autonomous Okrug",
+    "RUS-novgorod-oblast": "Novgorod Oblast",
+    "RUS-novosibirsk-oblast": "Novosibirsk Oblast",
+    "RUS-omsk-oblast": "Omsk Oblast",
+    "RUS-oryol-oblast": "Oryol Oblast",
+    "RUS-saint-petersburg": "Saint Petersburg",
+    "RUS-sakhalin-oblast": "Sakhalin Oblast",
+    "RUS-sakha-republic": "Sakha Republic",
+    "RUS-saratov-oblast": "Saratov Oblast",
+    "RUS-smolensk-oblast": "Smolensk Oblast",
+    "RUS-stavropol-krai": "Stavropol Krai",
+    "RUS-tuva": "Tuva",
+    "RUS-tver-oblast": "Tver Oblast",
+    "RUS-udmurtia": "Udmurtia",
+    "RUS-kaluga-oblast": "Kaluga Oblast",
+    "RUS-lipetsk-oblast": "Lipetsk Oblast",
+    "RUS-magadan-oblast": "Magadan Oblast",
+    "RUS-ulyanovsk-oblast": "Ulyanovsk Oblast",
+    "RUS-vladimir-oblast": "Vladimir Oblast",
+    "RUS-vologda-oblast": "Vologda Oblast",
+    "RUS-yaroslavl-oblast": "Yaroslavl Oblast",
+    "RUS-voronezh-oblast": "Voronezh Oblast",
+    "RUS-yamalo-nenets-autonomous-okrug": "Yamalo-Nenets Autonomous Okrug",
+    "RUS-altai-republic": "Altai Republic",
+    "RUS-ivanovo-oblast": "Ivanovo Oblast",
+    "RUS-jewish-autonomous-oblast": "Jewish Autonomous Oblast",
+    "RUS-kalmykia": "Kalmykia",
+    "RUS-kamchatka-krai": "Kamchatka Krai",
+    "RUS-karachay-cherkessia": "Karachay-Cherkessia",
+    "RUS-kemerovo-oblast": "Kemerovo Oblast",
+    "RUS-khabarovsk-krai": "Khabarovsk Krai",
+    "RUS-chukotka-autonomous-okrug": "Chukotka Autonomous Okrug",
+    "RUS-dagestan": "Dagestan",
+    "RUS-kaliningrad": "Kaliningrad",
+    "RUS-orenburg-oblast": "Orenburg Oblast",
+    "RUS-primorsky-krai": "Primorsky Krai",
+    "RUS-bashkortostan": "Bashkortostan",
+    "IND-puducherry": "Puducherry",
+    "IND-maharashtra": "Mahārāshtra",
+    "IND-nagaland": "Nāgāland",
+    "IND-lakshadweep": "Lakshadweep",
+    "IND-uttar-pradesh": "Uttar Pradesh",
+    "IND-tamil-nadu": "Tamil Nādu",
+    "IND-chhattisgarh": "Chhattīsgarh",
+    "IND-gujarat": "Gujarāt",
+    "IND-delhi": "Delhi",
+    "IND-sikkim": "Sikkim",
+    "IND-tripura": "Tripura",
+    "IND-west-bengal": "West Bengal",
+    "IND-odisha": "Odisha",
+    "IND-bihar": "Bihār",
+    "IND-ladakh": "Ladākh",
+    "IND-rajasthan": "Rājasthān",
+    "IND-telangana": "Telangāna",
+    "IND-andhra-pradesh": "Andhra Pradesh",
+    "IND-mizoram": "Mizoram",
+    "IND-arunachal-pradesh": "Arunāchal Pradesh",
+    "IND-meghalaya": "Meghālaya",
+    "IND-jharkhand": "Jhārkhand",
+    "IND-assam": "Assam",
+    "IND-manipur": "Manipur",
+    "IND-karnataka": "Karnātaka",
+    "IND-uttarakhand": "Uttarākhand",
+    "IND-dadra-and-nagar-haveli-and-daman-and-diu": "Dādra and Nagar Haveli and Damān and Diu",
+    "IND-madhya-pradesh": "Madhya Pradesh",
+    "IND-goa": "Goa",
+    "IND-kerala": "Kerala",
+    "IND-chandigarh": "Chandīgarh",
+    "IND-andaman-and-nicobar-islands": "Andaman and Nicobar Islands",
+    "IND-himachal-pradesh": "Himāchal Pradesh",
+    "IND-jammu-and-kashmir": "Jammu and Kashmīr",
+    "IND-punjab": "Punjab",
+    "IND-haryana": "Haryāna",
+    "CHN-hainan-province": "Hainan Province",
+    "CHN-taiwan-province": "Taiwan Province",
+    "CHN-guangxi-zhuang-autonomous-region": "Guangxi Zhuang Autonomous Region",
+    "CHN-fujian-province": "Fujian Province",
+    "CHN-yunnan-province": "Yunnan Province",
+    "CHN-guizhou-province": "Guizhou Province",
+    "CHN-jiangxi-province": "Jiangxi Province",
+    "CHN-hunan-province": "Hunan Province",
+    "CHN-zhejiang-province": "Zhejiang Province",
+    "CHN-shanghai-municipality": "Shanghai Municipality",
+    "CHN-chongqing-municipality": "Chongqing Municipality",
+    "CHN-hubei-province": "Hubei Province",
+    "CHN-sichuan-province": "Sichuan Province",
+    "CHN-anhui-province": "Anhui Province",
+    "CHN-jiangsu-province": "Jiangsu Province",
+    "CHN-henan-province": "Henan Province",
+    "CHN-tibet-autonomous-region": "Tibet Autonomous Region",
+    "CHN-shandong-province": "Shandong Province",
+    "CHN-qinghai-province": "Qinghai Province",
+    "CHN-ningxia-ningxia-hui-autonomous-region": "Ningxia Ningxia Hui Autonomous Region",
+    "CHN-shaanxi-province": "Shaanxi Province",
+    "CHN-tianjin-municipality": "Tianjin Municipality",
+    "CHN-shanxi-province": "Shanxi Province",
+    "CHN-beijing-municipality": "Beijing Municipality",
+    "CHN-gansu-province": "Gansu Province",
+    "CHN-hebei-province": "Hebei Province",
+    "CHN-liaoning-province": "Liaoning Province",
+    "CHN-jilin-province": "Jilin Province",
+    "CHN-xinjiang-uyghur-autonomous-region": "Xinjiang Uyghur Autonomous Region",
+    "CHN-inner-mongolia-autonomous-region": "Inner Mongolia Autonomous Region",
+    "CHN-heilongjiang-province": "Heilongjiang Province",
+    "CHN-macau-special-administrative-region": "Macau Special Administrative Region",
+    "CHN-hong-kong-special-administrative-region": "Hong Kong Special Administrative Region",
+    "CHN-guangzhou-province": "Guangzhou Province",
+    "ZAF-eastern-cape": "Eastern Cape",
+    "ZAF-free-state": "Free State",
+    "ZAF-gauteng": "Gauteng",
+    "ZAF-kwazulu-natal": "KwaZulu-Natal",
+    "ZAF-limpopo": "Limpopo",
+    "ZAF-mpumalanga": "Mpumalanga",
+    "ZAF-north-west": "North West",
+    "ZAF-nothern-cape": "Nothern Cape",
+    "ZAF-western-cape": "Western Cape",
+    "EGY-north-sinai-governorate": "North Sinai Governorate",
+    "EGY-south-sinai-governorate": "South Sinai Governorate",
+    "EGY-aswan-governorate": "Aswan Governorate",
+    "EGY-red-sea-governorate": "Red Sea Governorate",
+    "EGY-matrouh-governorate": "Matrouh Governorate",
+    "EGY-new-valley-governorate": "New Valley Governorate",
+    "EGY-alexandria-governorate": "Alexandria Governorate",
+    "EGY-ismailia-governorate": "Ismailia Governorate",
+    "EGY-suez-governorate": "Suez Governorate",
+    "EGY-gharbiyya-governorate": "Gharbiyya Governorate",
+    "EGY-faiyum-governorate": "Faiyum Governorate",
+    "EGY-beni-suef-governorate": "Beni Suef Governorate",
+    "EGY-minya-governate": "Minya Governate",
+    "EGY-asyut-governorate": "Asyut Governorate",
+    "EGY-sohag-governorate": "Sohag Governorate",
+    "EGY-qena-governorate": "Qena Governorate",
+    "EGY-luxor-governate": "Luxor Governate",
+    "EGY-giza-governorate": "Giza Governorate",
+    "EGY-monufia-governorate": "Monufia Governorate",
+    "EGY-beheira-governorate": "Beheira Governorate",
+    "EGY-cairo-governorate": "Cairo Governorate",
+    "EGY-qalyubia-governorate": "Qalyubia Governorate",
+    "EGY-dakahlia-governorate": "Dakahlia Governorate",
+    "EGY-damietta-governorate": "Damietta Governorate",
+    "EGY-kafr-el-sheikh-governorate": "Kafr el-Sheikh Governorate",
+    "EGY-port-said-governorate": "Port Said Governorate",
+    "EGY-al-sharqia-governorate": "Al Sharqia Governorate",
+    "ETH-addis-ababa": "Addis Ababa",
+    "ETH-afar": "Afar",
+    "ETH-amhara": "Amhara",
+    "ETH-beneshangul-gumu": "Beneshangul Gumu",
+    "ETH-dire-dawa": "Dire Dawa",
+    "ETH-gambela": "Gambela",
+    "ETH-hareri": "Hareri",
+    "ETH-oromia": "Oromia",
+    "ETH-snnpr": "SNNPR",
+    "ETH-somali": "Somali",
+    "ETH-tigray": "Tigray",
+    "IRN-mazandaran": "Mazandaran",
+    "IRN-north-khorasan": "North Khorasan",
+    "IRN-kerman": "Kerman",
+    "IRN-ilam": "Ilam",
+    "IRN-lorestan": "Lorestan",
+    "IRN-markazi": "Markazi",
+    "IRN-chaharmahal-and-bakhtiari": "Chaharmahal and Bakhtiari",
+    "IRN-kermanshah": "Kermanshah",
+    "IRN-hamadan": "Hamadan",
+    "IRN-qazvin": "Qazvin",
+    "IRN-gilan": "Gilan",
+    "IRN-zanjan": "Zanjan",
+    "IRN-semnan": "Semnan",
+    "IRN-isfahan": "Isfahan",
+    "IRN-kohgiluyeh-and-boyer-ahmad": "Kohgiluyeh and Boyer-Ahmad",
+    "IRN-kurdistan": "Kurdistan",
+    "IRN-west-azerbaijan": "West Azerbaijan",
+    "IRN-fars": "Fars",
+    "IRN-bushehr": "Bushehr",
+    "IRN-ardabil": "Ardabil",
+    "IRN-golestan": "Golestan",
+    "IRN-razavi-khorasan": "Razavi Khorasan",
+    "IRN-south-khorasan": "South Khorasan",
+    "IRN-sistan-and-baluchestan": "Sistan and Baluchestan",
+    "IRN-qom": "Qom",
+    "IRN-alborz": "Alborz",
+    "IRN-east-azerbaijan": "East Azerbaijan",
+    "IRN-yazd": "Yazd",
+    "IRN-hormozgan": "Hormozgan",
+    "IRN-khuzestan": "Khuzestan",
+    "IRN-tehran": "Tehran",
+    "ARE-abu-dhabi": "Abu Dhabi",
+    "ARE-ajman": "Ajman",
+    "ARE-dubai": "Dubai",
+    "ARE-fujairah": "Fujairah",
+    "ARE-ras-al-khaimah": "Ras al-Khaimah",
+    "ARE-sharjah": "Sharjah",
+    "ARE-umm-al-quwain": "Umm al-Quwain",
+    "IDN-bali": "Bali",
+    "IDN-west-nusa-tenggara": "West Nusa Tenggara",
+    "IDN-banten": "Banten",
+    "IDN-central-java": "Central Java",
+    "IDN-west-java": "West Java",
+    "IDN-central-kalimantan": "Central Kalimantan",
+    "IDN-south-kalimantan": "South Kalimantan",
+    "IDN-west-kalimantan": "West Kalimantan",
+    "IDN-central-sulawesi": "Central Sulawesi",
+    "IDN-gorontalo": "Gorontalo",
+    "IDN-north-sulawesi": "North Sulawesi",
+    "IDN-south-sulawesi": "South Sulawesi",
+    "IDN-southeast-sulawesi": "Southeast Sulawesi",
+    "IDN-west-sulawesi": "West Sulawesi",
+    "IDN-aceh": "Aceh",
+    "IDN-bengkulu": "Bengkulu",
+    "IDN-jambi": "Jambi",
+    "IDN-lampung": "Lampung",
+    "IDN-riau": "Riau",
+    "IDN-west-sumatra": "West Sumatra",
+    "IDN-south-sumatra": "South Sumatra",
+    "IDN-north-sumatra": "North Sumatra",
+    "IDN-east-nusa-tenggara": "East Nusa Tenggara",
+    "IDN-maluku": "Maluku",
+    "IDN-north-maluku": "North Maluku",
+    "IDN-east-java": "East Java",
+    "IDN-bangka-belitung-islands": "Bangka-Belitung Islands",
+    "IDN-riau-islands": "Riau Islands",
+    "IDN-papua": "Papua",
+    "IDN-west-papua": "West Papua",
+    "IDN-east-kalimantan": "East Kalimantan",
+    "IDN-north-kalimantan": "North Kalimantan",
+    "IDN-special-region-of-yogyakarta": "Special Region of Yogyakarta",
+    "IDN-jakarta-special-capital-region": "Jakarta Special Capital Region"
+  },
+  "regionBest": {
+    "RUS-altai-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-republic-of-mordovia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tula-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kurgan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ingushetia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khanty-mansiysk-autonomous-okrug-ugra": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kirov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-komi-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kostroma-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-krasnoyarsk-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-zabaykalsky-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sverdlovsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-volgograd-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-irkutsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-perm-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-pskov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-rostov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ryazan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-adygea": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-samara-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khakassia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tambov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tatarstan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tomsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-nizhny-novgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-republic-of-karelia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-arkhangelsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-astrakhan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-belgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-bryansk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-buryatia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chechnya": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chelyabinsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chuvashia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tyumen-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-north-ossetia-alania": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-penza-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-amur-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kabardino-balkaria": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-krasnodar-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kursk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-leningrad-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-mari-el": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-moscow": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-moscow-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-murmansk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-nenets-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-novgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-novosibirsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-omsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-oryol-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-saint-petersburg": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sakhalin-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sakha-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-saratov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-smolensk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-stavropol-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tuva": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tver-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-udmurtia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kaluga-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-lipetsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-magadan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ulyanovsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-vladimir-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-vologda-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-yaroslavl-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-voronezh-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-yamalo-nenets-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-altai-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ivanovo-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-jewish-autonomous-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kalmykia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kamchatka-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-karachay-cherkessia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kemerovo-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khabarovsk-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chukotka-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-dagestan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kaliningrad": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-orenburg-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-primorsky-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-bashkortostan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IND-puducherry": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-maharashtra": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-nagaland": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-lakshadweep": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-uttar-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-tamil-nadu": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-chhattisgarh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-gujarat": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-delhi": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-sikkim": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-tripura": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-west-bengal": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-odisha": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-bihar": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "IND-ladakh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-rajasthan": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-telangana": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-andhra-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-mizoram": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-arunachal-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-meghalaya": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-jharkhand": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-assam": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-manipur": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-karnataka": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-uttarakhand": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-dadra-and-nagar-haveli-and-daman-and-diu": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-madhya-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-goa": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-kerala": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-chandigarh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-andaman-and-nicobar-islands": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-himachal-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-jammu-and-kashmir": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-punjab": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-haryana": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hainan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-taiwan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guangxi-zhuang-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-fujian-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-yunnan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guizhou-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jiangxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hunan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-zhejiang-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shanghai-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-chongqing-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hubei-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-sichuan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-anhui-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jiangsu-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-henan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-tibet-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shandong-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-qinghai-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-ningxia-ningxia-hui-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shaanxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-tianjin-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shanxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-beijing-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-gansu-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hebei-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-liaoning-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jilin-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-xinjiang-uyghur-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-inner-mongolia-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-heilongjiang-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-macau-special-administrative-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hong-kong-special-administrative-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guangzhou-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ZAF-eastern-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-free-state": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-gauteng": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-kwazulu-natal": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-limpopo": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-mpumalanga": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-north-west": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-nothern-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-western-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "EGY-north-sinai-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-south-sinai-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-aswan-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-red-sea-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-matrouh-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-new-valley-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-alexandria-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-ismailia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-suez-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-gharbiyya-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-faiyum-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-beni-suef-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-minya-governate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-asyut-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-sohag-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-qena-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-luxor-governate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-giza-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-monufia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-beheira-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-cairo-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-qalyubia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-dakahlia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-damietta-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-kafr-el-sheikh-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-port-said-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-al-sharqia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ETH-addis-ababa": {
+      "score": 94,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "ETH-afar": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "ETH-amhara": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "digital"
+    },
+    "ETH-beneshangul-gumu": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "ETH-dire-dawa": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "ETH-gambela": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-hareri": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-oromia": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-snnpr": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "ETH-somali": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "ETH-tigray": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "IRN-mazandaran": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-north-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kerman": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-ilam": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-lorestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-markazi": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-chaharmahal-and-bakhtiari": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kermanshah": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-hamadan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-qazvin": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-gilan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-zanjan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-semnan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-isfahan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kohgiluyeh-and-boyer-ahmad": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kurdistan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-west-azerbaijan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-fars": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-bushehr": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-ardabil": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-golestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-razavi-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-south-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-sistan-and-baluchestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-qom": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-alborz": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-east-azerbaijan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-yazd": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-hormozgan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-khuzestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-tehran": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "ARE-abu-dhabi": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-ajman": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-dubai": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-fujairah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-ras-al-khaimah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-sharjah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-umm-al-quwain": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IDN-bali": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-west-nusa-tenggara": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-banten": {
+      "score": 84,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-central-java": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-west-java": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-central-kalimantan": {
+      "score": 80,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-kalimantan": {
+      "score": 57,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-west-kalimantan": {
+      "score": 61,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-central-sulawesi": {
+      "score": 74,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-gorontalo": {
+      "score": 75,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-sulawesi": {
+      "score": 57,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-sulawesi": {
+      "score": 59,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-southeast-sulawesi": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-sulawesi": {
+      "score": 82,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-aceh": {
+      "score": 79,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-bengkulu": {
+      "score": 88,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-jambi": {
+      "score": 63,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-lampung": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-riau": {
+      "score": 80,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-sumatra": {
+      "score": 73,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-sumatra": {
+      "score": 62,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-sumatra": {
+      "score": 72,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-nusa-tenggara": {
+      "score": 68,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-maluku": {
+      "score": 90,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-maluku": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-java": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-bangka-belitung-islands": {
+      "score": 68,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-riau-islands": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-papua": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-papua": {
+      "score": 90,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-kalimantan": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-north-kalimantan": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-special-region-of-yogyakarta": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-jakarta-special-capital-region": {
+      "score": 55,
+      "basis": "regional-survey",
+      "theme": "health"
+    }
+  },
+  "cells": [
+    [
+      15.892,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.377,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.862,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.347,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.832,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.317,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.802,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.287,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.773,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.258,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.743,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.228,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.713,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.198,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.683,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.168,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.653,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.138,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.623,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.109,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.594,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.079,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.564,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.049,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.534,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.019,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.504,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.989,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.474,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.959,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      30.445,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      30.93,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      31.415,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      31.9,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.385,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.87,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.355,
+      -21.579,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.134,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.62,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.105,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.59,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.075,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.56,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.045,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.53,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.015,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.5,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.985,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.47,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.955,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.441,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.926,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.411,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.896,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.381,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.866,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.351,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.836,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.321,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.806,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.291,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.777,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.262,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.747,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.232,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.717,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      30.202,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      30.687,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      31.172,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      31.657,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.142,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.627,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.113,
+      -21.999,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      15.892,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.377,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.862,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.347,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.832,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.317,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.802,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.287,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.773,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.258,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.743,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.228,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.713,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.198,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.683,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.168,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.653,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.138,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.623,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.109,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.594,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.079,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.564,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.049,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.534,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.019,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.504,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.989,
+      -22.419,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.474,
+      -22.419,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.959,
+      -22.419,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.445,
+      -22.419,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.93,
+      -22.419,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.415,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      31.9,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.385,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.87,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.355,
+      -22.419,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.134,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.62,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.105,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.59,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.075,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.56,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.045,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.53,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.015,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.5,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.985,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.47,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.955,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.441,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.926,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.411,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.896,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.381,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.866,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.351,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.836,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.321,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.806,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.291,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.777,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.262,
+      -22.839,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.747,
+      -22.839,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.232,
+      -22.839,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.717,
+      -22.839,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.202,
+      -22.839,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.687,
+      -22.839,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.172,
+      -22.839,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.657,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.142,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.627,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.113,
+      -22.839,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      15.892,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.377,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.862,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.347,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.832,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.317,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.802,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.287,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.773,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.258,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.743,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.228,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.713,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.198,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.683,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.168,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.653,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.138,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.623,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.109,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.594,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.079,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.564,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.049,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.534,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.019,
+      -23.259,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.504,
+      -23.259,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.989,
+      -23.259,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.474,
+      -23.259,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.959,
+      -23.259,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.445,
+      -23.259,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.93,
+      -23.259,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.415,
+      -23.259,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.9,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.385,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.87,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.355,
+      -23.259,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.134,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.62,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.105,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.59,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.075,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.56,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.045,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.53,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.015,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.5,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.985,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.47,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.955,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.441,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.926,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.411,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.896,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.381,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.866,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.351,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.836,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.321,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.806,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.291,
+      -23.679,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.777,
+      -23.679,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.262,
+      -23.679,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.747,
+      -23.679,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.232,
+      -23.679,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.717,
+      -23.679,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.202,
+      -23.679,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.687,
+      -23.679,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.172,
+      -23.679,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.657,
+      -23.679,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      32.142,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.627,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.113,
+      -23.679,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      15.892,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.377,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.862,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.347,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.832,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.317,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.802,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.287,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.773,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.258,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.743,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.228,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.713,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.198,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.683,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.168,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.653,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.138,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.623,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.109,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.594,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.079,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.564,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.049,
+      -24.099,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.534,
+      -24.099,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.019,
+      -24.099,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.504,
+      -24.099,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.989,
+      -24.099,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.474,
+      -24.099,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.959,
+      -24.099,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.445,
+      -24.099,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.93,
+      -24.099,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.415,
+      -24.099,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.9,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.385,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.87,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.355,
+      -24.099,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.134,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.62,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.105,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.59,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.075,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.56,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.045,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.53,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.015,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.5,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.985,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.47,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.955,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.441,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.926,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.411,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.896,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.381,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.866,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.351,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.836,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.321,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.806,
+      -24.52,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.291,
+      -24.52,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.777,
+      -24.52,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.262,
+      -24.52,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.747,
+      -24.52,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.232,
+      -24.52,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.717,
+      -24.52,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.202,
+      -24.52,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.687,
+      -24.52,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.172,
+      -24.52,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.657,
+      -24.52,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      32.142,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.627,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.113,
+      -24.52,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      15.892,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.377,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.862,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.347,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.832,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.317,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.802,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.287,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.773,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.258,
+      -24.94,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.743,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.228,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.713,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.198,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.683,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.168,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.653,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.138,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.623,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.109,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.594,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.079,
+      -24.94,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.564,
+      -24.94,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.049,
+      -24.94,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.534,
+      -24.94,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.019,
+      -24.94,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.504,
+      -24.94,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.989,
+      -24.94,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.474,
+      -24.94,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.959,
+      -24.94,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.445,
+      -24.94,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.93,
+      -24.94,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.415,
+      -24.94,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.9,
+      -24.94,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      32.385,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.87,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.355,
+      -24.94,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.134,
+      -25.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.62,
+      -25.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.105,
+      -25.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.59,
+      -25.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.075,
+      -25.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.56,
+      -25.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.045,
+      -25.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.53,
+      -25.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.015,
+      -25.36,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.5,
+      -25.36,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.985,
+      -25.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.47,
+      -25.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.955,
+      -25.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.441,
+      -25.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.926,
+      -25.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.411,
+      -25.36,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.896,
+      -25.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.381,
+      -25.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      24.866,
+      -25.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.351,
+      -25.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.836,
+      -25.36,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.321,
+      -25.36,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.806,
+      -25.36,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.291,
+      -25.36,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.777,
+      -25.36,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.262,
+      -25.36,
+      "ZAF",
+      "ZAF-gauteng",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.747,
+      -25.36,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.232,
+      -25.36,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.717,
+      -25.36,
+      "ZAF",
+      "ZAF-limpopo",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.202,
+      -25.36,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.687,
+      -25.36,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.172,
+      -25.36,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.657,
+      -25.36,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      32.142,
+      -25.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.627,
+      -25.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      15.892,
+      -25.78,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.377,
+      -25.78,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.862,
+      -25.78,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.347,
+      -25.78,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.832,
+      -25.78,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.317,
+      -25.78,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.802,
+      -25.78,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.287,
+      -25.78,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.773,
+      -25.78,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.258,
+      -25.78,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.743,
+      -25.78,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.228,
+      -25.78,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.713,
+      -25.78,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.198,
+      -25.78,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.683,
+      -25.78,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      23.168,
+      -25.78,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.653,
+      -25.78,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.138,
+      -25.78,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.623,
+      -25.78,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      25.109,
+      -25.78,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.594,
+      -25.78,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.079,
+      -25.78,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.564,
+      -25.78,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.049,
+      -25.78,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.534,
+      -25.78,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.019,
+      -25.78,
+      "ZAF",
+      "ZAF-gauteng",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.504,
+      -25.78,
+      "ZAF",
+      "ZAF-gauteng",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.989,
+      -25.78,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.474,
+      -25.78,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.959,
+      -25.78,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.445,
+      -25.78,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.93,
+      -25.78,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.415,
+      -25.78,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      31.9,
+      -25.78,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      32.385,
+      -25.78,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.134,
+      -26.2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.62,
+      -26.2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.105,
+      -26.2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.59,
+      -26.2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.075,
+      -26.2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.56,
+      -26.2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.045,
+      -26.2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.53,
+      -26.2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.015,
+      -26.2,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.5,
+      -26.2,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.985,
+      -26.2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.47,
+      -26.2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.955,
+      -26.2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.441,
+      -26.2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.926,
+      -26.2,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.411,
+      -26.2,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.896,
+      -26.2,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.381,
+      -26.2,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.866,
+      -26.2,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.351,
+      -26.2,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.836,
+      -26.2,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.321,
+      -26.2,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.806,
+      -26.2,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.291,
+      -26.2,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.777,
+      -26.2,
+      "ZAF",
+      "ZAF-gauteng",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.262,
+      -26.2,
+      "ZAF",
+      "ZAF-gauteng",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.747,
+      -26.2,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.232,
+      -26.2,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.717,
+      -26.2,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.202,
+      -26.2,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.687,
+      -26.2,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.172,
+      -26.2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      31.657,
+      -26.2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.142,
+      -26.2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.627,
+      -26.2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      15.892,
+      -26.62,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.377,
+      -26.62,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.862,
+      -26.62,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.347,
+      -26.62,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.832,
+      -26.62,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.317,
+      -26.62,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.802,
+      -26.62,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.287,
+      -26.62,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.773,
+      -26.62,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.258,
+      -26.62,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.743,
+      -26.62,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.228,
+      -26.62,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      21.713,
+      -26.62,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      22.198,
+      -26.62,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.683,
+      -26.62,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.168,
+      -26.62,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.653,
+      -26.62,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.138,
+      -26.62,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.623,
+      -26.62,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.109,
+      -26.62,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.594,
+      -26.62,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.079,
+      -26.62,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.564,
+      -26.62,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.049,
+      -26.62,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.534,
+      -26.62,
+      "ZAF",
+      "ZAF-gauteng",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.019,
+      -26.62,
+      "ZAF",
+      "ZAF-gauteng",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.504,
+      -26.62,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.989,
+      -26.62,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.474,
+      -26.62,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.959,
+      -26.62,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.445,
+      -26.62,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.93,
+      -26.62,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      31.415,
+      -26.62,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      31.9,
+      -26.62,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.385,
+      -26.62,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.134,
+      -27.04,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.62,
+      -27.04,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.105,
+      -27.04,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.59,
+      -27.04,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.075,
+      -27.04,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.56,
+      -27.04,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.045,
+      -27.04,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.53,
+      -27.04,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.015,
+      -27.04,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.5,
+      -27.04,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.985,
+      -27.04,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.47,
+      -27.04,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.955,
+      -27.04,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.441,
+      -27.04,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.926,
+      -27.04,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.411,
+      -27.04,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.896,
+      -27.04,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.381,
+      -27.04,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.866,
+      -27.04,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.351,
+      -27.04,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.836,
+      -27.04,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.321,
+      -27.04,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.806,
+      -27.04,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.291,
+      -27.04,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.777,
+      -27.04,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.262,
+      -27.04,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.747,
+      -27.04,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.232,
+      -27.04,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.717,
+      -27.04,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.202,
+      -27.04,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.687,
+      -27.04,
+      "ZAF",
+      "ZAF-mpumalanga",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.172,
+      -27.04,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      31.657,
+      -27.04,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.142,
+      -27.04,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      32.627,
+      -27.04,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      15.892,
+      -27.46,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.377,
+      -27.46,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.862,
+      -27.46,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.347,
+      -27.46,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.832,
+      -27.46,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.317,
+      -27.46,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.802,
+      -27.46,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.287,
+      -27.46,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.773,
+      -27.46,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.258,
+      -27.46,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.743,
+      -27.46,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.228,
+      -27.46,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.713,
+      -27.46,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.198,
+      -27.46,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.683,
+      -27.46,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.168,
+      -27.46,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.653,
+      -27.46,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.138,
+      -27.46,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.623,
+      -27.46,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.109,
+      -27.46,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.594,
+      -27.46,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.079,
+      -27.46,
+      "ZAF",
+      "ZAF-north-west",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.564,
+      -27.46,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.049,
+      -27.46,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.534,
+      -27.46,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.019,
+      -27.46,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.504,
+      -27.46,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.989,
+      -27.46,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.474,
+      -27.46,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.959,
+      -27.46,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.445,
+      -27.46,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.93,
+      -27.46,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.415,
+      -27.46,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.9,
+      -27.46,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      32.385,
+      -27.46,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      16.134,
+      -27.88,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.62,
+      -27.88,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.105,
+      -27.88,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      17.59,
+      -27.88,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.075,
+      -27.88,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.56,
+      -27.88,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.045,
+      -27.88,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.53,
+      -27.88,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.015,
+      -27.88,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.5,
+      -27.88,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.985,
+      -27.88,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.47,
+      -27.88,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.955,
+      -27.88,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.441,
+      -27.88,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.926,
+      -27.88,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.411,
+      -27.88,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.896,
+      -27.88,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.381,
+      -27.88,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.866,
+      -27.88,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.351,
+      -27.88,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.836,
+      -27.88,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.321,
+      -27.88,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.806,
+      -27.88,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.291,
+      -27.88,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.777,
+      -27.88,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.262,
+      -27.88,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.747,
+      -27.88,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.232,
+      -27.88,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.717,
+      -27.88,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.202,
+      -27.88,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.687,
+      -27.88,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.172,
+      -27.88,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.657,
+      -27.88,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      32.142,
+      -27.88,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      32.627,
+      -27.88,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      16.377,
+      -28.3,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      16.862,
+      -28.3,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      17.347,
+      -28.3,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      17.832,
+      -28.3,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.317,
+      -28.3,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.802,
+      -28.3,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.287,
+      -28.3,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.773,
+      -28.3,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      20.258,
+      -28.3,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.743,
+      -28.3,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.228,
+      -28.3,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.713,
+      -28.3,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.198,
+      -28.3,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.683,
+      -28.3,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.168,
+      -28.3,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.653,
+      -28.3,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.138,
+      -28.3,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.623,
+      -28.3,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.109,
+      -28.3,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.594,
+      -28.3,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.079,
+      -28.3,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.564,
+      -28.3,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.049,
+      -28.3,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.534,
+      -28.3,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.019,
+      -28.3,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.504,
+      -28.3,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.989,
+      -28.3,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.474,
+      -28.3,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.959,
+      -28.3,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.445,
+      -28.3,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.93,
+      -28.3,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.415,
+      -28.3,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.9,
+      -28.3,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      32.385,
+      -28.3,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      16.62,
+      -28.721,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      17.105,
+      -28.721,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      17.59,
+      -28.721,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.075,
+      -28.721,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.56,
+      -28.721,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.045,
+      -28.721,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.53,
+      -28.721,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.015,
+      -28.721,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.5,
+      -28.721,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.985,
+      -28.721,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.47,
+      -28.721,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.955,
+      -28.721,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.441,
+      -28.721,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.926,
+      -28.721,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.411,
+      -28.721,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.896,
+      -28.721,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.381,
+      -28.721,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.866,
+      -28.721,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.351,
+      -28.721,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.836,
+      -28.721,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.321,
+      -28.721,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.806,
+      -28.721,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.291,
+      -28.721,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.777,
+      -28.721,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.262,
+      -28.721,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.747,
+      -28.721,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.232,
+      -28.721,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.717,
+      -28.721,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.202,
+      -28.721,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.687,
+      -28.721,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.172,
+      -28.721,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.657,
+      -28.721,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      32.142,
+      -28.721,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      16.862,
+      -29.141,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      17.347,
+      -29.141,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      17.832,
+      -29.141,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.317,
+      -29.141,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.802,
+      -29.141,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.287,
+      -29.141,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.773,
+      -29.141,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.258,
+      -29.141,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.743,
+      -29.141,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.228,
+      -29.141,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.713,
+      -29.141,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.198,
+      -29.141,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.683,
+      -29.141,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.168,
+      -29.141,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.653,
+      -29.141,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.138,
+      -29.141,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.623,
+      -29.141,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.109,
+      -29.141,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.594,
+      -29.141,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.079,
+      -29.141,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.564,
+      -29.141,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.049,
+      -29.141,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.534,
+      -29.141,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.019,
+      -29.141,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.504,
+      -29.141,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.989,
+      -29.141,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.474,
+      -29.141,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.959,
+      -29.141,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.445,
+      -29.141,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.93,
+      -29.141,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.415,
+      -29.141,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      17.105,
+      -29.561,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      17.59,
+      -29.561,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.075,
+      -29.561,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.56,
+      -29.561,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.045,
+      -29.561,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.53,
+      -29.561,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.015,
+      -29.561,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.5,
+      -29.561,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.985,
+      -29.561,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.47,
+      -29.561,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.955,
+      -29.561,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.441,
+      -29.561,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.926,
+      -29.561,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.411,
+      -29.561,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.896,
+      -29.561,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.381,
+      -29.561,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.866,
+      -29.561,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.351,
+      -29.561,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.836,
+      -29.561,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.321,
+      -29.561,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.806,
+      -29.561,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.291,
+      -29.561,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      27.777,
+      -29.561,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.262,
+      -29.561,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.747,
+      -29.561,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.232,
+      -29.561,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.717,
+      -29.561,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.202,
+      -29.561,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.687,
+      -29.561,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      31.172,
+      -29.561,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      17.347,
+      -29.981,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      17.832,
+      -29.981,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.317,
+      -29.981,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.802,
+      -29.981,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.287,
+      -29.981,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.773,
+      -29.981,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.258,
+      -29.981,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.743,
+      -29.981,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.228,
+      -29.981,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.713,
+      -29.981,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.198,
+      -29.981,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.683,
+      -29.981,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.168,
+      -29.981,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.653,
+      -29.981,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.138,
+      -29.981,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.623,
+      -29.981,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.109,
+      -29.981,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.594,
+      -29.981,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.079,
+      -29.981,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.564,
+      -29.981,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.049,
+      -29.981,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.534,
+      -29.981,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.019,
+      -29.981,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.504,
+      -29.981,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.989,
+      -29.981,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      29.474,
+      -29.981,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.959,
+      -29.981,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.445,
+      -29.981,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.93,
+      -29.981,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      17.59,
+      -30.401,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.075,
+      -30.401,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.56,
+      -30.401,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.045,
+      -30.401,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.53,
+      -30.401,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.015,
+      -30.401,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.5,
+      -30.401,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.985,
+      -30.401,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.47,
+      -30.401,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.955,
+      -30.401,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.441,
+      -30.401,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.926,
+      -30.401,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.411,
+      -30.401,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.896,
+      -30.401,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.381,
+      -30.401,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.866,
+      -30.401,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.351,
+      -30.401,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.836,
+      -30.401,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.321,
+      -30.401,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.806,
+      -30.401,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.291,
+      -30.401,
+      "ZAF",
+      "ZAF-free-state",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.777,
+      -30.401,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      28.262,
+      -30.401,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.747,
+      -30.401,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.232,
+      -30.401,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.717,
+      -30.401,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.202,
+      -30.401,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      30.687,
+      -30.401,
+      "ZAF",
+      "ZAF-kwazulu-natal",
+      100,
+      "national-indicator"
+    ],
+    [
+      17.832,
+      -30.821,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.317,
+      -30.821,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.802,
+      -30.821,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.287,
+      -30.821,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.773,
+      -30.821,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.258,
+      -30.821,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.743,
+      -30.821,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.228,
+      -30.821,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.713,
+      -30.821,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.198,
+      -30.821,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.683,
+      -30.821,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.168,
+      -30.821,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.653,
+      -30.821,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.138,
+      -30.821,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.623,
+      -30.821,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.109,
+      -30.821,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.594,
+      -30.821,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.079,
+      -30.821,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.564,
+      -30.821,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.049,
+      -30.821,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.534,
+      -30.821,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.019,
+      -30.821,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.504,
+      -30.821,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.989,
+      -30.821,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.474,
+      -30.821,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.959,
+      -30.821,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.075,
+      -31.241,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.56,
+      -31.241,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.045,
+      -31.241,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.53,
+      -31.241,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.015,
+      -31.241,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.5,
+      -31.241,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.985,
+      -31.241,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.47,
+      -31.241,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.955,
+      -31.241,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.441,
+      -31.241,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.926,
+      -31.241,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.411,
+      -31.241,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.896,
+      -31.241,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.381,
+      -31.241,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.866,
+      -31.241,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.351,
+      -31.241,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.836,
+      -31.241,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.321,
+      -31.241,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.806,
+      -31.241,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.291,
+      -31.241,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.777,
+      -31.241,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.262,
+      -31.241,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.747,
+      -31.241,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.232,
+      -31.241,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.717,
+      -31.241,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.317,
+      -31.661,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.802,
+      -31.661,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.287,
+      -31.661,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.773,
+      -31.661,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.258,
+      -31.661,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.743,
+      -31.661,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.228,
+      -31.661,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.713,
+      -31.661,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.198,
+      -31.661,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.683,
+      -31.661,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.168,
+      -31.661,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.653,
+      -31.661,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.138,
+      -31.661,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.623,
+      -31.661,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.109,
+      -31.661,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.594,
+      -31.661,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.079,
+      -31.661,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.564,
+      -31.661,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.049,
+      -31.661,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.534,
+      -31.661,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.019,
+      -31.661,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.504,
+      -31.661,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.989,
+      -31.661,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      29.474,
+      -31.661,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.56,
+      -32.081,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.045,
+      -32.081,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.53,
+      -32.081,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.015,
+      -32.081,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.5,
+      -32.081,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.985,
+      -32.081,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.47,
+      -32.081,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.955,
+      -32.081,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.441,
+      -32.081,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.926,
+      -32.081,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.411,
+      -32.081,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.896,
+      -32.081,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.381,
+      -32.081,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.866,
+      -32.081,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.351,
+      -32.081,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.836,
+      -32.081,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.321,
+      -32.081,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.806,
+      -32.081,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.291,
+      -32.081,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.777,
+      -32.081,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.262,
+      -32.081,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.747,
+      -32.081,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.317,
+      -32.501,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      18.802,
+      -32.501,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.287,
+      -32.501,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.773,
+      -32.501,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.258,
+      -32.501,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.743,
+      -32.501,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.228,
+      -32.501,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.713,
+      -32.501,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.198,
+      -32.501,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.683,
+      -32.501,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.168,
+      -32.501,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.653,
+      -32.501,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.138,
+      -32.501,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.623,
+      -32.501,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.109,
+      -32.501,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.594,
+      -32.501,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.079,
+      -32.501,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.564,
+      -32.501,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.049,
+      -32.501,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.534,
+      -32.501,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.019,
+      -32.501,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      28.504,
+      -32.501,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.075,
+      -32.922,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.56,
+      -32.922,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.045,
+      -32.922,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.53,
+      -32.922,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.015,
+      -32.922,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.5,
+      -32.922,
+      "ZAF",
+      "ZAF-nothern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.985,
+      -32.922,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.47,
+      -32.922,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.955,
+      -32.922,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.441,
+      -32.922,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.926,
+      -32.922,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.411,
+      -32.922,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.896,
+      -32.922,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.381,
+      -32.922,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.866,
+      -32.922,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.351,
+      -32.922,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.836,
+      -32.922,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.321,
+      -32.922,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.806,
+      -32.922,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.291,
+      -32.922,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.777,
+      -32.922,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.317,
+      -33.342,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.802,
+      -33.342,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.287,
+      -33.342,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.773,
+      -33.342,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.258,
+      -33.342,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.743,
+      -33.342,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.228,
+      -33.342,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.713,
+      -33.342,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.198,
+      -33.342,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.683,
+      -33.342,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.168,
+      -33.342,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.653,
+      -33.342,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.138,
+      -33.342,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.623,
+      -33.342,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.109,
+      -33.342,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.594,
+      -33.342,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.079,
+      -33.342,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      26.564,
+      -33.342,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      27.049,
+      -33.342,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.56,
+      -33.762,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.045,
+      -33.762,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.53,
+      -33.762,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.015,
+      -33.762,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.5,
+      -33.762,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.985,
+      -33.762,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.47,
+      -33.762,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.955,
+      -33.762,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.441,
+      -33.762,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      22.926,
+      -33.762,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.411,
+      -33.762,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      23.896,
+      -33.762,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.381,
+      -33.762,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      24.866,
+      -33.762,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.351,
+      -33.762,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      25.836,
+      -33.762,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      26.321,
+      -33.762,
+      "ZAF",
+      "ZAF-eastern-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      18.802,
+      -34.182,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      19.287,
+      -34.182,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.773,
+      -34.182,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.258,
+      -34.182,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.743,
+      -34.182,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.228,
+      -34.182,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      21.713,
+      -34.182,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      19.53,
+      -34.602,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ],
+    [
+      20.015,
+      -34.602,
+      "ZAF",
+      "ZAF-western-cape",
+      100,
+      "national-indicator"
+    ]
+  ],
+  "labels": [
+    {
+      "iso3": "ZAF",
+      "name": "South Africa",
+      "x": 25.064724508050084,
+      "y": -28.959533094812176
+    }
+  ]
+}

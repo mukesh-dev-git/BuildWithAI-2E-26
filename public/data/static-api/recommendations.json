@@ -1,0 +1,634 @@
+{
+  "total": 37,
+  "items": [
+    {
+      "id": "ZAF:social",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "South Africa (national)",
+      "iso3": "ZAF",
+      "sector": "social",
+      "sectorLabel": "Social Services & Jobs",
+      "score": 70,
+      "infraGap": 69.6,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 1
+      }
+    },
+    {
+      "id": "EGY:health",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Egypt (national)",
+      "iso3": "EGY",
+      "sector": "health",
+      "sectorLabel": "Health",
+      "score": 70,
+      "infraGap": 64.7,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 1
+      }
+    },
+    {
+      "id": "ETH:water",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Ethiopia (national)",
+      "iso3": "ETH",
+      "sector": "water",
+      "sectorLabel": "Water & Sanitation",
+      "score": 70,
+      "infraGap": 67,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 1
+      }
+    },
+    {
+      "id": "ETH:health",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Ethiopia (national)",
+      "iso3": "ETH",
+      "sector": "health",
+      "sectorLabel": "Health",
+      "score": 70,
+      "infraGap": 89,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 1
+      }
+    },
+    {
+      "id": "ETH:digital",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Ethiopia (national)",
+      "iso3": "ETH",
+      "sector": "digital",
+      "sectorLabel": "Digital & Telecom",
+      "score": 70,
+      "infraGap": 78.1,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 1
+      }
+    },
+    {
+      "id": "ETH:social",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Ethiopia (national)",
+      "iso3": "ETH",
+      "sector": "social",
+      "sectorLabel": "Social Services & Jobs",
+      "score": 70,
+      "infraGap": 100,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 1
+      }
+    },
+    {
+      "id": "IDN:health",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Indonesia (national)",
+      "iso3": "IDN",
+      "sector": "health",
+      "sectorLabel": "Health",
+      "score": 63,
+      "infraGap": 54.3,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.906
+      }
+    },
+    {
+      "id": "IND:health",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "India (national)",
+      "iso3": "IND",
+      "sector": "health",
+      "sectorLabel": "Health",
+      "score": 55,
+      "infraGap": 47,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.783
+      }
+    },
+    {
+      "id": "ETH:energy",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Ethiopia (national)",
+      "iso3": "ETH",
+      "sector": "energy",
+      "sectorLabel": "Energy",
+      "score": 51,
+      "infraGap": 43.4,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.723
+      }
+    },
+    {
+      "id": "ETH:education",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Ethiopia (national)",
+      "iso3": "ETH",
+      "sector": "education",
+      "sectorLabel": "Education",
+      "score": 46,
+      "infraGap": 39.5,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.659
+      }
+    },
+    {
+      "id": "IRN:health",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Iran (national)",
+      "iso3": "IRN",
+      "sector": "health",
+      "sectorLabel": "Health",
+      "score": 45,
+      "infraGap": 38.3,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.639
+      }
+    },
+    {
+      "id": "ARE:health",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "United Arab Emirates (national)",
+      "iso3": "ARE",
+      "sector": "health",
+      "sectorLabel": "Health",
+      "score": 44,
+      "infraGap": 37.7,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.628
+      }
+    },
+    {
+      "id": "IND:digital",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "India (national)",
+      "iso3": "IND",
+      "sector": "digital",
+      "sectorLabel": "Digital & Telecom",
+      "score": 35,
+      "infraGap": 30,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.5
+      }
+    },
+    {
+      "id": "IDN:digital",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Indonesia (national)",
+      "iso3": "IDN",
+      "sector": "digital",
+      "sectorLabel": "Digital & Telecom",
+      "score": 32,
+      "infraGap": 27.2,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.454
+      }
+    },
+    {
+      "id": "EGY:digital",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Egypt (national)",
+      "iso3": "EGY",
+      "sector": "digital",
+      "sectorLabel": "Digital & Telecom",
+      "score": 30,
+      "infraGap": 25.4,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.423
+      }
+    },
+    {
+      "id": "ZAF:health",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "South Africa (national)",
+      "iso3": "ZAF",
+      "sector": "health",
+      "sectorLabel": "Health",
+      "score": 29,
+      "infraGap": 25,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.417
+      }
+    },
+    {
+      "id": "IND:education",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "India (national)",
+      "iso3": "IND",
+      "sector": "education",
+      "sectorLabel": "Education",
+      "score": 25,
+      "infraGap": 21.8,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.364
+      }
+    },
+    {
+      "id": "IND:social",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "India (national)",
+      "iso3": "IND",
+      "sector": "social",
+      "sectorLabel": "Social Services & Jobs",
+      "score": 25,
+      "infraGap": 21.2,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.353
+      }
+    },
+    {
+      "id": "ZAF:digital",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "South Africa (national)",
+      "iso3": "ZAF",
+      "sector": "digital",
+      "sectorLabel": "Digital & Telecom",
+      "score": 25,
+      "infraGap": 21.6,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.361
+      }
+    },
+    {
+      "id": "EGY:education",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Egypt (national)",
+      "iso3": "EGY",
+      "sector": "education",
+      "sectorLabel": "Education",
+      "score": 24,
+      "infraGap": 20.5,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.342
+      }
+    },
+    {
+      "id": "ZAF:water",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "South Africa (national)",
+      "iso3": "ZAF",
+      "sector": "water",
+      "sectorLabel": "Water & Sanitation",
+      "score": 19,
+      "infraGap": 16.2,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.27
+      }
+    },
+    {
+      "id": "IDN:social",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Indonesia (national)",
+      "iso3": "IDN",
+      "sector": "social",
+      "sectorLabel": "Social Services & Jobs",
+      "score": 19,
+      "infraGap": 16,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.267
+      }
+    },
+    {
+      "id": "IRN:digital",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Iran (national)",
+      "iso3": "IRN",
+      "sector": "digital",
+      "sectorLabel": "Digital & Telecom",
+      "score": 17,
+      "infraGap": 14.7,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.244
+      }
+    },
+    {
+      "id": "IRN:education",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Iran (national)",
+      "iso3": "IRN",
+      "sector": "education",
+      "sectorLabel": "Education",
+      "score": 13,
+      "infraGap": 11.1,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.185
+      }
+    },
+    {
+      "id": "IDN:water",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Indonesia (national)",
+      "iso3": "IDN",
+      "sector": "water",
+      "sectorLabel": "Water & Sanitation",
+      "score": 13,
+      "infraGap": 11.4,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.19
+      }
+    },
+    {
+      "id": "IND:water",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "India (national)",
+      "iso3": "IND",
+      "sector": "water",
+      "sectorLabel": "Water & Sanitation",
+      "score": 12,
+      "infraGap": 10.4,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.174
+      }
+    },
+    {
+      "id": "IRN:social",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Iran (national)",
+      "iso3": "IRN",
+      "sector": "social",
+      "sectorLabel": "Social Services & Jobs",
+      "score": 12,
+      "infraGap": 10,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.167
+      }
+    },
+    {
+      "id": "ZAF:energy",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "South Africa (national)",
+      "iso3": "ZAF",
+      "sector": "energy",
+      "sectorLabel": "Energy",
+      "score": 11,
+      "infraGap": 9.8,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.163
+      }
+    },
+    {
+      "id": "CHN:digital",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "China (national)",
+      "iso3": "CHN",
+      "sector": "digital",
+      "sectorLabel": "Digital & Telecom",
+      "score": 10,
+      "infraGap": 8.4,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.14
+      }
+    },
+    {
+      "id": "ZAF:education",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "South Africa (national)",
+      "iso3": "ZAF",
+      "sector": "education",
+      "sectorLabel": "Education",
+      "score": 10,
+      "infraGap": 8.8,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.147
+      }
+    },
+    {
+      "id": "RUS:digital",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Russia (national)",
+      "iso3": "RUS",
+      "sector": "digital",
+      "sectorLabel": "Digital & Telecom",
+      "score": 7,
+      "infraGap": 5.6,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.094
+      }
+    },
+    {
+      "id": "EGY:social",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Egypt (national)",
+      "iso3": "EGY",
+      "sector": "social",
+      "sectorLabel": "Social Services & Jobs",
+      "score": 7,
+      "infraGap": 5.6,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.093
+      }
+    },
+    {
+      "id": "IRN:water",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Iran (national)",
+      "iso3": "IRN",
+      "sector": "water",
+      "sectorLabel": "Water & Sanitation",
+      "score": 7,
+      "infraGap": 5.8,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.097
+      }
+    },
+    {
+      "id": "RUS:water",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Russia (national)",
+      "iso3": "RUS",
+      "sector": "water",
+      "sectorLabel": "Water & Sanitation",
+      "score": 6,
+      "infraGap": 5.4,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.091
+      }
+    },
+    {
+      "id": "IDN:education",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "Indonesia (national)",
+      "iso3": "IDN",
+      "sector": "education",
+      "sectorLabel": "Education",
+      "score": 5,
+      "infraGap": 4,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.067
+      }
+    },
+    {
+      "id": "CHN:water",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "China (national)",
+      "iso3": "CHN",
+      "sector": "water",
+      "sectorLabel": "Water & Sanitation",
+      "score": 4,
+      "infraGap": 3.3,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.055
+      }
+    },
+    {
+      "id": "CHN:education",
+      "basis": "infrastructure-need",
+      "regionId": null,
+      "region": "China (national)",
+      "iso3": "CHN",
+      "sector": "education",
+      "sectorLabel": "Education",
+      "score": 4,
+      "infraGap": 3.3,
+      "components": {
+        "demand": null,
+        "growth": null,
+        "unresolved": null,
+        "infraGap": 0.054
+      }
+    }
+  ]
+}

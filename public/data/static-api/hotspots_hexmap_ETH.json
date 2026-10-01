@@ -1,0 +1,10418 @@
+{
+  "r": 0.2539661948823543,
+  "bounds": {
+    "lonMin": 32.49506761023529,
+    "lonMax": 48.466932389764715,
+    "latMin": 2.9470676102352913,
+    "latMax": 15.338932389764707
+  },
+  "regionNames": {
+    "BRA-roraima": "Roraima",
+    "BRA-amapa": "Amapa",
+    "BRA-amazonas": "Amazonas",
+    "BRA-para": "Para",
+    "BRA-maranhao": "Maranhao",
+    "BRA-ceara": "Ceara",
+    "BRA-rio-grande-do-norte": "Rio Grande do Norte",
+    "BRA-paraiba": "Paraiba",
+    "BRA-piaui": "Piaui",
+    "BRA-pernambuco": "Pernambuco",
+    "BRA-alagoas": "Alagoas",
+    "BRA-acre": "Acre",
+    "BRA-rondonia": "Rondonia",
+    "BRA-sergipe": "Sergipe",
+    "BRA-tocantins": "Tocantins",
+    "BRA-bahia": "Bahia",
+    "BRA-mato-grosso": "Mato Grosso",
+    "BRA-goias": "Goias",
+    "BRA-distrito-federal": "Distrito Federal",
+    "BRA-minas-gerais": "Minas Gerais",
+    "BRA-espirito-santo": "Espirito Santo",
+    "BRA-mato-grosso-do-sul": "Mato Grosso do Sul",
+    "BRA-rio-de-janeiro": "Rio de Janeiro",
+    "BRA-sao-paulo": "Sao Paulo",
+    "BRA-parana": "Parana",
+    "BRA-santa-catarina": "Santa Catarina",
+    "BRA-rio-grande-do-sul": "Rio Grande do Sul",
+    "RUS-altai-krai": "Altai Krai",
+    "RUS-republic-of-mordovia": "Republic of Mordovia",
+    "RUS-tula-oblast": "Tula Oblast",
+    "RUS-kurgan-oblast": "Kurgan Oblast",
+    "RUS-ingushetia": "Ingushetia",
+    "RUS-khanty-mansiysk-autonomous-okrug-ugra": "Khanty-Mansiysk Autonomous Okrug – Ugra",
+    "RUS-kirov-oblast": "Kirov Oblast",
+    "RUS-komi-republic": "Komi Republic",
+    "RUS-kostroma-oblast": "Kostroma Oblast",
+    "RUS-krasnoyarsk-krai": "Krasnoyarsk Krai",
+    "RUS-zabaykalsky-krai": "Zabaykalsky Krai",
+    "RUS-sverdlovsk-oblast": "Sverdlovsk Oblast",
+    "RUS-volgograd-oblast": "Volgograd Oblast",
+    "RUS-irkutsk-oblast": "Irkutsk Oblast",
+    "RUS-perm-krai": "Perm Krai",
+    "RUS-pskov-oblast": "Pskov Oblast",
+    "RUS-rostov-oblast": "Rostov Oblast",
+    "RUS-ryazan-oblast": "Ryazan Oblast",
+    "RUS-adygea": "Adygea",
+    "RUS-samara-oblast": "Samara Oblast",
+    "RUS-khakassia": "Khakassia",
+    "RUS-tambov-oblast": "Tambov Oblast",
+    "RUS-tatarstan": "Tatarstan",
+    "RUS-tomsk-oblast": "Tomsk Oblast",
+    "RUS-nizhny-novgorod-oblast": "Nizhny Novgorod Oblast",
+    "RUS-republic-of-karelia": "Republic of Karelia",
+    "RUS-arkhangelsk-oblast": "Arkhangelsk Oblast",
+    "RUS-astrakhan-oblast": "Astrakhan Oblast",
+    "RUS-belgorod-oblast": "Belgorod Oblast",
+    "RUS-bryansk-oblast": "Bryansk Oblast",
+    "RUS-buryatia": "Buryatia",
+    "RUS-chechnya": "Chechnya",
+    "RUS-chelyabinsk-oblast": "Chelyabinsk Oblast",
+    "RUS-chuvashia": "Chuvashia",
+    "RUS-tyumen-oblast": "Tyumen Oblast",
+    "RUS-north-ossetia-alania": "North Ossetia–Alania",
+    "RUS-penza-oblast": "Penza Oblast",
+    "RUS-amur-oblast": "Amur Oblast",
+    "RUS-kabardino-balkaria": "Kabardino-Balkaria",
+    "RUS-krasnodar-krai": "Krasnodar Krai",
+    "RUS-kursk-oblast": "Kursk Oblast",
+    "RUS-leningrad-oblast": "Leningrad oblast",
+    "RUS-mari-el": "Mari El",
+    "RUS-moscow": "Moscow",
+    "RUS-moscow-oblast": "Moscow Oblast",
+    "RUS-murmansk-oblast": "Murmansk Oblast",
+    "RUS-nenets-autonomous-okrug": "Nenets Autonomous Okrug",
+    "RUS-novgorod-oblast": "Novgorod Oblast",
+    "RUS-novosibirsk-oblast": "Novosibirsk Oblast",
+    "RUS-omsk-oblast": "Omsk Oblast",
+    "RUS-oryol-oblast": "Oryol Oblast",
+    "RUS-saint-petersburg": "Saint Petersburg",
+    "RUS-sakhalin-oblast": "Sakhalin Oblast",
+    "RUS-sakha-republic": "Sakha Republic",
+    "RUS-saratov-oblast": "Saratov Oblast",
+    "RUS-smolensk-oblast": "Smolensk Oblast",
+    "RUS-stavropol-krai": "Stavropol Krai",
+    "RUS-tuva": "Tuva",
+    "RUS-tver-oblast": "Tver Oblast",
+    "RUS-udmurtia": "Udmurtia",
+    "RUS-kaluga-oblast": "Kaluga Oblast",
+    "RUS-lipetsk-oblast": "Lipetsk Oblast",
+    "RUS-magadan-oblast": "Magadan Oblast",
+    "RUS-ulyanovsk-oblast": "Ulyanovsk Oblast",
+    "RUS-vladimir-oblast": "Vladimir Oblast",
+    "RUS-vologda-oblast": "Vologda Oblast",
+    "RUS-yaroslavl-oblast": "Yaroslavl Oblast",
+    "RUS-voronezh-oblast": "Voronezh Oblast",
+    "RUS-yamalo-nenets-autonomous-okrug": "Yamalo-Nenets Autonomous Okrug",
+    "RUS-altai-republic": "Altai Republic",
+    "RUS-ivanovo-oblast": "Ivanovo Oblast",
+    "RUS-jewish-autonomous-oblast": "Jewish Autonomous Oblast",
+    "RUS-kalmykia": "Kalmykia",
+    "RUS-kamchatka-krai": "Kamchatka Krai",
+    "RUS-karachay-cherkessia": "Karachay-Cherkessia",
+    "RUS-kemerovo-oblast": "Kemerovo Oblast",
+    "RUS-khabarovsk-krai": "Khabarovsk Krai",
+    "RUS-chukotka-autonomous-okrug": "Chukotka Autonomous Okrug",
+    "RUS-dagestan": "Dagestan",
+    "RUS-kaliningrad": "Kaliningrad",
+    "RUS-orenburg-oblast": "Orenburg Oblast",
+    "RUS-primorsky-krai": "Primorsky Krai",
+    "RUS-bashkortostan": "Bashkortostan",
+    "IND-puducherry": "Puducherry",
+    "IND-maharashtra": "Mahārāshtra",
+    "IND-nagaland": "Nāgāland",
+    "IND-lakshadweep": "Lakshadweep",
+    "IND-uttar-pradesh": "Uttar Pradesh",
+    "IND-tamil-nadu": "Tamil Nādu",
+    "IND-chhattisgarh": "Chhattīsgarh",
+    "IND-gujarat": "Gujarāt",
+    "IND-delhi": "Delhi",
+    "IND-sikkim": "Sikkim",
+    "IND-tripura": "Tripura",
+    "IND-west-bengal": "West Bengal",
+    "IND-odisha": "Odisha",
+    "IND-bihar": "Bihār",
+    "IND-ladakh": "Ladākh",
+    "IND-rajasthan": "Rājasthān",
+    "IND-telangana": "Telangāna",
+    "IND-andhra-pradesh": "Andhra Pradesh",
+    "IND-mizoram": "Mizoram",
+    "IND-arunachal-pradesh": "Arunāchal Pradesh",
+    "IND-meghalaya": "Meghālaya",
+    "IND-jharkhand": "Jhārkhand",
+    "IND-assam": "Assam",
+    "IND-manipur": "Manipur",
+    "IND-karnataka": "Karnātaka",
+    "IND-uttarakhand": "Uttarākhand",
+    "IND-dadra-and-nagar-haveli-and-daman-and-diu": "Dādra and Nagar Haveli and Damān and Diu",
+    "IND-madhya-pradesh": "Madhya Pradesh",
+    "IND-goa": "Goa",
+    "IND-kerala": "Kerala",
+    "IND-chandigarh": "Chandīgarh",
+    "IND-andaman-and-nicobar-islands": "Andaman and Nicobar Islands",
+    "IND-himachal-pradesh": "Himāchal Pradesh",
+    "IND-jammu-and-kashmir": "Jammu and Kashmīr",
+    "IND-punjab": "Punjab",
+    "IND-haryana": "Haryāna",
+    "CHN-hainan-province": "Hainan Province",
+    "CHN-taiwan-province": "Taiwan Province",
+    "CHN-guangxi-zhuang-autonomous-region": "Guangxi Zhuang Autonomous Region",
+    "CHN-fujian-province": "Fujian Province",
+    "CHN-yunnan-province": "Yunnan Province",
+    "CHN-guizhou-province": "Guizhou Province",
+    "CHN-jiangxi-province": "Jiangxi Province",
+    "CHN-hunan-province": "Hunan Province",
+    "CHN-zhejiang-province": "Zhejiang Province",
+    "CHN-shanghai-municipality": "Shanghai Municipality",
+    "CHN-chongqing-municipality": "Chongqing Municipality",
+    "CHN-hubei-province": "Hubei Province",
+    "CHN-sichuan-province": "Sichuan Province",
+    "CHN-anhui-province": "Anhui Province",
+    "CHN-jiangsu-province": "Jiangsu Province",
+    "CHN-henan-province": "Henan Province",
+    "CHN-tibet-autonomous-region": "Tibet Autonomous Region",
+    "CHN-shandong-province": "Shandong Province",
+    "CHN-qinghai-province": "Qinghai Province",
+    "CHN-ningxia-ningxia-hui-autonomous-region": "Ningxia Ningxia Hui Autonomous Region",
+    "CHN-shaanxi-province": "Shaanxi Province",
+    "CHN-tianjin-municipality": "Tianjin Municipality",
+    "CHN-shanxi-province": "Shanxi Province",
+    "CHN-beijing-municipality": "Beijing Municipality",
+    "CHN-gansu-province": "Gansu Province",
+    "CHN-hebei-province": "Hebei Province",
+    "CHN-liaoning-province": "Liaoning Province",
+    "CHN-jilin-province": "Jilin Province",
+    "CHN-xinjiang-uyghur-autonomous-region": "Xinjiang Uyghur Autonomous Region",
+    "CHN-inner-mongolia-autonomous-region": "Inner Mongolia Autonomous Region",
+    "CHN-heilongjiang-province": "Heilongjiang Province",
+    "CHN-macau-special-administrative-region": "Macau Special Administrative Region",
+    "CHN-hong-kong-special-administrative-region": "Hong Kong Special Administrative Region",
+    "CHN-guangzhou-province": "Guangzhou Province",
+    "ZAF-eastern-cape": "Eastern Cape",
+    "ZAF-free-state": "Free State",
+    "ZAF-gauteng": "Gauteng",
+    "ZAF-kwazulu-natal": "KwaZulu-Natal",
+    "ZAF-limpopo": "Limpopo",
+    "ZAF-mpumalanga": "Mpumalanga",
+    "ZAF-north-west": "North West",
+    "ZAF-nothern-cape": "Nothern Cape",
+    "ZAF-western-cape": "Western Cape",
+    "EGY-north-sinai-governorate": "North Sinai Governorate",
+    "EGY-south-sinai-governorate": "South Sinai Governorate",
+    "EGY-aswan-governorate": "Aswan Governorate",
+    "EGY-red-sea-governorate": "Red Sea Governorate",
+    "EGY-matrouh-governorate": "Matrouh Governorate",
+    "EGY-new-valley-governorate": "New Valley Governorate",
+    "EGY-alexandria-governorate": "Alexandria Governorate",
+    "EGY-ismailia-governorate": "Ismailia Governorate",
+    "EGY-suez-governorate": "Suez Governorate",
+    "EGY-gharbiyya-governorate": "Gharbiyya Governorate",
+    "EGY-faiyum-governorate": "Faiyum Governorate",
+    "EGY-beni-suef-governorate": "Beni Suef Governorate",
+    "EGY-minya-governate": "Minya Governate",
+    "EGY-asyut-governorate": "Asyut Governorate",
+    "EGY-sohag-governorate": "Sohag Governorate",
+    "EGY-qena-governorate": "Qena Governorate",
+    "EGY-luxor-governate": "Luxor Governate",
+    "EGY-giza-governorate": "Giza Governorate",
+    "EGY-monufia-governorate": "Monufia Governorate",
+    "EGY-beheira-governorate": "Beheira Governorate",
+    "EGY-cairo-governorate": "Cairo Governorate",
+    "EGY-qalyubia-governorate": "Qalyubia Governorate",
+    "EGY-dakahlia-governorate": "Dakahlia Governorate",
+    "EGY-damietta-governorate": "Damietta Governorate",
+    "EGY-kafr-el-sheikh-governorate": "Kafr el-Sheikh Governorate",
+    "EGY-port-said-governorate": "Port Said Governorate",
+    "EGY-al-sharqia-governorate": "Al Sharqia Governorate",
+    "ETH-addis-ababa": "Addis Ababa",
+    "ETH-afar": "Afar",
+    "ETH-amhara": "Amhara",
+    "ETH-beneshangul-gumu": "Beneshangul Gumu",
+    "ETH-dire-dawa": "Dire Dawa",
+    "ETH-gambela": "Gambela",
+    "ETH-hareri": "Hareri",
+    "ETH-oromia": "Oromia",
+    "ETH-snnpr": "SNNPR",
+    "ETH-somali": "Somali",
+    "ETH-tigray": "Tigray",
+    "IRN-mazandaran": "Mazandaran",
+    "IRN-north-khorasan": "North Khorasan",
+    "IRN-kerman": "Kerman",
+    "IRN-ilam": "Ilam",
+    "IRN-lorestan": "Lorestan",
+    "IRN-markazi": "Markazi",
+    "IRN-chaharmahal-and-bakhtiari": "Chaharmahal and Bakhtiari",
+    "IRN-kermanshah": "Kermanshah",
+    "IRN-hamadan": "Hamadan",
+    "IRN-qazvin": "Qazvin",
+    "IRN-gilan": "Gilan",
+    "IRN-zanjan": "Zanjan",
+    "IRN-semnan": "Semnan",
+    "IRN-isfahan": "Isfahan",
+    "IRN-kohgiluyeh-and-boyer-ahmad": "Kohgiluyeh and Boyer-Ahmad",
+    "IRN-kurdistan": "Kurdistan",
+    "IRN-west-azerbaijan": "West Azerbaijan",
+    "IRN-fars": "Fars",
+    "IRN-bushehr": "Bushehr",
+    "IRN-ardabil": "Ardabil",
+    "IRN-golestan": "Golestan",
+    "IRN-razavi-khorasan": "Razavi Khorasan",
+    "IRN-south-khorasan": "South Khorasan",
+    "IRN-sistan-and-baluchestan": "Sistan and Baluchestan",
+    "IRN-qom": "Qom",
+    "IRN-alborz": "Alborz",
+    "IRN-east-azerbaijan": "East Azerbaijan",
+    "IRN-yazd": "Yazd",
+    "IRN-hormozgan": "Hormozgan",
+    "IRN-khuzestan": "Khuzestan",
+    "IRN-tehran": "Tehran",
+    "ARE-abu-dhabi": "Abu Dhabi",
+    "ARE-ajman": "Ajman",
+    "ARE-dubai": "Dubai",
+    "ARE-fujairah": "Fujairah",
+    "ARE-ras-al-khaimah": "Ras al-Khaimah",
+    "ARE-sharjah": "Sharjah",
+    "ARE-umm-al-quwain": "Umm al-Quwain",
+    "IDN-bali": "Bali",
+    "IDN-west-nusa-tenggara": "West Nusa Tenggara",
+    "IDN-banten": "Banten",
+    "IDN-central-java": "Central Java",
+    "IDN-west-java": "West Java",
+    "IDN-central-kalimantan": "Central Kalimantan",
+    "IDN-south-kalimantan": "South Kalimantan",
+    "IDN-west-kalimantan": "West Kalimantan",
+    "IDN-central-sulawesi": "Central Sulawesi",
+    "IDN-gorontalo": "Gorontalo",
+    "IDN-north-sulawesi": "North Sulawesi",
+    "IDN-south-sulawesi": "South Sulawesi",
+    "IDN-southeast-sulawesi": "Southeast Sulawesi",
+    "IDN-west-sulawesi": "West Sulawesi",
+    "IDN-aceh": "Aceh",
+    "IDN-bengkulu": "Bengkulu",
+    "IDN-jambi": "Jambi",
+    "IDN-lampung": "Lampung",
+    "IDN-riau": "Riau",
+    "IDN-west-sumatra": "West Sumatra",
+    "IDN-south-sumatra": "South Sumatra",
+    "IDN-north-sumatra": "North Sumatra",
+    "IDN-east-nusa-tenggara": "East Nusa Tenggara",
+    "IDN-maluku": "Maluku",
+    "IDN-north-maluku": "North Maluku",
+    "IDN-east-java": "East Java",
+    "IDN-bangka-belitung-islands": "Bangka-Belitung Islands",
+    "IDN-riau-islands": "Riau Islands",
+    "IDN-papua": "Papua",
+    "IDN-west-papua": "West Papua",
+    "IDN-east-kalimantan": "East Kalimantan",
+    "IDN-north-kalimantan": "North Kalimantan",
+    "IDN-special-region-of-yogyakarta": "Special Region of Yogyakarta",
+    "IDN-jakarta-special-capital-region": "Jakarta Special Capital Region"
+  },
+  "regionBest": {
+    "RUS-altai-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-republic-of-mordovia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tula-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kurgan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ingushetia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khanty-mansiysk-autonomous-okrug-ugra": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kirov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-komi-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kostroma-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-krasnoyarsk-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-zabaykalsky-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sverdlovsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-volgograd-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-irkutsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-perm-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-pskov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-rostov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ryazan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-adygea": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-samara-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khakassia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tambov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tatarstan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tomsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-nizhny-novgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-republic-of-karelia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-arkhangelsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-astrakhan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-belgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-bryansk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-buryatia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chechnya": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chelyabinsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chuvashia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tyumen-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-north-ossetia-alania": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-penza-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-amur-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kabardino-balkaria": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-krasnodar-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kursk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-leningrad-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-mari-el": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-moscow": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-moscow-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-murmansk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-nenets-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-novgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-novosibirsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-omsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-oryol-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-saint-petersburg": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sakhalin-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sakha-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-saratov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-smolensk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-stavropol-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tuva": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tver-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-udmurtia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kaluga-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-lipetsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-magadan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ulyanovsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-vladimir-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-vologda-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-yaroslavl-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-voronezh-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-yamalo-nenets-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-altai-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ivanovo-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-jewish-autonomous-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kalmykia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kamchatka-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-karachay-cherkessia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kemerovo-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khabarovsk-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chukotka-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-dagestan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kaliningrad": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-orenburg-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-primorsky-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-bashkortostan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IND-puducherry": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-maharashtra": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-nagaland": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-lakshadweep": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-uttar-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-tamil-nadu": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-chhattisgarh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-gujarat": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-delhi": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-sikkim": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-tripura": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-west-bengal": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-odisha": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-bihar": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "IND-ladakh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-rajasthan": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-telangana": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-andhra-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-mizoram": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-arunachal-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-meghalaya": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-jharkhand": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-assam": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-manipur": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-karnataka": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-uttarakhand": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-dadra-and-nagar-haveli-and-daman-and-diu": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-madhya-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-goa": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-kerala": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-chandigarh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-andaman-and-nicobar-islands": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-himachal-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-jammu-and-kashmir": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-punjab": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-haryana": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hainan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-taiwan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guangxi-zhuang-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-fujian-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-yunnan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guizhou-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jiangxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hunan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-zhejiang-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shanghai-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-chongqing-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hubei-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-sichuan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-anhui-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jiangsu-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-henan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-tibet-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shandong-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-qinghai-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-ningxia-ningxia-hui-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shaanxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-tianjin-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shanxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-beijing-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-gansu-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hebei-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-liaoning-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jilin-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-xinjiang-uyghur-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-inner-mongolia-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-heilongjiang-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-macau-special-administrative-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hong-kong-special-administrative-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guangzhou-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ZAF-eastern-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-free-state": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-gauteng": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-kwazulu-natal": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-limpopo": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-mpumalanga": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-north-west": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-nothern-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-western-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "EGY-north-sinai-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-south-sinai-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-aswan-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-red-sea-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-matrouh-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-new-valley-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-alexandria-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-ismailia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-suez-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-gharbiyya-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-faiyum-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-beni-suef-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-minya-governate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-asyut-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-sohag-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-qena-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-luxor-governate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-giza-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-monufia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-beheira-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-cairo-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-qalyubia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-dakahlia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-damietta-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-kafr-el-sheikh-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-port-said-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-al-sharqia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ETH-addis-ababa": {
+      "score": 94,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "ETH-afar": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "ETH-amhara": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "digital"
+    },
+    "ETH-beneshangul-gumu": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "ETH-dire-dawa": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "ETH-gambela": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-hareri": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-oromia": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-snnpr": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "ETH-somali": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "ETH-tigray": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "IRN-mazandaran": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-north-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kerman": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-ilam": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-lorestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-markazi": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-chaharmahal-and-bakhtiari": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kermanshah": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-hamadan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-qazvin": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-gilan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-zanjan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-semnan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-isfahan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kohgiluyeh-and-boyer-ahmad": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kurdistan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-west-azerbaijan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-fars": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-bushehr": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-ardabil": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-golestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-razavi-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-south-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-sistan-and-baluchestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-qom": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-alborz": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-east-azerbaijan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-yazd": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-hormozgan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-khuzestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-tehran": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "ARE-abu-dhabi": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-ajman": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-dubai": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-fujairah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-ras-al-khaimah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-sharjah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-umm-al-quwain": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IDN-bali": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-west-nusa-tenggara": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-banten": {
+      "score": 84,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-central-java": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-west-java": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-central-kalimantan": {
+      "score": 80,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-kalimantan": {
+      "score": 57,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-west-kalimantan": {
+      "score": 61,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-central-sulawesi": {
+      "score": 74,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-gorontalo": {
+      "score": 75,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-sulawesi": {
+      "score": 57,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-sulawesi": {
+      "score": 59,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-southeast-sulawesi": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-sulawesi": {
+      "score": 82,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-aceh": {
+      "score": 79,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-bengkulu": {
+      "score": 88,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-jambi": {
+      "score": 63,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-lampung": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-riau": {
+      "score": 80,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-sumatra": {
+      "score": 73,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-sumatra": {
+      "score": 62,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-sumatra": {
+      "score": 72,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-nusa-tenggara": {
+      "score": 68,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-maluku": {
+      "score": 90,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-maluku": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-java": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-bangka-belitung-islands": {
+      "score": 68,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-riau-islands": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-papua": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-papua": {
+      "score": 90,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-kalimantan": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-north-kalimantan": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-special-region-of-yogyakarta": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-jakarta-special-capital-region": {
+      "score": 55,
+      "basis": "regional-survey",
+      "theme": "health"
+    }
+  },
+  "cells": [
+    [
+      32.495,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.935,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.375,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.815,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.255,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.694,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.134,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.574,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.014,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.454,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.894,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.334,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.774,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      38.214,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      38.653,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      39.093,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      39.533,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.052,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.492,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.932,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.372,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.812,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.252,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.692,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.131,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.571,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.011,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.451,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.891,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.331,
+      15.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.715,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.155,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.595,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.035,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.475,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.914,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.354,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.794,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.234,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.674,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.114,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.554,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.994,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      38.433,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      38.873,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      39.313,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      39.753,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      40.193,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      42.832,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.272,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.712,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.152,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.592,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.032,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.472,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.911,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.351,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.791,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.231,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.671,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.111,
+      14.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.495,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.935,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.375,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.815,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.255,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.694,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.134,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.574,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.014,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.454,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.894,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.334,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.774,
+      14.577,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.214,
+      14.577,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.653,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      39.093,
+      14.577,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.533,
+      14.577,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.973,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      40.413,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      40.853,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.052,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.492,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.932,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.372,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.812,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.252,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.692,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.131,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.571,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.011,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.451,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.891,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.331,
+      14.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.715,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.155,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.595,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.035,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.475,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.914,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.354,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.794,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.234,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.674,
+      14.196,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.114,
+      14.196,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.554,
+      14.196,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.994,
+      14.196,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.433,
+      14.196,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.873,
+      14.196,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.313,
+      14.196,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.753,
+      14.196,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.193,
+      14.196,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.633,
+      14.196,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.073,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.272,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.712,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.152,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.592,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.032,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.472,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.911,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.351,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.791,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.231,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.671,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.111,
+      14.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.495,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.935,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.375,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.815,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.255,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.694,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.134,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.574,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.014,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.454,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.894,
+      13.815,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.334,
+      13.815,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.774,
+      13.815,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.214,
+      13.815,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.653,
+      13.815,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.093,
+      13.815,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.533,
+      13.815,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.973,
+      13.815,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.413,
+      13.815,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.853,
+      13.815,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.293,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      41.733,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.492,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.932,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.372,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.812,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.252,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.692,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.131,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.571,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.011,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.451,
+      13.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.715,
+      13.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.155,
+      13.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.595,
+      13.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.035,
+      13.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.475,
+      13.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.914,
+      13.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.354,
+      13.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.794,
+      13.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.234,
+      13.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.674,
+      13.434,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.114,
+      13.434,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.554,
+      13.434,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.994,
+      13.434,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.433,
+      13.434,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.873,
+      13.434,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.313,
+      13.434,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.753,
+      13.434,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.193,
+      13.434,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.633,
+      13.434,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.073,
+      13.434,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.513,
+      13.434,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.953,
+      13.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.272,
+      13.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.712,
+      13.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.152,
+      13.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.592,
+      13.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.032,
+      13.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.472,
+      13.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.911,
+      13.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.351,
+      13.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.791,
+      13.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.495,
+      13.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.935,
+      13.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.375,
+      13.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.815,
+      13.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.255,
+      13.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.694,
+      13.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.134,
+      13.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.574,
+      13.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.014,
+      13.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.454,
+      13.053,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.894,
+      13.053,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.334,
+      13.053,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.774,
+      13.053,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.214,
+      13.053,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.653,
+      13.053,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.093,
+      13.053,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.533,
+      13.053,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.973,
+      13.053,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.413,
+      13.053,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.853,
+      13.053,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.293,
+      13.053,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.733,
+      13.053,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.172,
+      13.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.492,
+      13.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.932,
+      13.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.372,
+      13.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.812,
+      13.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.252,
+      13.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.715,
+      12.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.155,
+      12.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.595,
+      12.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.035,
+      12.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.475,
+      12.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.914,
+      12.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.354,
+      12.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.794,
+      12.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.234,
+      12.672,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.674,
+      12.672,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.114,
+      12.672,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.554,
+      12.672,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.994,
+      12.672,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.433,
+      12.672,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.873,
+      12.672,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.313,
+      12.672,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.753,
+      12.672,
+      "ETH",
+      "ETH-tigray",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.193,
+      12.672,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.633,
+      12.672,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.073,
+      12.672,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.513,
+      12.672,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.953,
+      12.672,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.392,
+      12.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      42.832,
+      12.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.712,
+      12.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.152,
+      12.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.495,
+      12.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.935,
+      12.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.375,
+      12.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.815,
+      12.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.255,
+      12.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.694,
+      12.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.134,
+      12.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.574,
+      12.291,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.014,
+      12.291,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.454,
+      12.291,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.894,
+      12.291,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.334,
+      12.291,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.774,
+      12.291,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.214,
+      12.291,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.653,
+      12.291,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.093,
+      12.291,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.533,
+      12.291,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.973,
+      12.291,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.413,
+      12.291,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.853,
+      12.291,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.293,
+      12.291,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.733,
+      12.291,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.172,
+      12.291,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.612,
+      12.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.052,
+      12.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.715,
+      11.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.155,
+      11.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.595,
+      11.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.035,
+      11.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.475,
+      11.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.914,
+      11.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.354,
+      11.91,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.794,
+      11.91,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.234,
+      11.91,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.674,
+      11.91,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.114,
+      11.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.554,
+      11.91,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.994,
+      11.91,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.433,
+      11.91,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.873,
+      11.91,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.313,
+      11.91,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.753,
+      11.91,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.193,
+      11.91,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.633,
+      11.91,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.073,
+      11.91,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.513,
+      11.91,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.953,
+      11.91,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.392,
+      11.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      42.832,
+      11.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.495,
+      11.529,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.935,
+      11.529,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.375,
+      11.529,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.815,
+      11.529,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.255,
+      11.529,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.694,
+      11.529,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.134,
+      11.529,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.574,
+      11.529,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.014,
+      11.529,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.454,
+      11.529,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.894,
+      11.529,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.334,
+      11.529,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.774,
+      11.529,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.214,
+      11.529,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.653,
+      11.529,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.093,
+      11.529,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.533,
+      11.529,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.973,
+      11.529,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.413,
+      11.529,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.853,
+      11.529,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.293,
+      11.529,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.733,
+      11.529,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.172,
+      11.529,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      42.612,
+      11.529,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.715,
+      11.148,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.155,
+      11.148,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.595,
+      11.148,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.035,
+      11.148,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.475,
+      11.148,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.914,
+      11.148,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.354,
+      11.148,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.794,
+      11.148,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.234,
+      11.148,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.674,
+      11.148,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.114,
+      11.148,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.554,
+      11.148,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.994,
+      11.148,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.433,
+      11.148,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.873,
+      11.148,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.313,
+      11.148,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.753,
+      11.148,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.193,
+      11.148,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.633,
+      11.148,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.073,
+      11.148,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.513,
+      11.148,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.953,
+      11.148,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      42.392,
+      11.148,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      42.832,
+      11.148,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.272,
+      11.148,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.111,
+      11.148,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.495,
+      10.768,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.935,
+      10.768,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.375,
+      10.768,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.815,
+      10.768,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.255,
+      10.768,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.694,
+      10.768,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.134,
+      10.768,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.574,
+      10.768,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.014,
+      10.768,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.454,
+      10.768,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.894,
+      10.768,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.334,
+      10.768,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.774,
+      10.768,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.214,
+      10.768,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.653,
+      10.768,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.093,
+      10.768,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.533,
+      10.768,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.973,
+      10.768,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.413,
+      10.768,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.853,
+      10.768,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.293,
+      10.768,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.733,
+      10.768,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.172,
+      10.768,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.612,
+      10.768,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.052,
+      10.768,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.492,
+      10.768,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.571,
+      10.768,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.011,
+      10.768,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.451,
+      10.768,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.891,
+      10.768,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.331,
+      10.768,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.715,
+      10.387,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.155,
+      10.387,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.595,
+      10.387,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.035,
+      10.387,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.475,
+      10.387,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      34.914,
+      10.387,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.354,
+      10.387,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.794,
+      10.387,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.234,
+      10.387,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.674,
+      10.387,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.114,
+      10.387,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.554,
+      10.387,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.994,
+      10.387,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.433,
+      10.387,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.873,
+      10.387,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.313,
+      10.387,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.753,
+      10.387,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.193,
+      10.387,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.633,
+      10.387,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.073,
+      10.387,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.513,
+      10.387,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.953,
+      10.387,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.392,
+      10.387,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.832,
+      10.387,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.272,
+      10.387,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.712,
+      10.387,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.152,
+      10.387,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.592,
+      10.387,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.032,
+      10.387,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.472,
+      10.387,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.911,
+      10.387,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.351,
+      10.387,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.791,
+      10.387,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.231,
+      10.387,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.671,
+      10.387,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.111,
+      10.387,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.495,
+      10.006,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.935,
+      10.006,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.375,
+      10.006,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.815,
+      10.006,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.255,
+      10.006,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      34.694,
+      10.006,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.134,
+      10.006,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.574,
+      10.006,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.014,
+      10.006,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.454,
+      10.006,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.894,
+      10.006,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.334,
+      10.006,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.774,
+      10.006,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.214,
+      10.006,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.653,
+      10.006,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.093,
+      10.006,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.533,
+      10.006,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.973,
+      10.006,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.413,
+      10.006,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.853,
+      10.006,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.293,
+      10.006,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.733,
+      10.006,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.172,
+      10.006,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.612,
+      10.006,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.052,
+      10.006,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.492,
+      10.006,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.932,
+      10.006,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.372,
+      10.006,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.812,
+      10.006,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.252,
+      10.006,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.692,
+      10.006,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.131,
+      10.006,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.571,
+      10.006,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.011,
+      10.006,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.451,
+      10.006,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.891,
+      10.006,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.331,
+      10.006,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.715,
+      9.625,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.155,
+      9.625,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.595,
+      9.625,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.035,
+      9.625,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.475,
+      9.625,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      34.914,
+      9.625,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.354,
+      9.625,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.794,
+      9.625,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.234,
+      9.625,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.674,
+      9.625,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.114,
+      9.625,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.554,
+      9.625,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.994,
+      9.625,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.433,
+      9.625,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.873,
+      9.625,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.313,
+      9.625,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.753,
+      9.625,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.193,
+      9.625,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.633,
+      9.625,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.073,
+      9.625,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.513,
+      9.625,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.953,
+      9.625,
+      "ETH",
+      "ETH-dire-dawa",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.392,
+      9.625,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.832,
+      9.625,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.272,
+      9.625,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.712,
+      9.625,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.152,
+      9.625,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.592,
+      9.625,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.032,
+      9.625,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.472,
+      9.625,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.911,
+      9.625,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.351,
+      9.625,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.791,
+      9.625,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.231,
+      9.625,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.671,
+      9.625,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.111,
+      9.625,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.495,
+      9.244,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.935,
+      9.244,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.375,
+      9.244,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.815,
+      9.244,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.255,
+      9.244,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      34.694,
+      9.244,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.134,
+      9.244,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.574,
+      9.244,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.014,
+      9.244,
+      "ETH",
+      "ETH-beneshangul-gumu",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.454,
+      9.244,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.894,
+      9.244,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.334,
+      9.244,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.774,
+      9.244,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.214,
+      9.244,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.653,
+      9.244,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.093,
+      9.244,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.533,
+      9.244,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.973,
+      9.244,
+      "ETH",
+      "ETH-afar",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.413,
+      9.244,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.853,
+      9.244,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.293,
+      9.244,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.733,
+      9.244,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.172,
+      9.244,
+      "ETH",
+      "ETH-hareri",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.612,
+      9.244,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.052,
+      9.244,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.492,
+      9.244,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.932,
+      9.244,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.372,
+      9.244,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.812,
+      9.244,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.252,
+      9.244,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.692,
+      9.244,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.131,
+      9.244,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.571,
+      9.244,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.011,
+      9.244,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.451,
+      9.244,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.891,
+      9.244,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.331,
+      9.244,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.715,
+      8.863,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.155,
+      8.863,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.595,
+      8.863,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.035,
+      8.863,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.475,
+      8.863,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      34.914,
+      8.863,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.354,
+      8.863,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.794,
+      8.863,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.234,
+      8.863,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.674,
+      8.863,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.114,
+      8.863,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.554,
+      8.863,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.994,
+      8.863,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.433,
+      8.863,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.873,
+      8.863,
+      "ETH",
+      "ETH-addis-ababa",
+      94,
+      "national-indicator"
+    ],
+    [
+      39.313,
+      8.863,
+      "ETH",
+      "ETH-amhara",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.753,
+      8.863,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.193,
+      8.863,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.633,
+      8.863,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.073,
+      8.863,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.513,
+      8.863,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.953,
+      8.863,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.392,
+      8.863,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.832,
+      8.863,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.272,
+      8.863,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.712,
+      8.863,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.152,
+      8.863,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.592,
+      8.863,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.032,
+      8.863,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.472,
+      8.863,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.911,
+      8.863,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.351,
+      8.863,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.791,
+      8.863,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.231,
+      8.863,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.671,
+      8.863,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.111,
+      8.863,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.495,
+      8.482,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.935,
+      8.482,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.375,
+      8.482,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.815,
+      8.482,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.255,
+      8.482,
+      "ETH",
+      "ETH-gambela",
+      100,
+      "regional-survey"
+    ],
+    [
+      34.694,
+      8.482,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.134,
+      8.482,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.574,
+      8.482,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.014,
+      8.482,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.454,
+      8.482,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.894,
+      8.482,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.334,
+      8.482,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.774,
+      8.482,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.214,
+      8.482,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.653,
+      8.482,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.093,
+      8.482,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.533,
+      8.482,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.973,
+      8.482,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.413,
+      8.482,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.853,
+      8.482,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.293,
+      8.482,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.733,
+      8.482,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.172,
+      8.482,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.612,
+      8.482,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.052,
+      8.482,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.492,
+      8.482,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.932,
+      8.482,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.372,
+      8.482,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.812,
+      8.482,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.252,
+      8.482,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.692,
+      8.482,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.131,
+      8.482,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.571,
+      8.482,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.011,
+      8.482,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.451,
+      8.482,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.891,
+      8.482,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.331,
+      8.482,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.715,
+      8.101,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.155,
+      8.101,
+      "ETH",
+      "ETH-gambela",
+      100,
+      "regional-survey"
+    ],
+    [
+      33.595,
+      8.101,
+      "ETH",
+      "ETH-gambela",
+      100,
+      "regional-survey"
+    ],
+    [
+      34.035,
+      8.101,
+      "ETH",
+      "ETH-gambela",
+      100,
+      "regional-survey"
+    ],
+    [
+      34.475,
+      8.101,
+      "ETH",
+      "ETH-gambela",
+      100,
+      "regional-survey"
+    ],
+    [
+      34.914,
+      8.101,
+      "ETH",
+      "ETH-gambela",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.354,
+      8.101,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.794,
+      8.101,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.234,
+      8.101,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.674,
+      8.101,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.114,
+      8.101,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.554,
+      8.101,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.994,
+      8.101,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.433,
+      8.101,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.873,
+      8.101,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.313,
+      8.101,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.753,
+      8.101,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.193,
+      8.101,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.633,
+      8.101,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.073,
+      8.101,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.513,
+      8.101,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.953,
+      8.101,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.392,
+      8.101,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.832,
+      8.101,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.272,
+      8.101,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.712,
+      8.101,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.152,
+      8.101,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.592,
+      8.101,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.032,
+      8.101,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.472,
+      8.101,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.911,
+      8.101,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      46.351,
+      8.101,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      46.791,
+      8.101,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.231,
+      8.101,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.671,
+      8.101,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.111,
+      8.101,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.495,
+      7.72,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.935,
+      7.72,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.375,
+      7.72,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.815,
+      7.72,
+      "ETH",
+      "ETH-gambela",
+      100,
+      "regional-survey"
+    ],
+    [
+      34.255,
+      7.72,
+      "ETH",
+      "ETH-gambela",
+      100,
+      "regional-survey"
+    ],
+    [
+      34.694,
+      7.72,
+      "ETH",
+      "ETH-gambela",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.134,
+      7.72,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.574,
+      7.72,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.014,
+      7.72,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.454,
+      7.72,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.894,
+      7.72,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.334,
+      7.72,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.774,
+      7.72,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.214,
+      7.72,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.653,
+      7.72,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.093,
+      7.72,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.533,
+      7.72,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.973,
+      7.72,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.413,
+      7.72,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.853,
+      7.72,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.293,
+      7.72,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.733,
+      7.72,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.172,
+      7.72,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.612,
+      7.72,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.052,
+      7.72,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.492,
+      7.72,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.932,
+      7.72,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.372,
+      7.72,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.812,
+      7.72,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.252,
+      7.72,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.692,
+      7.72,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      46.131,
+      7.72,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      46.571,
+      7.72,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      47.011,
+      7.72,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      47.451,
+      7.72,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      47.891,
+      7.72,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.331,
+      7.72,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.715,
+      7.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.155,
+      7.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.595,
+      7.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.035,
+      7.339,
+      "ETH",
+      "ETH-gambela",
+      100,
+      "regional-survey"
+    ],
+    [
+      34.475,
+      7.339,
+      "ETH",
+      "ETH-gambela",
+      100,
+      "regional-survey"
+    ],
+    [
+      34.914,
+      7.339,
+      "ETH",
+      "ETH-gambela",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.354,
+      7.339,
+      "ETH",
+      "ETH-gambela",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.794,
+      7.339,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.234,
+      7.339,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.674,
+      7.339,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.114,
+      7.339,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.554,
+      7.339,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.994,
+      7.339,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.433,
+      7.339,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.873,
+      7.339,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.313,
+      7.339,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.753,
+      7.339,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.193,
+      7.339,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.633,
+      7.339,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.073,
+      7.339,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.513,
+      7.339,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.953,
+      7.339,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.392,
+      7.339,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.832,
+      7.339,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.272,
+      7.339,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.712,
+      7.339,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.152,
+      7.339,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.592,
+      7.339,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.032,
+      7.339,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.472,
+      7.339,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.911,
+      7.339,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      46.351,
+      7.339,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      46.791,
+      7.339,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      47.231,
+      7.339,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      47.671,
+      7.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.111,
+      7.339,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.495,
+      6.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.935,
+      6.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.375,
+      6.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.815,
+      6.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.255,
+      6.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.694,
+      6.958,
+      "ETH",
+      "ETH-gambela",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.134,
+      6.958,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.574,
+      6.958,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.014,
+      6.958,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.454,
+      6.958,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.894,
+      6.958,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.334,
+      6.958,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.774,
+      6.958,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.214,
+      6.958,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.653,
+      6.958,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.093,
+      6.958,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.533,
+      6.958,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.973,
+      6.958,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.413,
+      6.958,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.853,
+      6.958,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.293,
+      6.958,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.733,
+      6.958,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.172,
+      6.958,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.612,
+      6.958,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.052,
+      6.958,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.492,
+      6.958,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.932,
+      6.958,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.372,
+      6.958,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.812,
+      6.958,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.252,
+      6.958,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.692,
+      6.958,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      46.131,
+      6.958,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      46.571,
+      6.958,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      47.011,
+      6.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.451,
+      6.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.891,
+      6.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.331,
+      6.958,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.715,
+      6.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.155,
+      6.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.595,
+      6.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.035,
+      6.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.475,
+      6.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.914,
+      6.577,
+      "ETH",
+      "ETH-gambela",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.354,
+      6.577,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.794,
+      6.577,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.234,
+      6.577,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.674,
+      6.577,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.114,
+      6.577,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.554,
+      6.577,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.994,
+      6.577,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.433,
+      6.577,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.873,
+      6.577,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.313,
+      6.577,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.753,
+      6.577,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.193,
+      6.577,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.633,
+      6.577,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.073,
+      6.577,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.513,
+      6.577,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.953,
+      6.577,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.392,
+      6.577,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.832,
+      6.577,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.272,
+      6.577,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.712,
+      6.577,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.152,
+      6.577,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.592,
+      6.577,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.032,
+      6.577,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.472,
+      6.577,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.911,
+      6.577,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      46.351,
+      6.577,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      46.791,
+      6.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.231,
+      6.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.671,
+      6.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.111,
+      6.577,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.495,
+      6.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.935,
+      6.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.375,
+      6.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.815,
+      6.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.255,
+      6.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.694,
+      6.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.134,
+      6.196,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.574,
+      6.196,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.014,
+      6.196,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.454,
+      6.196,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.894,
+      6.196,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.334,
+      6.196,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.774,
+      6.196,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.214,
+      6.196,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.653,
+      6.196,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.093,
+      6.196,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.533,
+      6.196,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.973,
+      6.196,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.413,
+      6.196,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.853,
+      6.196,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.293,
+      6.196,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.733,
+      6.196,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.172,
+      6.196,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.612,
+      6.196,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.052,
+      6.196,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.492,
+      6.196,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.932,
+      6.196,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.372,
+      6.196,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.812,
+      6.196,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.252,
+      6.196,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.692,
+      6.196,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      46.131,
+      6.196,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      46.571,
+      6.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.011,
+      6.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.451,
+      6.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.891,
+      6.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.331,
+      6.196,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.715,
+      5.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.155,
+      5.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.595,
+      5.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.035,
+      5.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.475,
+      5.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.914,
+      5.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.354,
+      5.815,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      35.794,
+      5.815,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.234,
+      5.815,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.674,
+      5.815,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.114,
+      5.815,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.554,
+      5.815,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.994,
+      5.815,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.433,
+      5.815,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.873,
+      5.815,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.313,
+      5.815,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.753,
+      5.815,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.193,
+      5.815,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.633,
+      5.815,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.073,
+      5.815,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.513,
+      5.815,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.953,
+      5.815,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.392,
+      5.815,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.832,
+      5.815,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.272,
+      5.815,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.712,
+      5.815,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.152,
+      5.815,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.592,
+      5.815,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.032,
+      5.815,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.472,
+      5.815,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.911,
+      5.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.351,
+      5.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.791,
+      5.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.231,
+      5.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.671,
+      5.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.111,
+      5.815,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.495,
+      5.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.935,
+      5.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.375,
+      5.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.815,
+      5.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.255,
+      5.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.694,
+      5.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.134,
+      5.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.574,
+      5.434,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.014,
+      5.434,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.454,
+      5.434,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.894,
+      5.434,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.334,
+      5.434,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.774,
+      5.434,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.214,
+      5.434,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.653,
+      5.434,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.093,
+      5.434,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.533,
+      5.434,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.973,
+      5.434,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.413,
+      5.434,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.853,
+      5.434,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.293,
+      5.434,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.733,
+      5.434,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.172,
+      5.434,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.612,
+      5.434,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.052,
+      5.434,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.492,
+      5.434,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.932,
+      5.434,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.372,
+      5.434,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.812,
+      5.434,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.252,
+      5.434,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.692,
+      5.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.131,
+      5.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.571,
+      5.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.011,
+      5.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.451,
+      5.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.891,
+      5.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.331,
+      5.434,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.715,
+      5.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.155,
+      5.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.595,
+      5.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.035,
+      5.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.475,
+      5.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.914,
+      5.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.354,
+      5.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.794,
+      5.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.234,
+      5.053,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.674,
+      5.053,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.114,
+      5.053,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.554,
+      5.053,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.994,
+      5.053,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.433,
+      5.053,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.873,
+      5.053,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.313,
+      5.053,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.753,
+      5.053,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.193,
+      5.053,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.633,
+      5.053,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.073,
+      5.053,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.513,
+      5.053,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.953,
+      5.053,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.392,
+      5.053,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.832,
+      5.053,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.272,
+      5.053,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.712,
+      5.053,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.152,
+      5.053,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      44.592,
+      5.053,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.032,
+      5.053,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      45.472,
+      5.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.911,
+      5.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.351,
+      5.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.791,
+      5.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.231,
+      5.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.671,
+      5.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      48.111,
+      5.053,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.495,
+      4.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.935,
+      4.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.375,
+      4.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.815,
+      4.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.255,
+      4.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.694,
+      4.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.134,
+      4.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.574,
+      4.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.014,
+      4.672,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.454,
+      4.672,
+      "ETH",
+      "ETH-snnpr",
+      100,
+      "regional-survey"
+    ],
+    [
+      36.894,
+      4.672,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.334,
+      4.672,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.774,
+      4.672,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.214,
+      4.672,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.653,
+      4.672,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.093,
+      4.672,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.533,
+      4.672,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.973,
+      4.672,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.413,
+      4.672,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.853,
+      4.672,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.293,
+      4.672,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.733,
+      4.672,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.172,
+      4.672,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.612,
+      4.672,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.052,
+      4.672,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      43.492,
+      4.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.932,
+      4.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.372,
+      4.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.812,
+      4.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.252,
+      4.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.692,
+      4.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.131,
+      4.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.571,
+      4.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.011,
+      4.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.451,
+      4.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.891,
+      4.672,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.715,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.155,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.595,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.035,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.475,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.914,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.354,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.794,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.234,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.674,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.114,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.554,
+      4.291,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      37.994,
+      4.291,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.433,
+      4.291,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.873,
+      4.291,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.313,
+      4.291,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.753,
+      4.291,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.193,
+      4.291,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      40.633,
+      4.291,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.073,
+      4.291,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.513,
+      4.291,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      41.953,
+      4.291,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.392,
+      4.291,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      42.832,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.272,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.712,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.152,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.592,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.032,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.472,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.911,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.351,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.791,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.231,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.671,
+      4.291,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.495,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.935,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.375,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.815,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.255,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.694,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.134,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.574,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.014,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.454,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.894,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.334,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.774,
+      3.91,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.214,
+      3.91,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      38.653,
+      3.91,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.093,
+      3.91,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.533,
+      3.91,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.973,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      40.413,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      40.853,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      41.293,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      41.733,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      42.172,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      42.612,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.052,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.492,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.932,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.372,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.812,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.252,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.692,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.131,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.571,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.011,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      47.451,
+      3.91,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.715,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.155,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.595,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.035,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.475,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.914,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.354,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.794,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.234,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.674,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.114,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.554,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.994,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      38.433,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      38.873,
+      3.53,
+      "ETH",
+      "ETH-oromia",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.313,
+      3.53,
+      "ETH",
+      "ETH-somali",
+      100,
+      "regional-survey"
+    ],
+    [
+      39.753,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      40.193,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      40.633,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      41.073,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      41.513,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      41.953,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      42.392,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      42.832,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.272,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.712,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.152,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.592,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.032,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.472,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.911,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.351,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.791,
+      3.53,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.495,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      32.935,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.375,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      33.815,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.255,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      34.694,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.134,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      35.574,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.014,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.454,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      36.894,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.334,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      37.774,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      38.214,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      38.653,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      39.093,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      39.533,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      39.973,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      40.413,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      40.853,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      41.293,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      41.733,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      42.172,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      42.612,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.052,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.492,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      43.932,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.372,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      44.812,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.252,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      45.692,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.131,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      46.571,
+      3.149,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "labels": [
+    {
+      "iso3": "ETH",
+      "name": "Ethiopia",
+      "x": 39.62329783393502,
+      "y": 8.651646209386255
+    }
+  ]
+}

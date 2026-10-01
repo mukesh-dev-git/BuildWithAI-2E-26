@@ -1,0 +1,925 @@
+{
+  "window": {
+    "months": 12,
+    "to": "2025-01"
+  },
+  "kpis": {
+    "countries": 10,
+    "countriesWithFeedback": 1,
+    "criticalHotspots": 0,
+    "priorityProjects": 8,
+    "sharedGoals": 6,
+    "recordsAnalysed": 4659,
+    "feedbackRecords": 0,
+    "indicatorObs": 4659
+  },
+  "brief": [
+    {
+      "theme": "air",
+      "text": "Clean air is a shared priority across 8 of 10 members."
+    },
+    {
+      "theme": "health",
+      "text": "Healthcare access gaps remain significant in 7 members, led by Ethiopia and South Africa."
+    },
+    {
+      "theme": null,
+      "text": "0 critical hotspots need national-level review this month."
+    }
+  ],
+  "themes": [
+    {
+      "id": "air",
+      "label": "Clean air",
+      "sector": "environment",
+      "icon": "wind",
+      "color": "#14b8a6",
+      "priorityCount": 8,
+      "priorityCountries": [
+        {
+          "iso3": "IND",
+          "name": "India",
+          "score": 100
+        },
+        {
+          "iso3": "ARE",
+          "name": "United Arab Emirates",
+          "score": 100
+        },
+        {
+          "iso3": "EGY",
+          "name": "Egypt",
+          "score": 85
+        },
+        {
+          "iso3": "IRN",
+          "name": "Iran",
+          "score": 78
+        },
+        {
+          "iso3": "CHN",
+          "name": "China",
+          "score": 60
+        },
+        {
+          "iso3": "ZAF",
+          "name": "South Africa",
+          "score": 50
+        },
+        {
+          "iso3": "ETH",
+          "name": "Ethiopia",
+          "score": 42
+        },
+        {
+          "iso3": "IDN",
+          "name": "Indonesia",
+          "score": 35
+        }
+      ],
+      "scores": {
+        "IND": 100,
+        "ARE": 100,
+        "EGY": 85,
+        "IRN": 78,
+        "CHN": 60,
+        "ZAF": 50,
+        "ETH": 42,
+        "IDN": 35,
+        "BRA": 19,
+        "RUS": 15
+      }
+    },
+    {
+      "id": "energy",
+      "label": "Clean energy",
+      "sector": "energy",
+      "icon": "leaf",
+      "color": "#22c55e",
+      "priorityCount": 8,
+      "priorityCountries": [
+        {
+          "iso3": "ZAF",
+          "name": "South Africa",
+          "score": 53
+        },
+        {
+          "iso3": "ETH",
+          "name": "Ethiopia",
+          "score": 50
+        },
+        {
+          "iso3": "IRN",
+          "name": "Iran",
+          "score": 49
+        },
+        {
+          "iso3": "ARE",
+          "name": "United Arab Emirates",
+          "score": 49
+        },
+        {
+          "iso3": "RUS",
+          "name": "Russia",
+          "score": 47
+        },
+        {
+          "iso3": "EGY",
+          "name": "Egypt",
+          "score": 44
+        },
+        {
+          "iso3": "CHN",
+          "name": "China",
+          "score": 35
+        },
+        {
+          "iso3": "IDN",
+          "name": "Indonesia",
+          "score": 30
+        }
+      ],
+      "scores": {
+        "ZAF": 53,
+        "ETH": 50,
+        "IRN": 49,
+        "ARE": 49,
+        "RUS": 47,
+        "EGY": 44,
+        "CHN": 35,
+        "IDN": 30,
+        "IND": 15,
+        "BRA": 4
+      }
+    },
+    {
+      "id": "digital",
+      "label": "Digital connectivity",
+      "sector": "digital",
+      "icon": "wifi",
+      "color": "#8b5cf6",
+      "priorityCount": 7,
+      "priorityCountries": [
+        {
+          "iso3": "ETH",
+          "name": "Ethiopia",
+          "score": 100
+        },
+        {
+          "iso3": "IND",
+          "name": "India",
+          "score": 75
+        },
+        {
+          "iso3": "IDN",
+          "name": "Indonesia",
+          "score": 68
+        },
+        {
+          "iso3": "EGY",
+          "name": "Egypt",
+          "score": 63
+        },
+        {
+          "iso3": "ZAF",
+          "name": "South Africa",
+          "score": 54
+        },
+        {
+          "iso3": "BRA",
+          "name": "Brazil",
+          "score": 39
+        },
+        {
+          "iso3": "IRN",
+          "name": "Iran",
+          "score": 37
+        }
+      ],
+      "scores": {
+        "ETH": 100,
+        "IND": 75,
+        "IDN": 68,
+        "EGY": 63,
+        "ZAF": 54,
+        "BRA": 39,
+        "IRN": 37,
+        "CHN": 21,
+        "RUS": 14,
+        "ARE": 0
+      }
+    },
+    {
+      "id": "health",
+      "label": "Healthcare access",
+      "sector": "health",
+      "icon": "heart",
+      "color": "#ef4444",
+      "priorityCount": 7,
+      "priorityCountries": [
+        {
+          "iso3": "ETH",
+          "name": "Ethiopia",
+          "score": 98
+        },
+        {
+          "iso3": "ZAF",
+          "name": "South Africa",
+          "score": 81
+        },
+        {
+          "iso3": "IND",
+          "name": "India",
+          "score": 71
+        },
+        {
+          "iso3": "EGY",
+          "name": "Egypt",
+          "score": 67
+        },
+        {
+          "iso3": "IDN",
+          "name": "Indonesia",
+          "score": 63
+        },
+        {
+          "iso3": "IRN",
+          "name": "Iran",
+          "score": 34
+        },
+        {
+          "iso3": "BRA",
+          "name": "Brazil",
+          "score": 28
+        }
+      ],
+      "scores": {
+        "ETH": 98,
+        "ZAF": 81,
+        "IND": 71,
+        "EGY": 67,
+        "IDN": 63,
+        "IRN": 34,
+        "BRA": 28,
+        "RUS": 7,
+        "CHN": 7,
+        "ARE": 6
+      }
+    },
+    {
+      "id": "transport",
+      "label": "Transport & logistics",
+      "sector": "transport",
+      "icon": "bus",
+      "color": "#f97316",
+      "priorityCount": 7,
+      "priorityCountries": [
+        {
+          "iso3": "ETH",
+          "name": "Ethiopia",
+          "score": 94
+        },
+        {
+          "iso3": "IRN",
+          "name": "Iran",
+          "score": 80
+        },
+        {
+          "iso3": "RUS",
+          "name": "Russia",
+          "score": 65
+        },
+        {
+          "iso3": "IDN",
+          "name": "Indonesia",
+          "score": 55
+        },
+        {
+          "iso3": "EGY",
+          "name": "Egypt",
+          "score": 50
+        },
+        {
+          "iso3": "BRA",
+          "name": "Brazil",
+          "score": 40
+        },
+        {
+          "iso3": "IND",
+          "name": "India",
+          "score": 40
+        }
+      ],
+      "scores": {
+        "ETH": 94,
+        "IRN": 80,
+        "RUS": 65,
+        "IDN": 55,
+        "EGY": 50,
+        "BRA": 40,
+        "IND": 40,
+        "ZAF": 20,
+        "CHN": 0,
+        "ARE": 0
+      }
+    },
+    {
+      "id": "jobs",
+      "label": "Job opportunities",
+      "sector": "social",
+      "icon": "briefcase",
+      "color": "#ec4899",
+      "priorityCount": 6,
+      "priorityCountries": [
+        {
+          "iso3": "ZAF",
+          "name": "South Africa",
+          "score": 100
+        },
+        {
+          "iso3": "IRN",
+          "name": "Iran",
+          "score": 55
+        },
+        {
+          "iso3": "EGY",
+          "name": "Egypt",
+          "score": 45
+        },
+        {
+          "iso3": "BRA",
+          "name": "Brazil",
+          "score": 40
+        },
+        {
+          "iso3": "CHN",
+          "name": "China",
+          "score": 31
+        },
+        {
+          "iso3": "IND",
+          "name": "India",
+          "score": 28
+        }
+      ],
+      "scores": {
+        "ZAF": 100,
+        "IRN": 55,
+        "EGY": 45,
+        "BRA": 40,
+        "CHN": 31,
+        "IND": 28,
+        "ETH": 22,
+        "IDN": 22,
+        "RUS": 14,
+        "ARE": 14
+      }
+    },
+    {
+      "id": "water",
+      "label": "Water security",
+      "sector": "water",
+      "icon": "droplet",
+      "color": "#3b82f6",
+      "priorityCount": 4,
+      "priorityCountries": [
+        {
+          "iso3": "ETH",
+          "name": "Ethiopia",
+          "score": 100
+        },
+        {
+          "iso3": "ZAF",
+          "name": "South Africa",
+          "score": 41
+        },
+        {
+          "iso3": "IDN",
+          "name": "Indonesia",
+          "score": 28
+        },
+        {
+          "iso3": "IND",
+          "name": "India",
+          "score": 26
+        }
+      ],
+      "scores": {
+        "ETH": 100,
+        "ZAF": 41,
+        "IDN": 28,
+        "IND": 26,
+        "IRN": 15,
+        "RUS": 14,
+        "BRA": 9,
+        "CHN": 8,
+        "EGY": 7,
+        "ARE": 1
+      }
+    },
+    {
+      "id": "education",
+      "label": "Education access",
+      "sector": "education",
+      "icon": "graduation",
+      "color": "#eab308",
+      "priorityCount": 4,
+      "priorityCountries": [
+        {
+          "iso3": "ETH",
+          "name": "Ethiopia",
+          "score": 99
+        },
+        {
+          "iso3": "IND",
+          "name": "India",
+          "score": 48
+        },
+        {
+          "iso3": "EGY",
+          "name": "Egypt",
+          "score": 41
+        },
+        {
+          "iso3": "IRN",
+          "name": "Iran",
+          "score": 29
+        }
+      ],
+      "scores": {
+        "ETH": 99,
+        "IND": 48,
+        "EGY": 41,
+        "IRN": 29,
+        "CHN": 12,
+        "ZAF": 11,
+        "RUS": 8,
+        "IDN": 8,
+        "BRA": 7,
+        "ARE": 1
+      }
+    }
+  ],
+  "risks": [],
+  "snapshots": [
+    {
+      "iso3": "BRA",
+      "iso2": "BR",
+      "name": "Brazil",
+      "top": [
+        {
+          "theme": "transport",
+          "label": "Transport & logistics",
+          "score": 40,
+          "tier": "moderate"
+        },
+        {
+          "theme": "jobs",
+          "label": "Job opportunities",
+          "score": 40,
+          "tier": "moderate"
+        },
+        {
+          "theme": "digital",
+          "label": "Digital connectivity",
+          "score": 39,
+          "tier": "moderate"
+        }
+      ]
+    },
+    {
+      "iso3": "RUS",
+      "iso2": "RU",
+      "name": "Russia",
+      "top": [
+        {
+          "theme": "transport",
+          "label": "Transport & logistics",
+          "score": 65,
+          "tier": "high"
+        },
+        {
+          "theme": "energy",
+          "label": "Clean energy",
+          "score": 47,
+          "tier": "high"
+        },
+        {
+          "theme": "air",
+          "label": "Clean air",
+          "score": 15,
+          "tier": "low"
+        }
+      ]
+    },
+    {
+      "iso3": "IND",
+      "iso2": "IN",
+      "name": "India",
+      "top": [
+        {
+          "theme": "air",
+          "label": "Clean air",
+          "score": 100,
+          "tier": "critical"
+        },
+        {
+          "theme": "digital",
+          "label": "Digital connectivity",
+          "score": 75,
+          "tier": "critical"
+        },
+        {
+          "theme": "health",
+          "label": "Healthcare access",
+          "score": 71,
+          "tier": "critical"
+        }
+      ]
+    },
+    {
+      "iso3": "CHN",
+      "iso2": "CN",
+      "name": "China",
+      "top": [
+        {
+          "theme": "air",
+          "label": "Clean air",
+          "score": 60,
+          "tier": "high"
+        },
+        {
+          "theme": "energy",
+          "label": "Clean energy",
+          "score": 35,
+          "tier": "moderate"
+        },
+        {
+          "theme": "jobs",
+          "label": "Job opportunities",
+          "score": 31,
+          "tier": "moderate"
+        }
+      ]
+    },
+    {
+      "iso3": "ZAF",
+      "iso2": "ZA",
+      "name": "South Africa",
+      "top": [
+        {
+          "theme": "jobs",
+          "label": "Job opportunities",
+          "score": 100,
+          "tier": "critical"
+        },
+        {
+          "theme": "health",
+          "label": "Healthcare access",
+          "score": 81,
+          "tier": "critical"
+        },
+        {
+          "theme": "digital",
+          "label": "Digital connectivity",
+          "score": 54,
+          "tier": "high"
+        }
+      ]
+    },
+    {
+      "iso3": "EGY",
+      "iso2": "EG",
+      "name": "Egypt",
+      "top": [
+        {
+          "theme": "air",
+          "label": "Clean air",
+          "score": 85,
+          "tier": "critical"
+        },
+        {
+          "theme": "health",
+          "label": "Healthcare access",
+          "score": 67,
+          "tier": "high"
+        },
+        {
+          "theme": "digital",
+          "label": "Digital connectivity",
+          "score": 63,
+          "tier": "high"
+        }
+      ]
+    },
+    {
+      "iso3": "ETH",
+      "iso2": "ET",
+      "name": "Ethiopia",
+      "top": [
+        {
+          "theme": "water",
+          "label": "Water security",
+          "score": 100,
+          "tier": "critical"
+        },
+        {
+          "theme": "digital",
+          "label": "Digital connectivity",
+          "score": 100,
+          "tier": "critical"
+        },
+        {
+          "theme": "education",
+          "label": "Education access",
+          "score": 99,
+          "tier": "critical"
+        }
+      ]
+    },
+    {
+      "iso3": "IRN",
+      "iso2": "IR",
+      "name": "Iran",
+      "top": [
+        {
+          "theme": "transport",
+          "label": "Transport & logistics",
+          "score": 80,
+          "tier": "critical"
+        },
+        {
+          "theme": "air",
+          "label": "Clean air",
+          "score": 78,
+          "tier": "critical"
+        },
+        {
+          "theme": "jobs",
+          "label": "Job opportunities",
+          "score": 55,
+          "tier": "high"
+        }
+      ]
+    },
+    {
+      "iso3": "ARE",
+      "iso2": "AE",
+      "name": "United Arab Emirates",
+      "top": [
+        {
+          "theme": "air",
+          "label": "Clean air",
+          "score": 100,
+          "tier": "critical"
+        },
+        {
+          "theme": "energy",
+          "label": "Clean energy",
+          "score": 49,
+          "tier": "high"
+        },
+        {
+          "theme": "jobs",
+          "label": "Job opportunities",
+          "score": 14,
+          "tier": "low"
+        }
+      ]
+    },
+    {
+      "iso3": "IDN",
+      "iso2": "ID",
+      "name": "Indonesia",
+      "top": [
+        {
+          "theme": "digital",
+          "label": "Digital connectivity",
+          "score": 68,
+          "tier": "high"
+        },
+        {
+          "theme": "health",
+          "label": "Healthcare access",
+          "score": 63,
+          "tier": "high"
+        },
+        {
+          "theme": "transport",
+          "label": "Transport & logistics",
+          "score": 55,
+          "tier": "high"
+        }
+      ]
+    }
+  ],
+  "cooperation": {
+    "shared": [
+      {
+        "kind": "shared",
+        "theme": "air",
+        "label": "Clean air",
+        "icon": "wind",
+        "color": "#14b8a6",
+        "countries": [
+          "IND",
+          "ARE",
+          "EGY"
+        ],
+        "detail": "8 members rank this a priority"
+      },
+      {
+        "kind": "shared",
+        "theme": "energy",
+        "label": "Clean energy",
+        "icon": "leaf",
+        "color": "#22c55e",
+        "countries": [
+          "ZAF",
+          "ETH",
+          "IRN"
+        ],
+        "detail": "8 members rank this a priority"
+      },
+      {
+        "kind": "shared",
+        "theme": "digital",
+        "label": "Digital connectivity",
+        "icon": "wifi",
+        "color": "#8b5cf6",
+        "countries": [
+          "ETH",
+          "IND",
+          "IDN"
+        ],
+        "detail": "7 members rank this a priority"
+      }
+    ],
+    "exchanges": [
+      {
+        "kind": "exchange",
+        "theme": "air",
+        "label": "Clean air",
+        "icon": "wind",
+        "color": "#14b8a6",
+        "mentors": [
+          "RUS",
+          "BRA"
+        ],
+        "learners": [
+          "IND",
+          "ARE"
+        ],
+        "detail": "Russia & Brazil improved on PM2.5 exposure fastest since 2010"
+      },
+      {
+        "kind": "exchange",
+        "theme": "digital",
+        "label": "Digital connectivity",
+        "icon": "wifi",
+        "color": "#8b5cf6",
+        "mentors": [
+          "CHN",
+          "RUS"
+        ],
+        "learners": [
+          "ETH",
+          "IND"
+        ],
+        "detail": "China & Russia improved on Internet users fastest since 2010"
+      },
+      {
+        "kind": "exchange",
+        "theme": "health",
+        "label": "Healthcare access",
+        "icon": "heart",
+        "color": "#ef4444",
+        "mentors": [
+          "CHN",
+          "RUS"
+        ],
+        "learners": [
+          "ETH",
+          "ZAF"
+        ],
+        "detail": "China & Russia improved on Under-5 mortality fastest since 2010"
+      },
+      {
+        "kind": "exchange",
+        "theme": "transport",
+        "label": "Transport & logistics",
+        "icon": "bus",
+        "color": "#f97316",
+        "mentors": [
+          "CHN",
+          "ARE"
+        ],
+        "learners": [
+          "ETH",
+          "IRN"
+        ],
+        "detail": "China & United Arab Emirates improved on Infrastructure quality (LPI) fastest since 2010"
+      },
+      {
+        "kind": "exchange",
+        "theme": "jobs",
+        "label": "Job opportunities",
+        "icon": "briefcase",
+        "color": "#ec4899",
+        "mentors": [
+          "RUS",
+          "IDN"
+        ],
+        "learners": [
+          "ZAF",
+          "IRN"
+        ],
+        "detail": "Russia & Indonesia improved on Unemployment fastest since 2010"
+      },
+      {
+        "kind": "exchange",
+        "theme": "water",
+        "label": "Water security",
+        "icon": "droplet",
+        "color": "#3b82f6",
+        "mentors": [
+          "CHN",
+          "BRA"
+        ],
+        "learners": [
+          "ETH",
+          "ZAF"
+        ],
+        "detail": "China & Brazil improved on Basic drinking water fastest since 2010"
+      },
+      {
+        "kind": "exchange",
+        "theme": "education",
+        "label": "Education access",
+        "icon": "graduation",
+        "color": "#eab308",
+        "mentors": [
+          "BRA",
+          "IDN"
+        ],
+        "learners": [
+          "ETH",
+          "IND"
+        ],
+        "detail": "Brazil & Indonesia improved on Adult literacy fastest since 2010"
+      }
+    ]
+  },
+  "alignment": [
+    {
+      "sector": "water",
+      "demandShare": 0,
+      "investmentShare": 0.12434901008151804,
+      "status": "aligned"
+    },
+    {
+      "sector": "energy",
+      "demandShare": 0,
+      "investmentShare": 0.4370388327501831,
+      "status": "aligned"
+    },
+    {
+      "sector": "transport",
+      "demandShare": 0,
+      "investmentShare": 0.40953177692897763,
+      "status": "aligned"
+    },
+    {
+      "sector": "digital",
+      "demandShare": 0,
+      "investmentShare": 0.02908038023932118,
+      "status": "review"
+    }
+  ],
+  "confidence": [
+    {
+      "id": "feedback",
+      "label": "Citizen feedback",
+      "value": 0.1,
+      "note": "Members publishing open record-level citizen requests"
+    },
+    {
+      "id": "infra",
+      "label": "Infrastructure indicators",
+      "value": 0.9333333333333333,
+      "note": "Observed in the last 5 years"
+    },
+    {
+      "id": "investment",
+      "label": "Public investment data",
+      "value": 0.725,
+      "note": "PPI commitments and capital formation, last 5 years"
+    },
+    {
+      "id": "demo",
+      "label": "Demographic & socio-economic",
+      "value": 0.9833333333333333,
+      "note": "Observed in the last 5 years"
+    }
+  ]
+}

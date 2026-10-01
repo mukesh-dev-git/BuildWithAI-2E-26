@@ -1,0 +1,7218 @@
+{
+  "r": 0.33048972784087166,
+  "bounds": {
+    "lonMin": 94.56402054431825,
+    "lonMax": 141.67997945568175,
+    "latMin": -11.584979455681744,
+    "latMax": 6.511979455681743
+  },
+  "regionNames": {
+    "BRA-roraima": "Roraima",
+    "BRA-amapa": "Amapa",
+    "BRA-amazonas": "Amazonas",
+    "BRA-para": "Para",
+    "BRA-maranhao": "Maranhao",
+    "BRA-ceara": "Ceara",
+    "BRA-rio-grande-do-norte": "Rio Grande do Norte",
+    "BRA-paraiba": "Paraiba",
+    "BRA-piaui": "Piaui",
+    "BRA-pernambuco": "Pernambuco",
+    "BRA-alagoas": "Alagoas",
+    "BRA-acre": "Acre",
+    "BRA-rondonia": "Rondonia",
+    "BRA-sergipe": "Sergipe",
+    "BRA-tocantins": "Tocantins",
+    "BRA-bahia": "Bahia",
+    "BRA-mato-grosso": "Mato Grosso",
+    "BRA-goias": "Goias",
+    "BRA-distrito-federal": "Distrito Federal",
+    "BRA-minas-gerais": "Minas Gerais",
+    "BRA-espirito-santo": "Espirito Santo",
+    "BRA-mato-grosso-do-sul": "Mato Grosso do Sul",
+    "BRA-rio-de-janeiro": "Rio de Janeiro",
+    "BRA-sao-paulo": "Sao Paulo",
+    "BRA-parana": "Parana",
+    "BRA-santa-catarina": "Santa Catarina",
+    "BRA-rio-grande-do-sul": "Rio Grande do Sul",
+    "RUS-altai-krai": "Altai Krai",
+    "RUS-republic-of-mordovia": "Republic of Mordovia",
+    "RUS-tula-oblast": "Tula Oblast",
+    "RUS-kurgan-oblast": "Kurgan Oblast",
+    "RUS-ingushetia": "Ingushetia",
+    "RUS-khanty-mansiysk-autonomous-okrug-ugra": "Khanty-Mansiysk Autonomous Okrug – Ugra",
+    "RUS-kirov-oblast": "Kirov Oblast",
+    "RUS-komi-republic": "Komi Republic",
+    "RUS-kostroma-oblast": "Kostroma Oblast",
+    "RUS-krasnoyarsk-krai": "Krasnoyarsk Krai",
+    "RUS-zabaykalsky-krai": "Zabaykalsky Krai",
+    "RUS-sverdlovsk-oblast": "Sverdlovsk Oblast",
+    "RUS-volgograd-oblast": "Volgograd Oblast",
+    "RUS-irkutsk-oblast": "Irkutsk Oblast",
+    "RUS-perm-krai": "Perm Krai",
+    "RUS-pskov-oblast": "Pskov Oblast",
+    "RUS-rostov-oblast": "Rostov Oblast",
+    "RUS-ryazan-oblast": "Ryazan Oblast",
+    "RUS-adygea": "Adygea",
+    "RUS-samara-oblast": "Samara Oblast",
+    "RUS-khakassia": "Khakassia",
+    "RUS-tambov-oblast": "Tambov Oblast",
+    "RUS-tatarstan": "Tatarstan",
+    "RUS-tomsk-oblast": "Tomsk Oblast",
+    "RUS-nizhny-novgorod-oblast": "Nizhny Novgorod Oblast",
+    "RUS-republic-of-karelia": "Republic of Karelia",
+    "RUS-arkhangelsk-oblast": "Arkhangelsk Oblast",
+    "RUS-astrakhan-oblast": "Astrakhan Oblast",
+    "RUS-belgorod-oblast": "Belgorod Oblast",
+    "RUS-bryansk-oblast": "Bryansk Oblast",
+    "RUS-buryatia": "Buryatia",
+    "RUS-chechnya": "Chechnya",
+    "RUS-chelyabinsk-oblast": "Chelyabinsk Oblast",
+    "RUS-chuvashia": "Chuvashia",
+    "RUS-tyumen-oblast": "Tyumen Oblast",
+    "RUS-north-ossetia-alania": "North Ossetia–Alania",
+    "RUS-penza-oblast": "Penza Oblast",
+    "RUS-amur-oblast": "Amur Oblast",
+    "RUS-kabardino-balkaria": "Kabardino-Balkaria",
+    "RUS-krasnodar-krai": "Krasnodar Krai",
+    "RUS-kursk-oblast": "Kursk Oblast",
+    "RUS-leningrad-oblast": "Leningrad oblast",
+    "RUS-mari-el": "Mari El",
+    "RUS-moscow": "Moscow",
+    "RUS-moscow-oblast": "Moscow Oblast",
+    "RUS-murmansk-oblast": "Murmansk Oblast",
+    "RUS-nenets-autonomous-okrug": "Nenets Autonomous Okrug",
+    "RUS-novgorod-oblast": "Novgorod Oblast",
+    "RUS-novosibirsk-oblast": "Novosibirsk Oblast",
+    "RUS-omsk-oblast": "Omsk Oblast",
+    "RUS-oryol-oblast": "Oryol Oblast",
+    "RUS-saint-petersburg": "Saint Petersburg",
+    "RUS-sakhalin-oblast": "Sakhalin Oblast",
+    "RUS-sakha-republic": "Sakha Republic",
+    "RUS-saratov-oblast": "Saratov Oblast",
+    "RUS-smolensk-oblast": "Smolensk Oblast",
+    "RUS-stavropol-krai": "Stavropol Krai",
+    "RUS-tuva": "Tuva",
+    "RUS-tver-oblast": "Tver Oblast",
+    "RUS-udmurtia": "Udmurtia",
+    "RUS-kaluga-oblast": "Kaluga Oblast",
+    "RUS-lipetsk-oblast": "Lipetsk Oblast",
+    "RUS-magadan-oblast": "Magadan Oblast",
+    "RUS-ulyanovsk-oblast": "Ulyanovsk Oblast",
+    "RUS-vladimir-oblast": "Vladimir Oblast",
+    "RUS-vologda-oblast": "Vologda Oblast",
+    "RUS-yaroslavl-oblast": "Yaroslavl Oblast",
+    "RUS-voronezh-oblast": "Voronezh Oblast",
+    "RUS-yamalo-nenets-autonomous-okrug": "Yamalo-Nenets Autonomous Okrug",
+    "RUS-altai-republic": "Altai Republic",
+    "RUS-ivanovo-oblast": "Ivanovo Oblast",
+    "RUS-jewish-autonomous-oblast": "Jewish Autonomous Oblast",
+    "RUS-kalmykia": "Kalmykia",
+    "RUS-kamchatka-krai": "Kamchatka Krai",
+    "RUS-karachay-cherkessia": "Karachay-Cherkessia",
+    "RUS-kemerovo-oblast": "Kemerovo Oblast",
+    "RUS-khabarovsk-krai": "Khabarovsk Krai",
+    "RUS-chukotka-autonomous-okrug": "Chukotka Autonomous Okrug",
+    "RUS-dagestan": "Dagestan",
+    "RUS-kaliningrad": "Kaliningrad",
+    "RUS-orenburg-oblast": "Orenburg Oblast",
+    "RUS-primorsky-krai": "Primorsky Krai",
+    "RUS-bashkortostan": "Bashkortostan",
+    "IND-puducherry": "Puducherry",
+    "IND-maharashtra": "Mahārāshtra",
+    "IND-nagaland": "Nāgāland",
+    "IND-lakshadweep": "Lakshadweep",
+    "IND-uttar-pradesh": "Uttar Pradesh",
+    "IND-tamil-nadu": "Tamil Nādu",
+    "IND-chhattisgarh": "Chhattīsgarh",
+    "IND-gujarat": "Gujarāt",
+    "IND-delhi": "Delhi",
+    "IND-sikkim": "Sikkim",
+    "IND-tripura": "Tripura",
+    "IND-west-bengal": "West Bengal",
+    "IND-odisha": "Odisha",
+    "IND-bihar": "Bihār",
+    "IND-ladakh": "Ladākh",
+    "IND-rajasthan": "Rājasthān",
+    "IND-telangana": "Telangāna",
+    "IND-andhra-pradesh": "Andhra Pradesh",
+    "IND-mizoram": "Mizoram",
+    "IND-arunachal-pradesh": "Arunāchal Pradesh",
+    "IND-meghalaya": "Meghālaya",
+    "IND-jharkhand": "Jhārkhand",
+    "IND-assam": "Assam",
+    "IND-manipur": "Manipur",
+    "IND-karnataka": "Karnātaka",
+    "IND-uttarakhand": "Uttarākhand",
+    "IND-dadra-and-nagar-haveli-and-daman-and-diu": "Dādra and Nagar Haveli and Damān and Diu",
+    "IND-madhya-pradesh": "Madhya Pradesh",
+    "IND-goa": "Goa",
+    "IND-kerala": "Kerala",
+    "IND-chandigarh": "Chandīgarh",
+    "IND-andaman-and-nicobar-islands": "Andaman and Nicobar Islands",
+    "IND-himachal-pradesh": "Himāchal Pradesh",
+    "IND-jammu-and-kashmir": "Jammu and Kashmīr",
+    "IND-punjab": "Punjab",
+    "IND-haryana": "Haryāna",
+    "CHN-hainan-province": "Hainan Province",
+    "CHN-taiwan-province": "Taiwan Province",
+    "CHN-guangxi-zhuang-autonomous-region": "Guangxi Zhuang Autonomous Region",
+    "CHN-fujian-province": "Fujian Province",
+    "CHN-yunnan-province": "Yunnan Province",
+    "CHN-guizhou-province": "Guizhou Province",
+    "CHN-jiangxi-province": "Jiangxi Province",
+    "CHN-hunan-province": "Hunan Province",
+    "CHN-zhejiang-province": "Zhejiang Province",
+    "CHN-shanghai-municipality": "Shanghai Municipality",
+    "CHN-chongqing-municipality": "Chongqing Municipality",
+    "CHN-hubei-province": "Hubei Province",
+    "CHN-sichuan-province": "Sichuan Province",
+    "CHN-anhui-province": "Anhui Province",
+    "CHN-jiangsu-province": "Jiangsu Province",
+    "CHN-henan-province": "Henan Province",
+    "CHN-tibet-autonomous-region": "Tibet Autonomous Region",
+    "CHN-shandong-province": "Shandong Province",
+    "CHN-qinghai-province": "Qinghai Province",
+    "CHN-ningxia-ningxia-hui-autonomous-region": "Ningxia Ningxia Hui Autonomous Region",
+    "CHN-shaanxi-province": "Shaanxi Province",
+    "CHN-tianjin-municipality": "Tianjin Municipality",
+    "CHN-shanxi-province": "Shanxi Province",
+    "CHN-beijing-municipality": "Beijing Municipality",
+    "CHN-gansu-province": "Gansu Province",
+    "CHN-hebei-province": "Hebei Province",
+    "CHN-liaoning-province": "Liaoning Province",
+    "CHN-jilin-province": "Jilin Province",
+    "CHN-xinjiang-uyghur-autonomous-region": "Xinjiang Uyghur Autonomous Region",
+    "CHN-inner-mongolia-autonomous-region": "Inner Mongolia Autonomous Region",
+    "CHN-heilongjiang-province": "Heilongjiang Province",
+    "CHN-macau-special-administrative-region": "Macau Special Administrative Region",
+    "CHN-hong-kong-special-administrative-region": "Hong Kong Special Administrative Region",
+    "CHN-guangzhou-province": "Guangzhou Province",
+    "ZAF-eastern-cape": "Eastern Cape",
+    "ZAF-free-state": "Free State",
+    "ZAF-gauteng": "Gauteng",
+    "ZAF-kwazulu-natal": "KwaZulu-Natal",
+    "ZAF-limpopo": "Limpopo",
+    "ZAF-mpumalanga": "Mpumalanga",
+    "ZAF-north-west": "North West",
+    "ZAF-nothern-cape": "Nothern Cape",
+    "ZAF-western-cape": "Western Cape",
+    "EGY-north-sinai-governorate": "North Sinai Governorate",
+    "EGY-south-sinai-governorate": "South Sinai Governorate",
+    "EGY-aswan-governorate": "Aswan Governorate",
+    "EGY-red-sea-governorate": "Red Sea Governorate",
+    "EGY-matrouh-governorate": "Matrouh Governorate",
+    "EGY-new-valley-governorate": "New Valley Governorate",
+    "EGY-alexandria-governorate": "Alexandria Governorate",
+    "EGY-ismailia-governorate": "Ismailia Governorate",
+    "EGY-suez-governorate": "Suez Governorate",
+    "EGY-gharbiyya-governorate": "Gharbiyya Governorate",
+    "EGY-faiyum-governorate": "Faiyum Governorate",
+    "EGY-beni-suef-governorate": "Beni Suef Governorate",
+    "EGY-minya-governate": "Minya Governate",
+    "EGY-asyut-governorate": "Asyut Governorate",
+    "EGY-sohag-governorate": "Sohag Governorate",
+    "EGY-qena-governorate": "Qena Governorate",
+    "EGY-luxor-governate": "Luxor Governate",
+    "EGY-giza-governorate": "Giza Governorate",
+    "EGY-monufia-governorate": "Monufia Governorate",
+    "EGY-beheira-governorate": "Beheira Governorate",
+    "EGY-cairo-governorate": "Cairo Governorate",
+    "EGY-qalyubia-governorate": "Qalyubia Governorate",
+    "EGY-dakahlia-governorate": "Dakahlia Governorate",
+    "EGY-damietta-governorate": "Damietta Governorate",
+    "EGY-kafr-el-sheikh-governorate": "Kafr el-Sheikh Governorate",
+    "EGY-port-said-governorate": "Port Said Governorate",
+    "EGY-al-sharqia-governorate": "Al Sharqia Governorate",
+    "ETH-addis-ababa": "Addis Ababa",
+    "ETH-afar": "Afar",
+    "ETH-amhara": "Amhara",
+    "ETH-beneshangul-gumu": "Beneshangul Gumu",
+    "ETH-dire-dawa": "Dire Dawa",
+    "ETH-gambela": "Gambela",
+    "ETH-hareri": "Hareri",
+    "ETH-oromia": "Oromia",
+    "ETH-snnpr": "SNNPR",
+    "ETH-somali": "Somali",
+    "ETH-tigray": "Tigray",
+    "IRN-mazandaran": "Mazandaran",
+    "IRN-north-khorasan": "North Khorasan",
+    "IRN-kerman": "Kerman",
+    "IRN-ilam": "Ilam",
+    "IRN-lorestan": "Lorestan",
+    "IRN-markazi": "Markazi",
+    "IRN-chaharmahal-and-bakhtiari": "Chaharmahal and Bakhtiari",
+    "IRN-kermanshah": "Kermanshah",
+    "IRN-hamadan": "Hamadan",
+    "IRN-qazvin": "Qazvin",
+    "IRN-gilan": "Gilan",
+    "IRN-zanjan": "Zanjan",
+    "IRN-semnan": "Semnan",
+    "IRN-isfahan": "Isfahan",
+    "IRN-kohgiluyeh-and-boyer-ahmad": "Kohgiluyeh and Boyer-Ahmad",
+    "IRN-kurdistan": "Kurdistan",
+    "IRN-west-azerbaijan": "West Azerbaijan",
+    "IRN-fars": "Fars",
+    "IRN-bushehr": "Bushehr",
+    "IRN-ardabil": "Ardabil",
+    "IRN-golestan": "Golestan",
+    "IRN-razavi-khorasan": "Razavi Khorasan",
+    "IRN-south-khorasan": "South Khorasan",
+    "IRN-sistan-and-baluchestan": "Sistan and Baluchestan",
+    "IRN-qom": "Qom",
+    "IRN-alborz": "Alborz",
+    "IRN-east-azerbaijan": "East Azerbaijan",
+    "IRN-yazd": "Yazd",
+    "IRN-hormozgan": "Hormozgan",
+    "IRN-khuzestan": "Khuzestan",
+    "IRN-tehran": "Tehran",
+    "ARE-abu-dhabi": "Abu Dhabi",
+    "ARE-ajman": "Ajman",
+    "ARE-dubai": "Dubai",
+    "ARE-fujairah": "Fujairah",
+    "ARE-ras-al-khaimah": "Ras al-Khaimah",
+    "ARE-sharjah": "Sharjah",
+    "ARE-umm-al-quwain": "Umm al-Quwain",
+    "IDN-bali": "Bali",
+    "IDN-west-nusa-tenggara": "West Nusa Tenggara",
+    "IDN-banten": "Banten",
+    "IDN-central-java": "Central Java",
+    "IDN-west-java": "West Java",
+    "IDN-central-kalimantan": "Central Kalimantan",
+    "IDN-south-kalimantan": "South Kalimantan",
+    "IDN-west-kalimantan": "West Kalimantan",
+    "IDN-central-sulawesi": "Central Sulawesi",
+    "IDN-gorontalo": "Gorontalo",
+    "IDN-north-sulawesi": "North Sulawesi",
+    "IDN-south-sulawesi": "South Sulawesi",
+    "IDN-southeast-sulawesi": "Southeast Sulawesi",
+    "IDN-west-sulawesi": "West Sulawesi",
+    "IDN-aceh": "Aceh",
+    "IDN-bengkulu": "Bengkulu",
+    "IDN-jambi": "Jambi",
+    "IDN-lampung": "Lampung",
+    "IDN-riau": "Riau",
+    "IDN-west-sumatra": "West Sumatra",
+    "IDN-south-sumatra": "South Sumatra",
+    "IDN-north-sumatra": "North Sumatra",
+    "IDN-east-nusa-tenggara": "East Nusa Tenggara",
+    "IDN-maluku": "Maluku",
+    "IDN-north-maluku": "North Maluku",
+    "IDN-east-java": "East Java",
+    "IDN-bangka-belitung-islands": "Bangka-Belitung Islands",
+    "IDN-riau-islands": "Riau Islands",
+    "IDN-papua": "Papua",
+    "IDN-west-papua": "West Papua",
+    "IDN-east-kalimantan": "East Kalimantan",
+    "IDN-north-kalimantan": "North Kalimantan",
+    "IDN-special-region-of-yogyakarta": "Special Region of Yogyakarta",
+    "IDN-jakarta-special-capital-region": "Jakarta Special Capital Region"
+  },
+  "regionBest": {
+    "RUS-altai-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-republic-of-mordovia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tula-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kurgan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ingushetia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khanty-mansiysk-autonomous-okrug-ugra": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kirov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-komi-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kostroma-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-krasnoyarsk-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-zabaykalsky-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sverdlovsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-volgograd-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-irkutsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-perm-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-pskov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-rostov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ryazan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-adygea": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-samara-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khakassia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tambov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tatarstan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tomsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-nizhny-novgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-republic-of-karelia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-arkhangelsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-astrakhan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-belgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-bryansk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-buryatia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chechnya": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chelyabinsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chuvashia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tyumen-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-north-ossetia-alania": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-penza-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-amur-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kabardino-balkaria": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-krasnodar-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kursk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-leningrad-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-mari-el": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-moscow": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-moscow-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-murmansk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-nenets-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-novgorod-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-novosibirsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-omsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-oryol-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-saint-petersburg": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sakhalin-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-sakha-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-saratov-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-smolensk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-stavropol-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tuva": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-tver-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-udmurtia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kaluga-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-lipetsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-magadan-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ulyanovsk-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-vladimir-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-vologda-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-yaroslavl-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-voronezh-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-yamalo-nenets-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-altai-republic": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-ivanovo-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-jewish-autonomous-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kalmykia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kamchatka-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-karachay-cherkessia": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kemerovo-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-khabarovsk-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-chukotka-autonomous-okrug": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-dagestan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-kaliningrad": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-orenburg-oblast": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-primorsky-krai": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "RUS-bashkortostan": {
+      "score": 65,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IND-puducherry": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-maharashtra": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-nagaland": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-lakshadweep": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-uttar-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-tamil-nadu": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-chhattisgarh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-gujarat": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-delhi": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-sikkim": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-tripura": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-west-bengal": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-odisha": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-bihar": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "IND-ladakh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-rajasthan": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-telangana": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-andhra-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-mizoram": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-arunachal-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-meghalaya": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-jharkhand": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-assam": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-manipur": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-karnataka": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-uttarakhand": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-dadra-and-nagar-haveli-and-daman-and-diu": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-madhya-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-goa": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-kerala": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-chandigarh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-andaman-and-nicobar-islands": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-himachal-pradesh": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-jammu-and-kashmir": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-punjab": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IND-haryana": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hainan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-taiwan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guangxi-zhuang-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-fujian-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-yunnan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guizhou-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jiangxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hunan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-zhejiang-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shanghai-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-chongqing-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hubei-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-sichuan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-anhui-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jiangsu-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-henan-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-tibet-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shandong-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-qinghai-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-ningxia-ningxia-hui-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shaanxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-tianjin-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-shanxi-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-beijing-municipality": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-gansu-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hebei-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-liaoning-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-jilin-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-xinjiang-uyghur-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-inner-mongolia-autonomous-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-heilongjiang-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-macau-special-administrative-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-hong-kong-special-administrative-region": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "CHN-guangzhou-province": {
+      "score": 60,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ZAF-eastern-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-free-state": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-gauteng": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-kwazulu-natal": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-limpopo": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-mpumalanga": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-north-west": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-nothern-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "ZAF-western-cape": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "jobs"
+    },
+    "EGY-north-sinai-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-south-sinai-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-aswan-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-red-sea-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-matrouh-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-new-valley-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-alexandria-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-ismailia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-suez-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-gharbiyya-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-faiyum-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-beni-suef-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-minya-governate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-asyut-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-sohag-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-qena-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-luxor-governate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-giza-governorate": {
+      "score": 87,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "EGY-monufia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-beheira-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-cairo-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-qalyubia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-dakahlia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-damietta-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-kafr-el-sheikh-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-port-said-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "EGY-al-sharqia-governorate": {
+      "score": 85,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ETH-addis-ababa": {
+      "score": 94,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "ETH-afar": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "ETH-amhara": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "digital"
+    },
+    "ETH-beneshangul-gumu": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "ETH-dire-dawa": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "education"
+    },
+    "ETH-gambela": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-hareri": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-oromia": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "ETH-snnpr": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "ETH-somali": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "ETH-tigray": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "energy"
+    },
+    "IRN-mazandaran": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-north-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kerman": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-ilam": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-lorestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-markazi": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-chaharmahal-and-bakhtiari": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kermanshah": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-hamadan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-qazvin": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-gilan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-zanjan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-semnan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-isfahan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kohgiluyeh-and-boyer-ahmad": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-kurdistan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-west-azerbaijan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-fars": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-bushehr": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-ardabil": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-golestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-razavi-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-south-khorasan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-sistan-and-baluchestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-qom": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-alborz": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-east-azerbaijan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-yazd": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-hormozgan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-khuzestan": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IRN-tehran": {
+      "score": 80,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "ARE-abu-dhabi": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-ajman": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-dubai": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-fujairah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-ras-al-khaimah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-sharjah": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "ARE-umm-al-quwain": {
+      "score": 100,
+      "basis": "national-indicator",
+      "theme": "air"
+    },
+    "IDN-bali": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-west-nusa-tenggara": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-banten": {
+      "score": 84,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-central-java": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-west-java": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-central-kalimantan": {
+      "score": 80,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-kalimantan": {
+      "score": 57,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-west-kalimantan": {
+      "score": 61,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-central-sulawesi": {
+      "score": 74,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-gorontalo": {
+      "score": 75,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-sulawesi": {
+      "score": 57,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-sulawesi": {
+      "score": 59,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-southeast-sulawesi": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-sulawesi": {
+      "score": 82,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-aceh": {
+      "score": 79,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-bengkulu": {
+      "score": 88,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-jambi": {
+      "score": 63,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-lampung": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-riau": {
+      "score": 80,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-sumatra": {
+      "score": 73,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-south-sumatra": {
+      "score": 62,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-sumatra": {
+      "score": 72,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-nusa-tenggara": {
+      "score": 68,
+      "basis": "regional-survey",
+      "theme": "water"
+    },
+    "IDN-maluku": {
+      "score": 90,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-north-maluku": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-java": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-bangka-belitung-islands": {
+      "score": 68,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-riau-islands": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-papua": {
+      "score": 100,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-west-papua": {
+      "score": 90,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-east-kalimantan": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-north-kalimantan": {
+      "score": 55,
+      "basis": "national-indicator",
+      "theme": "transport"
+    },
+    "IDN-special-region-of-yogyakarta": {
+      "score": 66,
+      "basis": "regional-survey",
+      "theme": "health"
+    },
+    "IDN-jakarta-special-capital-region": {
+      "score": 55,
+      "basis": "regional-survey",
+      "theme": "health"
+    }
+  },
+  "cells": [
+    [
+      100.288,
+      6.512,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      100.861,
+      6.512,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      101.433,
+      6.512,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      116.889,
+      6.512,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      117.461,
+      6.512,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      124.33,
+      6.512,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      124.903,
+      6.512,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      125.475,
+      6.512,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      100.574,
+      6.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      101.147,
+      6.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      101.719,
+      6.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      102.292,
+      6.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      116.602,
+      6.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      117.175,
+      6.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      124.616,
+      6.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      125.189,
+      6.016,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.709,
+      5.521,
+      "IDN",
+      "IDN-aceh",
+      79,
+      "regional-survey"
+    ],
+    [
+      100.288,
+      5.521,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      100.861,
+      5.521,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      101.433,
+      5.521,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      102.006,
+      5.521,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      102.578,
+      5.521,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      115.744,
+      5.521,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      116.316,
+      5.521,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      116.889,
+      5.521,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      117.461,
+      5.521,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      118.033,
+      5.521,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      118.606,
+      5.521,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      95.423,
+      5.025,
+      "IDN",
+      "IDN-aceh",
+      79,
+      "regional-survey"
+    ],
+    [
+      95.995,
+      5.025,
+      "IDN",
+      "IDN-aceh",
+      79,
+      "regional-survey"
+    ],
+    [
+      96.568,
+      5.025,
+      "IDN",
+      "IDN-aceh",
+      79,
+      "regional-survey"
+    ],
+    [
+      97.14,
+      5.025,
+      "IDN",
+      "IDN-aceh",
+      79,
+      "regional-survey"
+    ],
+    [
+      100.574,
+      5.025,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      101.147,
+      5.025,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      101.719,
+      5.025,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      102.292,
+      5.025,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      102.864,
+      5.025,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      114.885,
+      5.025,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      115.458,
+      5.025,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      116.03,
+      5.025,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      116.602,
+      5.025,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      117.175,
+      5.025,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      117.747,
+      5.025,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      118.32,
+      5.025,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      118.892,
+      5.025,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.281,
+      4.529,
+      "IDN",
+      "IDN-aceh",
+      79,
+      "regional-survey"
+    ],
+    [
+      96.854,
+      4.529,
+      "IDN",
+      "IDN-aceh",
+      79,
+      "regional-survey"
+    ],
+    [
+      97.426,
+      4.529,
+      "IDN",
+      "IDN-aceh",
+      79,
+      "regional-survey"
+    ],
+    [
+      97.999,
+      4.529,
+      "IDN",
+      "IDN-aceh",
+      79,
+      "regional-survey"
+    ],
+    [
+      100.861,
+      4.529,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      101.433,
+      4.529,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      102.006,
+      4.529,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      102.578,
+      4.529,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      103.15,
+      4.529,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      114.599,
+      4.529,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      115.171,
+      4.529,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      115.744,
+      4.529,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      116.316,
+      4.529,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      116.889,
+      4.529,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      117.461,
+      4.529,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      118.033,
+      4.529,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      96.568,
+      4.033,
+      "IDN",
+      "IDN-aceh",
+      79,
+      "regional-survey"
+    ],
+    [
+      97.14,
+      4.033,
+      "IDN",
+      "IDN-aceh",
+      79,
+      "regional-survey"
+    ],
+    [
+      97.712,
+      4.033,
+      "IDN",
+      "IDN-aceh",
+      79,
+      "regional-survey"
+    ],
+    [
+      98.285,
+      4.033,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      101.147,
+      4.033,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      101.719,
+      4.033,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      102.292,
+      4.033,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      102.864,
+      4.033,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      114.313,
+      4.033,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      114.885,
+      4.033,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      115.458,
+      4.033,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      116.03,
+      4.033,
+      "IDN",
+      "IDN-north-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.602,
+      4.033,
+      "IDN",
+      "IDN-north-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      117.175,
+      4.033,
+      "IDN",
+      "IDN-north-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      117.747,
+      4.033,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.426,
+      3.538,
+      "IDN",
+      "IDN-aceh",
+      79,
+      "regional-survey"
+    ],
+    [
+      97.999,
+      3.538,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      98.571,
+      3.538,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      99.143,
+      3.538,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      101.433,
+      3.538,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      102.006,
+      3.538,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      102.578,
+      3.538,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      103.15,
+      3.538,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      113.454,
+      3.538,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      114.026,
+      3.538,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      114.599,
+      3.538,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      115.171,
+      3.538,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      115.744,
+      3.538,
+      "IDN",
+      "IDN-north-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.316,
+      3.538,
+      "IDN",
+      "IDN-north-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.889,
+      3.538,
+      "IDN",
+      "IDN-north-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      117.461,
+      3.538,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.712,
+      3.042,
+      "IDN",
+      "IDN-aceh",
+      79,
+      "regional-survey"
+    ],
+    [
+      98.285,
+      3.042,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      98.857,
+      3.042,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      99.43,
+      3.042,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      101.719,
+      3.042,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      102.292,
+      3.042,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      102.864,
+      3.042,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      103.437,
+      3.042,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      113.168,
+      3.042,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      113.74,
+      3.042,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      114.313,
+      3.042,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      114.885,
+      3.042,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      115.458,
+      3.042,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      116.03,
+      3.042,
+      "IDN",
+      "IDN-north-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.602,
+      3.042,
+      "IDN",
+      "IDN-north-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      117.175,
+      3.042,
+      "IDN",
+      "IDN-north-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      96.281,
+      2.546,
+      "IDN",
+      "IDN-aceh",
+      79,
+      "regional-survey"
+    ],
+    [
+      97.999,
+      2.546,
+      "IDN",
+      "IDN-aceh",
+      79,
+      "regional-survey"
+    ],
+    [
+      98.571,
+      2.546,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      99.143,
+      2.546,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      99.716,
+      2.546,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      100.288,
+      2.546,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      102.006,
+      2.546,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      102.578,
+      2.546,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      103.15,
+      2.546,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      103.723,
+      2.546,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      111.737,
+      2.546,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      112.309,
+      2.546,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      112.882,
+      2.546,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      113.454,
+      2.546,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      114.026,
+      2.546,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      114.599,
+      2.546,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      115.171,
+      2.546,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      115.744,
+      2.546,
+      "IDN",
+      "IDN-north-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.316,
+      2.546,
+      "IDN",
+      "IDN-north-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.889,
+      2.546,
+      "IDN",
+      "IDN-north-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      117.461,
+      2.546,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      98.285,
+      2.05,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      98.857,
+      2.05,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      99.43,
+      2.05,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      100.002,
+      2.05,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      100.574,
+      2.05,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      101.147,
+      2.05,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      101.719,
+      2.05,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      102.864,
+      2.05,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      103.437,
+      2.05,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      104.009,
+      2.05,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      111.451,
+      2.05,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      112.023,
+      2.05,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      112.595,
+      2.05,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      113.168,
+      2.05,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      113.74,
+      2.05,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      114.313,
+      2.05,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      114.885,
+      2.05,
+      "IDN",
+      "IDN-north-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      115.458,
+      2.05,
+      "IDN",
+      "IDN-north-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.03,
+      2.05,
+      "IDN",
+      "IDN-north-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.602,
+      2.05,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      117.175,
+      2.05,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      117.747,
+      2.05,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      99.143,
+      1.555,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      99.716,
+      1.555,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      100.288,
+      1.555,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      100.861,
+      1.555,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      101.433,
+      1.555,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      102.006,
+      1.555,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      103.15,
+      1.555,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      103.723,
+      1.555,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      109.447,
+      1.555,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      110.019,
+      1.555,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      110.592,
+      1.555,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      111.164,
+      1.555,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      111.737,
+      1.555,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      112.309,
+      1.555,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      112.882,
+      1.555,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      113.454,
+      1.555,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      114.026,
+      1.555,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      114.599,
+      1.555,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      115.171,
+      1.555,
+      "IDN",
+      "IDN-north-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      115.744,
+      1.555,
+      "IDN",
+      "IDN-north-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.316,
+      1.555,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.889,
+      1.555,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      117.461,
+      1.555,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      118.033,
+      1.555,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      124.903,
+      1.555,
+      "IDN",
+      "IDN-north-sulawesi",
+      57,
+      "regional-survey"
+    ],
+    [
+      127.765,
+      1.555,
+      "IDN",
+      "IDN-north-maluku",
+      100,
+      "regional-survey"
+    ],
+    [
+      128.337,
+      1.555,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      97.712,
+      1.059,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      99.43,
+      1.059,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      100.002,
+      1.059,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      100.574,
+      1.059,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      101.147,
+      1.059,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      101.719,
+      1.059,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      102.292,
+      1.059,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      102.864,
+      1.059,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      104.009,
+      1.059,
+      "IDN",
+      "IDN-riau-islands",
+      55,
+      "national-indicator"
+    ],
+    [
+      104.581,
+      1.059,
+      "IDN",
+      "IDN-riau-islands",
+      55,
+      "national-indicator"
+    ],
+    [
+      109.161,
+      1.059,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      109.733,
+      1.059,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      110.306,
+      1.059,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      110.878,
+      1.059,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      111.451,
+      1.059,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      112.023,
+      1.059,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      112.595,
+      1.059,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      113.168,
+      1.059,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      113.74,
+      1.059,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      114.313,
+      1.059,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      114.885,
+      1.059,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      115.458,
+      1.059,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.03,
+      1.059,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.602,
+      1.059,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      117.175,
+      1.059,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      117.747,
+      1.059,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      118.32,
+      1.059,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      118.892,
+      1.059,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      120.609,
+      1.059,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      121.182,
+      1.059,
+      "IDN",
+      "IDN-central-sulawesi",
+      74,
+      "regional-survey"
+    ],
+    [
+      121.754,
+      1.059,
+      "IDN",
+      "IDN-central-sulawesi",
+      74,
+      "regional-survey"
+    ],
+    [
+      124.616,
+      1.059,
+      "IDN",
+      "IDN-north-sulawesi",
+      57,
+      "regional-survey"
+    ],
+    [
+      127.478,
+      1.059,
+      "IDN",
+      "IDN-north-maluku",
+      100,
+      "regional-survey"
+    ],
+    [
+      128.051,
+      1.059,
+      "IDN",
+      "IDN-north-maluku",
+      100,
+      "regional-survey"
+    ],
+    [
+      128.623,
+      1.059,
+      "IDN",
+      "IDN-north-maluku",
+      100,
+      "regional-survey"
+    ],
+    [
+      99.143,
+      0.563,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      99.716,
+      0.563,
+      "IDN",
+      "IDN-north-sumatra",
+      72,
+      "regional-survey"
+    ],
+    [
+      100.288,
+      0.563,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      100.861,
+      0.563,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      101.433,
+      0.563,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      102.006,
+      0.563,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      102.578,
+      0.563,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      109.447,
+      0.563,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      110.019,
+      0.563,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      110.592,
+      0.563,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      111.164,
+      0.563,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      111.737,
+      0.563,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      112.309,
+      0.563,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      112.882,
+      0.563,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      113.454,
+      0.563,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      114.026,
+      0.563,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      114.599,
+      0.563,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      115.171,
+      0.563,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      115.744,
+      0.563,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.316,
+      0.563,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.889,
+      0.563,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      117.461,
+      0.563,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      120.323,
+      0.563,
+      "IDN",
+      "IDN-central-sulawesi",
+      74,
+      "regional-survey"
+    ],
+    [
+      120.896,
+      0.563,
+      "IDN",
+      "IDN-central-sulawesi",
+      74,
+      "regional-survey"
+    ],
+    [
+      121.468,
+      0.563,
+      "IDN",
+      "IDN-gorontalo",
+      75,
+      "regional-survey"
+    ],
+    [
+      122.04,
+      0.563,
+      "IDN",
+      "IDN-gorontalo",
+      75,
+      "regional-survey"
+    ],
+    [
+      122.613,
+      0.563,
+      "IDN",
+      "IDN-gorontalo",
+      75,
+      "regional-survey"
+    ],
+    [
+      123.185,
+      0.563,
+      "IDN",
+      "IDN-gorontalo",
+      75,
+      "regional-survey"
+    ],
+    [
+      123.758,
+      0.563,
+      "IDN",
+      "IDN-north-sulawesi",
+      57,
+      "regional-survey"
+    ],
+    [
+      124.33,
+      0.563,
+      "IDN",
+      "IDN-north-sulawesi",
+      57,
+      "regional-survey"
+    ],
+    [
+      127.765,
+      0.563,
+      "IDN",
+      "IDN-north-maluku",
+      100,
+      "regional-survey"
+    ],
+    [
+      128.337,
+      0.563,
+      "IDN",
+      "IDN-north-maluku",
+      100,
+      "regional-survey"
+    ],
+    [
+      99.43,
+      0.067,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      100.002,
+      0.067,
+      "IDN",
+      "IDN-west-sumatra",
+      73,
+      "regional-survey"
+    ],
+    [
+      100.574,
+      0.067,
+      "IDN",
+      "IDN-west-sumatra",
+      73,
+      "regional-survey"
+    ],
+    [
+      101.147,
+      0.067,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      101.719,
+      0.067,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      102.292,
+      0.067,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      102.864,
+      0.067,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      103.437,
+      0.067,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      109.161,
+      0.067,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      109.733,
+      0.067,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      110.306,
+      0.067,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      110.878,
+      0.067,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      111.451,
+      0.067,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      112.023,
+      0.067,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      112.595,
+      0.067,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      113.168,
+      0.067,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      113.74,
+      0.067,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      114.313,
+      0.067,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      114.885,
+      0.067,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      115.458,
+      0.067,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.03,
+      0.067,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.602,
+      0.067,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      117.175,
+      0.067,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      120.037,
+      0.067,
+      "IDN",
+      "IDN-central-sulawesi",
+      74,
+      "regional-survey"
+    ],
+    [
+      100.288,
+      -0.428,
+      "IDN",
+      "IDN-west-sumatra",
+      73,
+      "regional-survey"
+    ],
+    [
+      100.861,
+      -0.428,
+      "IDN",
+      "IDN-west-sumatra",
+      73,
+      "regional-survey"
+    ],
+    [
+      101.433,
+      -0.428,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      102.006,
+      -0.428,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      102.578,
+      -0.428,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      103.15,
+      -0.428,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      104.295,
+      -0.428,
+      "IDN",
+      "IDN-riau-islands",
+      55,
+      "national-indicator"
+    ],
+    [
+      109.447,
+      -0.428,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      110.019,
+      -0.428,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      110.592,
+      -0.428,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      111.164,
+      -0.428,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      111.737,
+      -0.428,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      112.309,
+      -0.428,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      112.882,
+      -0.428,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      113.454,
+      -0.428,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      114.026,
+      -0.428,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      114.599,
+      -0.428,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      115.171,
+      -0.428,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      115.744,
+      -0.428,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.316,
+      -0.428,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.889,
+      -0.428,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      117.461,
+      -0.428,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      119.751,
+      -0.428,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      127.192,
+      -0.428,
+      "IDN",
+      "IDN-north-maluku",
+      100,
+      "regional-survey"
+    ],
+    [
+      132.344,
+      -0.428,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      100.574,
+      -0.924,
+      "IDN",
+      "IDN-west-sumatra",
+      73,
+      "regional-survey"
+    ],
+    [
+      101.147,
+      -0.924,
+      "IDN",
+      "IDN-west-sumatra",
+      73,
+      "regional-survey"
+    ],
+    [
+      101.719,
+      -0.924,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      102.292,
+      -0.924,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      102.864,
+      -0.924,
+      "IDN",
+      "IDN-riau",
+      80,
+      "regional-survey"
+    ],
+    [
+      103.437,
+      -0.924,
+      "IDN",
+      "IDN-jambi",
+      63,
+      "regional-survey"
+    ],
+    [
+      109.733,
+      -0.924,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      110.306,
+      -0.924,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      110.878,
+      -0.924,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      111.451,
+      -0.924,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      112.023,
+      -0.924,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      112.595,
+      -0.924,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      113.168,
+      -0.924,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      113.74,
+      -0.924,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      114.313,
+      -0.924,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      114.885,
+      -0.924,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      115.458,
+      -0.924,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      116.03,
+      -0.924,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.602,
+      -0.924,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      117.175,
+      -0.924,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      120.037,
+      -0.924,
+      "IDN",
+      "IDN-central-sulawesi",
+      74,
+      "regional-survey"
+    ],
+    [
+      121.754,
+      -0.924,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      122.327,
+      -0.924,
+      "IDN",
+      "IDN-central-sulawesi",
+      74,
+      "regional-survey"
+    ],
+    [
+      122.899,
+      -0.924,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      130.913,
+      -0.924,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      131.485,
+      -0.924,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      132.058,
+      -0.924,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      132.63,
+      -0.924,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      133.203,
+      -0.924,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      133.775,
+      -0.924,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      136.065,
+      -0.924,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      100.861,
+      -1.42,
+      "IDN",
+      "IDN-west-sumatra",
+      73,
+      "regional-survey"
+    ],
+    [
+      101.433,
+      -1.42,
+      "IDN",
+      "IDN-west-sumatra",
+      73,
+      "regional-survey"
+    ],
+    [
+      102.006,
+      -1.42,
+      "IDN",
+      "IDN-jambi",
+      63,
+      "regional-survey"
+    ],
+    [
+      102.578,
+      -1.42,
+      "IDN",
+      "IDN-jambi",
+      63,
+      "regional-survey"
+    ],
+    [
+      103.15,
+      -1.42,
+      "IDN",
+      "IDN-jambi",
+      63,
+      "regional-survey"
+    ],
+    [
+      103.723,
+      -1.42,
+      "IDN",
+      "IDN-jambi",
+      63,
+      "regional-survey"
+    ],
+    [
+      104.295,
+      -1.42,
+      "IDN",
+      "IDN-jambi",
+      63,
+      "regional-survey"
+    ],
+    [
+      110.019,
+      -1.42,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      110.592,
+      -1.42,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      111.164,
+      -1.42,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      111.737,
+      -1.42,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      112.309,
+      -1.42,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      112.882,
+      -1.42,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      113.454,
+      -1.42,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      114.026,
+      -1.42,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      114.599,
+      -1.42,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      115.171,
+      -1.42,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      115.744,
+      -1.42,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.316,
+      -1.42,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      119.751,
+      -1.42,
+      "IDN",
+      "IDN-central-sulawesi",
+      74,
+      "regional-survey"
+    ],
+    [
+      120.323,
+      -1.42,
+      "IDN",
+      "IDN-central-sulawesi",
+      74,
+      "regional-survey"
+    ],
+    [
+      120.896,
+      -1.42,
+      "IDN",
+      "IDN-central-sulawesi",
+      74,
+      "regional-survey"
+    ],
+    [
+      121.468,
+      -1.42,
+      "IDN",
+      "IDN-central-sulawesi",
+      74,
+      "regional-survey"
+    ],
+    [
+      122.04,
+      -1.42,
+      "IDN",
+      "IDN-central-sulawesi",
+      74,
+      "regional-survey"
+    ],
+    [
+      123.185,
+      -1.42,
+      "IDN",
+      "IDN-central-sulawesi",
+      74,
+      "regional-survey"
+    ],
+    [
+      127.765,
+      -1.42,
+      "IDN",
+      "IDN-north-maluku",
+      100,
+      "regional-survey"
+    ],
+    [
+      131.199,
+      -1.42,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      131.772,
+      -1.42,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      132.344,
+      -1.42,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      132.916,
+      -1.42,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      133.489,
+      -1.42,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      134.061,
+      -1.42,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      101.147,
+      -1.916,
+      "IDN",
+      "IDN-west-sumatra",
+      73,
+      "regional-survey"
+    ],
+    [
+      101.719,
+      -1.916,
+      "IDN",
+      "IDN-jambi",
+      63,
+      "regional-survey"
+    ],
+    [
+      102.292,
+      -1.916,
+      "IDN",
+      "IDN-jambi",
+      63,
+      "regional-survey"
+    ],
+    [
+      102.864,
+      -1.916,
+      "IDN",
+      "IDN-jambi",
+      63,
+      "regional-survey"
+    ],
+    [
+      103.437,
+      -1.916,
+      "IDN",
+      "IDN-jambi",
+      63,
+      "regional-survey"
+    ],
+    [
+      104.009,
+      -1.916,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      104.581,
+      -1.916,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      105.726,
+      -1.916,
+      "IDN",
+      "IDN-bangka-belitung-islands",
+      68,
+      "regional-survey"
+    ],
+    [
+      110.306,
+      -1.916,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      110.878,
+      -1.916,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      111.451,
+      -1.916,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      112.023,
+      -1.916,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      112.595,
+      -1.916,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      113.168,
+      -1.916,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      113.74,
+      -1.916,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      114.313,
+      -1.916,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      114.885,
+      -1.916,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      115.458,
+      -1.916,
+      "IDN",
+      "IDN-south-kalimantan",
+      57,
+      "regional-survey"
+    ],
+    [
+      116.03,
+      -1.916,
+      "IDN",
+      "IDN-east-kalimantan",
+      55,
+      "national-indicator"
+    ],
+    [
+      119.465,
+      -1.916,
+      "IDN",
+      "IDN-west-sulawesi",
+      82,
+      "regional-survey"
+    ],
+    [
+      120.037,
+      -1.916,
+      "IDN",
+      "IDN-central-sulawesi",
+      74,
+      "regional-survey"
+    ],
+    [
+      120.609,
+      -1.916,
+      "IDN",
+      "IDN-central-sulawesi",
+      74,
+      "regional-survey"
+    ],
+    [
+      121.182,
+      -1.916,
+      "IDN",
+      "IDN-central-sulawesi",
+      74,
+      "regional-survey"
+    ],
+    [
+      124.616,
+      -1.916,
+      "IDN",
+      "IDN-north-maluku",
+      100,
+      "regional-survey"
+    ],
+    [
+      125.761,
+      -1.916,
+      "IDN",
+      "IDN-north-maluku",
+      100,
+      "regional-survey"
+    ],
+    [
+      129.768,
+      -1.916,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      130.341,
+      -1.916,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      132.058,
+      -1.916,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      132.63,
+      -1.916,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      133.203,
+      -1.916,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      133.775,
+      -1.916,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      137.21,
+      -1.916,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      137.782,
+      -1.916,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      138.355,
+      -1.916,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      101.433,
+      -2.411,
+      "IDN",
+      "IDN-bengkulu",
+      88,
+      "regional-survey"
+    ],
+    [
+      102.006,
+      -2.411,
+      "IDN",
+      "IDN-jambi",
+      63,
+      "regional-survey"
+    ],
+    [
+      102.578,
+      -2.411,
+      "IDN",
+      "IDN-jambi",
+      63,
+      "regional-survey"
+    ],
+    [
+      103.15,
+      -2.411,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      103.723,
+      -2.411,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      104.295,
+      -2.411,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      104.868,
+      -2.411,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      105.44,
+      -2.411,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      106.013,
+      -2.411,
+      "IDN",
+      "IDN-bangka-belitung-islands",
+      68,
+      "regional-survey"
+    ],
+    [
+      110.592,
+      -2.411,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      111.164,
+      -2.411,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      111.737,
+      -2.411,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      112.309,
+      -2.411,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      112.882,
+      -2.411,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      113.454,
+      -2.411,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      114.026,
+      -2.411,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      114.599,
+      -2.411,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      115.171,
+      -2.411,
+      "IDN",
+      "IDN-south-kalimantan",
+      57,
+      "regional-survey"
+    ],
+    [
+      115.744,
+      -2.411,
+      "IDN",
+      "IDN-south-kalimantan",
+      57,
+      "regional-survey"
+    ],
+    [
+      116.316,
+      -2.411,
+      "IDN",
+      "IDN-south-kalimantan",
+      57,
+      "regional-survey"
+    ],
+    [
+      119.178,
+      -2.411,
+      "IDN",
+      "IDN-west-sulawesi",
+      82,
+      "regional-survey"
+    ],
+    [
+      119.751,
+      -2.411,
+      "IDN",
+      "IDN-south-sulawesi",
+      59,
+      "regional-survey"
+    ],
+    [
+      120.323,
+      -2.411,
+      "IDN",
+      "IDN-south-sulawesi",
+      59,
+      "regional-survey"
+    ],
+    [
+      120.896,
+      -2.411,
+      "IDN",
+      "IDN-south-sulawesi",
+      59,
+      "regional-survey"
+    ],
+    [
+      121.468,
+      -2.411,
+      "IDN",
+      "IDN-central-sulawesi",
+      74,
+      "regional-survey"
+    ],
+    [
+      126.047,
+      -2.411,
+      "IDN",
+      "IDN-north-maluku",
+      100,
+      "regional-survey"
+    ],
+    [
+      134.061,
+      -2.411,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      136.351,
+      -2.411,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      136.923,
+      -2.411,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      137.496,
+      -2.411,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      138.068,
+      -2.411,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      138.641,
+      -2.411,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      139.213,
+      -2.411,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      139.786,
+      -2.411,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      101.719,
+      -2.907,
+      "IDN",
+      "IDN-bengkulu",
+      88,
+      "regional-survey"
+    ],
+    [
+      102.292,
+      -2.907,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      102.864,
+      -2.907,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      103.437,
+      -2.907,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      104.009,
+      -2.907,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      104.581,
+      -2.907,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      105.154,
+      -2.907,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      105.726,
+      -2.907,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      106.299,
+      -2.907,
+      "IDN",
+      "IDN-bangka-belitung-islands",
+      68,
+      "regional-survey"
+    ],
+    [
+      107.444,
+      -2.907,
+      "IDN",
+      "IDN-bangka-belitung-islands",
+      68,
+      "regional-survey"
+    ],
+    [
+      108.016,
+      -2.907,
+      "IDN",
+      "IDN-bangka-belitung-islands",
+      68,
+      "regional-survey"
+    ],
+    [
+      110.306,
+      -2.907,
+      "IDN",
+      "IDN-west-kalimantan",
+      61,
+      "regional-survey"
+    ],
+    [
+      110.878,
+      -2.907,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      111.451,
+      -2.907,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      112.023,
+      -2.907,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      112.595,
+      -2.907,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      113.168,
+      -2.907,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      113.74,
+      -2.907,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      114.313,
+      -2.907,
+      "IDN",
+      "IDN-central-kalimantan",
+      80,
+      "regional-survey"
+    ],
+    [
+      114.885,
+      -2.907,
+      "IDN",
+      "IDN-south-kalimantan",
+      57,
+      "regional-survey"
+    ],
+    [
+      115.458,
+      -2.907,
+      "IDN",
+      "IDN-south-kalimantan",
+      57,
+      "regional-survey"
+    ],
+    [
+      116.03,
+      -2.907,
+      "IDN",
+      "IDN-south-kalimantan",
+      57,
+      "regional-survey"
+    ],
+    [
+      118.892,
+      -2.907,
+      "IDN",
+      "IDN-west-sulawesi",
+      82,
+      "regional-survey"
+    ],
+    [
+      119.465,
+      -2.907,
+      "IDN",
+      "IDN-west-sulawesi",
+      82,
+      "regional-survey"
+    ],
+    [
+      120.037,
+      -2.907,
+      "IDN",
+      "IDN-south-sulawesi",
+      59,
+      "regional-survey"
+    ],
+    [
+      121.182,
+      -2.907,
+      "IDN",
+      "IDN-south-sulawesi",
+      59,
+      "regional-survey"
+    ],
+    [
+      121.754,
+      -2.907,
+      "IDN",
+      "IDN-southeast-sulawesi",
+      66,
+      "regional-survey"
+    ],
+    [
+      128.623,
+      -2.907,
+      "IDN",
+      "IDN-maluku",
+      90,
+      "regional-survey"
+    ],
+    [
+      129.196,
+      -2.907,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      129.768,
+      -2.907,
+      "IDN",
+      "IDN-maluku",
+      90,
+      "regional-survey"
+    ],
+    [
+      132.058,
+      -2.907,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      132.63,
+      -2.907,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      133.203,
+      -2.907,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      133.775,
+      -2.907,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      134.348,
+      -2.907,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      136.065,
+      -2.907,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      136.637,
+      -2.907,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      137.21,
+      -2.907,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      137.782,
+      -2.907,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      138.355,
+      -2.907,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      138.927,
+      -2.907,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      139.499,
+      -2.907,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.072,
+      -2.907,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.644,
+      -2.907,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      141.217,
+      -2.907,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      102.006,
+      -3.403,
+      "IDN",
+      "IDN-bengkulu",
+      88,
+      "regional-survey"
+    ],
+    [
+      102.578,
+      -3.403,
+      "IDN",
+      "IDN-bengkulu",
+      88,
+      "regional-survey"
+    ],
+    [
+      103.15,
+      -3.403,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      103.723,
+      -3.403,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      104.295,
+      -3.403,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      104.868,
+      -3.403,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      105.44,
+      -3.403,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      106.013,
+      -3.403,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      112.309,
+      -3.403,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      114.026,
+      -3.403,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      114.599,
+      -3.403,
+      "IDN",
+      "IDN-south-kalimantan",
+      57,
+      "regional-survey"
+    ],
+    [
+      115.171,
+      -3.403,
+      "IDN",
+      "IDN-south-kalimantan",
+      57,
+      "regional-survey"
+    ],
+    [
+      115.744,
+      -3.403,
+      "IDN",
+      "IDN-south-kalimantan",
+      57,
+      "regional-survey"
+    ],
+    [
+      119.178,
+      -3.403,
+      "IDN",
+      "IDN-west-sulawesi",
+      82,
+      "regional-survey"
+    ],
+    [
+      119.751,
+      -3.403,
+      "IDN",
+      "IDN-south-sulawesi",
+      59,
+      "regional-survey"
+    ],
+    [
+      120.323,
+      -3.403,
+      "IDN",
+      "IDN-south-sulawesi",
+      59,
+      "regional-survey"
+    ],
+    [
+      120.896,
+      -3.403,
+      "IDN",
+      "IDN-southeast-sulawesi",
+      66,
+      "regional-survey"
+    ],
+    [
+      121.468,
+      -3.403,
+      "IDN",
+      "IDN-southeast-sulawesi",
+      66,
+      "regional-survey"
+    ],
+    [
+      122.04,
+      -3.403,
+      "IDN",
+      "IDN-southeast-sulawesi",
+      66,
+      "regional-survey"
+    ],
+    [
+      126.047,
+      -3.403,
+      "IDN",
+      "IDN-maluku",
+      90,
+      "regional-survey"
+    ],
+    [
+      126.62,
+      -3.403,
+      "IDN",
+      "IDN-maluku",
+      90,
+      "regional-survey"
+    ],
+    [
+      127.192,
+      -3.403,
+      "IDN",
+      "IDN-maluku",
+      90,
+      "regional-survey"
+    ],
+    [
+      128.337,
+      -3.403,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      129.482,
+      -3.403,
+      "IDN",
+      "IDN-maluku",
+      90,
+      "regional-survey"
+    ],
+    [
+      130.054,
+      -3.403,
+      "IDN",
+      "IDN-maluku",
+      90,
+      "regional-survey"
+    ],
+    [
+      130.627,
+      -3.403,
+      "IDN",
+      "IDN-maluku",
+      90,
+      "regional-survey"
+    ],
+    [
+      132.916,
+      -3.403,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      133.489,
+      -3.403,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      134.061,
+      -3.403,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      134.634,
+      -3.403,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      135.206,
+      -3.403,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      135.779,
+      -3.403,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      136.351,
+      -3.403,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      136.923,
+      -3.403,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      137.496,
+      -3.403,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      138.068,
+      -3.403,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      138.641,
+      -3.403,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      139.213,
+      -3.403,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      139.786,
+      -3.403,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.358,
+      -3.403,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.93,
+      -3.403,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      141.503,
+      -3.403,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      102.864,
+      -3.898,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      103.437,
+      -3.898,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      104.009,
+      -3.898,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      104.581,
+      -3.898,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      105.154,
+      -3.898,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      105.726,
+      -3.898,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      114.885,
+      -3.898,
+      "IDN",
+      "IDN-south-kalimantan",
+      57,
+      "regional-survey"
+    ],
+    [
+      120.037,
+      -3.898,
+      "IDN",
+      "IDN-south-sulawesi",
+      59,
+      "regional-survey"
+    ],
+    [
+      121.754,
+      -3.898,
+      "IDN",
+      "IDN-southeast-sulawesi",
+      66,
+      "regional-survey"
+    ],
+    [
+      122.327,
+      -3.898,
+      "IDN",
+      "IDN-southeast-sulawesi",
+      66,
+      "regional-survey"
+    ],
+    [
+      133.203,
+      -3.898,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      134.348,
+      -3.898,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      134.92,
+      -3.898,
+      "IDN",
+      "IDN-west-papua",
+      90,
+      "regional-survey"
+    ],
+    [
+      135.492,
+      -3.898,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      136.065,
+      -3.898,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      136.637,
+      -3.898,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      137.21,
+      -3.898,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      137.782,
+      -3.898,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      138.355,
+      -3.898,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      138.927,
+      -3.898,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      139.499,
+      -3.898,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.072,
+      -3.898,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.644,
+      -3.898,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      141.217,
+      -3.898,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      103.15,
+      -4.394,
+      "IDN",
+      "IDN-bengkulu",
+      88,
+      "regional-survey"
+    ],
+    [
+      103.723,
+      -4.394,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      104.295,
+      -4.394,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      104.868,
+      -4.394,
+      "IDN",
+      "IDN-lampung",
+      55,
+      "national-indicator"
+    ],
+    [
+      105.44,
+      -4.394,
+      "IDN",
+      "IDN-lampung",
+      55,
+      "national-indicator"
+    ],
+    [
+      119.751,
+      -4.394,
+      "IDN",
+      "IDN-south-sulawesi",
+      59,
+      "regional-survey"
+    ],
+    [
+      120.323,
+      -4.394,
+      "IDN",
+      "IDN-south-sulawesi",
+      59,
+      "regional-survey"
+    ],
+    [
+      122.04,
+      -4.394,
+      "IDN",
+      "IDN-southeast-sulawesi",
+      66,
+      "regional-survey"
+    ],
+    [
+      122.613,
+      -4.394,
+      "IDN",
+      "IDN-southeast-sulawesi",
+      66,
+      "regional-survey"
+    ],
+    [
+      135.206,
+      -4.394,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      135.779,
+      -4.394,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      136.351,
+      -4.394,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      136.923,
+      -4.394,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      137.496,
+      -4.394,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      138.068,
+      -4.394,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      138.641,
+      -4.394,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      139.213,
+      -4.394,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      139.786,
+      -4.394,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.358,
+      -4.394,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.93,
+      -4.394,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      141.503,
+      -4.394,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      104.009,
+      -4.89,
+      "IDN",
+      "IDN-south-sumatra",
+      62,
+      "regional-survey"
+    ],
+    [
+      104.581,
+      -4.89,
+      "IDN",
+      "IDN-lampung",
+      55,
+      "national-indicator"
+    ],
+    [
+      105.154,
+      -4.89,
+      "IDN",
+      "IDN-lampung",
+      55,
+      "national-indicator"
+    ],
+    [
+      105.726,
+      -4.89,
+      "IDN",
+      "IDN-lampung",
+      55,
+      "national-indicator"
+    ],
+    [
+      120.037,
+      -4.89,
+      "IDN",
+      "IDN-south-sulawesi",
+      59,
+      "regional-survey"
+    ],
+    [
+      122.899,
+      -4.89,
+      "IDN",
+      "IDN-southeast-sulawesi",
+      66,
+      "regional-survey"
+    ],
+    [
+      137.21,
+      -4.89,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      137.782,
+      -4.89,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      138.355,
+      -4.89,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      138.927,
+      -4.89,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      139.499,
+      -4.89,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.072,
+      -4.89,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.644,
+      -4.89,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      141.217,
+      -4.89,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      104.295,
+      -5.386,
+      "IDN",
+      "IDN-lampung",
+      55,
+      "national-indicator"
+    ],
+    [
+      104.868,
+      -5.386,
+      "IDN",
+      "IDN-lampung",
+      55,
+      "national-indicator"
+    ],
+    [
+      105.44,
+      -5.386,
+      "IDN",
+      "IDN-lampung",
+      55,
+      "national-indicator"
+    ],
+    [
+      119.751,
+      -5.386,
+      "IDN",
+      "IDN-south-sulawesi",
+      59,
+      "regional-survey"
+    ],
+    [
+      120.323,
+      -5.386,
+      "IDN",
+      "IDN-south-sulawesi",
+      59,
+      "regional-survey"
+    ],
+    [
+      122.04,
+      -5.386,
+      "IDN",
+      "IDN-southeast-sulawesi",
+      66,
+      "regional-survey"
+    ],
+    [
+      122.613,
+      -5.386,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      138.068,
+      -5.386,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      138.641,
+      -5.386,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      139.213,
+      -5.386,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      139.786,
+      -5.386,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.358,
+      -5.386,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.93,
+      -5.386,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      141.503,
+      -5.386,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      104.581,
+      -5.881,
+      "IDN",
+      "IDN-lampung",
+      55,
+      "national-indicator"
+    ],
+    [
+      134.348,
+      -5.881,
+      "IDN",
+      "IDN-maluku",
+      90,
+      "regional-survey"
+    ],
+    [
+      138.355,
+      -5.881,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      138.927,
+      -5.881,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      139.499,
+      -5.881,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.072,
+      -5.881,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.644,
+      -5.881,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      141.217,
+      -5.881,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      106.013,
+      -6.377,
+      "IDN",
+      "IDN-banten",
+      84,
+      "regional-survey"
+    ],
+    [
+      106.585,
+      -6.377,
+      "IDN",
+      "IDN-jakarta-special-capital-region",
+      55,
+      "regional-survey"
+    ],
+    [
+      107.157,
+      -6.377,
+      "IDN",
+      "IDN-west-java",
+      66,
+      "regional-survey"
+    ],
+    [
+      107.73,
+      -6.377,
+      "IDN",
+      "IDN-west-java",
+      66,
+      "regional-survey"
+    ],
+    [
+      108.302,
+      -6.377,
+      "IDN",
+      "IDN-west-java",
+      66,
+      "regional-survey"
+    ],
+    [
+      138.641,
+      -6.377,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      139.213,
+      -6.377,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      139.786,
+      -6.377,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.358,
+      -6.377,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.93,
+      -6.377,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      141.503,
+      -6.377,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      105.726,
+      -6.873,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      106.299,
+      -6.873,
+      "IDN",
+      "IDN-banten",
+      84,
+      "regional-survey"
+    ],
+    [
+      106.871,
+      -6.873,
+      "IDN",
+      "IDN-west-java",
+      66,
+      "regional-survey"
+    ],
+    [
+      107.444,
+      -6.873,
+      "IDN",
+      "IDN-west-java",
+      66,
+      "regional-survey"
+    ],
+    [
+      108.016,
+      -6.873,
+      "IDN",
+      "IDN-west-java",
+      66,
+      "regional-survey"
+    ],
+    [
+      108.588,
+      -6.873,
+      "IDN",
+      "IDN-west-java",
+      66,
+      "regional-survey"
+    ],
+    [
+      109.161,
+      -6.873,
+      "IDN",
+      "IDN-central-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      109.733,
+      -6.873,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      110.306,
+      -6.873,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      110.878,
+      -6.873,
+      "IDN",
+      "IDN-central-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      111.451,
+      -6.873,
+      "IDN",
+      "IDN-central-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      112.023,
+      -6.873,
+      "IDN",
+      "IDN-east-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      138.927,
+      -6.873,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      139.499,
+      -6.873,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.072,
+      -6.873,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.644,
+      -6.873,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      141.217,
+      -6.873,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      106.585,
+      -7.369,
+      "IDN",
+      "IDN-west-java",
+      66,
+      "regional-survey"
+    ],
+    [
+      107.157,
+      -7.369,
+      "IDN",
+      "IDN-west-java",
+      66,
+      "regional-survey"
+    ],
+    [
+      107.73,
+      -7.369,
+      "IDN",
+      "IDN-west-java",
+      66,
+      "regional-survey"
+    ],
+    [
+      108.302,
+      -7.369,
+      "IDN",
+      "IDN-west-java",
+      66,
+      "regional-survey"
+    ],
+    [
+      108.875,
+      -7.369,
+      "IDN",
+      "IDN-central-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      109.447,
+      -7.369,
+      "IDN",
+      "IDN-central-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      110.019,
+      -7.369,
+      "IDN",
+      "IDN-central-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      110.592,
+      -7.369,
+      "IDN",
+      "IDN-central-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      111.164,
+      -7.369,
+      "IDN",
+      "IDN-east-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      111.737,
+      -7.369,
+      "IDN",
+      "IDN-east-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      112.309,
+      -7.369,
+      "IDN",
+      "IDN-east-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      138.641,
+      -7.369,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      139.213,
+      -7.369,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      139.786,
+      -7.369,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.358,
+      -7.369,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.93,
+      -7.369,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      141.503,
+      -7.369,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      110.306,
+      -7.864,
+      "IDN",
+      "IDN-special-region-of-yogyakarta",
+      66,
+      "regional-survey"
+    ],
+    [
+      110.878,
+      -7.864,
+      "IDN",
+      "IDN-central-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      111.451,
+      -7.864,
+      "IDN",
+      "IDN-east-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      112.023,
+      -7.864,
+      "IDN",
+      "IDN-east-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      112.595,
+      -7.864,
+      "IDN",
+      "IDN-east-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      113.168,
+      -7.864,
+      "IDN",
+      "IDN-east-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      113.74,
+      -7.864,
+      "IDN",
+      "IDN-east-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      114.313,
+      -7.864,
+      "IDN",
+      "IDN-east-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      126.334,
+      -7.864,
+      "IDN",
+      "IDN-maluku",
+      90,
+      "regional-survey"
+    ],
+    [
+      129.768,
+      -7.864,
+      "IDN",
+      "IDN-maluku",
+      90,
+      "regional-survey"
+    ],
+    [
+      138.355,
+      -7.864,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      138.927,
+      -7.864,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      139.499,
+      -7.864,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.072,
+      -7.864,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.644,
+      -7.864,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      141.217,
+      -7.864,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      112.882,
+      -8.36,
+      "IDN",
+      "IDN-east-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      113.454,
+      -8.36,
+      "IDN",
+      "IDN-east-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      114.026,
+      -8.36,
+      "IDN",
+      "IDN-east-java",
+      55,
+      "national-indicator"
+    ],
+    [
+      114.599,
+      -8.36,
+      "IDN",
+      "IDN-bali",
+      55,
+      "national-indicator"
+    ],
+    [
+      115.171,
+      -8.36,
+      "IDN",
+      "IDN-bali",
+      55,
+      "national-indicator"
+    ],
+    [
+      116.316,
+      -8.36,
+      "IDN",
+      "IDN-west-nusa-tenggara",
+      55,
+      "national-indicator"
+    ],
+    [
+      118.033,
+      -8.36,
+      "IDN",
+      "IDN-west-nusa-tenggara",
+      55,
+      "national-indicator"
+    ],
+    [
+      118.606,
+      -8.36,
+      "IDN",
+      "IDN-west-nusa-tenggara",
+      55,
+      "national-indicator"
+    ],
+    [
+      120.323,
+      -8.36,
+      "IDN",
+      "IDN-east-nusa-tenggara",
+      68,
+      "regional-survey"
+    ],
+    [
+      120.896,
+      -8.36,
+      "IDN",
+      "IDN-east-nusa-tenggara",
+      68,
+      "regional-survey"
+    ],
+    [
+      122.613,
+      -8.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      123.185,
+      -8.36,
+      "IDN",
+      "IDN-east-nusa-tenggara",
+      68,
+      "regional-survey"
+    ],
+    [
+      124.903,
+      -8.36,
+      "IDN",
+      "IDN-east-nusa-tenggara",
+      68,
+      "regional-survey"
+    ],
+    [
+      127.192,
+      -8.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      138.068,
+      -8.36,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      138.641,
+      -8.36,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.358,
+      -8.36,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      140.93,
+      -8.36,
+      "IDN",
+      "IDN-papua",
+      100,
+      "regional-survey"
+    ],
+    [
+      141.503,
+      -8.36,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      116.03,
+      -8.856,
+      "IDN",
+      "IDN-west-nusa-tenggara",
+      55,
+      "national-indicator"
+    ],
+    [
+      117.175,
+      -8.856,
+      "IDN",
+      "IDN-west-nusa-tenggara",
+      55,
+      "national-indicator"
+    ],
+    [
+      117.747,
+      -8.856,
+      "IDN",
+      "IDN-west-nusa-tenggara",
+      55,
+      "national-indicator"
+    ],
+    [
+      120.609,
+      -8.856,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      121.182,
+      -8.856,
+      "IDN",
+      "IDN-east-nusa-tenggara",
+      68,
+      "regional-survey"
+    ],
+    [
+      121.754,
+      -8.856,
+      "IDN",
+      "IDN-east-nusa-tenggara",
+      68,
+      "regional-survey"
+    ],
+    [
+      125.189,
+      -8.856,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      125.761,
+      -8.856,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      126.334,
+      -8.856,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      141.217,
+      -8.856,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      124.33,
+      -9.352,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      124.903,
+      -9.352,
+      "IDN",
+      "IDN-east-nusa-tenggara",
+      68,
+      "regional-survey"
+    ],
+    [
+      120.037,
+      -9.847,
+      "IDN",
+      "IDN-east-nusa-tenggara",
+      68,
+      "regional-survey"
+    ],
+    [
+      120.609,
+      -9.847,
+      "IDN",
+      "IDN-east-nusa-tenggara",
+      68,
+      "regional-survey"
+    ],
+    [
+      124.044,
+      -9.847,
+      "IDN",
+      "IDN-east-nusa-tenggara",
+      68,
+      "regional-survey"
+    ],
+    [
+      124.616,
+      -9.847,
+      "IDN",
+      "IDN-east-nusa-tenggara",
+      68,
+      "regional-survey"
+    ],
+    [
+      123.758,
+      -10.343,
+      "IDN",
+      "IDN-east-nusa-tenggara",
+      68,
+      "regional-survey"
+    ],
+    [
+      122.899,
+      -10.839,
+      "IDN",
+      "IDN-east-nusa-tenggara",
+      68,
+      "regional-survey"
+    ],
+    [
+      132.344,
+      -11.334,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "labels": [
+    {
+      "iso3": "IDN",
+      "name": "Indonesia",
+      "x": 117.48587800369708,
+      "y": -2.236256931608133
+    }
+  ]
+}
